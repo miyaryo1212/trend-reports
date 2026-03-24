@@ -1,0 +1,32 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+
+const reports = await getCollection('reports');
+const sorted = reports.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+---
+
+<Base title="AI Trend Reports">
+  <header>
+    <h1>AI Trend Reports</h1>
+    <p>生成AI関連のトレンド調査レポート</p>
+  </header>
+  <main>
+    {sorted.length === 0 ? (
+      <p>レポートはまだありません。</p>
+    ) : (
+      <ul class="report-list">
+        {sorted.map((report) => {
+          const dateStr = report.data.date.toISOString().slice(0, 10);
+          return (
+            <li>
+              <span class="channel-badge">{report.data.channel}</span>
+              <a href={`/reports/${report.id}/`}>{report.data.title}</a>
+              <span class="date">{dateStr}</span>
+            </li>
+          );
+        })}
+      </ul>
+    )}
+  </main>
+</Base>

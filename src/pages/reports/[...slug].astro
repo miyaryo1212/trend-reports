@@ -1,0 +1,23 @@
+---
+import { getCollection, render } from 'astro:content';
+import Report from '../../layouts/Report.astro';
+
+export async function getStaticPaths() {
+  const reports = await getCollection('reports');
+  return reports.map((entry) => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+---
+
+<Report
+  title={`${entry.data.channel} - ${entry.data.date.toISOString().slice(0, 10)}`}
+  channel={entry.data.channel}
+  date={entry.data.date}
+>
+  <Content />
+</Report>
