@@ -46,6 +46,10 @@ const channelLogos: Record<string, string> = {
         </div>
       </div>
       <div class="filter-group">
+        <label>Sort</label>
+        <button class="sort-btn" id="sort-toggle" data-order="desc">Newest first</button>
+      </div>
+      <div class="filter-group">
         <label>Search</label>
         <div id="search"></div>
       </div>
@@ -96,10 +100,13 @@ const channelLogos: Record<string, string> = {
   const dateFrom = document.getElementById('date-from') as HTMLInputElement;
   const dateTo = document.getElementById('date-to') as HTMLInputElement;
   const dateReset = document.getElementById('date-reset');
+  const reportList = document.getElementById('report-list') as HTMLUListElement;
   const items = document.querySelectorAll<HTMLLIElement>('.report-list li');
   const noResults = document.getElementById('no-results');
+  const sortToggle = document.getElementById('sort-toggle') as HTMLButtonElement;
 
   let activeChannel = 'all';
+  let sortOrder = 'desc';
 
   function applyFilters() {
     const from = dateFrom.value;
@@ -127,6 +134,15 @@ const channelLogos: Record<string, string> = {
     }
   }
 
+  function applySortOrder() {
+    const sorted = Array.from(items).sort((a, b) => {
+      const da = a.dataset.date!;
+      const db = b.dataset.date!;
+      return sortOrder === 'desc' ? (db > da ? 1 : -1) : (da > db ? 1 : -1);
+    });
+    sorted.forEach((item) => reportList.appendChild(item));
+  }
+
   tabs.forEach((tab) => {
     tab.addEventListener('click', () => {
       tabs.forEach((t) => t.classList.remove('active'));
@@ -134,6 +150,13 @@ const channelLogos: Record<string, string> = {
       activeChannel = tab.dataset.channel!;
       applyFilters();
     });
+  });
+
+  sortToggle.addEventListener('click', () => {
+    sortOrder = sortOrder === 'desc' ? 'asc' : 'desc';
+    sortToggle.textContent = sortOrder === 'desc' ? 'Newest first' : 'Oldest first';
+    sortToggle.dataset.order = sortOrder;
+    applySortOrder();
   });
 
   dateFrom.addEventListener('change', applyFilters);
