@@ -147,24 +147,31 @@ footer {
 }
 
 .pagefind-ui .pagefind-ui__search-input {
-  border: none;
-  border-bottom: 1px solid var(--border);
-  border-radius: 0;
-  padding: 0.4rem 0;
-  background: transparent;
-  outline: none;
+  border: none !important;
+  border-bottom: 1px solid var(--border) !important;
+  border-radius: 0 !important;
+  padding: 0.4rem 0 0.4rem calc(54px * var(--pagefind-ui-scale)) !important;
+  background: transparent !important;
+  height: auto !important;
+  font-weight: 400 !important;
 }
 
 .pagefind-ui .pagefind-ui__search-input:focus {
-  border-bottom-color: var(--accent);
+  border-bottom-color: var(--accent) !important;
+  outline: none !important;
 }
 
 .pagefind-ui .pagefind-ui__search-clear {
-  bottom: 0.4rem;
+  top: auto !important;
+  bottom: 0.3rem !important;
+  right: 0 !important;
+  height: auto !important;
+  background: transparent !important;
 }
 
 .pagefind-ui .pagefind-ui__form::before {
-  display: none;
+  top: auto !important;
+  bottom: 0.5rem !important;
 }
 
 /* Filters */
