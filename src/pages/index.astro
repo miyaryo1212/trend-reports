@@ -4,6 +4,12 @@ import Base from '../layouts/Base.astro';
 
 const reports = await getCollection('reports');
 const sorted = reports.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+// チャネル一覧を抽出 (表示順を固定)
+const channelOrder = ['Claude Code', 'Codex / OpenAI', '生成AIトレンド総合', 'GitHub急成長リポ'];
+const channels = channelOrder.filter(ch =>
+  sorted.some(r => r.data.channel === ch)
+);
 ---
 
 <Base title="AI Trend Reports">
@@ -12,6 +18,27 @@ const sorted = reports.sort((a, b) => b.data.date.valueOf() - a.data.date.valueO
     <p>生成AI関連のトレンド調査レポート</p>
   </header>
   <main>
+    <div class="filters">
+      <div class="filter-group">
+        <label for="channel-filter">チャネル</label>
+        <div class="channel-tabs">
+          <button class="tab active" data-channel="all">すべて</button>
+          {channels.map((ch) => (
+            <button class="tab" data-channel={ch}>{ch}</button>
+          ))}
+        </div>
+      </div>
+      <div class="filter-group">
+        <label for="date-from">期間</label>
+        <div class="date-range">
+          <input type="date" id="date-from" />
+          <span>〜</span>
+          <input type="date" id="date-to" />
+          <button id="date-reset" class="reset-btn">リセット</button>
+        </div>
+      </div>
+    </div>
+
     {sorted.length === 0 ? (
       <p>レポートはまだありません。</p>
     ) : (
@@ -19,7 +46,7 @@ const sorted = reports.sort((a, b) => b.data.date.valueOf() - a.data.date.valueO
         {sorted.map((report) => {
           const dateStr = report.data.date.toISOString().slice(0, 10);
           return (
-            <li>
+            <li data-channel={report.data.channel} data-date={dateStr}>
               <span class="channel-badge">{report.data.channel}</span>
               <a href={`/reports/${report.id}/`}>{report.data.title}</a>
               <span class="date">{dateStr}</span>
@@ -28,5 +55,60 @@ const sorted = reports.sort((a, b) => b.data.date.valueOf() - a.data.date.valueO
         })}
       </ul>
     )}
+    <p class="no-results" style="display:none;">該当するレポートはありません。</p>
   </main>
 </Base>
+
+<script>
+  const tabs = document.querySelectorAll<HTMLButtonElement>('.tab');
+  const dateFrom = document.getElementById('date-from') as HTMLInputElement;
+  const dateTo = document.getElementById('date-to') as HTMLInputElement;
+  const dateReset = document.getElementById('date-reset');
+  const items = document.querySelectorAll<HTMLLIElement>('.report-list li');
+  const noResults = document.querySelector<HTMLElement>('.no-results');
+
+  let activeChannel = 'all';
+
+  function applyFilters() {
+    const from = dateFrom.value;
+    const to = dateTo.value;
+    let visibleCount = 0;
+
+    items.forEach((item) => {
+      const ch = item.dataset.channel;
+      const date = item.dataset.date!;
+
+      const matchChannel = activeChannel === 'all' || ch === activeChannel;
+      const matchFrom = !from || date >= from;
+      const matchTo = !to || date <= to;
+
+      if (matchChannel && matchFrom && matchTo) {
+        item.style.display = '';
+        visibleCount++;
+      } else {
+        item.style.display = 'none';
+      }
+    });
+
+    if (noResults) {
+      noResults.style.display = visibleCount === 0 ? '' : 'none';
+    }
+  }
+
+  tabs.forEach((tab) => {
+    tab.addEventListener('click', () => {
+      tabs.forEach((t) => t.classList.remove('active'));
+      tab.classList.add('active');
+      activeChannel = tab.dataset.channel!;
+      applyFilters();
+    });
+  });
+
+  dateFrom.addEventListener('change', applyFilters);
+  dateTo.addEventListener('change', applyFilters);
+  dateReset?.addEventListener('click', () => {
+    dateFrom.value = '';
+    dateTo.value = '';
+    applyFilters();
+  });
+</script>
