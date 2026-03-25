@@ -1,5 +1,5 @@
 ---
-title: "Codex / OpenAI - 2026-03-24"
+title: "GPT-5.4登場とCodexアプリ活用の広がり"
 channel: "Codex / OpenAI"
 channelId: "codex-openai"
 date: 2026-03-24

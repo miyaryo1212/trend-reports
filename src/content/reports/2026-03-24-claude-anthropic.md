@@ -1,5 +1,5 @@
 ---
-title: "Claude / Anthropic - 2026-03-24"
+title: "v2.1.81: --bareフラグとChannels権限リレー"
 channel: "Claude / Anthropic"
 channelId: "claude-anthropic"
 date: 2026-03-24

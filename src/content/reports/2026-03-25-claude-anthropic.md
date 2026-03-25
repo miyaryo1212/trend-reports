@@ -1,5 +1,5 @@
 ---
-title: "Claude / Anthropic - 2026-03-25"
+title: "v2.1.83: エンタープライズ設定と新Hooksイベント"
 channel: "Claude / Anthropic"
 channelId: "claude-anthropic"
 date: 2026-03-25

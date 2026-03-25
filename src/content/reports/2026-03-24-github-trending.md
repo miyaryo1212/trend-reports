@@ -1,5 +1,5 @@
 ---
-title: "GitHub急成長リポ - 2026-03-24"
+title: "TradingAgentsとObsidian Skills急浮上"
 channel: "GitHub急成長リポ"
 channelId: "github-trending"
 date: 2026-03-24
