@@ -51,7 +51,7 @@ const channels = channelOrder.filter(ch =>
           const dateStr = report.data.date.toISOString().slice(0, 10);
           return (
             <li data-channel={report.data.channel} data-date={dateStr}>
-              <span class="channel-badge">{report.data.channel}</span>
+              <span class="channel-badge" data-channel={report.data.channelId}>{report.data.channel}</span>
               <a href={`/reports/${report.id}/`}>{report.data.title}</a>
               <span class="date">{dateStr}</span>
             </li>
