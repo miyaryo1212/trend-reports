@@ -5,7 +5,6 @@ import Base from '../layouts/Base.astro';
 const reports = await getCollection('reports');
 const sorted = reports.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 
-// チャネル一覧を抽出 (表示順を固定)
 const channelOrder = ['Claude Code', 'Codex / OpenAI', '生成AIトレンド総合', 'GitHub急成長リポ'];
 const channels = channelOrder.filter(ch =>
   sorted.some(r => r.data.channel === ch)
@@ -20,7 +19,7 @@ const channels = channelOrder.filter(ch =>
   <main>
     <div class="filters">
       <div class="filter-group">
-        <label for="channel-filter">チャネル</label>
+        <label>チャネル</label>
         <div class="channel-tabs">
           <button class="tab active" data-channel="all">すべて</button>
           {channels.map((ch) => (
@@ -29,20 +28,25 @@ const channels = channelOrder.filter(ch =>
         </div>
       </div>
       <div class="filter-group">
-        <label for="date-from">期間</label>
+        <label>期間</label>
         <div class="date-range">
-          <input type="date" id="date-from" />
-          <span>〜</span>
-          <input type="date" id="date-to" />
+          <input type="date" id="date-from" title="この日以降" />
+          <span>以降 〜</span>
+          <input type="date" id="date-to" title="この日以前" />
+          <span>以前</span>
           <button id="date-reset" class="reset-btn">リセット</button>
         </div>
+      </div>
+      <div class="filter-group">
+        <label>検索</label>
+        <div id="search"></div>
       </div>
     </div>
 
     {sorted.length === 0 ? (
       <p>レポートはまだありません。</p>
     ) : (
-      <ul class="report-list">
+      <ul class="report-list" id="report-list">
         {sorted.map((report) => {
           const dateStr = report.data.date.toISOString().slice(0, 10);
           return (
@@ -59,7 +63,25 @@ const channels = channelOrder.filter(ch =>
   </main>
 </Base>
 
+<link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
+<script is:inline src="/pagefind/pagefind-ui.js"></script>
+<script is:inline>
+  // Pagefind search
+  window.addEventListener('DOMContentLoaded', () => {
+    new PagefindUI({
+      element: '#search',
+      showSubResults: true,
+      showImages: false,
+      translations: {
+        placeholder: 'レポート内を検索...',
+        zero_results: '「[SEARCH_TERM]」に一致する結果はありません',
+      },
+    });
+  });
+</script>
+
 <script>
+  // Channel & date filters
   const tabs = document.querySelectorAll<HTMLButtonElement>('.tab');
   const dateFrom = document.getElementById('date-from') as HTMLInputElement;
   const dateTo = document.getElementById('date-to') as HTMLInputElement;
