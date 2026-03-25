@@ -1,7 +1,7 @@
 ---
-title: "Claude Code - 2026-03-24"
-channel: "Claude Code"
-channelId: "claude-code"
+title: "Claude / Anthropic - 2026-03-24"
+channel: "Claude / Anthropic"
+channelId: "claude-anthropic"
 date: 2026-03-24
 features:
   - "--bare フラグ"
