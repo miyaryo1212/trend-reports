@@ -17,7 +17,7 @@ const dateStr = date.toISOString().slice(0, 10);
     <h1>{channel}</h1>
     <time datetime={dateStr}>{dateStr}</time>
   </header>
-  <main>
+  <main data-pagefind-body>
     <slot />
   </main>
   <footer>
