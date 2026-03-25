@@ -311,35 +311,18 @@ footer {
 .report-list li {
   padding: 0.85rem 0;
   border-bottom: 1px solid var(--border);
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.25rem 0.5rem;
   transition: opacity 0.15s;
 }
 
-@media (max-width: 640px) {
-  .report-list li {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    gap: 0.25rem 0.5rem;
-  }
+.report-list li .date {
+  text-align: right;
+}
 
-  .report-list li .channel-badge {
-    grid-column: 1;
-    grid-row: 1;
-  }
-
-  .report-list li .date {
-    grid-column: 2;
-    grid-row: 1;
-    text-align: right;
-    margin-left: 0;
-  }
-
-  .report-list li a {
-    grid-column: 1 / -1;
-    grid-row: 2;
-  }
+.report-list li a {
+  grid-column: 1 / -1;
 }
 
 .report-list li:hover {
@@ -381,7 +364,5 @@ footer {
 .date {
   color: var(--muted);
   font-size: 0.8rem;
-  margin-left: auto;
   font-variant-numeric: tabular-nums;
-  flex-shrink: 0;
 }
