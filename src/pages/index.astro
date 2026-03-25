@@ -30,11 +30,11 @@ const channels = channelOrder.filter(ch =>
       <div class="filter-group">
         <label>期間</label>
         <div class="date-range">
-          <input type="date" id="date-from" title="この日以降" />
-          <span>以降 〜</span>
-          <input type="date" id="date-to" title="この日以前" />
-          <span>以前</span>
-          <button id="date-reset" class="reset-btn">リセット</button>
+          <span class="date-label">From</span>
+          <input type="date" id="date-from" />
+          <span class="date-label">to</span>
+          <input type="date" id="date-to" />
+          <button id="date-reset" class="reset-btn">Reset</button>
         </div>
       </div>
       <div class="filter-group">

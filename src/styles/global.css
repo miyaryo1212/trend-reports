@@ -195,6 +195,11 @@ footer {
   border-color: var(--accent);
 }
 
+.date-label {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
 .date-range {
   display: flex;
   align-items: center;
