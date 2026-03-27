@@ -1,5 +1,7 @@
 ---
 title: "Compound Engineeringプラグインとdeer-flow急浮上"
+summary: "ByteDanceのdeer-flow 2.0がGitHub Trending 1位を獲得。Compound Engineeringプラグインがv3リリースを予告しClaude Code開発ワークフローの新標準に。TradingAgentsは40K超スター達成。一方、Trivyのサプライチェーン攻撃が発覚しセキュリティ界隈に衝撃。"
+importance: 4
 channel: "GitHub急成長リポ"
 channelId: "github-trending"
 date: 2026-03-25

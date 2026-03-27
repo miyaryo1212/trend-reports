@@ -1,5 +1,7 @@
 ---
 title: "v2.1.81: --bareフラグとChannels権限リレー"
+summary: "Claude Code v2.1.81/v2.1.80がリリース。スクリプト向け--bareフラグ、Channelsのパーミッションリレー、レート制限表示など実用的な機能追加。コミュニティではChannelsを活用した並列開発やAIコーディングの認知負荷の議論が活発。"
+importance: 3
 channel: "Claude / Anthropic"
 channelId: "claude-anthropic"
 date: 2026-03-24

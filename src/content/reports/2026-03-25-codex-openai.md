@@ -1,5 +1,7 @@
 ---
 title: "Deep Agents登場とRAGトレース実践の深化"
+summary: "LangChain Deep AgentsとOpenAI Agents SDKの比較記事が登場。RAGの本番運用ではトレースによる品質改善手法が新たに共有された。Codexアプリの入門記事は継続的に増加中。"
+importance: 2
 channel: "Codex / OpenAI"
 channelId: "codex-openai"
 date: 2026-03-25

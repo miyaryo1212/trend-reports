@@ -1,5 +1,7 @@
 ---
 title: "GPT-5.4登場とCodexアプリ活用の広がり"
+summary: "公式アップデートはないが、GPT-5.4ファミリーの分析記事やCodexアプリの入門・活用記事がコミュニティで急増。マルチエージェント開発やRAG本番運用の実践的なコンテンツも充実。"
+importance: 3
 channel: "Codex / OpenAI"
 channelId: "codex-openai"
 date: 2026-03-24

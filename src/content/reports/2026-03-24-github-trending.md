@@ -1,5 +1,7 @@
 ---
 title: "TradingAgentsとObsidian Skills急浮上"
+summary: "マルチエージェントLLM金融取引フレームワークTradingAgentsが急上昇。Obsidian CEOがClaude Code向けスキル集を公開し注目を集める。supermemoryのASMR手法がメモリベンチマーク1位を達成。オフラインサバイバルコンピュータProject NOMADも話題。"
+importance: 4
 channel: "GitHub急成長リポ"
 channelId: "github-trending"
 date: 2026-03-24

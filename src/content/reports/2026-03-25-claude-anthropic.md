@@ -1,5 +1,7 @@
 ---
 title: "v2.1.83: エンタープライズ設定と新Hooksイベント"
+summary: "Claude Code v2.1.83がリリース。エンタープライズ向けポリシー管理の強化、CwdChanged/FileChangedフックイベント追加、サンドボックス設定の厳格化など大型アップデート。コミュニティではHooks機能の活用法が注目を集めている。"
+importance: 4
 channel: "Claude / Anthropic"
 channelId: "claude-anthropic"
 date: 2026-03-25
