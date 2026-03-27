@@ -1,5 +1,7 @@
 ---
 title: "v2.1.85: hooks条件フィルタとMCP OAuth強化"
+summary: "v2.1.85リリース。hooksにif条件フィルタ追加、MCP OAuth RFC 9728対応、組織ポリシーによるプラグインブロックなどエンタープライズ向け機能が充実。コミュニティではSpec駆動開発テンプレート、/dreamコマンドの検証、AI生成コードの技術的負債が議論の中心。"
+importance: 4
 channel: "Claude / Anthropic"
 channelId: "claude-anthropic"
 date: 2026-03-27

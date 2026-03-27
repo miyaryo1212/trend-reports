@@ -1,5 +1,7 @@
 ---
 title: "Codex CLI v0.117.0正式リリース"
+summary: "Codex CLI v0.117.0が正式リリース。プラグインのファーストクラス昇格、サブエージェントのパスベースアドレス、app-server TUIデフォルト化が主な変更。コミュニティでは3大AIコーディングエージェント比較やOpenAI Agents SDK実践ガイドが話題。"
+importance: 3
 channel: "Codex / OpenAI"
 channelId: "codex-openai"
 date: 2026-03-27

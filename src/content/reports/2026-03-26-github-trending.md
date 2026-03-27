@@ -1,5 +1,7 @@
 ---
 title: "last30days-skillとclaude-code-actionが新規トレンド入り"
+summary: "Claude Code用リサーチスキルlast30days-skillがトレンド1位。Anthropic公式のclaude-code-actionがGitHub PR/Issue自動化で注目。MoneyPrinterTurboが52Kスター維持、flow2apiがGemini/Veo互換APIとして急浮上。"
+importance: 4
 channel: "GitHub急成長リポ"
 channelId: "github-trending"
 date: 2026-03-26

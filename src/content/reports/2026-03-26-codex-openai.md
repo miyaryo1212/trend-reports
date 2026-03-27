@@ -1,5 +1,7 @@
 ---
 title: "Model Spec公開とSafety Bug Bounty開始"
+summary: "OpenAIがModel Spec公開フレームワークとSafety Bug Bountyプログラムを発表。gpt-oss-safeguardのOSS公開、Foundation 10億ドル投資計画、ChatGPTショッピング機能導入など安全性・社会貢献・商用展開を同時に推進。Codex CLIは48時間で10回のアルファリリース。"
+importance: 4
 channel: "Codex / OpenAI"
 channelId: "codex-openai"
 date: 2026-03-26

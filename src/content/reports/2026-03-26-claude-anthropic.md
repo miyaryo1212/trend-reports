@@ -1,5 +1,7 @@
 ---
 title: "v2.1.84: PowerShellツールとMCP改善"
+summary: "v2.1.84リリース。Windows向けPowerShellツール、3Pモデル設定環境変数、MCP説明文2KB上限など多数の新機能。コミュニティではRules/Skillsのパスglob対応やCLAUDE_CODE_SUBPROCESS_ENV_SCRUBが注目され、auto modeやChannels活用の実践記事も急増。"
+importance: 4
 channel: "Claude / Anthropic"
 channelId: "claude-anthropic"
 date: 2026-03-26
