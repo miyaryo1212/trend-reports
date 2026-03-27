@@ -1,0 +1,91 @@
+---
+import Base from '../../layouts/Base.astro';
+---
+
+<Base title="Update History - AI Trend Reports">
+  <header>
+    <h1>Update History</h1>
+    <p>システム・UIの更新履歴</p>
+  </header>
+  <main>
+    <ul class="update-list">
+      <li>
+        <time>2026-03-27</time>
+        <div>
+          <strong>注目度フィルター</strong>
+          <p>トップページに注目度（★3+/★4+/★5）でレポートを絞り込むフィルターを追加。</p>
+        </div>
+      </li>
+      <li>
+        <time>2026-03-27</time>
+        <div>
+          <strong>注目度表示</strong>
+          <p>各レポートにClaude Codeが判定した注目度（★1〜5）を追加。レポート詳細と一覧の両方に表示。</p>
+        </div>
+      </li>
+      <li>
+        <time>2026-03-27</time>
+        <div>
+          <strong>レポート要約機能</strong>
+          <p>各レポート冒頭にClaude Codeによる要約ボックスを追加。</p>
+        </div>
+      </li>
+      <li>
+        <time>2026-03-27</time>
+        <div>
+          <strong>チャンネル更新頻度の表示</strong>
+          <p>トップページにチャンネルごとの更新スケジュールを表示。</p>
+        </div>
+      </li>
+      <li>
+        <time>2026-03-27</time>
+        <div>
+          <strong>ソート機能</strong>
+          <p>レポート一覧の並び順を新しい順/古い順に切り替え可能に。</p>
+        </div>
+      </li>
+      <li>
+        <time>2026-03-26</time>
+        <div>
+          <strong>CH1スコープ拡大</strong>
+          <p>CH1をClaude Code専用からClaude / Anthropic全般に拡大。チャンネルID・ソース・プロンプトを更新。</p>
+        </div>
+      </li>
+      <li>
+        <time>2026-03-26</time>
+        <div>
+          <strong>WebSearch対応</strong>
+          <p>claude -pのallowedToolsにWebSearch/WebFetchを追加。Cloudflareで保護されたサイトの情報取得が可能に。</p>
+        </div>
+      </li>
+      <li>
+        <time>2026-03-26</time>
+        <div>
+          <strong>[DEBUG] dry-runモード</strong>
+          <p><code>--dry-run</code> フラグでStep 0-2の収集結果のみ確認可能に。</p>
+        </div>
+      </li>
+      <li>
+        <time>2026-03-25</time>
+        <div>
+          <strong>Pagefind全文検索</strong>
+          <p>ビルド時にインデックスを生成する静的全文検索を導入。</p>
+        </div>
+      </li>
+      <li>
+        <time>2026-03-25</time>
+        <div>
+          <strong>チャンネルフィルター・日付範囲フィルター</strong>
+          <p>トップページにチャンネルタブと期間フィルターを実装。</p>
+        </div>
+      </li>
+      <li>
+        <time>2026-03-24</time>
+        <div>
+          <strong>初回リリース</strong>
+          <p>4チャンネル体制でシステム稼働開始。Astro + Cloudflare Pagesでデプロイ。</p>
+        </div>
+      </li>
+    </ul>
+  </main>
+</Base>
