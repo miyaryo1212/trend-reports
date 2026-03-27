@@ -53,7 +53,46 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Navigation */
+/* Site header */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.site-title {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--fg);
+  text-decoration: none;
+}
+
+.site-title:hover {
+  text-decoration: none;
+}
+
+.site-nav {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0;
+}
+
+.site-nav a {
+  font-size: 0.82rem;
+  color: var(--muted);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.site-nav a:hover {
+  color: var(--fg);
+}
+
+/* Report page back nav */
 nav {
   margin-bottom: 2rem;
 }
@@ -61,6 +100,47 @@ nav {
 nav a {
   font-size: 0.85rem;
   color: var(--muted);
+}
+
+/* Update history */
+.update-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.update-list li {
+  display: grid;
+  grid-template-columns: 7rem 1fr;
+  gap: 0.5rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 0;
+}
+
+.update-list time {
+  font-size: 0.82rem;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  padding-top: 0.15rem;
+}
+
+.update-list strong {
+  font-size: 0.95rem;
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
+.update-list p {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-bottom: 0;
+}
+
+@media (max-width: 640px) {
+  .update-list li {
+    grid-template-columns: 1fr;
+    gap: 0.15rem;
+  }
 }
 
 /* Header */
@@ -122,6 +202,63 @@ ul, ol {
 
 li {
   margin-bottom: 0.4rem;
+}
+
+/* Report summary box */
+.report-summary {
+  border: 1px solid rgba(210, 118, 83, 0.3);
+  background: rgba(210, 118, 83, 0.06);
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.report-summary-title {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: rgb(210, 118, 83);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.4rem;
+}
+
+.report-summary p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-bottom: 0;
+  color: var(--fg);
+}
+
+.report-importance {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.5rem;
+}
+
+.report-importance-label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: rgb(210, 118, 83);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.stars {
+  display: flex;
+  gap: 0.1rem;
+}
+
+.star {
+  font-size: 0.85rem;
+  color: var(--border);
+}
+
+.star.filled {
+  color: rgb(210, 118, 83);
 }
 
 blockquote {
@@ -312,6 +449,35 @@ footer {
   border-color: var(--fg);
 }
 
+/* Importance filter tabs */
+.importance-tabs {
+  display: flex;
+  gap: 0.35rem;
+  flex-wrap: wrap;
+}
+
+.imp-tab {
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--muted);
+  padding: 0.3rem 0.65rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.imp-tab:hover {
+  color: rgb(210, 118, 83);
+  border-color: rgb(210, 118, 83);
+}
+
+.imp-tab.active {
+  background: rgb(210, 118, 83);
+  color: #fff;
+  border-color: rgb(210, 118, 83);
+}
+
 .sort-btn {
   border: 1px solid var(--border);
   background: transparent;
@@ -345,8 +511,8 @@ footer {
   padding: 0.85rem 0;
   border-bottom: 1px solid var(--border);
   display: grid;
-  grid-template-columns: auto 1fr;
-  gap: 0.2rem 0;
+  grid-template-columns: auto auto 1fr;
+  gap: 0.2rem 0.4rem;
   align-items: center;
   transition: opacity 0.15s;
 }
@@ -361,10 +527,28 @@ footer {
   justify-self: start;
 }
 
-.report-list li .date {
+.report-list li .importance-badge {
   grid-column: 2;
   grid-row: 1;
+}
+
+.report-list li .date {
+  grid-column: 3;
+  grid-row: 1;
   text-align: right;
+}
+
+/* Importance badge (index page) */
+.importance-badge {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.72rem;
+  padding: 0.2rem 0.55rem;
+  border-radius: 3px;
+  background: rgba(210, 118, 83, 0.08);
+  color: rgb(210, 118, 83);
+  white-space: nowrap;
+  letter-spacing: 0.05em;
 }
 
 .report-list li a {

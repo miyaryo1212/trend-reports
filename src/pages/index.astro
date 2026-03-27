@@ -52,6 +52,15 @@ const channelLogos: Record<string, string> = {
         </div>
       </div>
       <div class="filter-group">
+        <label>Importance</label>
+        <div class="importance-tabs">
+          <button class="imp-tab active" data-min="0">All</button>
+          <button class="imp-tab" data-min="3">★3+</button>
+          <button class="imp-tab" data-min="4">★4+</button>
+          <button class="imp-tab" data-min="5">★5</button>
+        </div>
+      </div>
+      <div class="filter-group">
         <label>Sort</label>
         <button class="sort-btn" id="sort-toggle" data-order="desc">Newest first</button>
       </div>
@@ -69,11 +78,16 @@ const channelLogos: Record<string, string> = {
           const dateStr = report.data.date.toISOString().slice(0, 10);
           const logo = channelLogos[report.data.channelId] || '';
           return (
-            <li data-channel={report.data.channel} data-date={dateStr}>
+            <li data-channel={report.data.channel} data-date={dateStr} data-importance={report.data.importance || 0}>
               <span class="channel-badge">
                 <Fragment set:html={logo} />
                 {report.data.channel}
               </span>
+              {report.data.importance && (
+                <span class="importance-badge">
+                  {Array.from({ length: report.data.importance }).map(() => '★').join('')}
+                </span>
+              )}
               <a href={`/reports/${report.id}/`}>{report.data.title}</a>
               <span class="date">{dateStr}</span>
             </li>
@@ -103,6 +117,7 @@ const channelLogos: Record<string, string> = {
 
 <script>
   const tabs = document.querySelectorAll<HTMLButtonElement>('.tab');
+  const impTabs = document.querySelectorAll<HTMLButtonElement>('.imp-tab');
   const dateFrom = document.getElementById('date-from') as HTMLInputElement;
   const dateTo = document.getElementById('date-to') as HTMLInputElement;
   const dateReset = document.getElementById('date-reset');
@@ -113,6 +128,7 @@ const channelLogos: Record<string, string> = {
 
   let activeChannel = 'all';
   let sortOrder = 'desc';
+  let minImportance = 0;
 
   function applyFilters() {
     const from = dateFrom.value;
@@ -122,12 +138,14 @@ const channelLogos: Record<string, string> = {
     items.forEach((item) => {
       const ch = item.dataset.channel;
       const date = item.dataset.date!;
+      const imp = parseInt(item.dataset.importance || '0', 10);
 
       const matchChannel = activeChannel === 'all' || ch === activeChannel;
       const matchFrom = !from || date >= from;
       const matchTo = !to || date <= to;
+      const matchImp = minImportance === 0 || imp >= minImportance;
 
-      if (matchChannel && matchFrom && matchTo) {
+      if (matchChannel && matchFrom && matchTo && matchImp) {
         item.style.display = '';
         visibleCount++;
       } else {
@@ -163,6 +181,15 @@ const channelLogos: Record<string, string> = {
     sortToggle.textContent = sortOrder === 'desc' ? 'Newest first' : 'Oldest first';
     sortToggle.dataset.order = sortOrder;
     applySortOrder();
+  });
+
+  impTabs.forEach((tab) => {
+    tab.addEventListener('click', () => {
+      impTabs.forEach((t) => t.classList.remove('active'));
+      tab.classList.add('active');
+      minImportance = parseInt(tab.dataset.min || '0', 10);
+      applyFilters();
+    });
   });
 
   dateFrom.addEventListener('change', applyFilters);
