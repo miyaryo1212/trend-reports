@@ -18,6 +18,8 @@ const { Content } = await render(entry);
   title={`${entry.data.channel} - ${entry.data.date.toISOString().slice(0, 10)}`}
   channel={entry.data.channel}
   date={entry.data.date}
+  summary={entry.data.summary}
+  importance={entry.data.importance}
 >
   <Content />
 </Report>
