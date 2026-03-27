@@ -1,6 +1,6 @@
 ---
 import { getCollection, render } from 'astro:content';
-import Report from '../../layouts/Report.astro';
+import Report from '../../../layouts/Report.astro';
 
 export async function getStaticPaths() {
   const reports = await getCollection('reports');
