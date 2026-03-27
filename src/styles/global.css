@@ -406,3 +406,32 @@ footer {
   font-size: 0.8rem;
   font-variant-numeric: tabular-nums;
 }
+
+/* Channel schedule (between header and filters) */
+.channel-schedule {
+  list-style: none;
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: start;
+  gap: 0.4rem 3rem;
+  margin-bottom: 2rem;
+}
+
+.channel-schedule li {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 0;
+}
+
+.schedule-freq {
+  font-size: 0.72rem;
+  color: var(--muted);
+}
+
+@media (max-width: 640px) {
+  .channel-schedule {
+    grid-template-columns: 1fr;
+  }
+}
