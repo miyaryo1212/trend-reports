@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.118.0アルファ版が連続リリース"
 summary: "Codex CLI v0.118.0のアルファ版が2日連続でリリース。公式ブログではSTADLER事例が公開されたが、Codex/OpenAIコア機能の大型発表はなし。コミュニティではエージェント時代の業界動向まとめやAIニュース考察が活発。"
-importance: 2
+importance: 3
 channel: "Codex / OpenAI"
 channelId: "codex-openai"
 date: 2026-03-28

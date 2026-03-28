@@ -1,7 +1,7 @@
 ---
 title: "ハーネス設計とMEMORY.md活用がコミュニティで急拡散"
 summary: "公式リリースは前日のv2.1.85が最新。コミュニティではAnthropicの「ハーネス設計」ブログ記事への反応が複数、MEMORY.md活用術やチーム並列開発、レート制限バグ報告が話題に。"
-importance: 2
+importance: 3
 channel: "Claude / Anthropic"
 channelId: "claude-anthropic"
 date: 2026-03-28
