@@ -45,9 +45,9 @@ const channelLogos: Record<string, string> = {
         <label>Period</label>
         <div class="date-range">
           <span class="date-label">From</span>
-          <input type="date" id="date-from" />
+          <input type="text" id="date-from" placeholder="yyyy/mm/dd" maxlength="10" />
           <span class="date-label">to</span>
-          <input type="date" id="date-to" />
+          <input type="text" id="date-to" placeholder="yyyy/mm/dd" maxlength="10" />
           <button id="date-reset" class="reset-btn">Reset</button>
         </div>
       </div>
@@ -130,9 +130,22 @@ const channelLogos: Record<string, string> = {
   let sortOrder = 'desc';
   let minImportance = 0;
 
+  // yyyy/mm/dd → yyyy-mm-dd 変換
+  function toISO(val: string) {
+    return val.replace(/\//g, '-');
+  }
+
+  // 初期値: 当月1日
+  const now = new Date();
+  const pad = (n: number) => String(n).padStart(2, '0');
+  const firstOfMonth = `${now.getFullYear()}/${pad(now.getMonth() + 1)}/01`;
+  const today = `${now.getFullYear()}/${pad(now.getMonth() + 1)}/${pad(now.getDate())}`;
+  dateFrom.value = firstOfMonth;
+  dateTo.value = today;
+
   function applyFilters() {
-    const from = dateFrom.value;
-    const to = dateTo.value;
+    const from = toISO(dateFrom.value);
+    const to = toISO(dateTo.value);
     let visibleCount = 0;
 
     items.forEach((item) => {
@@ -191,6 +204,8 @@ const channelLogos: Record<string, string> = {
       applyFilters();
     });
   });
+
+  applyFilters();
 
   dateFrom.addEventListener('change', applyFilters);
   dateTo.addEventListener('change', applyFilters);
