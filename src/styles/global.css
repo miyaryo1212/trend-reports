@@ -351,33 +351,25 @@ footer {
   margin-bottom: 2rem;
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
+  gap: 1.25rem;
   padding-bottom: 1.5rem;
   border-bottom: 1px solid var(--border);
 }
 
 .filter-group {
   display: flex;
-  align-items: center;
-  gap: 0.75rem;
-}
-
-@media (max-width: 640px) {
-  .filter-group {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.4rem;
-  }
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.3rem;
 }
 
 .filter-group > label {
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   font-weight: 500;
   color: var(--muted);
   text-transform: uppercase;
   letter-spacing: 0.08em;
   white-space: nowrap;
-  min-width: 4em;
 }
 
 .channel-tabs {
@@ -417,36 +409,60 @@ footer {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  flex-wrap: wrap;
+}
+
+@media (max-width: 640px) {
+  .date-range {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 0.35rem 0.5rem;
+  }
+
+  .date-range .date-label:first-child {
+    grid-row: 1; grid-column: 1;
+  }
+  .date-range #date-from {
+    grid-row: 1; grid-column: 2;
+  }
+  .date-range .date-label:nth-child(3) {
+    grid-row: 2; grid-column: 1;
+  }
+  .date-range #date-to {
+    grid-row: 2; grid-column: 2;
+  }
+  .date-range .reset-btn {
+    grid-row: 2; grid-column: 3;
+  }
 }
 
 .date-range input {
-  border: 1px solid var(--border);
-  background: var(--surface);
+  border: none;
+  border-bottom: 1px solid var(--border);
+  background: transparent;
   color: var(--fg);
-  padding: 0.3rem 0.5rem;
-  border-radius: 4px;
+  padding: 0.3rem 0.25rem;
+  border-radius: 0;
   font-size: 0.82rem;
 }
 
 .date-range input:focus {
-  border-color: var(--fg);
+  border-bottom-color: var(--fg);
   outline: none;
 }
 
 .reset-btn {
-  border: 1px solid var(--border);
-  background: transparent;
+  border: none;
+  background: var(--surface);
   color: var(--muted);
   padding: 0.3rem 0.6rem;
-  border-radius: 4px;
+  border-radius: 9999px;
   font-size: 0.78rem;
   cursor: pointer;
 }
 
 .reset-btn:hover {
   color: var(--fg);
-  border-color: var(--fg);
+  background: var(--border);
 }
 
 /* Importance filter tabs */
@@ -593,20 +609,42 @@ footer {
 
 /* Channel schedule (between header and filters) */
 .channel-schedule {
-  list-style: none;
-  padding-left: 0;
-  display: grid;
-  grid-template-columns: auto auto;
-  justify-content: start;
-  gap: 0.4rem 3rem;
+  display: flex;
+  gap: 2rem;
   margin-bottom: 2rem;
 }
 
-.channel-schedule li {
+.schedule-section {
   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.3rem;
+}
+
+.schedule-label {
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.schedule-section ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 0.25rem 0.75rem;
   align-items: center;
-  gap: 0.4rem;
-  margin-bottom: 0;
+}
+
+.channel-schedule li {
+  display: contents;
+}
+
+.channel-schedule .channel-badge {
+  justify-self: start;
 }
 
 .schedule-freq {
@@ -616,7 +654,8 @@ footer {
 
 @media (max-width: 640px) {
   .channel-schedule {
-    grid-template-columns: 1fr;
+    flex-direction: column;
+    gap: 1.25rem;
   }
 }
 

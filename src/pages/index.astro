@@ -25,13 +25,23 @@ const channelLogos: Record<string, string> = {
     <h1>AI Trend Reports</h1>
     <p>生成AI関連のトレンド調査レポート</p>
   </header>
-  <ul class="channel-schedule">
-    <li><span class="channel-badge"><Fragment set:html={channelLogos['claude-anthropic']} />Claude / Anthropic</span><span class="schedule-freq">毎日6時頃更新</span></li>
-    <li><span class="channel-badge"><Fragment set:html={channelLogos['codex-openai']} />Codex / OpenAI</span><span class="schedule-freq">毎日6時半頃更新</span></li>
-    <li><span class="channel-badge"><Fragment set:html={channelLogos['ai-trends']} />生成AIトレンド総合</span><span class="schedule-freq">毎日7時頃更新</span></li>
-    <li><span class="channel-badge"><Fragment set:html={channelLogos['github-trending']} />GitHub急成長リポ</span><span class="schedule-freq">毎週月曜日8時頃更新</span></li>
-    <li><span class="channel-badge"><Fragment set:html={channelLogos['academia']} />LLM/NLP最新論文</span><span class="schedule-freq">毎日7時半頃更新</span></li>
-  </ul>
+  <div class="channel-schedule">
+    <div class="schedule-section">
+      <span class="schedule-label">Daily</span>
+      <ul>
+        <li><span class="channel-badge"><Fragment set:html={channelLogos['claude-anthropic']} />Claude / Anthropic</span><span class="schedule-freq">6時頃</span></li>
+        <li><span class="channel-badge"><Fragment set:html={channelLogos['codex-openai']} />Codex / OpenAI</span><span class="schedule-freq">6時半頃</span></li>
+        <li><span class="channel-badge"><Fragment set:html={channelLogos['ai-trends']} />生成AIトレンド総合</span><span class="schedule-freq">7時頃</span></li>
+        <li><span class="channel-badge"><Fragment set:html={channelLogos['academia']} />LLM/NLP最新論文</span><span class="schedule-freq">7時半頃</span></li>
+      </ul>
+    </div>
+    <div class="schedule-section">
+      <span class="schedule-label">Weekly</span>
+      <ul>
+        <li><span class="channel-badge"><Fragment set:html={channelLogos['github-trending']} />GitHub急成長リポ</span><span class="schedule-freq">月曜 8時頃</span></li>
+      </ul>
+    </div>
+  </div>
   <main>
     <div class="filters">
       <div class="filter-group">
@@ -47,10 +57,11 @@ const channelLogos: Record<string, string> = {
         <label>Period</label>
         <div class="date-range">
           <span class="date-label">From</span>
-          <input type="text" id="date-from" placeholder="yyyy/mm/dd" maxlength="10" />
+          <input type="date" id="date-from" />
           <span class="date-label">to</span>
-          <input type="text" id="date-to" placeholder="yyyy/mm/dd" maxlength="10" />
+          <input type="date" id="date-to" />
           <button id="date-reset" class="reset-btn">Reset</button>
+
         </div>
       </div>
       <div class="filter-group">
@@ -132,22 +143,15 @@ const channelLogos: Record<string, string> = {
   let sortOrder = 'desc';
   let minImportance = 0;
 
-  // yyyy/mm/dd → yyyy-mm-dd 変換
-  function toISO(val: string) {
-    return val.replace(/\//g, '-');
-  }
-
   // 初期値: 当月1日
   const now = new Date();
   const pad = (n: number) => String(n).padStart(2, '0');
-  const firstOfMonth = `${now.getFullYear()}/${pad(now.getMonth() + 1)}/01`;
-  const today = `${now.getFullYear()}/${pad(now.getMonth() + 1)}/${pad(now.getDate())}`;
-  dateFrom.value = firstOfMonth;
-  dateTo.value = today;
+  dateFrom.value = `${now.getFullYear()}-${pad(now.getMonth() + 1)}-01`;
+  dateTo.value = `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())}`;
 
   function applyFilters() {
-    const from = toISO(dateFrom.value);
-    const to = toISO(dateTo.value);
+    const from = dateFrom.value;
+    const to = dateTo.value;
     let visibleCount = 0;
 
     items.forEach((item) => {
