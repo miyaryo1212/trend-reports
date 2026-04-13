@@ -1,5 +1,7 @@
 ---
 import '../styles/global.css';
+import LeftWidget from '../components/LeftWidget.astro';
+import RightRanking from '../components/RightRanking.astro';
 
 interface Props {
   title: string;
@@ -49,14 +51,17 @@ const metaDescription = description ?? 'AIトレンドの最新情報をお届�
   }
 </script>
 <body>
-  <div class="site-header">
-    <a href="/" class="site-title">AI Trend Reports</a>
-    <nav class="site-nav">
-      <a href="/updates/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="14" height="14"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Update History</a>
-    </nav>
-  </div>
-  <slot />
-  <footer>
+  <div class="layout">
+    <LeftWidget />
+    <div class="layout-main">
+      <div class="site-header">
+        <a href="/" class="site-title">AI Trend Reports</a>
+        <nav class="site-nav">
+          <a href="/updates/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="14" height="14"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Update History</a>
+        </nav>
+      </div>
+      <slot />
+      <footer>
     <span>&copy; miyaryo1212</span>
     <span class="footer-links">
       <a href="https://github.com/miyaryo1212" aria-label="GitHub">
@@ -66,6 +71,9 @@ const metaDescription = description ?? 'AIトレンドの最新情報をお届�
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
       </a>
     </span>
-  </footer>
+      </footer>
+    </div>
+    <RightRanking />
+  </div>
 </body>
 </html>

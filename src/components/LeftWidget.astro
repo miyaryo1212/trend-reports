@@ -1,0 +1,67 @@
+---
+import { getCollection } from 'astro:content';
+
+const reports = await getCollection('reports');
+const pubDates = new Set(
+  reports.map((r) => r.data.date.toISOString().slice(0, 10))
+);
+
+const today = new Date();
+const year = today.getFullYear();
+const month = today.getMonth();
+const todayStr = today.toISOString().slice(0, 10);
+
+const firstDayOfWeek = new Date(year, month, 1).getDay();
+const daysInMonth = new Date(year, month + 1, 0).getDate();
+
+const cells: Array<{ day: number | null; dateStr: string; isToday: boolean; hasReport: boolean }> = [];
+for (let i = 0; i < firstDayOfWeek; i++) {
+  cells.push({ day: null, dateStr: '', isToday: false, hasReport: false });
+}
+for (let d = 1; d <= daysInMonth; d++) {
+  const dateStr = `${year}-${String(month + 1).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
+  cells.push({
+    day: d,
+    dateStr,
+    isToday: dateStr === todayStr,
+    hasReport: pubDates.has(dateStr),
+  });
+}
+
+const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+const weekdayLong = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+const weekdayShort = ['S', 'M', 'T', 'W', 'T', 'F', 'S'];
+
+const monthName = monthNames[month];
+const dayOfMonth = today.getDate();
+const weekday = weekdayLong[today.getDay()];
+---
+
+<aside class="left-widget" aria-hidden="true">
+  <div class="date-block">
+    <div class="date-year">{year}</div>
+    <div class="date-main">
+      <span class="date-month">{monthName}</span>
+      <span class="date-day">{String(dayOfMonth).padStart(2, '0')}</span>
+    </div>
+    <div class="date-weekday">{weekday}</div>
+  </div>
+
+  <div class="mini-calendar">
+    <div class="cal-header">{monthName} {year}</div>
+    <div class="cal-weekdays">
+      {weekdayShort.map((w) => <span>{w}</span>)}
+    </div>
+    <div class="cal-grid">
+      {cells.map((cell) => (
+        <span class:list={['cal-cell', cell.isToday && 'is-today', cell.hasReport && 'has-report']}>
+          {cell.day ?? ''}
+        </span>
+      ))}
+    </div>
+    <div class="cal-legend">
+      <span class="legend-dot"></span>
+      <span class="legend-text">Claude run</span>
+    </div>
+  </div>
+</aside>
