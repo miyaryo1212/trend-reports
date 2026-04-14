@@ -35,10 +35,13 @@ const weekdayShort = ['S', 'M', 'T', 'W', 'T', 'F', 'S'];
 const monthName = monthNames[month];
 const dayOfMonth = today.getDate();
 const weekday = weekdayLong[today.getDay()];
+
+const reportDaysThisMonth = cells.filter((c) => c.hasReport).length;
+const calendarSummary = `${monthName} ${year}: ${daysInMonth}日中${reportDaysThisMonth}日でレポート公開`;
 ---
 
-<aside class="left-widget" aria-hidden="true">
-  <div class="date-block">
+<aside class="left-widget">
+  <div class="date-block" aria-hidden="true">
     <div class="date-year">{year}</div>
     <div class="date-main">
       <span class="date-month">{monthName}</span>
@@ -47,19 +50,19 @@ const weekday = weekdayLong[today.getDay()];
     <div class="date-weekday">{weekday}</div>
   </div>
 
-  <div class="mini-calendar">
-    <div class="cal-header">{monthName} {year}</div>
-    <div class="cal-weekdays">
+  <div class="mini-calendar" role="img" aria-label={calendarSummary}>
+    <div class="cal-header" aria-hidden="true">{monthName} {year}</div>
+    <div class="cal-weekdays" aria-hidden="true">
       {weekdayShort.map((w) => <span>{w}</span>)}
     </div>
-    <div class="cal-grid">
+    <div class="cal-grid" aria-hidden="true">
       {cells.map((cell) => (
         <span class:list={['cal-cell', cell.isToday && 'is-today', cell.hasReport && 'has-report']}>
           {cell.day ?? ''}
         </span>
       ))}
     </div>
-    <div class="cal-legend">
+    <div class="cal-legend" aria-hidden="true">
       <span class="legend-dot"></span>
       <span class="legend-text">Claude run</span>
     </div>

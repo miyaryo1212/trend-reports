@@ -38,19 +38,19 @@ const channels = channelOrder.filter(ch =>
     <div class="filters">
       <div class="filter-group">
         <label>Channel</label>
-        <div class="channel-tabs">
-          <button class="tab active" data-channel="all">All</button>
+        <div class="channel-tabs" role="group" aria-label="Channel filter">
+          <button class="tab active" data-channel="all" aria-pressed="true">All</button>
           {channels.map((ch) => (
-            <button class="tab" data-channel={ch}>{ch}</button>
+            <button class="tab" data-channel={ch} aria-pressed="false">{ch}</button>
           ))}
         </div>
       </div>
       <div class="filter-group">
         <label>Period</label>
         <div class="date-range">
-          <span class="date-label">From</span>
+          <label class="date-label" for="date-from">From</label>
           <input type="date" id="date-from" />
-          <span class="date-label">to</span>
+          <label class="date-label" for="date-to">to</label>
           <input type="date" id="date-to" />
           <button id="date-reset" class="reset-btn">Reset</button>
 
@@ -58,11 +58,11 @@ const channels = channelOrder.filter(ch =>
       </div>
       <div class="filter-group">
         <label>Importance</label>
-        <div class="importance-tabs">
-          <button class="imp-tab active" data-min="0">All</button>
-          <button class="imp-tab" data-min="3">★3+</button>
-          <button class="imp-tab" data-min="4">★4+</button>
-          <button class="imp-tab" data-min="5">★5</button>
+        <div class="importance-tabs" role="group" aria-label="Importance filter">
+          <button class="imp-tab active" data-min="0" aria-pressed="true">All</button>
+          <button class="imp-tab" data-min="3" aria-pressed="false" aria-label="注目度 3以上">★3+</button>
+          <button class="imp-tab" data-min="4" aria-pressed="false" aria-label="注目度 4以上">★4+</button>
+          <button class="imp-tab" data-min="5" aria-pressed="false" aria-label="注目度 5">★5</button>
         </div>
       </div>
       <div class="filter-group">
@@ -88,8 +88,8 @@ const channels = channelOrder.filter(ch =>
                 {report.data.channel}
               </span>
               {report.data.importance && (
-                <span class="importance-badge">
-                  {Array.from({ length: report.data.importance }).map(() => '★').join('')}
+                <span class="importance-badge" aria-label={`注目度 ${report.data.importance}/5`}>
+                  <span aria-hidden="true">{Array.from({ length: report.data.importance }).map(() => '★').join('')}</span>
                 </span>
               )}
               <a href={`/reports/${report.id}/`}>{report.data.title}</a>
@@ -179,8 +179,12 @@ const channels = channelOrder.filter(ch =>
 
   tabs.forEach((tab) => {
     tab.addEventListener('click', () => {
-      tabs.forEach((t) => t.classList.remove('active'));
+      tabs.forEach((t) => {
+        t.classList.remove('active');
+        t.setAttribute('aria-pressed', 'false');
+      });
       tab.classList.add('active');
+      tab.setAttribute('aria-pressed', 'true');
       activeChannel = tab.dataset.channel!;
       applyFilters();
     });
@@ -195,8 +199,12 @@ const channels = channelOrder.filter(ch =>
 
   impTabs.forEach((tab) => {
     tab.addEventListener('click', () => {
-      impTabs.forEach((t) => t.classList.remove('active'));
+      impTabs.forEach((t) => {
+        t.classList.remove('active');
+        t.setAttribute('aria-pressed', 'false');
+      });
       tab.classList.add('active');
+      tab.setAttribute('aria-pressed', 'true');
       minImportance = parseInt(tab.dataset.min || '0', 10);
       applyFilters();
     });

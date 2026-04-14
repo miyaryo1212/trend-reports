@@ -54,8 +54,8 @@ const displayItems = hasAI
                   {report.data.channel}
                 </span>
                 {report.data.importance && (
-                  <span class="ranking-stars">
-                    {'★'.repeat(report.data.importance)}
+                  <span class="ranking-stars" aria-label={`注目度 ${report.data.importance}/5`}>
+                    <span aria-hidden="true">{'★'.repeat(report.data.importance)}</span>
                   </span>
                 )}
               </div>

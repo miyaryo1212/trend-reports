@@ -349,6 +349,22 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Unified keyboard focus ring */
+:focus {
+  outline: none;
+}
+
+:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+
+input:focus-visible,
+button:focus-visible {
+  outline-offset: 1px;
+}
+
 /* Site header */
 .site-header {
   display: flex;
@@ -743,6 +759,9 @@ footer {
 
 .date-range input:focus {
   border-bottom-color: var(--fg);
+}
+
+.date-range input:focus:not(:focus-visible) {
   outline: none;
 }
 
