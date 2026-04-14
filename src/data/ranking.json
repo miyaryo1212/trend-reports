@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-04-14T08:27:54Z",
-  "period_start": "2026-03-18",
-  "period_end": "2026-04-14",
+  "generated_at": "2026-04-14T23:01:05Z",
+  "period_start": "2026-03-19",
+  "period_end": "2026-04-15",
   "items": [
     {
       "rank": 1,
       "slug": "2026-04-13-ai-trends",
-      "reason": "Glasswing・Sonnet 4.6・Managed Agentsの同時発表はAnthropicの戦略転換点"
+      "reason": "Glasswing・Sonnet 4.6・Managed Agentsの三連発はAnthropicの戦略転換点"
     },
     {
       "rank": 2,
-      "slug": "2026-04-01-ai-trends",
-      "reason": "OpenAI史上最大の資金調達とaxios攻撃、業界の光と影が凝縮"
+      "slug": "2026-04-10-academia",
+      "reason": "推論崩壊の発見と単一GPU100B訓練、基盤研究の突破口が同時に開花"
     },
     {
       "rank": 3,
-      "slug": "2026-04-14-academia",
-      "reason": "推論SFTの汎化限界を実証、安易なスケーリング信仰に一石"
+      "slug": "2026-04-02-ai-trends",
+      "reason": "Claude Codeソース流出が突きつけたOSS倫理とサプライチェーンの脆弱性"
     },
     {
       "rank": 4,
-      "slug": "2026-04-13-github-trending",
-      "reason": "エージェント運用基盤が一斉台頭、実用フェーズ突入の証左"
+      "slug": "2026-04-15-codex-openai",
+      "reason": "Codexアプリ化でOpenAIがエージェント開発の本丸に参入"
     },
     {
       "rank": 5,
-      "slug": "2026-04-02-ai-trends",
-      "reason": "Claude Codeソース流出が問う、AI時代の開発者倫理の境界線"
+      "slug": "2026-04-13-github-trending",
+      "reason": "エージェント記憶・管理・ワークフロー基盤の同時台頭がエコシステム成熟を示唆"
     }
   ]
 }
