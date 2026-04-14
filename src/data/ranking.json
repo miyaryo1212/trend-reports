@@ -1,6 +1,32 @@
 {
-  "generated_at": null,
-  "period_start": null,
-  "period_end": null,
-  "items": []
+  "generated_at": "2026-04-14T08:27:54Z",
+  "period_start": "2026-03-18",
+  "period_end": "2026-04-14",
+  "items": [
+    {
+      "rank": 1,
+      "slug": "2026-04-13-ai-trends",
+      "reason": "Glasswing・Sonnet 4.6・Managed Agentsの同時発表はAnthropicの戦略転換点"
+    },
+    {
+      "rank": 2,
+      "slug": "2026-04-01-ai-trends",
+      "reason": "OpenAI史上最大の資金調達とaxios攻撃、業界の光と影が凝縮"
+    },
+    {
+      "rank": 3,
+      "slug": "2026-04-14-academia",
+      "reason": "推論SFTの汎化限界を実証、安易なスケーリング信仰に一石"
+    },
+    {
+      "rank": 4,
+      "slug": "2026-04-13-github-trending",
+      "reason": "エージェント運用基盤が一斉台頭、実用フェーズ突入の証左"
+    },
+    {
+      "rank": 5,
+      "slug": "2026-04-02-ai-trends",
+      "reason": "Claude Codeソース流出が問う、AI時代の開発者倫理の境界線"
+    }
+  ]
 }
