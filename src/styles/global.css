@@ -50,6 +50,9 @@ body {
 
 .layout-main {
   min-width: 0;
+  border-left: 1px solid var(--border);
+  border-right: 1px solid var(--border);
+  padding: 0 1.25rem;
 }
 
 .left-widget,
@@ -70,6 +73,11 @@ body {
   .left-widget {
     display: none;
   }
+
+  .layout-main {
+    border-left: none;
+    padding-left: 0;
+  }
 }
 
 /* 1-col: drop right ranking too */
@@ -82,6 +90,11 @@ body {
 
   .right-ranking {
     display: none;
+  }
+
+  .layout-main {
+    border-right: none;
+    padding-right: 0;
   }
 }
 
@@ -224,8 +237,6 @@ body {
 
 /* Right ranking widget */
 .right-ranking {
-  border-left: 1px solid var(--border);
-  padding-left: 1.25rem;
 }
 
 .ranking-header {
@@ -594,7 +605,6 @@ code {
 footer {
   margin-top: 4rem;
   padding-top: 1.5rem;
-  border-top: 1px solid var(--border);
   font-size: 0.82rem;
   color: var(--muted);
   display: flex;
