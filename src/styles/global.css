@@ -370,8 +370,8 @@ button:focus-visible {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 2.5rem;
-  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
   border-bottom: 1px solid var(--border);
 }
 
@@ -424,7 +424,7 @@ nav a {
   display: grid;
   grid-template-columns: 7rem 1fr;
   gap: 0.5rem;
-  padding: 0.75rem 0;
+  padding: 0.85rem 0;
   border-bottom: 1px solid var(--border);
   margin-bottom: 0;
 }
