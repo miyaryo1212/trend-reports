@@ -94,8 +94,6 @@ body {
 /* Left widget: date + mini calendar */
 .left-widget {
   color: var(--fg);
-  border-right: 1px solid var(--border);
-  padding-right: 1.25rem;
 }
 
 .date-block {
@@ -429,10 +427,6 @@ nav a {
   padding: 0.85rem 0;
   border-bottom: 1px solid var(--border);
   margin-bottom: 0;
-}
-
-.update-list li:last-child {
-  border-bottom: none;
 }
 
 .update-list time {
@@ -842,10 +836,6 @@ footer {
 .report-list {
   list-style: none;
   padding-left: 0;
-}
-
-.report-list li:last-child {
-  border-bottom: none;
 }
 
 .report-list li {
