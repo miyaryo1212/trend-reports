@@ -36,17 +36,17 @@ const channels = channelOrder.filter(ch =>
   </div>
   <main>
     <div class="filters">
-      <div class="filter-group">
-        <label>Channel</label>
-        <div class="channel-tabs" role="group" aria-label="Channel filter">
+      <div class="filter-group" role="group" aria-labelledby="flt-channel-label">
+        <span id="flt-channel-label" class="filter-group-label">Channel</span>
+        <div class="channel-tabs">
           <button class="tab active" data-channel="all" aria-pressed="true">All</button>
           {channels.map((ch) => (
             <button class="tab" data-channel={ch} aria-pressed="false">{ch}</button>
           ))}
         </div>
       </div>
-      <div class="filter-group">
-        <label>Period</label>
+      <div class="filter-group" role="group" aria-labelledby="flt-period-label">
+        <span id="flt-period-label" class="filter-group-label">Period</span>
         <div class="date-range">
           <label class="date-label" for="date-from">From</label>
           <input type="date" id="date-from" />
@@ -56,9 +56,9 @@ const channels = channelOrder.filter(ch =>
 
         </div>
       </div>
-      <div class="filter-group">
-        <label>Importance</label>
-        <div class="importance-tabs" role="group" aria-label="Importance filter">
+      <div class="filter-group" role="group" aria-labelledby="flt-importance-label">
+        <span id="flt-importance-label" class="filter-group-label">Importance</span>
+        <div class="importance-tabs">
           <button class="imp-tab active" data-min="0" aria-pressed="true">All</button>
           <button class="imp-tab" data-min="3" aria-pressed="false" aria-label="注目度 3以上">★3+</button>
           <button class="imp-tab" data-min="4" aria-pressed="false" aria-label="注目度 4以上">★4+</button>
@@ -66,11 +66,11 @@ const channels = channelOrder.filter(ch =>
         </div>
       </div>
       <div class="filter-group">
-        <label>Sort</label>
+        <span class="filter-group-label">Sort</span>
         <button class="sort-btn" id="sort-toggle" data-order="desc">Newest first</button>
       </div>
       <div class="filter-group">
-        <label>Search</label>
+        <span class="filter-group-label">Search</span>
         <div id="search"></div>
       </div>
     </div>

@@ -9,10 +9,11 @@
   --shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
   --brand-rgb: 210, 118, 83;
   --brand: rgb(var(--brand-rgb));
+  color-scheme: light;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
     --bg: #09090b;
     --surface: #18181b;
     --fg: #fafafa;
@@ -21,7 +22,20 @@
     --accent: #fafafa;
     --link: #60a5fa;
     --shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    color-scheme: dark;
   }
+}
+
+:root[data-theme="dark"] {
+  --bg: #09090b;
+  --surface: #18181b;
+  --fg: #fafafa;
+  --muted: #a1a1aa;
+  --border: #27272a;
+  --accent: #fafafa;
+  --link: #60a5fa;
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  color-scheme: dark;
 }
 
 * {
@@ -415,6 +429,51 @@ button:focus-visible {
   color: var(--fg);
 }
 
+.theme-toggle {
+  background: transparent;
+  border: none;
+  color: var(--muted);
+  cursor: pointer;
+  padding: 0.25rem;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 3px;
+  font-family: inherit;
+}
+
+.theme-toggle:hover {
+  color: var(--fg);
+}
+
+/* Default light effective: show moon (clicking switches to dark) */
+.theme-toggle .theme-icon-sun {
+  display: none;
+}
+
+.theme-toggle .theme-icon-moon {
+  display: inline-block;
+}
+
+/* System dark and no explicit override: swap to sun */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .theme-toggle .theme-icon-sun {
+    display: inline-block;
+  }
+
+  :root:not([data-theme="light"]) .theme-toggle .theme-icon-moon {
+    display: none;
+  }
+}
+
+/* Explicit dark: swap to sun */
+:root[data-theme="dark"] .theme-toggle .theme-icon-sun {
+  display: inline-block;
+}
+
+:root[data-theme="dark"] .theme-toggle .theme-icon-moon {
+  display: none;
+}
+
 /* Report page back nav */
 nav {
   margin-bottom: 2rem;
@@ -685,7 +744,7 @@ footer {
   gap: 0.3rem;
 }
 
-.filter-group > label {
+.filter-group > .filter-group-label {
   font-size: 0.7rem;
   font-weight: 500;
   color: var(--muted);
@@ -1023,4 +1082,23 @@ footer {
   background: var(--fg);
   color: var(--bg);
   border-color: var(--fg);
+}
+
+.share-btn-copy .share-btn-icon-success {
+  display: none;
+}
+
+.share-btn-copy.is-copied {
+  background: var(--brand);
+  color: #fff;
+  border-color: var(--brand);
+  opacity: 1;
+}
+
+.share-btn-copy.is-copied .share-btn-icon-default {
+  display: none;
+}
+
+.share-btn-copy.is-copied .share-btn-icon-success {
+  display: inline-block;
 }
