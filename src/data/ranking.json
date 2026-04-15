@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-04-14T23:01:05Z",
-  "period_start": "2026-03-19",
-  "period_end": "2026-04-15",
+  "generated_at": "2026-04-15T23:01:29Z",
+  "period_start": "2026-03-20",
+  "period_end": "2026-04-16",
   "items": [
     {
       "rank": 1,
-      "slug": "2026-04-13-ai-trends",
-      "reason": "Glasswing・Sonnet 4.6・Managed Agentsの三連発はAnthropicの戦略転換点"
+      "slug": "2026-04-14-claude-anthropic",
+      "reason": "Mythos Preview＋Glasswing同時発表はAnthropicの戦略転換を象徴する一大ニュース"
     },
     {
       "rank": 2,
-      "slug": "2026-04-10-academia",
-      "reason": "推論崩壊の発見と単一GPU100B訓練、基盤研究の突破口が同時に開花"
+      "slug": "2026-04-16-claude-anthropic",
+      "reason": "Routines発表でClaude Codeが自律実行基盤へ進化、Opus 4.7リークも見逃せない"
     },
     {
       "rank": 3,
-      "slug": "2026-04-02-ai-trends",
-      "reason": "Claude Codeソース流出が突きつけたOSS倫理とサプライチェーンの脆弱性"
+      "slug": "2026-04-10-academia",
+      "reason": "推論崩壊の発見と単一GPU 100B訓練はLLM研究の前提を覆す重要知見"
     },
     {
       "rank": 4,
-      "slug": "2026-04-15-codex-openai",
-      "reason": "Codexアプリ化でOpenAIがエージェント開発の本丸に参入"
+      "slug": "2026-04-01-ai-trends",
+      "reason": "OpenAI史上最大の資金調達とaxios攻撃が示す成長とリスクの二面性"
     },
     {
       "rank": 5,
       "slug": "2026-04-13-github-trending",
-      "reason": "エージェント記憶・管理・ワークフロー基盤の同時台頭がエコシステム成熟を示唆"
+      "reason": "エージェント運用基盤が一斉台頭、AIコーディングのエコシステム成熟を実感できる"
     }
   ]
 }
