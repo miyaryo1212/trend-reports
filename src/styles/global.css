@@ -593,11 +593,16 @@ header p {
   margin-top: 0.4rem;
 }
 
-header time {
+.report-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.report-date {
+  font-size: 0.95rem;
   color: var(--muted);
-  font-size: 0.85rem;
-  display: block;
-  margin-top: 0.25rem;
+  font-variant-numeric: tabular-nums;
 }
 
 /* Typography */
@@ -643,6 +648,126 @@ li {
   border-radius: 6px;
   padding: 1rem 1.25rem;
   margin-bottom: 2rem;
+  transition: border-color 0.35s ease, background-color 0.35s ease;
+}
+
+/* Claude (default) vs Codex theme colors.
+   The toggle sets data-review-source on :root so brand vars swap
+   across the whole page for the "fun" theme-swap effect. */
+:root {
+  --brand-claude-rgb: 210, 118, 83;
+  --brand-codex-rgb: 16, 163, 127;
+}
+
+:root[data-review-source="codex"] {
+  --brand-rgb: var(--brand-codex-rgb);
+  --brand: rgb(var(--brand-codex-rgb));
+}
+
+/* Apply smooth color transitions to all brand-tinted elements */
+body,
+.report-summary,
+.report-summary-title,
+.report-importance-label,
+.star,
+.star.filled,
+.ranking-rank,
+.ranking-header,
+.ranking-stars,
+.ranking-reason,
+.cal-cell.is-today,
+.cal-cell.has-report::after,
+.cal-cell.is-today.has-report::after,
+.legend-dot,
+.new-badge,
+.share-btn-copy.is-copied,
+.channel-badge,
+.theme-toggle {
+  transition: color 0.35s ease, background-color 0.35s ease, border-color 0.35s ease;
+}
+
+/* Review toggle (Summary / Review switch) */
+.review-toggle {
+  position: relative;
+  display: flex;
+  width: 100%;
+  padding: 2px;
+  border-radius: 9999px;
+  background: rgba(var(--brand-rgb), 0.1);
+  margin-bottom: 0.7rem;
+  user-select: none;
+}
+
+.review-toggle-btn {
+  position: relative;
+  z-index: 1;
+  flex: 1 1 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  padding: 0.32rem 0.5rem;
+  border: none;
+  background: transparent;
+  color: var(--muted);
+  font-family: inherit;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+  cursor: pointer;
+  border-radius: 9999px;
+  transition: color 0.25s ease;
+}
+
+@media (max-width: 640px) {
+  .review-toggle-suffix {
+    display: none;
+  }
+}
+
+.review-toggle-btn.is-active {
+  color: #fff;
+}
+
+.review-toggle-pill {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: calc(100% - 4px);
+  width: calc(50% - 2px);
+  background: var(--brand);
+  border-radius: 9999px;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.35s ease;
+  z-index: 0;
+}
+
+.report-summary[data-view="codex"] .review-toggle-pill {
+  transform: translateX(100%);
+}
+
+/* Review panes: cross-fade between Claude summary and Codex review.
+   Use grid overlay so the box height = max(claude, codex) — no layout jump */
+.review-panes {
+  display: grid;
+}
+
+.review-panes .review-pane {
+  grid-column: 1;
+  grid-row: 1;
+  transition: opacity 0.25s ease;
+  margin-bottom: 0;
+}
+
+.review-panes .review-pane[aria-hidden="true"] {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Stars within .report-importance swap cleanly (display toggle is fine) */
+.report-importance .review-pane[aria-hidden="true"] {
+  display: none;
 }
 
 .report-summary-title {

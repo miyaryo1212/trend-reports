@@ -11,6 +11,8 @@ const reports = defineCollection({
     date: z.coerce.date(),
     summary: z.string().optional(),
     importance: z.number().min(1).max(5).optional(),
+    codex_review: z.string().optional(),
+    codex_importance: z.number().min(1).max(5).optional(),
     features: z.array(z.string()).default([]),
   }),
 });

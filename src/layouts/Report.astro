@@ -8,9 +8,12 @@ interface Props {
   date: Date;
   summary?: string;
   importance?: number;
+  codexReview?: string;
+  codexImportance?: number;
 }
 
-const { title, channel, date, summary, importance } = Astro.props;
+const { title, channel, date, summary, importance, codexReview, codexImportance } = Astro.props;
+const hasCodex = !!codexReview;
 const dateStr = date.toISOString().slice(0, 10);
 const pageUrl = Astro.url.href;
 const tweetText = `${channel}のAIトレンドレポート（${dateStr}）`;
@@ -20,9 +23,9 @@ const description = summary ?? `${channel}の${dateStr}のAIトレンドレポ�
 
 <Base title={title} description={description} ogType="article">
   <nav><a href="/">&larr; レポート一覧</a></nav>
-  <header>
-    <h1>{title}</h1>
-    <time datetime={dateStr}>{dateStr}</time>
+  <header class="report-header">
+    <h1>{channel}</h1>
+    <time class="report-date" datetime={dateStr}>{dateStr}</time>
   </header>
   <div class="share-buttons">
     <a href={tweetUrl} target="_blank" rel="noopener noreferrer" class="share-btn share-btn-x">
@@ -37,17 +40,63 @@ const description = summary ?? `${channel}の${dateStr}のAIトレンドレポ�
   </div>
   <main data-pagefind-body>
     {summary && (
-      <div class="report-summary">
-        <span class="report-summary-title"><ChannelLogo id="claude-anthropic" size={14} /> Summary by Claude Code</span>
-        <p>{summary}</p>
-        {importance && (
+      <div class="report-summary" data-view="claude" data-has-codex={hasCodex ? 'true' : 'false'}>
+        {hasCodex && (
+          <div class="review-toggle" role="tablist" aria-label="レビュー切替">
+            <button
+              class="review-toggle-btn is-active"
+              role="tab"
+              aria-selected="true"
+              data-view-target="claude"
+              type="button"
+            >
+              <ChannelLogo id="claude-anthropic" size={12} />
+              <span>Summary<span class="review-toggle-suffix"> by Claude Code</span></span>
+            </button>
+            <button
+              class="review-toggle-btn"
+              role="tab"
+              aria-selected="false"
+              data-view-target="codex"
+              type="button"
+            >
+              <ChannelLogo id="codex-openai" size={12} />
+              <span>Review<span class="review-toggle-suffix"> by Codex</span></span>
+            </button>
+            <span class="review-toggle-pill" aria-hidden="true"></span>
+          </div>
+        )}
+
+        {!hasCodex && (
+          <span class="report-summary-title">
+            <ChannelLogo id="claude-anthropic" size={14} /> Summary by Claude Code
+          </span>
+        )}
+
+        <div class="review-panes">
+          <p class="review-pane review-pane-claude" data-view="claude">{summary}</p>
+          {hasCodex && (
+            <p class="review-pane review-pane-codex" data-view="codex" aria-hidden="true">{codexReview}</p>
+          )}
+        </div>
+
+        {(importance || codexImportance) && (
           <div class="report-importance">
             <span class="report-importance-label">注目度</span>
-            <span class="stars" aria-label={`${importance}/5`}>
-              {Array.from({ length: 5 }).map((_, i) => (
-                <span class={i < importance ? 'star filled' : 'star'} aria-hidden="true">★</span>
-              ))}
-            </span>
+            {importance && (
+              <span class="stars review-pane" data-view="claude" aria-label={`${importance}/5`}>
+                {Array.from({ length: 5 }).map((_, i) => (
+                  <span class={i < importance ? 'star filled' : 'star'} aria-hidden="true">★</span>
+                ))}
+              </span>
+            )}
+            {hasCodex && codexImportance && (
+              <span class="stars review-pane" data-view="codex" aria-label={`${codexImportance}/5`} aria-hidden="true">
+                {Array.from({ length: 5 }).map((_, i) => (
+                  <span class={i < codexImportance ? 'star filled' : 'star'} aria-hidden="true">★</span>
+                ))}
+              </span>
+            )}
           </div>
         )}
       </div>
@@ -68,6 +117,30 @@ const description = summary ?? `${channel}の${dateStr}のAIトレンドレポ�
 </Base>
 
 <script>
+  // Summary (Claude) / Review (Codex) toggle
+  const summaryBox = document.querySelector<HTMLElement>('.report-summary[data-has-codex="true"]');
+  if (summaryBox) {
+    const root = document.documentElement;
+    const buttons = summaryBox.querySelectorAll<HTMLButtonElement>('.review-toggle-btn');
+    const setView = (view: 'claude' | 'codex') => {
+      summaryBox.dataset.view = view;
+      root.dataset.reviewSource = view;
+      buttons.forEach((b) => {
+        const isActive = b.dataset.viewTarget === view;
+        b.classList.toggle('is-active', isActive);
+        b.setAttribute('aria-selected', isActive ? 'true' : 'false');
+      });
+      summaryBox.querySelectorAll<HTMLElement>('.review-pane').forEach((el) => {
+        el.setAttribute('aria-hidden', el.dataset.view === view ? 'false' : 'true');
+      });
+    };
+    buttons.forEach((b) => {
+      b.addEventListener('click', () => setView(b.dataset.viewTarget as 'claude' | 'codex'));
+    });
+    // Initial: Claude
+    root.dataset.reviewSource = 'claude';
+  }
+
   document.querySelectorAll<HTMLButtonElement>('.share-btn-copy').forEach((btn) => {
     btn.addEventListener('click', async () => {
       const url = btn.dataset.url;
