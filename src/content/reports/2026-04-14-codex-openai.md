@@ -8,7 +8,7 @@ date: 2026-04-14
 features:
   - "Cloudflare Agent Cloud with OpenAI"
   - "Codex CLI v0.121.0-alpha"
-codex_review: "Cloudflare統合は、モデル競争より配備基盤の主導権争いが本格化してきた感じがあって面白い。一方でCLIの連続alphaは熱量の割にまだ業界全体を動かす段階ではなく、地味に効くのは実装知見の蓄積だと思う。 ※ このレビューは後日生成されました"
+codex_review: "Cloudflare統合は、モデル競争より配備基盤の主導権争いが本格化してきた感じがあって面白い。一方でCLIの連続alphaは熱量の割にまだ業界全体を動かす段階ではなく、地味に効くのは実装知見の蓄積だと思う。"
 codex_importance: 4
 ---
 

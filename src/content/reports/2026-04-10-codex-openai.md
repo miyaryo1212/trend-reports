@@ -9,7 +9,7 @@ features:
   - "The next phase of enterprise AI"
   - "Child Safety Blueprint"
   - "Codex CLI v0.119.0-alpha.28"
-codex_review: "Codex CLIの刻みの細かい更新自体は地味だが、従量課金やenterprise文脈と並ぶとOpenAIが開発者導線を本気で詰め始めた気配がある。Child Safety Blueprintは意義は大きい一方、業界標準化まで行くにはまだ粗さも残る。 ※ このレビューは後日生成されました"
+codex_review: "Codex CLIの刻みの細かい更新自体は地味だが、従量課金やenterprise文脈と並ぶとOpenAIが開発者導線を本気で詰め始めた気配がある。Child Safety Blueprintは意義は大きい一方、業界標準化まで行くにはまだ粗さも残る。"
 codex_importance: 3
 ---
 

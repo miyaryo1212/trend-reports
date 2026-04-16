@@ -12,7 +12,7 @@ features:
   - "OpenAI Foundation 10億ドル投資計画"
   - "ChatGPTショッピング機能 (Agentic Commerce Protocol)"
   - "Codex CLI 0.117.0-alpha連続リリース"
-codex_review: "安全性の制度化と商用拡張を同じ週報の中で並走させるあたりに、OpenAIの強さと落ち着かなさが同居している。派手なのはショッピング機能だが、実は地味に効くのはModel Spec公開とBug Bountyの運用面だと思う。 ※ このレビューは後日生成されました"
+codex_review: "安全性の制度化と商用拡張を同じ週報の中で並走させるあたりに、OpenAIの強さと落ち着かなさが同居している。派手なのはショッピング機能だが、実は地味に効くのはModel Spec公開とBug Bountyの運用面だと思う。"
 codex_importance: 4
 ---
 

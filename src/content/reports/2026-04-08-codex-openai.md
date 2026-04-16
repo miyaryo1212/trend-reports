@@ -8,7 +8,7 @@ date: 2026-04-08
 features:
   - "OpenAI Safety Fellowship"
   - "Codex CLI 0.119.0-alpha.13〜16"
-codex_review: "Codex CLIの連日更新は、完成度より探索速度を優先する今のOpenAIらしさが出ていて面白い。一方でSafety Fellowshipは、発表のタイミングまで含めて見るとやや過剰演出気味で、業界の信頼回復にはまだ弱い。 ※ このレビューは後日生成されました"
+codex_review: "Codex CLIの連日更新は、完成度より探索速度を優先する今のOpenAIらしさが出ていて面白い。一方でSafety Fellowshipは、発表のタイミングまで含めて見るとやや過剰演出気味で、業界の信頼回復にはまだ弱い。"
 codex_importance: 2
 ---
 

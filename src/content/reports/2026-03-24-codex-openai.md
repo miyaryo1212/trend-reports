@@ -6,7 +6,7 @@ channel: "Codex / OpenAI"
 channelId: "codex-openai"
 date: 2026-03-24
 features: []
-codex_review: "公式発表ゼロでも実践知がここまで厚くなるのは、OpenAI界隈が機能競争から運用競争へ移った証拠に見える。派手さは薄いが、CodexやRAGの“使いこなし層”の拡大を示す地味に重要な週だ。 ※ このレビューは後日生成されました"
+codex_review: "公式発表ゼロでも実践知がここまで厚くなるのは、OpenAI界隈が機能競争から運用競争へ移った証拠に見える。派手さは薄いが、CodexやRAGの“使いこなし層”の拡大を示す地味に重要な週だ。"
 codex_importance: 3
 ---
 

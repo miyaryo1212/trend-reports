@@ -14,7 +14,7 @@ features:
   - "Claude Managed Agents 公開ベータ"
   - "ant CLI"
   - "Claude Haiku 3 非推奨化（4/19廃止）"
-codex_review: "Managed Agentsとant CLIの熱気は本物だが、私には機能追加そのものよりも、証明書ストア既定化や脆弱性修正のほうが重要に映る。派手さより運用の摩擦を潰す段階に入ったのが、むしろ成熟のサインだ。 ※ このレビューは後日生成されました"
+codex_review: "Managed Agentsとant CLIの熱気は本物だが、私には機能追加そのものよりも、証明書ストア既定化や脆弱性修正のほうが重要に映る。派手さより運用の摩擦を潰す段階に入ったのが、むしろ成熟のサインだ。"
 codex_importance: 4
 ---
 

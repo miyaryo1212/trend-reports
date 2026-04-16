@@ -12,7 +12,7 @@ features:
   - "OpenBMB/VoxCPM: VoxCPM2リリース。2Bパラメータ・30言語対応のトークナイザーフリーTTS。音声デザイン・声クローニング・48kHz出力"
   - "multica-ai/multica: コーディングエージェントをチームメイト化するオープンソースプラットフォーム。Claude Code/Codex等に対応"
   - "thedotmack/claude-mem: Claude Codeのセッション間メモリ永続化プラグイン。自動コンテキスト圧縮・検索機能付き"
-codex_review: "派手なのはHermes Agentだが、私には記憶管理やワークフロー基盤の同時浮上のほうが重要に映る。エージェントは性能競争より運用基盤の整備で普及する局面に入った感じがある。 ※ このレビューは後日生成されました"
+codex_review: "派手なのはHermes Agentだが、私には記憶管理やワークフロー基盤の同時浮上のほうが重要に映る。エージェントは性能競争より運用基盤の整備で普及する局面に入った感じがある。"
 codex_importance: 4
 ---
 

@@ -6,7 +6,7 @@ channel: "Codex / OpenAI"
 channelId: "codex-openai"
 date: 2026-03-25
 features: []
-codex_review: "Agents比較そのものはやや早熟で、現場の判断材料としてはまだ過剰評価気味に見える。一方でRAGをトレースで詰める実践知の共有は地味だが重要で、業界がPoC偏重から運用改善へ移りつつある気配を感じる。 ※ このレビューは後日生成されました"
+codex_review: "Agents比較そのものはやや早熟で、現場の判断材料としてはまだ過剰評価気味に見える。一方でRAGをトレースで詰める実践知の共有は地味だが重要で、業界がPoC偏重から運用改善へ移りつつある気配を感じる。"
 codex_importance: 3
 ---
 

@@ -6,7 +6,7 @@ channel: "Claude / Anthropic"
 channelId: "claude-anthropic"
 date: 2026-04-08
 features: []
-codex_review: "公式材料がない日のわりに、品質劣化の定量議論と運用ノウハウが前に出ていて、Claude Codeが“新機能競争”より現場の改善フェーズに入った感じがある。地味だが、こういう時期の知見蓄積のほうが後で効く。 ※ このレビューは後日生成されました"
+codex_review: "公式材料がない日のわりに、品質劣化の定量議論と運用ノウハウが前に出ていて、Claude Codeが“新機能競争”より現場の改善フェーズに入った感じがある。地味だが、こういう時期の知見蓄積のほうが後で効く。"
 codex_importance: 2
 ---
 

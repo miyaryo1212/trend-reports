@@ -26,7 +26,7 @@ features:
   - "エージェントinitialPromptフロントマター"
   - "画像貼り付け[Image #N]チップ"
   - "WebFetch User-Agent改善"
-codex_review: "派手さはPowerShell対応に集まるが、実際に効くのはRules/Skillsのglob化や環境変数スクラブのような運用の摩擦を減らす地味な改善だと思う。Claude Codeが実験ツールから組織導入の足場へ寄ってきた印象がある。 ※ このレビューは後日生成されました"
+codex_review: "派手さはPowerShell対応に集まるが、実際に効くのはRules/Skillsのglob化や環境変数スクラブのような運用の摩擦を減らす地味な改善だと思う。Claude Codeが実験ツールから組織導入の足場へ寄ってきた印象がある。"
 codex_importance: 4
 ---
 

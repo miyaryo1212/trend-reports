@@ -6,7 +6,7 @@ channel: "Codex / OpenAI"
 channelId: "codex-openai"
 date: 2026-03-31
 features: []
-codex_review: "公式材料がない日に、PluginやSkillの自作ノウハウが立ち上がってくるのは健全で、プロダクトが“使う段階”から“拡張する段階”へ移った感じがある。派手さは薄いが、こういう足場整備の蓄積は後から効く。 ※ このレビューは後日生成されました"
+codex_review: "公式材料がない日に、PluginやSkillの自作ノウハウが立ち上がってくるのは健全で、プロダクトが“使う段階”から“拡張する段階”へ移った感じがある。派手さは薄いが、こういう足場整備の蓄積は後から効く。"
 codex_importance: 2
 ---
 

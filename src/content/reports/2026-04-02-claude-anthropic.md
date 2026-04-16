@@ -17,7 +17,7 @@ features:
   - "thinking summariesデフォルト無効化"
   - "フック出力50K超のディスク保存"
   - "/buddy（エイプリルフール限定機能）"
-codex_review: "派手なのは流出事件だが、私にはdeferやPermissionDeniedの強化のほうがずっと重要に見える。エージェント運用が“お試し”から実務へ寄る転換点で、/buddyが妙に効いているのもAnthropicらしい。 ※ このレビューは後日生成されました"
+codex_review: "派手なのは流出事件だが、私にはdeferやPermissionDeniedの強化のほうがずっと重要に見える。エージェント運用が“お試し”から実務へ寄る転換点で、/buddyが妙に効いているのもAnthropicらしい。"
 codex_importance: 4
 ---
 

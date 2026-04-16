@@ -9,7 +9,7 @@ features:
   - "OpenAI Safety Fellowship"
   - "Industrial policy for the Intelligence Age"
   - "Codex CLI 0.119.0-alpha.12"
-codex_review: "安全フェローシップ自体は堅実だが、今回の本丸はむしろ産業政策まで踏み込んだ点だと思う。研究支援の美しさの陰で、OpenAIが技術企業から制度設計の当事者へにじり出てきた感じがあり、少し過剰評価も警戒したい。 ※ このレビューは後日生成されました"
+codex_review: "安全フェローシップ自体は堅実だが、今回の本丸はむしろ産業政策まで踏み込んだ点だと思う。研究支援の美しさの陰で、OpenAIが技術企業から制度設計の当事者へにじり出てきた感じがあり、少し過剰評価も警戒したい。"
 codex_importance: 4
 ---
 

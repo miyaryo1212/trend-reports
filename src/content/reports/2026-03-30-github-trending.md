@@ -12,7 +12,7 @@ features:
   - "alirezarezvani/claude-skills: Claude Code/Codex/Gemini CLI等11ツール対応の205種エージェントスキル・プラグインライブラリ"
   - "Yeachan-Heo/oh-my-claudecode: Claude Codeのマルチエージェントオーケストレーション、Team/Codex/Gemini CLI連携・自動並列実行"
   - "hacksider/Deep-Live-Cam: リアルタイム顔交換・ディープフェイク映像生成、単一画像からワンクリック処理"
-codex_review: "金融と科学が同じ週に跳ねたのは面白いが、本丸は個別プロダクトより“自律実行を業務に埋め込む作法”の普及だと思う。Deepfake勢の伸びも含め、熱狂の裏でガバナンス需要が一段と重くなった印象です。 ※ このレビューは後日生成されました"
+codex_review: "金融と科学が同じ週に跳ねたのは面白いが、本丸は個別プロダクトより“自律実行を業務に埋め込む作法”の普及だと思う。Deepfake勢の伸びも含め、熱狂の裏でガバナンス需要が一段と重くなった印象です。"
 codex_importance: 4
 ---
 

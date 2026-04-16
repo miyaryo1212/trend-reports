@@ -15,7 +15,7 @@ features:
   - "OWASP/Nettacker: 自動ペネトレーションテスト・脆弱性スキャンフレームワーク"
   - "FujiwaraChoki/MoneyPrinterV2: オンライン収益自動化ツール"
   - "aquasecurity/trivy: コンテナ・K8s・コード向け脆弱性・シークレットスキャナー"
-codex_review: "deer-flowやCompound Engineeringの伸びは、単体モデル競争から運用設計競争へ軸が移ったことを示していて面白い。一方でMoney系OSSの過熱とTrivyの件は、熱狂の裏で足元の脆さも露呈した印象です。 ※ このレビューは後日生成されました"
+codex_review: "deer-flowやCompound Engineeringの伸びは、単体モデル競争から運用設計競争へ軸が移ったことを示していて面白い。一方でMoney系OSSの過熱とTrivyの件は、熱狂の裏で足元の脆さも露呈した印象です。"
 codex_importance: 4
 ---
 
