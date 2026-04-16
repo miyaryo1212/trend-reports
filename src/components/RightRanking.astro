@@ -13,9 +13,18 @@ const aiItems = (ranking.items as RankingItem[])
 
 const hasAI = aiItems.length > 0;
 
-const periodEndDate = new Date();
-const periodStartDate = new Date(periodEndDate);
-periodStartDate.setDate(periodEndDate.getDate() - 27);
+// Period window in JST calendar days. Build server is UTC on Cloudflare
+// Pages, so compute today in Asia/Tokyo explicitly and use midnight-UTC
+// Date objects (which is how frontmatter dates are stored).
+const jstDateFormatter = new Intl.DateTimeFormat('en-CA', {
+  timeZone: 'Asia/Tokyo',
+  year: 'numeric',
+  month: '2-digit',
+  day: '2-digit',
+});
+const [jstY, jstM, jstD] = jstDateFormatter.format(new Date()).split('-').map(Number);
+const periodEndDate = new Date(Date.UTC(jstY, jstM - 1, jstD));
+const periodStartDate = new Date(Date.UTC(jstY, jstM - 1, jstD - 27));
 
 const fallbackRanked = reports
   .slice()

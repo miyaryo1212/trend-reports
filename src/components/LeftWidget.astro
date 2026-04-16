@@ -2,69 +2,104 @@
 import { getCollection } from 'astro:content';
 
 const reports = await getCollection('reports');
-const pubDates = new Set(
+const pubDates = [...new Set(
   reports.map((r) => r.data.date.toISOString().slice(0, 10))
-);
-
-const today = new Date();
-const year = today.getFullYear();
-const month = today.getMonth();
-const todayStr = today.toISOString().slice(0, 10);
-
-const firstDayOfWeek = new Date(year, month, 1).getDay();
-const daysInMonth = new Date(year, month + 1, 0).getDate();
-
-const cells: Array<{ day: number | null; dateStr: string; isToday: boolean; hasReport: boolean }> = [];
-for (let i = 0; i < firstDayOfWeek; i++) {
-  cells.push({ day: null, dateStr: '', isToday: false, hasReport: false });
-}
-for (let d = 1; d <= daysInMonth; d++) {
-  const dateStr = `${year}-${String(month + 1).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
-  cells.push({
-    day: d,
-    dateStr,
-    isToday: dateStr === todayStr,
-    hasReport: pubDates.has(dateStr),
-  });
-}
-
-const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-const weekdayLong = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-const weekdayShort = ['S', 'M', 'T', 'W', 'T', 'F', 'S'];
-
-const monthName = monthNames[month];
-const dayOfMonth = today.getDate();
-const weekday = weekdayLong[today.getDay()];
-
-const reportDaysThisMonth = cells.filter((c) => c.hasReport).length;
-const calendarSummary = `${monthName} ${year}: ${daysInMonth}日中${reportDaysThisMonth}日でレポート公開`;
+)];
 ---
 
-<aside class="left-widget">
+<aside class="left-widget" data-pub-dates={JSON.stringify(pubDates)}>
   <div class="date-block" aria-hidden="true">
-    <div class="date-year">{year}</div>
+    <div class="date-year"></div>
     <div class="date-main">
-      <span class="date-month">{monthName}</span>
-      <span class="date-day">{String(dayOfMonth).padStart(2, '0')}</span>
+      <span class="date-month"></span>
+      <span class="date-day"></span>
     </div>
-    <div class="date-weekday">{weekday}</div>
+    <div class="date-weekday"></div>
   </div>
 
-  <div class="mini-calendar" role="img" aria-label={calendarSummary}>
-    <div class="cal-header" aria-hidden="true">{monthName} {year}</div>
+  <div class="mini-calendar" role="img" aria-label="">
+    <div class="cal-header" aria-hidden="true"></div>
     <div class="cal-weekdays" aria-hidden="true">
-      {weekdayShort.map((w) => <span>{w}</span>)}
+      <span>S</span><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span>
     </div>
-    <div class="cal-grid" aria-hidden="true">
-      {cells.map((cell) => (
-        <span class:list={['cal-cell', cell.isToday && 'is-today', cell.hasReport && 'has-report']}>
-          {cell.day ?? ''}
-        </span>
-      ))}
-    </div>
+    <div class="cal-grid" aria-hidden="true"></div>
     <div class="cal-legend" aria-hidden="true">
       <span class="legend-dot"></span>
       <span class="legend-text">Claude run</span>
     </div>
   </div>
 </aside>
+
+<script>
+  const widget = document.querySelector<HTMLElement>('.left-widget');
+  if (widget) {
+    const pubDates = new Set<string>(JSON.parse(widget.dataset.pubDates || '[]'));
+
+    const monthNames = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+    const weekdayLong = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+    const pad = (n: number) => String(n).padStart(2, '0');
+
+    const now = new Date();
+    const year = now.getFullYear();
+    const month = now.getMonth();
+    const dayOfMonth = now.getDate();
+    const monthName = monthNames[month];
+    const weekday = weekdayLong[now.getDay()];
+    const todayStr = `${year}-${pad(month + 1)}-${pad(dayOfMonth)}`;
+
+    const firstDayOfWeek = new Date(year, month, 1).getDay();
+    const daysInMonth = new Date(year, month + 1, 0).getDate();
+
+    // Date block
+    const dateYear = widget.querySelector('.date-year');
+    const dateMonth = widget.querySelector('.date-month');
+    const dateDay = widget.querySelector('.date-day');
+    const dateWeekday = widget.querySelector('.date-weekday');
+    if (dateYear) dateYear.textContent = String(year);
+    if (dateMonth) dateMonth.textContent = monthName;
+    if (dateDay) dateDay.textContent = pad(dayOfMonth);
+    if (dateWeekday) dateWeekday.textContent = weekday;
+
+    // Calendar header
+    const calHeader = widget.querySelector('.cal-header');
+    if (calHeader) calHeader.textContent = `${monthName} ${year}`;
+
+    // Calendar grid
+    const grid = widget.querySelector('.cal-grid');
+    if (grid) {
+      let reportDays = 0;
+      const fragment = document.createDocumentFragment();
+
+      for (let i = 0; i < firstDayOfWeek; i++) {
+        const blank = document.createElement('span');
+        blank.className = 'cal-cell';
+        fragment.appendChild(blank);
+      }
+
+      for (let d = 1; d <= daysInMonth; d++) {
+        const dateStr = `${year}-${pad(month + 1)}-${pad(d)}`;
+        const isToday = dateStr === todayStr;
+        const hasReport = pubDates.has(dateStr);
+        if (hasReport) reportDays++;
+
+        const cell = document.createElement('span');
+        const classes = ['cal-cell'];
+        if (isToday) classes.push('is-today');
+        if (hasReport) classes.push('has-report');
+        cell.className = classes.join(' ');
+        cell.textContent = String(d);
+        fragment.appendChild(cell);
+      }
+
+      grid.innerHTML = '';
+      grid.appendChild(fragment);
+
+      // aria-label summary
+      const calendar = widget.querySelector('.mini-calendar');
+      if (calendar) {
+        calendar.setAttribute('aria-label',
+          `${monthName} ${year}: ${daysInMonth}日中${reportDays}日でレポート公開`);
+      }
+    }
+  }
+</script>
