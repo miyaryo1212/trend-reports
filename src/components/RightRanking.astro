@@ -6,7 +6,7 @@ import ChannelLogo from './ChannelLogo.astro';
 const reports = await getCollection('reports');
 const reportMap = new Map(reports.map((r) => [r.id, r]));
 
-type RankingItem = { rank: number; slug: string; reason: string };
+type RankingItem = { rank: number; slug: string; reason: string; previous_rank?: number | null };
 const aiItems = (ranking.items as RankingItem[])
   .map((item) => ({ item, report: reportMap.get(item.slug) }))
   .filter((x): x is { item: RankingItem; report: (typeof reports)[number] } => !!x.report);
@@ -37,8 +37,18 @@ const fallbackRanked = reports
   .slice(0, 5);
 
 const displayItems = hasAI
-  ? aiItems.map(({ item, report }) => ({ report, reason: item.reason, rank: item.rank }))
-  : fallbackRanked.map((report, i) => ({ report, reason: '', rank: i + 1 }));
+  ? aiItems.map(({ item, report }) => ({
+      report,
+      reason: item.reason,
+      rank: item.rank,
+      previousRank: item.previous_rank ?? null,
+    }))
+  : fallbackRanked.map((report, i) => ({
+      report,
+      reason: '',
+      rank: i + 1,
+      previousRank: null,
+    }));
 ---
 
 <aside class="right-ranking" aria-label="注目レポート">
@@ -50,12 +60,34 @@ const displayItems = hasAI
   </div>
   <div class="ranking-sub">直近4週間 Top {displayItems.length}</div>
   <ol class="ranking-list">
-    {displayItems.map(({ report, reason, rank }) => {
+    {displayItems.map(({ report, reason, rank, previousRank }) => {
       const dateStr = report.data.date.toISOString().slice(0, 10);
+      const delta = previousRank != null ? previousRank - rank : null;
+      const deltaKind = delta == null ? 'up' : delta > 0 ? 'up' : delta < 0 ? 'down' : 'same';
+      const deltaLabel = delta == null
+        ? '新規ランクイン'
+        : delta > 0
+          ? `前回から${delta}位上昇`
+          : delta < 0
+            ? `前回から${-delta}位下落`
+            : '順位変動なし';
       return (
         <li data-date={dateStr}>
           <a href={`/reports/${report.id}/`}>
-            <span class="ranking-rank">{rank}</span>
+            <div class="ranking-rank-col">
+              <span class="ranking-rank">{rank}</span>
+              <span class={`rank-delta rank-${deltaKind}`} aria-label={deltaLabel}>
+                {deltaKind === 'up' && (
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="14" height="14" aria-hidden="true"><path d="M12 4l8 10h-6v6h-4v-6H4z"/></svg>
+                )}
+                {deltaKind === 'down' && (
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="14" height="14" aria-hidden="true"><path d="M12 20L4 10h6V4h4v6h6z"/></svg>
+                )}
+                {deltaKind === 'same' && (
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="14" height="14" aria-hidden="true"><path d="M4 10h10V4l6 8-6 8v-6H4z"/></svg>
+                )}
+              </span>
+            </div>
             <div class="ranking-body">
               <div class="ranking-meta">
                 <span class="channel-badge">
