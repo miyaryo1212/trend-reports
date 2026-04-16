@@ -93,7 +93,10 @@ const channels = channelOrder.filter(ch =>
                 </span>
               )}
               <a href={`/reports/${report.id}/`}>{report.data.title}</a>
-              <span class="date">{dateStr}</span>
+              <span class="date">
+                <span class="new-badge" hidden>NEW</span>
+                {dateStr}
+              </span>
             </li>
           );
         })}

@@ -71,6 +71,19 @@ const metaDescription = description ?? 'AIトレンドの最新情報をお届�
     try { localStorage.setItem('theme', next); } catch (_) {}
   });
 </script>
+<script>
+  // Mark today's items for NEW badge (JST calendar day)
+  const todayJst = new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'Asia/Tokyo',
+    year: 'numeric', month: '2-digit', day: '2-digit',
+  }).format(new Date());
+  document.querySelectorAll<HTMLElement>('[data-date]').forEach((el) => {
+    if (el.dataset.date === todayJst) {
+      el.classList.add('is-new');
+      el.querySelectorAll<HTMLElement>('.new-badge').forEach((b) => b.removeAttribute('hidden'));
+    }
+  });
+</script>
 <body>
   <div class="layout">
     <LeftWidget />

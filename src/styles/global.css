@@ -936,6 +936,28 @@ footer {
   grid-column: 3;
   grid-row: 1;
   text-align: right;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  justify-content: flex-end;
+}
+
+/* Today-only "NEW" badge, shown by client JS based on viewer's JST date */
+.new-badge {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  padding: 0.08rem 0.4rem;
+  border-radius: 3px;
+  background: rgba(var(--brand-rgb), 0.14);
+  color: var(--brand);
+  line-height: 1.4;
+}
+
+.new-badge[hidden] {
+  display: none;
 }
 
 /* Importance badge (index page) */

@@ -53,7 +53,7 @@ const displayItems = hasAI
     {displayItems.map(({ report, reason, rank }) => {
       const dateStr = report.data.date.toISOString().slice(0, 10);
       return (
-        <li>
+        <li data-date={dateStr}>
           <a href={`/reports/${report.id}/`}>
             <span class="ranking-rank">{rank}</span>
             <div class="ranking-body">
@@ -67,6 +67,7 @@ const displayItems = hasAI
                     <span aria-hidden="true">{'★'.repeat(report.data.importance)}</span>
                   </span>
                 )}
+                <span class="new-badge" hidden>NEW</span>
               </div>
               <div class="ranking-title-text">{report.data.title}</div>
               {reason && <div class="ranking-reason">{reason}</div>}
