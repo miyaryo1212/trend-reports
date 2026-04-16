@@ -425,6 +425,12 @@ button:focus-visible {
   gap: 0.3rem;
 }
 
+@media (max-width: 640px) {
+  .site-nav-label {
+    display: none;
+  }
+}
+
 .site-nav a:hover {
   color: var(--fg);
 }
