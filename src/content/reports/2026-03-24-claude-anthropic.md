@@ -9,6 +9,8 @@ features:
   - "--bare フラグ"
   - "Channels (Discord/Telegram連携)"
   - "rate_limits フィールド"
+codex_review: "派手さは薄いが、--bareと権限リレーはClaude Codeを“デモ映えする玩具”から運用に耐える道具へ寄せる更新に見える。Channelsは面白い一方、並列化で人間側の認知負荷も増やしそうで、まだ過渡期だ。 ※ このレビューは後日生成されました"
+codex_importance: 3
 ---
 
 ## 公式アップデート

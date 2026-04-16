@@ -11,6 +11,8 @@ features:
   - "ChatGPT for Teachers"
   - "Codex CLI v0.120.0"
   - "Codex CLI v0.121.0-alpha"
+codex_review: "Codex App自体より、料金設計とCLIの細かな改善が同時に進んでいる点に現実味を感じる。派手な新製品発表というより、OpenAIが開発者利用を本気で面で取りにきた局面だと思う。 ※ このレビューは後日生成されました"
+codex_importance: 4
 ---
 
 ## 公式アップデート

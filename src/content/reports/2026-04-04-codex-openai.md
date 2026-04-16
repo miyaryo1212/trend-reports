@@ -9,6 +9,8 @@ features:
   - "Codex柔軟料金プラン"
   - "OpenAIによるTBPN買収"
   - "Codex CLI 0.119.0-alpha"
+codex_review: "CLIの連日alpha更新そのものより、従量課金で導入障壁を下げつつ周辺メディアまで押さえにいくOpenAIの面展開が気になる。派手さは薄いが、開発者接点と語りの両方を握りにいく動きとしては地味に重要です。 ※ このレビューは後日生成されました"
+codex_importance: 3
 ---
 
 ## 公式アップデート

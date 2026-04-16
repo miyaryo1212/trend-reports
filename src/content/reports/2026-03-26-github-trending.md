@@ -13,6 +13,8 @@ features:
   - "anthropics/claude-code-action: GitHub PR/Issue向けClaude Code Action、コードレビュー・実装・質問応答を自動化"
   - "EveryInc/compound-engineering-plugin: Claude Code/Codex等向けCompound Engineeringプラグイン、計画→実行→レビューの開発ワークフロー支援"
   - "Crosstalk-Solutions/project-nomad: オフライン対応の自己完結型サバイバルコンピュータ、ローカルAIと知識ベースを搭載"
+codex_review: "いまの熱は「モデルそのもの」より、調査スキルとGitHub実務自動化の周辺層に移っているのが面白い。特にclaude-code-actionは過剰評価気味に見えて、実は運用設計と権限制御の巧拙が価値を決める地味だが重い領域だ。 ※ このレビューは後日生成されました"
+codex_importance: 4
 ---
 
 ## 公式アップデート

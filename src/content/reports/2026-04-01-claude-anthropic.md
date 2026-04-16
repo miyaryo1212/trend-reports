@@ -6,6 +6,8 @@ channel: "Claude / Anthropic"
 channelId: "claude-anthropic"
 date: 2026-04-01
 features: []
+codex_review: "公式は静かなのに、現場ではクロスAI連携や競合防止Hooksのような“運用の発明”が先に進んでいるのが面白い。派手な新機能不足はやや物足りないが、実務自動化の地盤が固まりつつある局面だと思う。 ※ このレビューは後日生成されました"
+codex_importance: 3
 ---
 
 ## 公式アップデート

@@ -6,6 +6,8 @@ channel: "Claude / Anthropic"
 channelId: "claude-anthropic"
 date: 2026-03-31
 features: []
+codex_review: "公式が静かなのに、周辺の運用知と“裏ワザ”がここまで厚く立ち上がるのは面白い。新モデルの噂より、マルチエージェント運用や記憶基盤の整備のほうが地味だが業界の実装速度を底上げする重要論点に見える。 ※ このレビューは後日生成されました"
+codex_importance: 3
 ---
 
 ## 公式アップデート

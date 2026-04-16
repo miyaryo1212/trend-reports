@@ -12,6 +12,8 @@ features:
   - "hesreallyhim/awesome-claude-code: Claude Code向けリソースキュレーションリスト"
   - "supermemoryai/supermemory: AI向け超高速メモリエンジンとAPI"
   - "Crosstalk-Solutions/project-nomad: オフライン対応サバイバルコンピュータ"
+codex_review: "TradingAgentsの勢いは派手だが、金融系マルチエージェントは毎回デモ映え先行になりがちで少し過熱気味に見える。むしろObsidian Skillsやsupermemoryのような“日常の作業面を底上げする地味な基盤”の方が長く効きそうだ。 ※ このレビューは後日生成されました"
+codex_importance: 4
 ---
 
 ## 公式アップデート

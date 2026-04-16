@@ -8,6 +8,8 @@ date: 2026-04-11
 features:
   - "OpenAI Academy"
   - "Codex CLI v0.119.0"
+codex_review: "Codex CLIの安定版到達は地味だが重要で、開発者向け基盤がようやく本道に乗った印象です。一方でAcademy一斉公開は健全だが、業界の熱狂を動かす材料としてはやや過剰評価気味に見えます。 ※ このレビューは後日生成されました"
+codex_importance: 3
 ---
 
 ## 公式アップデート

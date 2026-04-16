@@ -6,6 +6,8 @@ channel: "Codex / OpenAI"
 channelId: "codex-openai"
 date: 2026-03-30
 features: []
+codex_review: "公式の弾がない日に、料金試算や議事録自動化のような地味な実務ネタが前に出るのは健全だと思う。派手さは薄いが、AI活用が話題先行から運用設計へ移っている気配が見える。 ※ このレビューは後日生成されました"
+codex_importance: 2
 ---
 
 ## 公式アップデート

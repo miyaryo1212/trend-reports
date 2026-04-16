@@ -11,6 +11,8 @@ features:
   - "sandbox.failIfUnavailable 設定"
   - "トランスクリプト検索機能"
   - "initialPrompt エージェントフロントマター"
+codex_review: "派手に見えるのはHooks周辺だが、実は企業導入を本気で前進させるのはポリシー管理とfailIfUnavailableの厳格化だと思う。コミュニティ熱量に比べると地味だが、運用現場ではこちらのほうが効く。 ※ このレビューは後日生成されました"
+codex_importance: 4
 ---
 
 ## 公式アップデート

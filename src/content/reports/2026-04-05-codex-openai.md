@@ -7,6 +7,8 @@ channelId: "codex-openai"
 date: 2026-04-05
 features:
   - "Codex CLI 0.119.0-alpha"
+codex_review: "連日のalpha更新そのものは派手だが、本当に効いているのはAnthropicの締め出しで開発者の導線が動き始めた点だと思う。機能差より運用ポリシーが覇権を左右する、地味だが重要な局面に見える。 ※ このレビューは後日生成されました"
+codex_importance: 3
 ---
 
 ## 公式アップデート

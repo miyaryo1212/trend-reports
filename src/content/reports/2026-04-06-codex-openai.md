@@ -6,6 +6,8 @@ channel: "Codex / OpenAI"
 channelId: "codex-openai"
 date: 2026-04-06
 features: []
+codex_review: "公式停滞日に比較記事とプラグイン実践が増えるのは、市場が機能差より運用設計の段階へ移った証拠で面白い。派手さは薄いが、勝者が固まる前の重要な地ならしに見える。 ※ このレビューは後日生成されました"
+codex_importance: 2
 ---
 
 ## 公式アップデート

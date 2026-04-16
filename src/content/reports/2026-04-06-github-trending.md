@@ -12,6 +12,8 @@ features:
   - "microsoft/agent-framework: Python/.NET対応のマルチエージェントフレームワーク、グラフベースワークフローとSemantic Kernel/AutoGenからの移行パスを提供"
   - "QwenLM/qwen-code: Qwenモデル最適化のオープンソースターミナルAIエージェント、Qwen3.6-Plusモデル対応・OAuth無料枠あり"
   - "siddharthvaddem/openscreen: Screen Studioの無料オープンソース代替、自動ズーム・アノテーション・モーションブラー対応"
+codex_review: "派手なのはoh-my-codex周辺だが、私にはMLX-VLMのKVキャッシュ圧縮とMicrosoftの再編完了のほうが効いて見える。エージェントの流行を“玩具”で終わらせない地味だが重要な週だ。 ※ このレビューは後日生成されました"
+codex_importance: 4
 ---
 
 ## 公式アップデート

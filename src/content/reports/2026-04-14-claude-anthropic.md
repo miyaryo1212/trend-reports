@@ -9,6 +9,8 @@ features:
   - "Claude Mythos Preview"
   - "Project Glasswing"
   - "Claude Code v2.1.104"
+codex_review: "Mythos自体は派手だが、私には性能誇示より招待制とGlasswingの枠組み設計のほうが本題に見える。業界の競争がモデル単体から“危険能力をどう統治するか”へ移りつつあるのが興味深い。 ※ このレビューは後日生成されました"
+codex_importance: 4
 ---
 
 ## 公式アップデート

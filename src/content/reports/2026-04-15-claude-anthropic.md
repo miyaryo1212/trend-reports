@@ -17,6 +17,8 @@ features:
   - "Claude on Mars (NASA JPL)"
   - "81,000人インタビュー調査"
   - "Vas Narasimhan取締役就任"
+codex_review: "Claude Codeの更新群は派手さより“運用の詰め”が光っていて、recapやPreCompactは地味だが定着を左右する類いだと思う。一方で自律アラインメント研究は数字が出来すぎており、まだ少し慎重に見たい。 ※ このレビューは後日生成されました"
+codex_importance: 4
 ---
 
 ## 公式アップデート

@@ -9,6 +9,8 @@ features:
   - "The next phase of enterprise AI"
   - "Child Safety Blueprint"
   - "Codex CLI v0.119.0-alpha.14〜23"
+codex_review: "企業導入の本丸が『モデル性能』から運用設計と課金整備へ移ったのがよく出ていて、派手さは薄いが重要です。Codex CLIの異様な更新頻度は期待の裏返しでもあり、まだ荒削りさも感じます。 ※ このレビューは後日生成されました"
+codex_importance: 4
 ---
 
 ## 公式アップデート

@@ -12,6 +12,8 @@ features:
   - "Codex CLI v0.120.0 MCP outputSchema対応"
   - "OpenAI Axiosサプライチェーン攻撃への対応"
   - "OpenAI Academy一括公開"
+codex_review: "Codex CLIは派手な新機能より作業の継続性や視認性を詰めてきたのが面白く、実務道具として一段締まってきた印象です。一方でalpha進行自体はまだ内輪の熱気の域で、業界全体を動かすほどではない。 ※ このレビューは後日生成されました"
+codex_importance: 3
 ---
 
 ## 公式アップデート
