@@ -120,11 +120,9 @@ const description = summary ?? `${channel}の${dateStr}のAIトレンドレポ�
   // Summary (Claude) / Review (Codex) toggle
   const summaryBox = document.querySelector<HTMLElement>('.report-summary[data-has-codex="true"]');
   if (summaryBox) {
-    const root = document.documentElement;
     const buttons = summaryBox.querySelectorAll<HTMLButtonElement>('.review-toggle-btn');
     const setView = (view: 'claude' | 'codex') => {
       summaryBox.dataset.view = view;
-      root.dataset.reviewSource = view;
       buttons.forEach((b) => {
         const isActive = b.dataset.viewTarget === view;
         b.classList.toggle('is-active', isActive);
@@ -137,8 +135,6 @@ const description = summary ?? `${channel}の${dateStr}のAIトレンドレポ�
     buttons.forEach((b) => {
       b.addEventListener('click', () => setView(b.dataset.viewTarget as 'claude' | 'codex'));
     });
-    // Initial: Claude
-    root.dataset.reviewSource = 'claude';
   }
 
   document.querySelectorAll<HTMLButtonElement>('.share-btn-copy').forEach((btn) => {

@@ -651,38 +651,22 @@ li {
   transition: border-color 0.35s ease, background-color 0.35s ease;
 }
 
-/* Claude (default) vs Codex theme colors.
-   The toggle sets data-review-source on :root so brand vars swap
-   across the whole page for the "fun" theme-swap effect. */
+/* Claude (default) vs Codex theme colors. Scoped to the summary box
+   only — flipping the toggle must NOT recolor the sidebar / site chrome. */
 :root {
   --brand-claude-rgb: 210, 118, 83;
   --brand-codex-rgb: 16, 163, 127;
 }
 
-:root[data-review-source="codex"] {
+.report-summary[data-view="codex"] {
   --brand-rgb: var(--brand-codex-rgb);
   --brand: rgb(var(--brand-codex-rgb));
 }
 
-/* Apply smooth color transitions to all brand-tinted elements */
-body,
 .report-summary,
-.report-summary-title,
-.report-importance-label,
-.star,
-.star.filled,
-.ranking-rank,
-.ranking-header,
-.ranking-stars,
-.ranking-reason,
-.cal-cell.is-today,
-.cal-cell.has-report::after,
-.cal-cell.is-today.has-report::after,
-.legend-dot,
-.new-badge,
-.share-btn-copy.is-copied,
-.channel-badge,
-.theme-toggle {
+.report-summary *,
+.report-summary *::before,
+.report-summary *::after {
   transition: color 0.35s ease, background-color 0.35s ease, border-color 0.35s ease;
 }
 
