@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-04-15T23:01:29Z",
-  "period_start": "2026-03-20",
-  "period_end": "2026-04-16",
+  "generated_at": "2026-04-16T23:01:10Z",
+  "period_start": "2026-03-21",
+  "period_end": "2026-04-17",
   "items": [
     {
       "rank": 1,
-      "slug": "2026-04-14-claude-anthropic",
-      "reason": "Mythos Preview＋Glasswing同時発表はAnthropicの戦略転換を象徴する一大ニュース",
-      "previous_rank": 2
+      "slug": "2026-04-17-ai-trends",
+      "reason": "Opus 4.7・GPT-5.3・Codex App同日発表、業界の節目を一望できる総合俯瞰",
+      "previous_rank": null
     },
     {
       "rank": 2,
-      "slug": "2026-04-16-claude-anthropic",
-      "reason": "Routines発表でClaude Codeが自律実行基盤へ進化、Opus 4.7リークも見逃せない",
+      "slug": "2026-04-17-claude-anthropic",
+      "reason": "Opus 4.7 GAとxhigh推論・/ultrareview登場、Claude Code活用者は必読",
       "previous_rank": null
     },
     {
       "rank": 3,
-      "slug": "2026-04-10-academia",
-      "reason": "推論崩壊の発見と単一GPU 100B訓練はLLM研究の前提を覆す重要知見",
-      "previous_rank": 3
+      "slug": "2026-04-17-codex-openai",
+      "reason": "GPT-Rosalindと従量課金プラン、OpenAIの科学・収益両戦略が見える",
+      "previous_rank": null
     },
     {
       "rank": 4,
-      "slug": "2026-04-01-ai-trends",
-      "reason": "OpenAI史上最大の資金調達とaxios攻撃が示す成長とリスクの二面性",
-      "previous_rank": 1
+      "slug": "2026-04-13-academia",
+      "reason": "SkillClawとClawBenchが高支持、エージェント進化と評価の最前線",
+      "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-04-13-github-trending",
-      "reason": "エージェント運用基盤が一斉台頭、AIコーディングのエコシステム成熟を実感できる",
-      "previous_rank": 4
+      "slug": "2026-04-02-ai-trends",
+      "reason": "Claude Codeソース流出とaxios攻撃、AI時代のサプライチェーン危機",
+      "previous_rank": null
     }
   ]
 }
