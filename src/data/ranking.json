@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-04-16T23:01:10Z",
-  "period_start": "2026-03-21",
-  "period_end": "2026-04-17",
+  "generated_at": "2026-04-17T23:01:15Z",
+  "period_start": "2026-03-22",
+  "period_end": "2026-04-18",
   "items": [
     {
       "rank": 1,
-      "slug": "2026-04-17-ai-trends",
-      "reason": "Opus 4.7・GPT-5.3・Codex App同日発表、業界の節目を一望できる総合俯瞰",
+      "slug": "2026-04-18-claude-anthropic",
+      "reason": "Opus 4.7正式版+Claude Design発表、Anthropicの最大級アップデート",
       "previous_rank": null
     },
     {
       "rank": 2,
-      "slug": "2026-04-17-claude-anthropic",
-      "reason": "Opus 4.7 GAとxhigh推論・/ultrareview登場、Claude Code活用者は必読",
-      "previous_rank": null
+      "slug": "2026-04-17-codex-openai",
+      "reason": "GPT-Rosalind発表で生命科学AI新時代、Codex Appも本格始動",
+      "previous_rank": 3
     },
     {
       "rank": 3,
-      "slug": "2026-04-17-codex-openai",
-      "reason": "GPT-Rosalindと従量課金プラン、OpenAIの科学・収益両戦略が見える",
+      "slug": "2026-04-14-claude-anthropic",
+      "reason": "Mythos Preview+Glasswing始動、安全性とフロンティア性能の両立宣言",
       "previous_rank": null
     },
     {
       "rank": 4,
-      "slug": "2026-04-13-academia",
-      "reason": "SkillClawとClawBenchが高支持、エージェント進化と評価の最前線",
+      "slug": "2026-04-16-claude-anthropic",
+      "reason": "Routines発表でエージェント自動化が実用段階に突入",
       "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-04-02-ai-trends",
-      "reason": "Claude Codeソース流出とaxios攻撃、AI時代のサプライチェーン危機",
+      "slug": "2026-04-10-academia",
+      "reason": "推論崩壊の発見と単一GPU100B訓練、基盤研究の転換点",
       "previous_rank": null
     }
   ]
