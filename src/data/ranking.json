@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-04-17T23:01:15Z",
-  "period_start": "2026-03-22",
-  "period_end": "2026-04-18",
+  "generated_at": "2026-04-18T23:01:06Z",
+  "period_start": "2026-03-23",
+  "period_end": "2026-04-19",
   "items": [
     {
       "rank": 1,
       "slug": "2026-04-18-claude-anthropic",
-      "reason": "Opus 4.7正式版+Claude Design発表、Anthropicの最大級アップデート",
-      "previous_rank": null
+      "reason": "Opus 4.7正式リリースとClaude Design発表、Anthropicの最大級アップデート",
+      "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-04-17-codex-openai",
-      "reason": "GPT-Rosalind発表で生命科学AI新時代、Codex Appも本格始動",
-      "previous_rank": 3
+      "reason": "GPT-Rosalind×Codex App×新価格体系、OpenAIの創薬・開発者戦略が一挙に具体化",
+      "previous_rank": 2
     },
     {
       "rank": 3,
       "slug": "2026-04-14-claude-anthropic",
-      "reason": "Mythos Preview+Glasswing始動、安全性とフロンティア性能の両立宣言",
-      "previous_rank": null
+      "reason": "Mythos Preview＋Glasswing始動、セキュリティ特化AIの新潮流を示す転換点",
+      "previous_rank": 3
     },
     {
       "rank": 4,
-      "slug": "2026-04-16-claude-anthropic",
-      "reason": "Routines発表でエージェント自動化が実用段階に突入",
+      "slug": "2026-04-14-academia",
+      "reason": "推論SFTの汎化限界を実証、LLM訓練の前提を揺るがす重要知見",
       "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-04-10-academia",
-      "reason": "推論崩壊の発見と単一GPU100B訓練、基盤研究の転換点",
+      "slug": "2026-04-02-ai-trends",
+      "reason": "Claude Codeソース流出が開発者倫理・OSS信頼の議論を再燃させた象徴的事件",
       "previous_rank": null
     }
   ]
