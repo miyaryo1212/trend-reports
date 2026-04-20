@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-04-19T23:01:24Z",
-  "period_start": "2026-03-24",
-  "period_end": "2026-04-20",
+  "generated_at": "2026-04-20T23:01:26Z",
+  "period_start": "2026-03-25",
+  "period_end": "2026-04-21",
   "items": [
     {
       "rank": 1,
       "slug": "2026-04-18-claude-anthropic",
-      "reason": "Opus 4.7のSWE-bench 87.6%達成とClaude Design発表、Anthropicの最重要リリース",
+      "reason": "Opus 4.7のSWE-bench 87.6%達成とClaude Design発表、Anthropicの技術的飛躍を象徴する一報",
       "previous_rank": 1
     },
     {
       "rank": 2,
-      "slug": "2026-04-17-codex-openai",
-      "reason": "GPT-Rosalind×Codex App×新価格体系、OpenAIの創薬AI本格参入を象徴",
-      "previous_rank": 2
+      "slug": "2026-04-17-ai-trends",
+      "reason": "Anthropic・OpenAI両巨頭の大型発表が同日に集中、業界地図の変動を俯瞰できる",
+      "previous_rank": null
     },
     {
       "rank": 3,
-      "slug": "2026-04-16-claude-anthropic",
-      "reason": "Routinesでエージェント自動実行が現実に、開発ワークフローの転換点",
+      "slug": "2026-04-19-codex-openai",
+      "reason": "GPT Rosalindで創薬AIに本格参入、LLMの産業応用が新フェーズへ",
       "previous_rank": null
     },
     {
       "rank": 4,
-      "slug": "2026-04-10-academia",
-      "reason": "推論崩壊の発見と単一GPU 100B訓練、LLM基盤研究の実用化が加速",
+      "slug": "2026-04-14-claude-anthropic",
+      "reason": "Mythos PreviewとProject Glasswing始動、AI安全保障の新潮流を示す",
       "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-04-13-ai-trends",
-      "reason": "Glasswing・Sonnet 4.6・Managed Agents同時発表、Anthropicの攻勢が鮮明",
+      "slug": "2026-04-14-academia",
+      "reason": "推論SFTの汎化限界を実証的に解明、LLM訓練の根幹に関わる重要知見",
       "previous_rank": null
     }
   ]
