@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-04-20T23:01:26Z",
-  "period_start": "2026-03-25",
-  "period_end": "2026-04-21",
+  "generated_at": "2026-04-21T23:00:52Z",
+  "period_start": "2026-03-26",
+  "period_end": "2026-04-22",
   "items": [
     {
       "rank": 1,
       "slug": "2026-04-18-claude-anthropic",
-      "reason": "Opus 4.7のSWE-bench 87.6%達成とClaude Design発表、Anthropicの技術的飛躍を象徴する一報",
+      "reason": "Opus 4.7のベンチマーク詳細とClaude Design発表を網羅した決定版レポート",
       "previous_rank": 1
     },
     {
       "rank": 2,
-      "slug": "2026-04-17-ai-trends",
-      "reason": "Anthropic・OpenAI両巨頭の大型発表が同日に集中、業界地図の変動を俯瞰できる",
+      "slug": "2026-04-17-codex-openai",
+      "reason": "GPT-Rosalind×Codex App×新価格体系でOpenAIの戦略転換が鮮明に",
       "previous_rank": null
     },
     {
       "rank": 3,
-      "slug": "2026-04-19-codex-openai",
-      "reason": "GPT Rosalindで創薬AIに本格参入、LLMの産業応用が新フェーズへ",
+      "slug": "2026-04-22-ai-trends",
+      "reason": "Amazon5GW確保と売上300億ドル突破がAI計算資源競争の新局面を示す",
       "previous_rank": null
     },
     {
       "rank": 4,
-      "slug": "2026-04-14-claude-anthropic",
-      "reason": "Mythos PreviewとProject Glasswing始動、AI安全保障の新潮流を示す",
-      "previous_rank": null
+      "slug": "2026-04-14-academia",
+      "reason": "推論SFTの汎化限界を実証した研究はLLM訓練の前提を揺るがす成果",
+      "previous_rank": 5
     },
     {
       "rank": 5,
-      "slug": "2026-04-14-academia",
-      "reason": "推論SFTの汎化限界を実証的に解明、LLM訓練の根幹に関わる重要知見",
+      "slug": "2026-04-16-claude-anthropic",
+      "reason": "Routines発表でClaude Codeがバッチ自動化基盤へ進化する転換点",
       "previous_rank": null
     }
   ]
