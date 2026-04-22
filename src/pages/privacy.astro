@@ -1,0 +1,127 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base title="プライバシーポリシー - AI Trend Reports" description="AI Trend Reports のプライバシーポリシー。アクセス解析・広告配信で取り扱う情報について明記しています。">
+  <header>
+    <h1>プライバシーポリシー</h1>
+    <p>最終更新日: 2026-04-22</p>
+  </header>
+  <main class="policy">
+    <section>
+      <h2>1. 運営者</h2>
+      <p>
+        本サイト <strong>AI Trend Reports</strong>（以下「当サイト」）は個人（miyaryo1212）によって運営されています。
+        連絡先: <a href="mailto:miyaryo1212@outlook.jp">miyaryo1212@outlook.jp</a>
+      </p>
+    </section>
+
+    <section>
+      <h2>2. 取得する情報</h2>
+      <p>当サイトでは、以下の情報を取得することがあります。</p>
+      <ul>
+        <li>閲覧ページのURL、リファラ、滞在時間などのアクセス解析情報</li>
+        <li>ブラウザの種類・バージョン、OS、画面サイズ、言語設定</li>
+        <li>概算地域（国・都市レベル、IPアドレスから匿名化した情報）</li>
+        <li>Cookie および類似技術（localStorage 等）に保存される識別子</li>
+      </ul>
+      <p>
+        当サイトでは、氏名・住所・電話番号・メールアドレスなどの個人を直接特定できる情報を能動的に取得することはありません。
+      </p>
+    </section>
+
+    <section>
+      <h2>3. 利用目的</h2>
+      <ul>
+        <li>サイトの利用状況の把握・改善</li>
+        <li>コンテンツの品質向上</li>
+        <li>（将来的に）広告配信の最適化</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>4. 第三者サービスの利用</h2>
+      <p>当サイトは以下の第三者サービスを利用しており、これらの事業者がCookie等を通じて情報を取得する場合があります。取得される情報の取り扱いについては、各サービスのプライバシーポリシーをご確認ください。</p>
+      <ul>
+        <li>
+          <strong>Google Analytics 4</strong>（アクセス解析）<br />
+          <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google プライバシーポリシー</a>
+        </li>
+        <li>
+          <strong>Google AdSense</strong>（広告配信、導入予定）<br />
+          <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">広告に関する Google ポリシー</a>
+        </li>
+      </ul>
+      <p>
+        これらのサービスへの情報送信は、ユーザーの同意に基づきます（第5項参照）。EEA / 英国 / スイス のユーザーに対しては Google Consent Mode v2 に従い、同意取得前はパーソナライズ等を無効化します。
+      </p>
+    </section>
+
+    <section>
+      <h2>5. Cookie の利用と同意</h2>
+      <p>
+        当サイトでは、初回訪問時に Cookie 同意バナーを表示します。「許可する」を選択した場合に限り、アクセス解析および広告用の Cookie が有効化されます。「拒否する」を選択した場合は、これらの Cookie は発火しません。
+      </p>
+      <p>
+        同意状態はブラウザの localStorage に保存されます。いつでも <a href="/cookies/">Cookieポリシー</a> ページから同意を撤回・再設定できます。
+      </p>
+    </section>
+
+    <section>
+      <h2>6. ユーザーの権利</h2>
+      <p>ユーザーは以下の権利を行使できます。</p>
+      <ul>
+        <li>自身に関するデータへのアクセス要求</li>
+        <li>データの訂正・削除要求</li>
+        <li>同意の撤回</li>
+        <li>データ処理への異議申立て</li>
+      </ul>
+      <p>
+        これらの権利を行使する場合、または本ポリシーに関するお問い合わせは、上記の連絡先までご連絡ください。
+      </p>
+    </section>
+
+    <section>
+      <h2>7. ポリシーの変更</h2>
+      <p>
+        本ポリシーは、法令改正やサービス変更に伴い予告なく改訂される場合があります。重要な変更はトップページまたは
+        <a href="/updates/">Update History</a> でお知らせします。
+      </p>
+    </section>
+  </main>
+</Base>
+
+<style>
+  header {
+    padding: 2rem 0 1.5rem;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 1.5rem;
+  }
+  header h1 {
+    font-size: 1.6rem;
+    margin-bottom: 0.25rem;
+  }
+  header p {
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+  .policy section {
+    margin-bottom: 2rem;
+  }
+  .policy h2 {
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+  }
+  .policy p {
+    margin-bottom: 0.75rem;
+  }
+  .policy ul {
+    margin: 0 0 0.75rem 1.5rem;
+  }
+  .policy li {
+    margin-bottom: 0.25rem;
+  }
+  .policy a {
+    color: var(--link);
+  }
+</style>
