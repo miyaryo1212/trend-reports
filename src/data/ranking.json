@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-21T23:00:52Z",
-  "period_start": "2026-03-26",
-  "period_end": "2026-04-22",
+  "generated_at": "2026-04-22T23:01:38Z",
+  "period_start": "2026-03-27",
+  "period_end": "2026-04-23",
   "items": [
     {
       "rank": 1,
@@ -11,27 +11,27 @@
     },
     {
       "rank": 2,
-      "slug": "2026-04-17-codex-openai",
-      "reason": "GPT-Rosalind×Codex App×新価格体系でOpenAIの戦略転換が鮮明に",
+      "slug": "2026-04-17-ai-trends",
+      "reason": "Anthropic・OpenAI両陣営の大型発表を俯瞰でき、業界地図の変動が一目瞭然",
       "previous_rank": null
     },
     {
       "rank": 3,
-      "slug": "2026-04-22-ai-trends",
-      "reason": "Amazon5GW確保と売上300億ドル突破がAI計算資源競争の新局面を示す",
+      "slug": "2026-04-19-codex-openai",
+      "reason": "GPT Rosalindで創薬AI市場が新局面に、専門特化モデル競争の号砲",
       "previous_rank": null
     },
     {
       "rank": 4,
       "slug": "2026-04-14-academia",
-      "reason": "推論SFTの汎化限界を実証した研究はLLM訓練の前提を揺るがす成果",
-      "previous_rank": 5
+      "reason": "推論SFTの汎化限界を実証的に示した研究はLLM訓練の前提を揺るがす",
+      "previous_rank": 4
     },
     {
       "rank": 5,
-      "slug": "2026-04-16-claude-anthropic",
-      "reason": "Routines発表でClaude Codeがバッチ自動化基盤へ進化する転換点",
-      "previous_rank": null
+      "slug": "2026-04-22-ai-trends",
+      "reason": "Amazon5GW確保と売上300億ドル突破、AIインフラ投資の桁が変わった転換点",
+      "previous_rank": 3
     }
   ]
 }
