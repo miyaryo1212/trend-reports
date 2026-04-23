@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-04-22T23:01:38Z",
-  "period_start": "2026-03-27",
-  "period_end": "2026-04-23",
+  "generated_at": "2026-04-23T23:01:26Z",
+  "period_start": "2026-03-28",
+  "period_end": "2026-04-24",
   "items": [
     {
       "rank": 1,
       "slug": "2026-04-18-claude-anthropic",
-      "reason": "Opus 4.7のベンチマーク詳細とClaude Design発表を網羅した決定版レポート",
+      "reason": "Opus 4.7+Claude Design、Anthropicの製品戦略転換点を象徴する発表",
       "previous_rank": 1
     },
     {
       "rank": 2,
-      "slug": "2026-04-17-ai-trends",
-      "reason": "Anthropic・OpenAI両陣営の大型発表を俯瞰でき、業界地図の変動が一目瞭然",
+      "slug": "2026-04-17-codex-openai",
+      "reason": "GPT-Rosalind×Codex App、OpenAIの創薬AI参入と開発者基盤の同時拡張",
       "previous_rank": null
     },
     {
       "rank": 3,
-      "slug": "2026-04-19-codex-openai",
-      "reason": "GPT Rosalindで創薬AI市場が新局面に、専門特化モデル競争の号砲",
-      "previous_rank": null
+      "slug": "2026-04-22-ai-trends",
+      "reason": "Amazon5GW確保と売上300億ドル、AI計算資源競争の新局面",
+      "previous_rank": 5
     },
     {
       "rank": 4,
-      "slug": "2026-04-14-academia",
-      "reason": "推論SFTの汎化限界を実証的に示した研究はLLM訓練の前提を揺るがす",
-      "previous_rank": 4
+      "slug": "2026-04-14-claude-anthropic",
+      "reason": "Mythos Preview×Glasswing、防御AIと12社連携の産業横断的インパクト",
+      "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-04-22-ai-trends",
-      "reason": "Amazon5GW確保と売上300億ドル突破、AIインフラ投資の桁が変わった転換点",
-      "previous_rank": 3
+      "slug": "2026-04-10-academia",
+      "reason": "推論崩壊の発見と単一GPU 100B訓練、基盤研究の実用障壁を突破",
+      "previous_rank": null
     }
   ]
 }
