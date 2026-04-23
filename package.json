@@ -5,12 +5,16 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build && npx -y pagefind --site dist",
-    "preview": "astro preview"
+    "preview": "npm run build && wrangler dev",
+    "deploy": "npm run build && wrangler deploy",
+    "cf-typegen": "wrangler types"
   },
   "dependencies": {
+    "@astrojs/cloudflare": "12",
     "astro": "^5.7.0"
   },
   "devDependencies": {
-    "rehype-external-links": "^3.0.0"
+    "rehype-external-links": "^3.0.0",
+    "wrangler": "^4.84.1"
   }
 }
