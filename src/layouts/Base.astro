@@ -16,6 +16,7 @@ const canonicalUrl = new URL(Astro.url.pathname, siteUrl).toString();
 const siteName = 'AI Trend Reports';
 const metaDescription = description ?? 'AIトレンドの最新情報をお届けするレポートサービスです。Claude/Anthropic、OpenAI、GitHub急成長リポジトリなどの動向をまとめています。';
 const gaMeasurementId = import.meta.env.PUBLIC_GA_MEASUREMENT_ID;
+const adsenseClientId = import.meta.env.PUBLIC_ADSENSE_CLIENT_ID;
 ---
 
 <!DOCTYPE html>
@@ -74,6 +75,9 @@ const gaMeasurementId = import.meta.env.PUBLIC_GA_MEASUREMENT_ID;
       </script>
       <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${gaMeasurementId}`}></script>
     </>
+  )}
+  {adsenseClientId && (
+    <script is:inline async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseClientId}`} crossorigin="anonymous"></script>
   )}
 </head>
 <script>
