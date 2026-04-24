@@ -1,0 +1,163 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base title="Cookieポリシー - AI Trend Reports" description="AI Trend Reports で使用している Cookie の種類・目的と、同意の管理方法について説明します。">
+  <header>
+    <h1>Cookieポリシー</h1>
+    <p>最終更新日: 2026-04-25</p>
+  </header>
+  <main class="policy">
+    <section>
+      <h2>1. Cookie とは</h2>
+      <p>
+        Cookie は、Webサイト閲覧時にブラウザに保存される小さなテキストデータです。当サイトでは、ユーザー体験の向上やアクセス解析のために Cookie および類似技術（localStorage 等）を使用します。
+      </p>
+    </section>
+
+    <section>
+      <h2>2. 使用する Cookie の種類</h2>
+      <h3>2.1 必須 Cookie</h3>
+      <p>サイトの基本機能（テーマ設定、同意状態の保存）に必要な Cookie / localStorage 項目。同意なしで使用します。</p>
+      <ul>
+        <li><code>theme</code>（localStorage）— ダーク/ライトテーマの選択を保存</li>
+        <li><code>consent</code>（localStorage）— Cookie 同意状態を保存</li>
+      </ul>
+
+      <h3>2.2 分析 Cookie（同意時のみ）</h3>
+      <p>アクセス解析のため Google Analytics 4 により設定されます。</p>
+      <ul>
+        <li><code>_ga</code>, <code>_ga_*</code> — ユーザー識別と来訪回数の集計</li>
+      </ul>
+
+      <h3>2.3 広告 Cookie（同意時のみ・導入準備中）</h3>
+      <p>Google AdSense 審査申請に向けて準備中です。審査通過・広告配信開始後は、以下のような Cookie が同意時に設定されます。</p>
+      <ul>
+        <li><code>__gads</code>, <code>__gpi</code> — 広告配信・フリークエンシーキャップ</li>
+        <li>その他 Google 広告ネットワークが設定する Cookie</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>3. 同意の管理</h2>
+      <p>
+        初回訪問時に Cookie 同意バナーを表示します。同意状態は localStorage に保存され、ブラウザ単位で記憶されます。
+      </p>
+      <p>
+        同意をやり直したい場合は、以下のボタンから同意状態をリセットできます。ページを再読み込みすると、再度バナーが表示されます。
+      </p>
+      <div class="consent-actions">
+        <button type="button" id="consent-reset" class="consent-btn">同意状態をリセット</button>
+        <span id="consent-current" class="consent-current" aria-live="polite"></span>
+      </div>
+    </section>
+
+    <section>
+      <h2>4. ブラウザ側での Cookie 制御</h2>
+      <p>
+        主要ブラウザには Cookie を制御する設定があります。ブラウザ側で Cookie を無効化した場合、当サイトの一部機能（テーマ記憶等）が利用できなくなる可能性があります。
+      </p>
+    </section>
+
+    <section>
+      <h2>5. 参考リンク</h2>
+      <ul>
+        <li><a href="/privacy/">プライバシーポリシー</a></li>
+        <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google プライバシーポリシー</a></li>
+        <li><a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener noreferrer">Google の Cookie 使用について</a></li>
+      </ul>
+    </section>
+  </main>
+</Base>
+
+<script>
+  const statusEl = document.getElementById('consent-current');
+  const resetBtn = document.getElementById('consent-reset');
+
+  function renderStatus() {
+    if (!statusEl) return;
+    const value = (() => {
+      try { return localStorage.getItem('consent'); } catch { return null; }
+    })();
+    if (value === 'granted') statusEl.textContent = '現在の状態: 許可';
+    else if (value === 'denied') statusEl.textContent = '現在の状態: 拒否';
+    else statusEl.textContent = '現在の状態: 未設定';
+  }
+
+  renderStatus();
+
+  resetBtn?.addEventListener('click', () => {
+    try { localStorage.removeItem('consent'); } catch {}
+    renderStatus();
+    location.reload();
+  });
+</script>
+
+<style>
+  header {
+    padding: 2rem 0 1.5rem;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 1.5rem;
+  }
+  header h1 {
+    font-size: 1.6rem;
+    margin-bottom: 0.25rem;
+  }
+  header p {
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+  .policy section {
+    margin-bottom: 2rem;
+  }
+  .policy h2 {
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+  }
+  .policy h3 {
+    font-size: 0.95rem;
+    margin: 1rem 0 0.5rem;
+  }
+  .policy p {
+    margin-bottom: 0.75rem;
+  }
+  .policy ul {
+    margin: 0 0 0.75rem 1.5rem;
+  }
+  .policy li {
+    margin-bottom: 0.25rem;
+  }
+  .policy a {
+    color: var(--link);
+  }
+  .policy code {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    padding: 0.05rem 0.35rem;
+    font-size: 0.85em;
+  }
+  .consent-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-top: 0.5rem;
+    flex-wrap: wrap;
+  }
+  .consent-btn {
+    background: var(--surface);
+    color: var(--fg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 0.4rem 0.9rem;
+    font-size: 0.85rem;
+    cursor: pointer;
+  }
+  .consent-btn:hover {
+    background: var(--border);
+  }
+  .consent-current {
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+</style>
