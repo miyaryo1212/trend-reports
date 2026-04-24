@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-04-23T23:01:26Z",
-  "period_start": "2026-03-28",
-  "period_end": "2026-04-24",
+  "generated_at": "2026-04-24T23:01:43Z",
+  "period_start": "2026-03-29",
+  "period_end": "2026-04-25",
   "items": [
     {
       "rank": 1,
       "slug": "2026-04-18-claude-anthropic",
-      "reason": "Opus 4.7+Claude Design、Anthropicの製品戦略転換点を象徴する発表",
+      "reason": "SWE-bench 87.6%達成のOpus 4.7とClaude Design登場、Anthropicの製品戦略転換点",
       "previous_rank": 1
     },
     {
       "rank": 2,
-      "slug": "2026-04-17-codex-openai",
-      "reason": "GPT-Rosalind×Codex App、OpenAIの創薬AI参入と開発者基盤の同時拡張",
+      "slug": "2026-04-25-codex-openai",
+      "reason": "GPT-5.5正式発表とCodex CLI大型更新、OpenAIのエージェント本格路線が明確に",
       "previous_rank": null
     },
     {
       "rank": 3,
-      "slug": "2026-04-22-ai-trends",
-      "reason": "Amazon5GW確保と売上300億ドル、AI計算資源競争の新局面",
-      "previous_rank": 5
+      "slug": "2026-04-13-ai-trends",
+      "reason": "Glasswing・Sonnet 4.6・Managed Agentsの三連発でAnthropicの攻勢が鮮明",
+      "previous_rank": null
     },
     {
       "rank": 4,
       "slug": "2026-04-14-claude-anthropic",
-      "reason": "Mythos Preview×Glasswing、防御AIと12社連携の産業横断的インパクト",
-      "previous_rank": null
+      "reason": "Mythos PreviewとGlasswing始動、防御的AIセキュリティという新領域の開拓",
+      "previous_rank": 4
     },
     {
       "rank": 5,
       "slug": "2026-04-10-academia",
-      "reason": "推論崩壊の発見と単一GPU 100B訓練、基盤研究の実用障壁を突破",
-      "previous_rank": null
+      "reason": "推論崩壊の発見と単一GPU 100B訓練、基盤研究の常識を覆す二本柱",
+      "previous_rank": 5
     }
   ]
 }
