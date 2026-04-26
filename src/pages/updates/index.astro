@@ -10,6 +10,13 @@ import Base from '../../layouts/Base.astro';
   <main>
     <ul class="update-list">
       <li>
+        <time>2026-04-26</time>
+        <div>
+          <strong>レポート生成パイプラインの堅牢化（frontmatter自動修復）</strong>
+          <p>各レポート生成後に frontmatter (YAMLヘッダ) の静的解析を実施し、構文エラー（重複キー等）を検知した場合は Claude Code に修正を依頼してから公開する自己修復ステップを追加。軽微な構文ミスでビルドが失敗し公開が止まる事態を防ぐ。</p>
+        </div>
+      </li>
+      <li>
         <time>2026-04-25</time>
         <div>
           <strong>Google AdSense 審査申請準備</strong>
