@@ -13,8 +13,6 @@ features:
   - "Agentic Workflows WebSocket対応"
   - "Codex CLI v0.125.0"
   - "Codex CLI v0.126.0-alpha"
-codex_review: "GPT-5.5の初日の興奮が落ち着き、実際に手を動かしたユーザーの声が出始めた段階。Eyebenchで1位、one-shotコーディング成功などポジティブ寄りだが、コスト面の懸念も。Privacy FilterのClaude Codeプラグイン化やCodexフック活用など、ツール横断の組み合わせ技が日本語コミュニティで先行しているのが面白い。"
-codex_importance: 3
 codex_review: "派手なのはGPT-5.5の称賛だが、私にはPrivacy FilterやCodex周辺の地味な実務改善のほうが長く効く話に見える。日本語圏で“組み合わせて使う知恵”が先に育っているのは、やや面白い兆候だ。"
 codex_importance: 3
 ---
