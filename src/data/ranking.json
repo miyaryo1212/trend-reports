@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-04-25T23:01:54Z",
-  "period_start": "2026-03-30",
-  "period_end": "2026-04-26",
+  "generated_at": "2026-04-26T23:01:15Z",
+  "period_start": "2026-03-31",
+  "period_end": "2026-04-27",
   "items": [
     {
       "rank": 1,
-      "slug": "2026-04-18-claude-anthropic",
-      "reason": "Opus 4.7+Claude Design同時発表、Anthropicのプロダクト戦略転換点",
-      "previous_rank": 1
-    },
-    {
-      "rank": 2,
       "slug": "2026-04-25-codex-openai",
-      "reason": "GPT-5.5正式発表でエージェント競争が新フェーズへ突入",
+      "reason": "GPT-5.5とCodex CLI同時刷新、モデル競争とエージェント基盤の両面で転換点",
       "previous_rank": 2
     },
     {
+      "rank": 2,
+      "slug": "2026-04-18-claude-anthropic",
+      "reason": "Opus 4.7にtask budgets・xhigh・Claude Designと運用革新が一気に結実",
+      "previous_rank": 1
+    },
+    {
       "rank": 3,
-      "slug": "2026-04-17-ai-trends",
-      "reason": "Anthropic・OpenAI両陣営が同日大型発表、業界地図を俯瞰できる一本",
+      "slug": "2026-04-25-ai-trends",
+      "reason": "NEC提携とAmazon5GW確保、AI競争が供給網・販路の面制圧へ移行した象徴",
       "previous_rank": null
     },
     {
       "rank": 4,
-      "slug": "2026-04-14-claude-anthropic",
-      "reason": "Mythos Preview+Glasswing始動、安全性とフロンティア性能の両立に挑む",
-      "previous_rank": 4
+      "slug": "2026-04-02-ai-trends",
+      "reason": "Claude Code流出とaxios攻撃、AI時代のソフトウェア供給網リスクを直視させた週",
+      "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-04-14-academia",
-      "reason": "推論SFTの汎化限界を実証、LLM訓練の前提を揺るがす重要知見",
+      "slug": "2026-04-10-academia",
+      "reason": "推論崩壊の発見と単一GPU 100B訓練、派手さより基盤の足場を組み替える研究群",
       "previous_rank": null
     }
   ]
