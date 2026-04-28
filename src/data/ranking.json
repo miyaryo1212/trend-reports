@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-04-27T23:02:06Z",
-  "period_start": "2026-04-01",
-  "period_end": "2026-04-28",
+  "generated_at": "2026-04-28T23:00:13Z",
+  "period_start": "2026-04-02",
+  "period_end": "2026-04-29",
   "items": [
     {
       "rank": 1,
-      "slug": "2026-04-25-codex-openai",
-      "reason": "GPT-5.5とCodex CLI大型更新が同時着弾、エージェント基盤競争の新局面を象徴",
-      "previous_rank": 1
-    },
-    {
-      "rank": 2,
       "slug": "2026-04-18-claude-anthropic",
-      "reason": "Opus 4.7のSWE-bench 87.6%とClaude Design投入で開発体験が一段変わった節目",
+      "reason": "Opus 4.7+Claude Design+運用機能の同時投入、AI開発体験の転換点",
       "previous_rank": 2
     },
     {
+      "rank": 2,
+      "slug": "2026-04-25-codex-openai",
+      "reason": "GPT-5.5とCodex CLIの基盤整備が示すエージェント運用時代の到来",
+      "previous_rank": 1
+    },
+    {
       "rank": 3,
-      "slug": "2026-04-22-ai-trends",
-      "reason": "Amazon 5GW確保で性能競争からインフラ覇権争いへの転換が鮮明に",
+      "slug": "2026-04-25-ai-trends",
+      "reason": "NEC提携とAmazon5GW確保、性能競争から供給網争奪へのシフトが鮮明",
       "previous_rank": null
     },
     {
       "rank": 4,
-      "slug": "2026-04-13-ai-trends",
-      "reason": "Glasswing・Managed Agents・Sonnet 4.6の三連打でAnthropicの運用基盤戦略が見えた",
+      "slug": "2026-04-17-ai-trends",
+      "reason": "両陣営が同日に大型発表、モデル競争から実運用の面制圧へ移行した象徴",
       "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-04-02-ai-trends",
-      "reason": "ソースコード流出とaxios攻撃がAI開発のサプライチェーンリスクを突きつけた",
-      "previous_rank": 4
+      "slug": "2026-04-26-academia",
+      "reason": "離散拡散LLMの統合と効率化研究が示す次世代アーキテクチャの胎動",
+      "previous_rank": null
     }
   ]
 }
