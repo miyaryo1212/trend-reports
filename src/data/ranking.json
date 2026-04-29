@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-04-28T23:00:13Z",
-  "period_start": "2026-04-02",
-  "period_end": "2026-04-29",
+  "generated_at": "2026-04-29T23:00:52Z",
+  "period_start": "2026-04-03",
+  "period_end": "2026-04-30",
   "items": [
     {
       "rank": 1,
       "slug": "2026-04-18-claude-anthropic",
       "reason": "Opus 4.7+Claude Design+運用機能の同時投入、AI開発体験の転換点",
-      "previous_rank": 2
+      "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-04-25-codex-openai",
-      "reason": "GPT-5.5とCodex CLIの基盤整備が示すエージェント運用時代の到来",
-      "previous_rank": 1
+      "reason": "GPT-5.5とCodex CLIの基盤整備が同時に進み、両陣営の本気度が明確に",
+      "previous_rank": 2
     },
     {
       "rank": 3,
-      "slug": "2026-04-25-ai-trends",
-      "reason": "NEC提携とAmazon5GW確保、性能競争から供給網争奪へのシフトが鮮明",
-      "previous_rank": null
+      "slug": "2026-04-17-ai-trends",
+      "reason": "Anthropic・OpenAI両社が同日に大型発表、業界の競争構図を一望できる",
+      "previous_rank": 4
     },
     {
       "rank": 4,
-      "slug": "2026-04-17-ai-trends",
-      "reason": "両陣営が同日に大型発表、モデル競争から実運用の面制圧へ移行した象徴",
-      "previous_rank": null
+      "slug": "2026-04-25-ai-trends",
+      "reason": "NEC提携とAmazon5GW確保、性能競争から供給網の争いへの転換を象徴",
+      "previous_rank": 3
     },
     {
       "rank": 5,
-      "slug": "2026-04-26-academia",
-      "reason": "離散拡散LLMの統合と効率化研究が示す次世代アーキテクチャの胎動",
+      "slug": "2026-04-10-academia",
+      "reason": "推論崩壊の発見と単一GPU大規模訓練、基盤研究の地味だが重い前進",
       "previous_rank": null
     }
   ]
