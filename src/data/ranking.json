@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-29T23:00:52Z",
-  "period_start": "2026-04-03",
-  "period_end": "2026-04-30",
+  "generated_at": "2026-04-30T23:00:35Z",
+  "period_start": "2026-04-04",
+  "period_end": "2026-05-01",
   "items": [
     {
       "rank": 1,
@@ -11,26 +11,26 @@
     },
     {
       "rank": 2,
-      "slug": "2026-04-25-codex-openai",
-      "reason": "GPT-5.5とCodex CLIの基盤整備が同時に進み、両陣営の本気度が明確に",
-      "previous_rank": 2
-    },
-    {
-      "rank": 3,
-      "slug": "2026-04-17-ai-trends",
-      "reason": "Anthropic・OpenAI両社が同日に大型発表、業界の競争構図を一望できる",
+      "slug": "2026-04-25-ai-trends",
+      "reason": "GPT-5.5とAnthropic供給網確保が示す競争軸の産業インフラ移行",
       "previous_rank": 4
     },
     {
+      "rank": 3,
+      "slug": "2026-04-29-codex-openai",
+      "reason": "SymphonyのOSS化が象徴する「単体モデル→運用設計」の競争転換",
+      "previous_rank": null
+    },
+    {
       "rank": 4,
-      "slug": "2026-04-25-ai-trends",
-      "reason": "NEC提携とAmazon5GW確保、性能競争から供給網の争いへの転換を象徴",
-      "previous_rank": 3
+      "slug": "2026-04-14-claude-anthropic",
+      "reason": "Mythos招待制とGlasswingが突きつける危険能力ガバナンスの本題",
+      "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-04-10-academia",
-      "reason": "推論崩壊の発見と単一GPU大規模訓練、基盤研究の地味だが重い前進",
+      "slug": "2026-04-26-academia",
+      "reason": "離散拡散LLMの統合と効率化研究が基盤技術の次の賭け筋を提示",
       "previous_rank": null
     }
   ]
