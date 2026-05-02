@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-05-01T23:01:10Z",
-  "period_start": "2026-04-05",
-  "period_end": "2026-05-02",
+  "generated_at": "2026-05-02T23:00:38Z",
+  "period_start": "2026-04-06",
+  "period_end": "2026-05-03",
   "items": [
     {
       "rank": 1,
       "slug": "2026-04-18-claude-anthropic",
-      "reason": "Opus 4.7・Claude Design・タスク予算が一挙投入、開発体験の転換点",
+      "reason": "Opus 4.7+Claude Design+運用機能の同時投入、AI開発体験の転換点",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-04-25-codex-openai",
-      "reason": "GPT-5.5とCodex CLI大型更新、エージェント運用基盤の本格整備が始動",
-      "previous_rank": null
+      "reason": "GPT-5.5とCodex基盤整備が同時進行、エージェント運用時代の幕開け",
+      "previous_rank": 2
     },
     {
       "rank": 3,
       "slug": "2026-05-02-codex-openai",
-      "reason": "SWE-bench終了宣言が象徴的、評価軸がベンチから実務へ移る転換点",
-      "previous_rank": null
+      "reason": "SWE-bench終了宣言が象徴的、評価軸がベンチから実務運用へ転換",
+      "previous_rank": 3
     },
     {
       "rank": 4,
-      "slug": "2026-04-17-ai-trends",
-      "reason": "両陣営の大型発表が同日集中、性能競争から面の制圧へ移行を象徴",
+      "slug": "2026-05-02-ai-trends",
+      "reason": "OpenAIのAWS進出でAzure独占崩壊、クラウド勢力図が動く週",
       "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-05-02-academia",
-      "reason": "LLMを司令塔から降ろす異種モデル協調、次の研究潮流を先取り",
+      "slug": "2026-04-14-claude-anthropic",
+      "reason": "Mythos招待制公開とGlasswing始動、AI安全統治の新枠組み提示",
       "previous_rank": null
     }
   ]
