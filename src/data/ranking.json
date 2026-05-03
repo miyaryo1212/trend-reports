@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-05-02T23:00:38Z",
-  "period_start": "2026-04-06",
-  "period_end": "2026-05-03",
+  "generated_at": "2026-05-03T23:01:08Z",
+  "period_start": "2026-04-07",
+  "period_end": "2026-05-04",
   "items": [
     {
       "rank": 1,
       "slug": "2026-04-18-claude-anthropic",
-      "reason": "Opus 4.7+Claude Design+運用機能の同時投入、AI開発体験の転換点",
+      "reason": "Opus 4.7+Claude Design+運用機能一斉投入、AI開発体験の転換点",
       "previous_rank": 1
     },
     {
       "rank": 2,
-      "slug": "2026-04-25-codex-openai",
-      "reason": "GPT-5.5とCodex基盤整備が同時進行、エージェント運用時代の幕開け",
-      "previous_rank": 2
-    },
-    {
-      "rank": 3,
       "slug": "2026-05-02-codex-openai",
-      "reason": "SWE-bench終了宣言が象徴的、評価軸がベンチから実務運用へ転換",
+      "reason": "SWE-bench終了宣言が象徴する評価軸の実務シフト",
       "previous_rank": 3
     },
     {
-      "rank": 4,
+      "rank": 3,
       "slug": "2026-05-02-ai-trends",
-      "reason": "OpenAIのAWS進出でAzure独占崩壊、クラウド勢力図が動く週",
+      "reason": "OpenAI AWS進出でクラウド独占崩壊、業界地図が実際に動いた",
+      "previous_rank": 4
+    },
+    {
+      "rank": 4,
+      "slug": "2026-04-25-ai-trends",
+      "reason": "GPT-5.5よりNEC・Amazon提携が示す供給網競争の本格化",
       "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-04-14-claude-anthropic",
-      "reason": "Mythos招待制公開とGlasswing始動、AI安全統治の新枠組み提示",
+      "slug": "2026-05-04-academia",
+      "reason": "単一LLM万能論の終焉、異種モデル協調が研究の主役に",
       "previous_rank": null
     }
   ]
