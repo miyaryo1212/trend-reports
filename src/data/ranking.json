@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-05-03T23:01:08Z",
-  "period_start": "2026-04-07",
-  "period_end": "2026-05-04",
+  "generated_at": "2026-05-04T23:01:16Z",
+  "period_start": "2026-04-08",
+  "period_end": "2026-05-05",
   "items": [
     {
       "rank": 1,
       "slug": "2026-04-18-claude-anthropic",
-      "reason": "Opus 4.7+Claude Design+運用機能一斉投入、AI開発体験の転換点",
+      "reason": "Opus 4.7+Claude Design+運用機能一挙投入、Anthropicの開発者体験刷新の転換点",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-05-02-codex-openai",
-      "reason": "SWE-bench終了宣言が象徴する評価軸の実務シフト",
-      "previous_rank": 3
+      "reason": "SWE-bench終了とWorkspace Agents導入、評価軸がベンチから実務運用へ移る象徴",
+      "previous_rank": 2
     },
     {
       "rank": 3,
       "slug": "2026-05-02-ai-trends",
-      "reason": "OpenAI AWS進出でクラウド独占崩壊、業界地図が実際に動いた",
-      "previous_rank": 4
+      "reason": "OpenAI AWS進出でAzure独占崩壊、クラウド勢力図が実際に動いた稀有な週",
+      "previous_rank": 3
     },
     {
       "rank": 4,
       "slug": "2026-04-25-ai-trends",
-      "reason": "GPT-5.5よりNEC・Amazon提携が示す供給網競争の本格化",
-      "previous_rank": null
+      "reason": "NEC提携・Amazon5GW確保、AI競争が研究から供給網と販路の戦いへ移行",
+      "previous_rank": 4
     },
     {
       "rank": 5,
       "slug": "2026-05-04-academia",
-      "reason": "単一LLM万能論の終焉、異種モデル協調が研究の主役に",
-      "previous_rank": null
+      "reason": "単一LLM万能論の終焉、異種専門モデル協調が研究の主役に躍り出た",
+      "previous_rank": 5
     }
   ]
 }
