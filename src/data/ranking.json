@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-05-04T23:01:16Z",
-  "period_start": "2026-04-08",
-  "period_end": "2026-05-05",
+  "generated_at": "2026-05-05T23:01:54Z",
+  "period_start": "2026-04-09",
+  "period_end": "2026-05-06",
   "items": [
     {
       "rank": 1,
       "slug": "2026-04-18-claude-anthropic",
-      "reason": "Opus 4.7+Claude Design+運用機能一挙投入、Anthropicの開発者体験刷新の転換点",
+      "reason": "Opus 4.7+Claude Design+運用機能一斉投入、開発体験の転換点として最重要",
       "previous_rank": 1
     },
     {
       "rank": 2,
-      "slug": "2026-05-02-codex-openai",
-      "reason": "SWE-bench終了とWorkspace Agents導入、評価軸がベンチから実務運用へ移る象徴",
-      "previous_rank": 2
+      "slug": "2026-04-25-codex-openai",
+      "reason": "GPT-5.5とCodex CLI大型更新が同時着弾、エージェント基盤競争の号砲",
+      "previous_rank": null
     },
     {
       "rank": 3,
-      "slug": "2026-05-02-ai-trends",
-      "reason": "OpenAI AWS進出でAzure独占崩壊、クラウド勢力図が実際に動いた稀有な週",
-      "previous_rank": 3
+      "slug": "2026-05-02-codex-openai",
+      "reason": "SWE-bench終了宣言が象徴的、評価軸がベンチから実務運用へ移る転換点",
+      "previous_rank": 2
     },
     {
       "rank": 4,
-      "slug": "2026-04-25-ai-trends",
-      "reason": "NEC提携・Amazon5GW確保、AI競争が研究から供給網と販路の戦いへ移行",
-      "previous_rank": 4
+      "slug": "2026-05-02-ai-trends",
+      "reason": "OpenAI AWS進出でAzure独占崩壊、クラウド勢力図が実際に動いた日",
+      "previous_rank": 3
     },
     {
       "rank": 5,
       "slug": "2026-05-04-academia",
-      "reason": "単一LLM万能論の終焉、異種専門モデル協調が研究の主役に躍り出た",
+      "reason": "単一LLM万能論の終焉、異種モデル協調が研究の主役に昇格した潮目",
       "previous_rank": 5
     }
   ]
