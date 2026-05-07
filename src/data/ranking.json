@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-05-06T23:00:52Z",
-  "period_start": "2026-04-10",
-  "period_end": "2026-05-07",
+  "generated_at": "2026-05-07T23:00:33Z",
+  "period_start": "2026-04-11",
+  "period_end": "2026-05-08",
   "items": [
     {
       "rank": 1,
       "slug": "2026-04-18-claude-anthropic",
-      "reason": "Opus 4.7+Claude Design+運用機能の同時投入は今期最大の節目",
+      "reason": "Opus 4.7+Claude Design+運用機能一斉投入、開発体験の転換点として最重要",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-04-25-ai-trends",
-      "reason": "GPT-5.5とAnthropic供給網戦略が業界地図を塗り替える転換点",
-      "previous_rank": null
+      "reason": "GPT-5.5とAnthropic供給網戦略が同時進行、業界の主戦場移行を象徴",
+      "previous_rank": 2
     },
     {
       "rank": 3,
       "slug": "2026-05-02-codex-openai",
-      "reason": "SWE-bench終了宣言が評価軸を実務運用へ移す象徴的事件",
+      "reason": "SWE-bench終了宣言が評価軸の転換を示す、地味だが歴史的な節目",
       "previous_rank": 3
     },
     {
       "rank": 4,
       "slug": "2026-05-04-academia",
-      "reason": "単一LLM万能論の終焉、異種モデル協調が研究の主役に",
-      "previous_rank": 5
+      "reason": "単一LLM万能論の終焉、異種モデル協調が研究の主役に躍り出た",
+      "previous_rank": 4
     },
     {
       "rank": 5,
       "slug": "2026-05-06-claude-anthropic",
-      "reason": "金融テンプレ+MS365+Managed Agentsで企業標準化が一気に加速",
-      "previous_rank": null
+      "reason": "金融テンプレ+MS365+Managed Agents、企業標準化への本気度が見える",
+      "previous_rank": 5
     }
   ]
 }
