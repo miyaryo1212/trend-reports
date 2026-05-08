@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-05-07T23:00:33Z",
-  "period_start": "2026-04-11",
-  "period_end": "2026-05-08",
+  "generated_at": "2026-05-08T23:01:00Z",
+  "period_start": "2026-04-12",
+  "period_end": "2026-05-09",
   "items": [
     {
       "rank": 1,
       "slug": "2026-04-18-claude-anthropic",
-      "reason": "Opus 4.7+Claude Design+運用機能一斉投入、開発体験の転換点として最重要",
+      "reason": "Opus 4.7・Claude Design・xhigh・タスク予算が一挙投入、運用基盤の転換点",
       "previous_rank": 1
     },
     {
       "rank": 2,
-      "slug": "2026-04-25-ai-trends",
-      "reason": "GPT-5.5とAnthropic供給網戦略が同時進行、業界の主戦場移行を象徴",
-      "previous_rank": 2
+      "slug": "2026-04-25-codex-openai",
+      "reason": "GPT-5.5とCodex CLI大型更新が同時着弾、エージェント基盤競争の号砲",
+      "previous_rank": null
     },
     {
       "rank": 3,
-      "slug": "2026-05-02-codex-openai",
-      "reason": "SWE-bench終了宣言が評価軸の転換を示す、地味だが歴史的な節目",
-      "previous_rank": 3
+      "slug": "2026-05-09-ai-trends",
+      "reason": "Glasswingで防御AIが主役に昇格、両陣営の戦略差が鮮明に",
+      "previous_rank": null
     },
     {
       "rank": 4,
       "slug": "2026-05-04-academia",
-      "reason": "単一LLM万能論の終焉、異種モデル協調が研究の主役に躍り出た",
+      "reason": "単一LLM万能論の終焉、異種モデル協調が研究の主流へ",
       "previous_rank": 4
     },
     {
       "rank": 5,
-      "slug": "2026-05-06-claude-anthropic",
-      "reason": "金融テンプレ+MS365+Managed Agents、企業標準化への本気度が見える",
-      "previous_rank": 5
+      "slug": "2026-05-02-codex-openai",
+      "reason": "SWE-bench終了宣言が象徴的、評価軸がベンチから実務運用へ転換",
+      "previous_rank": 3
     }
   ]
 }
