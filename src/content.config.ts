@@ -13,7 +13,16 @@ const reports = defineCollection({
     importance: z.number().min(1).max(5).optional(),
     codex_review: z.string().optional(),
     codex_importance: z.number().min(1).max(5).optional(),
-    features: z.array(z.string()).default([]),
+    features: z
+      .array(z.string())
+      .nullable()
+      .default([])
+      .transform((v) => v ?? []),
+    pipeline_warnings: z
+      .array(z.string())
+      .nullable()
+      .optional()
+      .transform((v) => v ?? undefined),
   }),
 });
 

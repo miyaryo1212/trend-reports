@@ -10,9 +10,11 @@ interface Props {
   importance?: number;
   codexReview?: string;
   codexImportance?: number;
+  pipelineWarnings?: string[];
 }
 
-const { title, channel, date, summary, importance, codexReview, codexImportance } = Astro.props;
+const { title, channel, date, summary, importance, codexReview, codexImportance, pipelineWarnings } = Astro.props;
+const warnings = (pipelineWarnings ?? []).filter((w) => typeof w === 'string' && w.trim().length > 0);
 const hasCodex = !!codexReview;
 const dateStr = date.toISOString().slice(0, 10);
 const pageUrl = Astro.url.href;
@@ -39,6 +41,14 @@ const description = summary ?? `${channel}の${dateStr}のAIトレンドレポ�
     </button>
   </div>
   <main data-pagefind-body>
+    {warnings.length > 0 && (
+      <aside class="pipeline-warning" role="status" aria-label="パイプライン警告">
+        <strong class="pipeline-warning-title">⚠ パイプライン警告 — このレポートは正常に完了していない可能性があります</strong>
+        <ul class="pipeline-warning-list">
+          {warnings.map((w) => <li>{w}</li>)}
+        </ul>
+      </aside>
+    )}
     {summary && (
       <div class="report-summary" data-view="claude" data-has-codex={hasCodex ? 'true' : 'false'}>
         {hasCodex && (

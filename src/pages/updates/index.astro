@@ -10,6 +10,13 @@ import Base from '../../layouts/Base.astro';
   <main>
     <ul class="update-list">
       <li>
+        <time>2026-05-08</time>
+        <div>
+          <strong>パイプライン警告バナーの導入とfrontmatterバリデータ強化</strong>
+          <p>機能抽出 (Step 1) で <code>claude -p</code> が max turns に到達するなど、いずれかのステップでフォールバックが発動した場合に、該当レポート上部に「正常に完了していない可能性があります」の警告バナーを表示するようになりました。あわせて frontmatter バリデータが型レベル (例: <code>features</code> が配列でなく null) のスキーマ不整合も検知するようになり、ビルド失敗の予防範囲が広がりました。</p>
+        </div>
+      </li>
+      <li>
         <time>2026-04-26</time>
         <div>
           <strong>レポート生成パイプラインの堅牢化（frontmatter自動修復）</strong>

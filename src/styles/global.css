@@ -641,6 +641,41 @@ li {
   margin-bottom: 0.4rem;
 }
 
+/* Pipeline-warning banner — shown when run.sh hit a fallback (max-turns,
+   missing data, etc.) and the report content may be incomplete. */
+.pipeline-warning {
+  border: 1px solid #d97706;
+  background: rgba(217, 119, 6, 0.1);
+  border-radius: 6px;
+  padding: 0.85rem 1.1rem;
+  margin-bottom: 1.5rem;
+  color: #92400e;
+}
+
+@media (prefers-color-scheme: dark) {
+  .pipeline-warning {
+    border-color: #fbbf24;
+    background: rgba(251, 191, 36, 0.12);
+    color: #fde68a;
+  }
+}
+
+.pipeline-warning-title {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+.pipeline-warning-list {
+  margin: 0;
+  padding-left: 1.25rem;
+  font-size: 0.92rem;
+}
+
+.pipeline-warning-list li {
+  margin-bottom: 0.25rem;
+}
+
 /* Report summary box */
 .report-summary {
   border: 1px solid rgba(var(--brand-rgb), 0.3);

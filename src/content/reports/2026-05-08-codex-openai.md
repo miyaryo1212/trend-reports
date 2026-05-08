@@ -8,6 +8,8 @@ date: 2026-05-08
 features:
   - "Codex CLI v0.129.0"
   - "Codex CLI v0.130.0-alpha.1"
+pipeline_warnings:
+  - "Step 1 (機能抽出) で claude -p が max turns に到達しフォールバック発動。X検索 (Step 2) はスキップされたため、SNS反応情報が欠落しています。"
 codex_review: "Vim対応より、プラグイン共有やHooks管理UIの整備に正式版らしい本気度を感じる。派手さは抑えめだが、Codexを一発ネタでなく運用基盤へ押し上げる更新として地味に重要だ。"
 codex_importance: 4
 ---
