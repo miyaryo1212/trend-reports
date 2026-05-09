@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-05-08T23:01:00Z",
-  "period_start": "2026-04-12",
-  "period_end": "2026-05-09",
+  "generated_at": "2026-05-09T23:01:41Z",
+  "period_start": "2026-04-13",
+  "period_end": "2026-05-10",
   "items": [
     {
       "rank": 1,
       "slug": "2026-04-18-claude-anthropic",
-      "reason": "Opus 4.7・Claude Design・xhigh・タスク予算が一挙投入、運用基盤の転換点",
+      "reason": "Opus 4.7・Claude Design・xhigh一斉投入、AI開発体験の転換点として必読",
       "previous_rank": 1
     },
     {
       "rank": 2,
-      "slug": "2026-04-25-codex-openai",
-      "reason": "GPT-5.5とCodex CLI大型更新が同時着弾、エージェント基盤競争の号砲",
+      "slug": "2026-05-09-codex-openai",
+      "reason": "ChatGPT広告テスト開始、会話UIの収益化が設計原理を変えうる重大局面",
       "previous_rank": null
     },
     {
       "rank": 3,
-      "slug": "2026-05-09-ai-trends",
-      "reason": "Glasswingで防御AIが主役に昇格、両陣営の戦略差が鮮明に",
+      "slug": "2026-04-25-ai-trends",
+      "reason": "NEC提携・Amazon 5GW確保、研究競争から供給網・販路の争いへ移行を象徴",
       "previous_rank": null
     },
     {
       "rank": 4,
-      "slug": "2026-05-04-academia",
-      "reason": "単一LLM万能論の終焉、異種モデル協調が研究の主流へ",
-      "previous_rank": 4
+      "slug": "2026-05-09-ai-trends",
+      "reason": "Glasswing12社連合でAIが防御インフラの主役へ、安全保障の転換点",
+      "previous_rank": 3
     },
     {
       "rank": 5,
-      "slug": "2026-05-02-codex-openai",
-      "reason": "SWE-bench終了宣言が象徴的、評価軸がベンチから実務運用へ転換",
-      "previous_rank": 3
+      "slug": "2026-05-04-academia",
+      "reason": "単一LLM万能論の終焉、異種モデル協調が研究の主役に躍り出た節目",
+      "previous_rank": 4
     }
   ]
 }
