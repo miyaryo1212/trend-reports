@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-05-09T23:01:41Z",
-  "period_start": "2026-04-13",
-  "period_end": "2026-05-10",
+  "generated_at": "2026-05-10T23:01:32Z",
+  "period_start": "2026-04-14",
+  "period_end": "2026-05-11",
   "items": [
     {
       "rank": 1,
       "slug": "2026-04-18-claude-anthropic",
-      "reason": "Opus 4.7・Claude Design・xhigh一斉投入、AI開発体験の転換点として必読",
+      "reason": "Opus 4.7+Claude Design+タスク予算が一挙登場、開発体験の転換点",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-05-09-codex-openai",
-      "reason": "ChatGPT広告テスト開始、会話UIの収益化が設計原理を変えうる重大局面",
-      "previous_rank": null
+      "reason": "ChatGPT広告テスト開始、会話UIの収益化が設計原理を変えうる",
+      "previous_rank": 2
     },
     {
       "rank": 3,
-      "slug": "2026-04-25-ai-trends",
-      "reason": "NEC提携・Amazon 5GW確保、研究競争から供給網・販路の争いへ移行を象徴",
+      "slug": "2026-05-09-claude-anthropic",
+      "reason": "Glasswingで安全性を実務に落とし、AIの信頼獲得競争をリード",
       "previous_rank": null
     },
     {
       "rank": 4,
-      "slug": "2026-05-09-ai-trends",
-      "reason": "Glasswing12社連合でAIが防御インフラの主役へ、安全保障の転換点",
-      "previous_rank": 3
+      "slug": "2026-05-04-academia",
+      "reason": "単一LLM万能論の終焉、異種モデル協調が研究の主役に交代",
+      "previous_rank": 5
     },
     {
       "rank": 5,
-      "slug": "2026-05-04-academia",
-      "reason": "単一LLM万能論の終焉、異種モデル協調が研究の主役に躍り出た節目",
-      "previous_rank": 4
+      "slug": "2026-04-25-ai-trends",
+      "reason": "NEC提携・Amazon5GW確保、主戦場が供給網と販路へ移行した象徴",
+      "previous_rank": 3
     }
   ]
 }
