@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-05-10T23:01:32Z",
-  "period_start": "2026-04-14",
-  "period_end": "2026-05-11",
+  "generated_at": "2026-05-11T23:01:54Z",
+  "period_start": "2026-04-15",
+  "period_end": "2026-05-12",
   "items": [
     {
       "rank": 1,
-      "slug": "2026-04-18-claude-anthropic",
-      "reason": "Opus 4.7+Claude Design+タスク予算が一挙登場、開発体験の転換点",
-      "previous_rank": 1
+      "slug": "2026-05-12-ai-trends",
+      "reason": "GPT-5.5 Instant既定化で日常浸透へ舵を切った転換点、競争構図を塗り替える一手",
+      "previous_rank": null
     },
     {
       "rank": 2,
-      "slug": "2026-05-09-codex-openai",
-      "reason": "ChatGPT広告テスト開始、会話UIの収益化が設計原理を変えうる",
-      "previous_rank": 2
+      "slug": "2026-04-18-claude-anthropic",
+      "reason": "Opus 4.7+Claude Design+運用機能の同時投入で開発体験の基準が一段上がった",
+      "previous_rank": 1
     },
     {
       "rank": 3,
-      "slug": "2026-05-09-claude-anthropic",
-      "reason": "Glasswingで安全性を実務に落とし、AIの信頼獲得競争をリード",
+      "slug": "2026-05-09-ai-trends",
+      "reason": "Glasswingで「AIは守れる」時代を開いた安全保障の転換点、新モデル乱発との対比が鮮明",
       "previous_rank": null
     },
     {
       "rank": 4,
-      "slug": "2026-05-04-academia",
-      "reason": "単一LLM万能論の終焉、異種モデル協調が研究の主役に交代",
-      "previous_rank": 5
+      "slug": "2026-05-11-github-trending",
+      "reason": "金融テンプレートとメモリ基盤の同時浮上がエージェント実用化の現在地を映す",
+      "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-04-25-ai-trends",
-      "reason": "NEC提携・Amazon5GW確保、主戦場が供給網と販路へ移行した象徴",
-      "previous_rank": 3
+      "slug": "2026-05-02-codex-openai",
+      "reason": "SWE-bench終了宣言が象徴する評価軸の転換、ベンチから実務運用へ",
+      "previous_rank": null
     }
   ]
 }
