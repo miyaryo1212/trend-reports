@@ -642,38 +642,60 @@ li {
 }
 
 /* Pipeline-warning banner — shown when run.sh hit a fallback (max-turns,
-   missing data, etc.) and the report content may be incomplete. */
+   missing data, etc.) and the report content may be incomplete.
+   High-contrast amber palette for attention. */
 .pipeline-warning {
-  border: 1px solid #d97706;
-  background: rgba(217, 119, 6, 0.1);
+  border: 1px solid #f59e0b;
+  background: #fef3c7;
   border-radius: 6px;
   padding: 0.85rem 1.1rem;
   margin-bottom: 1.5rem;
-  color: #92400e;
-}
-
-@media (prefers-color-scheme: dark) {
-  .pipeline-warning {
-    border-color: #fbbf24;
-    background: rgba(251, 191, 36, 0.12);
-    color: #fde68a;
-  }
+  color: #78350f;
 }
 
 .pipeline-warning-title {
   display: block;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 0.4rem;
+  color: #92400e;
+  font-size: 0.98rem;
 }
 
 .pipeline-warning-list {
   margin: 0;
   padding-left: 1.25rem;
   font-size: 0.92rem;
+  color: #78350f;
 }
 
 .pipeline-warning-list li {
   margin-bottom: 0.25rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .pipeline-warning {
+    border-color: #f59e0b;
+    background: rgba(180, 83, 9, 0.32);
+    color: #fde68a;
+  }
+  :root:not([data-theme="light"]) .pipeline-warning-title {
+    color: #fcd34d;
+  }
+  :root:not([data-theme="light"]) .pipeline-warning-list {
+    color: #fde68a;
+  }
+}
+
+:root[data-theme="dark"] .pipeline-warning {
+  border-color: #f59e0b;
+  background: rgba(180, 83, 9, 0.32);
+  color: #fde68a;
+}
+:root[data-theme="dark"] .pipeline-warning-title {
+  color: #fcd34d;
+}
+:root[data-theme="dark"] .pipeline-warning-list {
+  color: #fde68a;
 }
 
 /* Report summary box */
