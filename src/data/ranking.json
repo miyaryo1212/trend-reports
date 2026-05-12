@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-05-11T23:01:54Z",
-  "period_start": "2026-04-15",
-  "period_end": "2026-05-12",
+  "generated_at": "2026-05-12T23:00:42Z",
+  "period_start": "2026-04-16",
+  "period_end": "2026-05-13",
   "items": [
     {
       "rank": 1,
       "slug": "2026-05-12-ai-trends",
-      "reason": "GPT-5.5 Instant既定化で日常浸透へ舵を切った転換点、競争構図を塗り替える一手",
-      "previous_rank": null
+      "reason": "GPT-5.5 Instant既定化で「性能誇示」から「日常浸透」へ転換した決定的一手",
+      "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-04-18-claude-anthropic",
-      "reason": "Opus 4.7+Claude Design+運用機能の同時投入で開発体験の基準が一段上がった",
-      "previous_rank": 1
+      "reason": "Opus 4.7+タスク予算+Claude Designの同時投入で開発体験の基準が変わった",
+      "previous_rank": 2
     },
     {
       "rank": 3,
-      "slug": "2026-05-09-ai-trends",
-      "reason": "Glasswingで「AIは守れる」時代を開いた安全保障の転換点、新モデル乱発との対比が鮮明",
+      "slug": "2026-05-09-codex-openai",
+      "reason": "ChatGPT広告テスト開始——収益化が会話UIの設計原理を変えうる転換点",
       "previous_rank": null
     },
     {
       "rank": 4,
-      "slug": "2026-05-11-github-trending",
-      "reason": "金融テンプレートとメモリ基盤の同時浮上がエージェント実用化の現在地を映す",
+      "slug": "2026-05-13-ai-trends",
+      "reason": "Glasswingで生成AIが「便利な助手」から「防御インフラ」へ格上げされた節目",
       "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-05-02-codex-openai",
-      "reason": "SWE-bench終了宣言が象徴する評価軸の転換、ベンチから実務運用へ",
-      "previous_rank": null
+      "slug": "2026-05-11-github-trending",
+      "reason": "金融テンプレートとエージェント記憶基盤の同時急伸が実用化の波を象徴",
+      "previous_rank": 4
     }
   ]
 }
