@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-05-12T23:00:42Z",
-  "period_start": "2026-04-16",
-  "period_end": "2026-05-13",
+  "generated_at": "2026-05-13T23:02:02Z",
+  "period_start": "2026-04-17",
+  "period_end": "2026-05-14",
   "items": [
     {
       "rank": 1,
       "slug": "2026-05-12-ai-trends",
-      "reason": "GPT-5.5 Instant既定化で「性能誇示」から「日常浸透」へ転換した決定的一手",
+      "reason": "GPT-5.5/Instant同時投入で性能誇示から日常浸透へ、OpenAI戦略転換の象徴的一日",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-04-18-claude-anthropic",
-      "reason": "Opus 4.7+タスク予算+Claude Designの同時投入で開発体験の基準が変わった",
+      "reason": "Opus 4.7にtask budgets・xhigh・Claude Designを一気に詰め、運用基盤の質的跳躍",
       "previous_rank": 2
     },
     {
       "rank": 3,
-      "slug": "2026-05-09-codex-openai",
-      "reason": "ChatGPT広告テスト開始——収益化が会話UIの設計原理を変えうる転換点",
-      "previous_rank": null
+      "slug": "2026-05-13-ai-trends",
+      "reason": "Glasswing発表でAIが「便利な助手」から産業防御基盤へ踏み出す転換点",
+      "previous_rank": 4
     },
     {
       "rank": 4,
-      "slug": "2026-05-13-ai-trends",
-      "reason": "Glasswingで生成AIが「便利な助手」から「防御インフラ」へ格上げされた節目",
+      "slug": "2026-05-02-codex-openai",
+      "reason": "SWE-bench終了宣言とWorkspace Agents導入、評価軸が実務運用へ移る節目",
       "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-05-11-github-trending",
-      "reason": "金融テンプレートとエージェント記憶基盤の同時急伸が実用化の波を象徴",
-      "previous_rank": 4
+      "slug": "2026-05-04-academia",
+      "reason": "異種基盤モデル協調が192票で圧勝、単一LLM万能時代の終焉を示唆",
+      "previous_rank": null
     }
   ]
 }
