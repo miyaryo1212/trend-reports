@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-05-13T23:02:02Z",
-  "period_start": "2026-04-17",
-  "period_end": "2026-05-14",
+  "generated_at": "2026-05-14T23:01:06Z",
+  "period_start": "2026-04-18",
+  "period_end": "2026-05-15",
   "items": [
     {
       "rank": 1,
       "slug": "2026-05-12-ai-trends",
-      "reason": "GPT-5.5/Instant同時投入で性能誇示から日常浸透へ、OpenAI戦略転換の象徴的一日",
+      "reason": "GPT-5.5とInstant同時投入は性能競争から日常浸透戦略への転換点",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-04-18-claude-anthropic",
-      "reason": "Opus 4.7にtask budgets・xhigh・Claude Designを一気に詰め、運用基盤の質的跳躍",
+      "reason": "Opus 4.7はモデル性能だけでなく運用基盤の成熟を一気に示した節目",
       "previous_rank": 2
     },
     {
       "rank": 3,
       "slug": "2026-05-13-ai-trends",
-      "reason": "Glasswing発表でAIが「便利な助手」から産業防御基盤へ踏み出す転換点",
-      "previous_rank": 4
+      "reason": "GlasswingでAIがインフラ防御の主役へ踏み出す産業転換の象徴",
+      "previous_rank": 3
     },
     {
       "rank": 4,
-      "slug": "2026-05-02-codex-openai",
-      "reason": "SWE-bench終了宣言とWorkspace Agents導入、評価軸が実務運用へ移る節目",
+      "slug": "2026-05-12-academia",
+      "reason": "1000層DiT安定化とRLVR再定式化、基盤技術の地殻変動が同時進行",
       "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-05-04-academia",
-      "reason": "異種基盤モデル協調が192票で圧勝、単一LLM万能時代の終焉を示唆",
+      "slug": "2026-05-11-github-trending",
+      "reason": "金融特化テンプレートとメモリ基盤の同時台頭がエージェント実用化を象徴",
       "previous_rank": null
     }
   ]
