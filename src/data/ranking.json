@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-05-14T23:01:06Z",
-  "period_start": "2026-04-18",
-  "period_end": "2026-05-15",
+  "generated_at": "2026-05-15T23:00:12Z",
+  "period_start": "2026-04-19",
+  "period_end": "2026-05-16",
   "items": [
     {
       "rank": 1,
       "slug": "2026-05-12-ai-trends",
-      "reason": "GPT-5.5とInstant同時投入は性能競争から日常浸透戦略への転換点",
+      "reason": "GPT-5.5とInstant同時発表、性能競争から日常導入への転換点を象徴",
       "previous_rank": 1
     },
     {
       "rank": 2,
-      "slug": "2026-04-18-claude-anthropic",
-      "reason": "Opus 4.7はモデル性能だけでなく運用基盤の成熟を一気に示した節目",
-      "previous_rank": 2
-    },
-    {
-      "rank": 3,
       "slug": "2026-05-13-ai-trends",
-      "reason": "GlasswingでAIがインフラ防御の主役へ踏み出す産業転換の象徴",
+      "reason": "Glasswingで生成AIが産業インフラ防御の主役へ踏み出した節目",
       "previous_rank": 3
     },
     {
+      "rank": 3,
+      "slug": "2026-05-09-codex-openai",
+      "reason": "ChatGPT広告テスト開始、収益化が会話UI設計原理を変えうる転換点",
+      "previous_rank": null
+    },
+    {
       "rank": 4,
-      "slug": "2026-05-12-academia",
-      "reason": "1000層DiT安定化とRLVR再定式化、基盤技術の地殻変動が同時進行",
+      "slug": "2026-05-15-ai-trends",
+      "reason": "ゲイツ財団2億ドル提携、AI企業の正統性争いを静かに前進させる一手",
       "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-05-11-github-trending",
-      "reason": "金融特化テンプレートとメモリ基盤の同時台頭がエージェント実用化を象徴",
+      "slug": "2026-05-16-academia",
+      "reason": "エージェント記憶研究が同時多発、能力誇示から運用課題解決への転換を示唆",
       "previous_rank": null
     }
   ]
