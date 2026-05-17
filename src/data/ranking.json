@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-16T23:01:08Z",
-  "period_start": "2026-04-20",
-  "period_end": "2026-05-17",
+  "generated_at": "2026-05-17T23:00:52Z",
+  "period_start": "2026-04-21",
+  "period_end": "2026-05-18",
   "items": [
     {
       "rank": 1,
@@ -12,26 +12,26 @@
     {
       "rank": 2,
       "slug": "2026-05-13-ai-trends",
-      "reason": "Glasswingは生成AIを産業インフラへ押し上げる節目、セキュリティ領域の本格参入",
+      "reason": "GlasswingでAIが防御インフラへ昇格、生成AIの社会的役割が一段変わる節目",
       "previous_rank": 2
     },
     {
       "rank": 3,
       "slug": "2026-05-15-ai-trends",
-      "reason": "ゲイツ財団2億ドル提携はAI企業の正統性争いを静かに前進させる布石",
-      "previous_rank": 4
+      "reason": "ゲイツ財団2億ドル提携は公益×正統性争いの新局面、布陣の広さが戦略的",
+      "previous_rank": 3
     },
     {
       "rank": 4,
-      "slug": "2026-05-12-claude-anthropic",
-      "reason": "Agent Viewと/goalでClaude Codeが補助から運用対象の作業者へ質的変化",
+      "slug": "2026-05-16-codex-openai",
+      "reason": "Symphony OSS公開が本丸、単発ツールから運用基盤への転換を象徴",
       "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-05-16-academia",
-      "reason": "エージェント記憶研究の同時多発は能力誇示からボトルネック解消への転換を示唆",
-      "previous_rank": 5
+      "slug": "2026-05-12-claude-anthropic",
+      "reason": "Agent View・/goalでClaude Codeが自律作業者へ進化、運用設計の新章",
+      "previous_rank": 4
     }
   ]
 }
