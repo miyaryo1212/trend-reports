@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-05-17T23:00:52Z",
-  "period_start": "2026-04-21",
-  "period_end": "2026-05-18",
+  "generated_at": "2026-05-18T23:00:12Z",
+  "period_start": "2026-04-22",
+  "period_end": "2026-05-19",
   "items": [
     {
       "rank": 1,
       "slug": "2026-05-12-ai-trends",
-      "reason": "GPT-5.5+Instant同時投入は性能競争から面制圧への転換点、業界構造を変える一手",
+      "reason": "GPT-5.5とInstant同時投入で「面制圧」戦略が鮮明化した転換点",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-05-13-ai-trends",
-      "reason": "GlasswingでAIが防御インフラへ昇格、生成AIの社会的役割が一段変わる節目",
+      "reason": "Glasswingは生成AIを産業インフラへ押し上げる本筋の動き",
       "previous_rank": 2
     },
     {
       "rank": 3,
-      "slug": "2026-05-15-ai-trends",
-      "reason": "ゲイツ財団2億ドル提携は公益×正統性争いの新局面、布陣の広さが戦略的",
-      "previous_rank": 3
+      "slug": "2026-05-19-ai-trends",
+      "reason": "Stainless買収でエージェント時代の配管を押さえる静かな大手",
+      "previous_rank": null
     },
     {
       "rank": 4,
-      "slug": "2026-05-16-codex-openai",
-      "reason": "Symphony OSS公開が本丸、単発ツールから運用基盤への転換を象徴",
+      "slug": "2026-05-18-codex-openai",
+      "reason": "GPT-5.5発表の裏でStudy Mode削除が信頼コストを可視化",
       "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-05-12-claude-anthropic",
-      "reason": "Agent View・/goalでClaude Codeが自律作業者へ進化、運用設計の新章",
-      "previous_rank": 4
+      "slug": "2026-05-04-academia",
+      "reason": "単一LLM万能論の終焉、異種モデル協調が新たな設計原理に",
+      "previous_rank": null
     }
   ]
 }
