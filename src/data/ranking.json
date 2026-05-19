@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-05-18T23:00:12Z",
-  "period_start": "2026-04-22",
-  "period_end": "2026-05-19",
+  "generated_at": "2026-05-19T23:01:11Z",
+  "period_start": "2026-04-23",
+  "period_end": "2026-05-20",
   "items": [
     {
       "rank": 1,
       "slug": "2026-05-12-ai-trends",
-      "reason": "GPT-5.5とInstant同時投入で「面制圧」戦略が鮮明化した転換点",
+      "reason": "GPT-5.5とInstant同時投入で「性能誇示→面制圧」へ転換した象徴的な日",
       "previous_rank": 1
     },
     {
       "rank": 2,
-      "slug": "2026-05-13-ai-trends",
-      "reason": "Glasswingは生成AIを産業インフラへ押し上げる本筋の動き",
-      "previous_rank": 2
+      "slug": "2026-05-09-ai-trends",
+      "reason": "Glasswingの12社連合でAIが「便利な道具」から安全保障基盤へ格上げ",
+      "previous_rank": null
     },
     {
       "rank": 3,
       "slug": "2026-05-19-ai-trends",
-      "reason": "Stainless買収でエージェント時代の配管を押さえる静かな大手",
-      "previous_rank": null
+      "reason": "Stainless買収はエージェント時代の配管を押さえる静かだが決定的な一手",
+      "previous_rank": 3
     },
     {
       "rank": 4,
-      "slug": "2026-05-18-codex-openai",
-      "reason": "GPT-5.5発表の裏でStudy Mode削除が信頼コストを可視化",
+      "slug": "2026-05-16-ai-trends",
+      "reason": "PwC数十万人導入とCodex料金刷新で囲い込み競争が一気に現実味",
       "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-05-04-academia",
-      "reason": "単一LLM万能論の終焉、異種モデル協調が新たな設計原理に",
-      "previous_rank": null
+      "slug": "2026-05-18-codex-openai",
+      "reason": "GPT-5.5発表とCodex Anywhere展開でマルチ接点戦略が本格始動",
+      "previous_rank": 4
     }
   ]
 }
