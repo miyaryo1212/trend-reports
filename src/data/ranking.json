@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-05-20T23:01:12Z",
-  "period_start": "2026-04-24",
-  "period_end": "2026-05-21",
+  "generated_at": "2026-05-21T23:00:10Z",
+  "period_start": "2026-04-25",
+  "period_end": "2026-05-22",
   "items": [
     {
       "rank": 1,
       "slug": "2026-05-12-ai-trends",
-      "reason": "GPT-5.5よりInstant既定化が本命、性能競争から日常浸透の面制圧へ舵が切られた節目",
+      "reason": "GPT-5.5+Instant同時投入、性能誇示から日常導入の面制圧へ競争の質が変わった転換点",
       "previous_rank": 1
     },
     {
       "rank": 2,
-      "slug": "2026-05-13-ai-trends",
-      "reason": "便利な助手から防御インフラへ、AIの社会的役割が質的に変わった発表",
+      "slug": "2026-05-09-claude-anthropic",
+      "reason": "Glasswingで12社連携しAI防御を産業実装へ、安全性を看板で終わらせない実行力が光る",
       "previous_rank": null
     },
     {
       "rank": 3,
       "slug": "2026-05-19-ai-trends",
-      "reason": "エージェント時代のSDK基盤を押さえにいく、地味だが戦略的に重い買収",
+      "reason": "Stainless買収でエージェント時代の配管を押さえる堅い一手、地味だが戦略的に重い",
       "previous_rank": 3
     },
     {
       "rank": 4,
-      "slug": "2026-05-20-codex-openai",
-      "reason": "クラウド前提だったAIコーディングにオンプレ選択肢が加わる転換点",
+      "slug": "2026-05-02-codex-openai",
+      "reason": "SWE-bench終了宣言とWorkspace Agents導入、評価軸が実務運用へ移る象徴的転換",
       "previous_rank": null
     },
     {
       "rank": 5,
       "slug": "2026-05-18-academia",
-      "reason": "単純スケーリングでIMO金メダル級到達、推論の天井はまだ先にあると示す強烈な回答",
-      "previous_rank": null
+      "reason": "推論スケーリングと記憶基盤が同時に研究主軸化、基礎研究の潮目を映す好レポート",
+      "previous_rank": 5
     }
   ]
 }
