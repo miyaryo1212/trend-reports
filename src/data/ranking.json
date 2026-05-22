@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-05-21T23:00:10Z",
-  "period_start": "2026-04-25",
-  "period_end": "2026-05-22",
+  "generated_at": "2026-05-22T23:00:25Z",
+  "period_start": "2026-04-26",
+  "period_end": "2026-05-23",
   "items": [
     {
       "rank": 1,
-      "slug": "2026-05-12-ai-trends",
-      "reason": "GPT-5.5+Instant同時投入、性能誇示から日常導入の面制圧へ競争の質が変わった転換点",
-      "previous_rank": 1
+      "slug": "2026-05-23-ai-trends",
+      "reason": "Gemini 3.5 FlashとAnthropic黒字化が同日に並び、AI産業の構造転換を象徴する一報",
+      "previous_rank": null
     },
     {
       "rank": 2,
-      "slug": "2026-05-09-claude-anthropic",
-      "reason": "Glasswingで12社連携しAI防御を産業実装へ、安全性を看板で終わらせない実行力が光る",
-      "previous_rank": null
+      "slug": "2026-05-12-ai-trends",
+      "reason": "GPT-5.5 Instant既定化で性能競争から日常浸透戦へ移行した転換点",
+      "previous_rank": 1
     },
     {
       "rank": 3,
       "slug": "2026-05-19-ai-trends",
-      "reason": "Stainless買収でエージェント時代の配管を押さえる堅い一手、地味だが戦略的に重い",
+      "reason": "Stainless買収はエージェント時代の配管を押さえる地味だが決定的な一手",
       "previous_rank": 3
     },
     {
       "rank": 4,
-      "slug": "2026-05-02-codex-openai",
-      "reason": "SWE-bench終了宣言とWorkspace Agents導入、評価軸が実務運用へ移る象徴的転換",
+      "slug": "2026-05-18-codex-openai",
+      "reason": "GPT-5.5発表の裏でStudy Mode問題が露呈、プロダクト信頼の脆さが浮き彫り",
       "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-05-18-academia",
-      "reason": "推論スケーリングと記憶基盤が同時に研究主軸化、基礎研究の潮目を映す好レポート",
-      "previous_rank": 5
+      "slug": "2026-05-20-academia",
+      "reason": "コードをエージェント基盤に再定義する潮流が研究の主軸に浮上した重要な日",
+      "previous_rank": null
     }
   ]
 }
