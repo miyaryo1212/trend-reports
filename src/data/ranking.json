@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-05-22T23:00:25Z",
-  "period_start": "2026-04-26",
-  "period_end": "2026-05-23",
+  "generated_at": "2026-05-23T23:01:03Z",
+  "period_start": "2026-04-27",
+  "period_end": "2026-05-24",
   "items": [
     {
       "rank": 1,
       "slug": "2026-05-23-ai-trends",
-      "reason": "Gemini 3.5 FlashとAnthropic黒字化が同日に並び、AI産業の構造転換を象徴する一報",
-      "previous_rank": null
+      "reason": "Gemini 3.5 FlashとAnthropic黒字化が同日に揃い、AI産業の構造転換を象徴する一報",
+      "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-05-12-ai-trends",
-      "reason": "GPT-5.5 Instant既定化で性能競争から日常浸透戦へ移行した転換点",
-      "previous_rank": 1
+      "reason": "GPT-5.5とInstant同時投入で「性能誇示→面制圧」への転換が鮮明に",
+      "previous_rank": 2
     },
     {
       "rank": 3,
@@ -23,14 +23,14 @@
     },
     {
       "rank": 4,
-      "slug": "2026-05-18-codex-openai",
-      "reason": "GPT-5.5発表の裏でStudy Mode問題が露呈、プロダクト信頼の脆さが浮き彫り",
+      "slug": "2026-05-22-codex-openai",
+      "reason": "Goals既定化とPlugin Marketplace本格整備でCLIが運用基盤へ成熟",
       "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-05-20-academia",
-      "reason": "コードをエージェント基盤に再定義する潮流が研究の主軸に浮上した重要な日",
+      "slug": "2026-05-16-claude-anthropic",
+      "reason": "NASA火星ローバー採用の話題性とagents基盤整備の実質が両立した好例",
       "previous_rank": null
     }
   ]
