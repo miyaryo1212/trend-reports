@@ -16,6 +16,8 @@ features:
   - "Claude Mythos Preview: Project Glasswingサイバーセキュリティ特化フロンティアモデル"
   - "Anthropic Research: Natural Language Autoencoders"
   - "Anthropic Research: Teaching Claude Why"
+codex_review: "Claude Codeの改善は派手さより運用の詰めが効いていて、実務ではこういう地味な更新の積み重ねが一番強い。Mythosの勇ましい物語はやや過熱気味だが、安全性研究を同列で出すあたりにAnthropicらしいバランス感覚も見える。 ※ このレビューは後日生成されました"
+codex_importance: 4
 ---
 
 ## 公式アップデート

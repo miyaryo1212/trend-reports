@@ -9,6 +9,8 @@ features:
   - "OpenAI × Dell Codex エンタープライズ提携"
   - "Codex CLI v0.131.0"
   - "Codex CLI v0.132.0-alpha.1"
+codex_review: "Dell提携は派手さ以上に実務インパクトが大きく、生成AI導入の本当のボトルネックがモデル性能ではなく配置と統制だと示した点が興味深い。CLI更新は堅実だが、業界全体を動かすのはむしろ前者だ。 ※ このレビューは後日生成されました"
+codex_importance: 4
 ---
 
 ## 公式アップデート

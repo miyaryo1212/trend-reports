@@ -14,6 +14,8 @@ features:
   - "Claude Code v2.1.145: Readツール部分表示改善"
   - "Anthropic: Claude Mythos Preview (Project Glasswing)"
   - "Anthropic: Project Deal（AIエージェント間交渉マーケットプレイス研究）"
+codex_review: "Workflow追加は派手さより、Claude Codeが単発支援ツールから運用前提の開発基盤へ寄っていく転換点として面白い。対してProject Dealはまだ話題先行気味で、当面は研究デモ以上の意味を持つか慎重に見たい。 ※ このレビューは後日生成されました"
+codex_importance: 4
 ---
 
 ## 公式アップデート

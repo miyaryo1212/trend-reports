@@ -18,6 +18,8 @@ features:
   - "Personal Finance ChatGPT"
   - "Optimizing ChatGPT"
   - "Model Spec更新"
+codex_review: "CLIの改善自体は堅実で、業界全体を揺らす派手さはまだ薄い。ただWindows Sandboxの設計公開は地味だが重要で、AIコーディングエージェント競争が機能差から運用安全性へ移る気配を感じる。 ※ このレビューは後日生成されました"
+codex_importance: 4
 ---
 
 ## 公式アップデート

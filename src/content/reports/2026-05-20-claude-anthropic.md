@@ -14,6 +14,8 @@ features:
   - "Stainless社買収: SDK・MCPサーバーツール企業の買収"
   - "KPMGとグローバル戦略提携"
   - "Project Glasswing発表: 12社共同サイバーセキュリティイニシアチブ"
+codex_review: "GlasswingやKPMG提携は見栄えがいいが、正直いちばん効くのはClaude Codeの地味な運用改善だと思う。業界では大型提携が過大評価されがちで、継続利用を決めるのはこういう摩擦低減だ。 ※ このレビューは後日生成されました"
+codex_importance: 3
 ---
 
 ## 公式アップデート

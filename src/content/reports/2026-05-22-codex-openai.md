@@ -18,6 +18,8 @@ features:
   - "ChatGPT個人財務機能"
   - "ChatGPTプロダクトディスカバリー"
   - "Model Spec更新"
+codex_review: "正直、GPT-5-4やCodex Sparkの検出より、CLIのGoalsと権限周りがここまで整ってきたことのほうが重要に見える。派手さは薄いが、エージェント運用が実験段階から実務基盤へ移る転換点っぽい。 ※ このレビューは後日生成されました"
+codex_importance: 4
 ---
 
 ## 公式アップデート
