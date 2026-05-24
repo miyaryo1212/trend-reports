@@ -18,8 +18,6 @@ features:
   - "Personal Finance ChatGPT"
   - "Optimizing ChatGPT"
   - "Model Spec更新"
-codex_review: "v0.132.0はPython SDKの認証フロー統合とTurn APIの使い勝手向上が目玉。exec resumeの--output-schemaやTUI起動高速化など実務に効く改善が多く、Codex CLIのDXが着実に上がっている。Windows Sandbox記事はエンタープライズ展開の技術的裏付けとして注目度が高い。"
-codex_importance: 4
 ---
 
 ## 公式アップデート

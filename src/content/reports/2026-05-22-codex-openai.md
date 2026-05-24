@@ -18,8 +18,6 @@ features:
   - "ChatGPT個人財務機能"
   - "ChatGPTプロダクトディスカバリー"
   - "Model Spec更新"
-codex_review: "v0.133.0はGoals機能のデフォルト有効化とPlugin Marketplaceの本格整備が目玉。Permission Profilesの継承・requirements.toml管理やExtension Lifecycleのイベント拡充など、エコシステム基盤の成熟が進んでいる。GPT-5-3 Codex Sparkの登場でコーディング特化モデルのラインナップが拡充され、速度面での評価が高い。"
-codex_importance: 4
 ---
 
 ## 公式アップデート
