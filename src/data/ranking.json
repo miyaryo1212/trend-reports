@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-05-23T23:01:03Z",
-  "period_start": "2026-04-27",
-  "period_end": "2026-05-24",
+  "generated_at": "2026-05-24T23:00:47Z",
+  "period_start": "2026-04-28",
+  "period_end": "2026-05-25",
   "items": [
     {
       "rank": 1,
       "slug": "2026-05-23-ai-trends",
-      "reason": "Gemini 3.5 FlashとAnthropic黒字化が同日に揃い、AI産業の構造転換を象徴する一報",
+      "reason": "Anthropic初の黒字化とGoogle I/O同時進行、生成AIがインフラ産業へ移行した象徴的一日",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-05-12-ai-trends",
-      "reason": "GPT-5.5とInstant同時投入で「性能誇示→面制圧」への転換が鮮明に",
+      "reason": "GPT-5.5+Instant同時投入で「面制圧」戦略が鮮明に、モデル競争の新局面を示す",
       "previous_rank": 2
     },
     {
       "rank": 3,
-      "slug": "2026-05-19-ai-trends",
-      "reason": "Stainless買収はエージェント時代の配管を押さえる地味だが決定的な一手",
-      "previous_rank": 3
+      "slug": "2026-05-22-claude-anthropic",
+      "reason": "Workflowツール追加でClaude Codeが単発支援から運用開発基盤へ転換する節目",
+      "previous_rank": null
     },
     {
       "rank": 4,
-      "slug": "2026-05-22-codex-openai",
-      "reason": "Goals既定化とPlugin Marketplace本格整備でCLIが運用基盤へ成熟",
+      "slug": "2026-05-20-academia",
+      "reason": "エージェントの実行基盤・スキル統治・安全監査が三層で同時進展、研究が実装寄りに",
       "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-05-16-claude-anthropic",
-      "reason": "NASA火星ローバー採用の話題性とagents基盤整備の実質が両立した好例",
+      "slug": "2026-05-11-github-trending",
+      "reason": "金融特化テンプレートとエージェント記憶基盤が同時急伸、OSSの実用化シグナルとして貴重",
       "previous_rank": null
     }
   ]
