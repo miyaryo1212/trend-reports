@@ -10,6 +10,13 @@ import Base from '../../layouts/Base.astro';
   <main>
     <ul class="update-list">
       <li>
+        <time>2026-05-22</time>
+        <div>
+          <strong>Codexレビュー欠落時の警告表示 & ステイル <code>codex_review</code> 自動除去</strong>
+          <p>Codex レビュー注入 (Step 3.5) が失敗した日のレポートで、本物のCodex評価が取得できていないのに前日レポートを参照したClaudeが <code>codex_review</code> を真似て生成してしまうケースが見つかったため、Step 3.5 直前に既存 <code>codex_review</code>/<code>codex_importance</code> を必ず剥がす防御ステップを追加。あわせて codex exec が失敗したときは「正常に完了していない可能性があります」の警告バナーに反映されるようにし、欠落を見落とさないようにしました。機能抽出 (Step 1) の <code>--max-turns</code> も 10 → 20 に引き上げ、サイトマップ新規ページが多い日でも完走しやすくしています。</p>
+        </div>
+      </li>
+      <li>
         <time>2026-05-08</time>
         <div>
           <strong>パイプライン警告バナーの導入とfrontmatterバリデータ強化</strong>
