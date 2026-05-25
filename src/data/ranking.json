@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-05-24T23:00:47Z",
-  "period_start": "2026-04-28",
-  "period_end": "2026-05-25",
+  "generated_at": "2026-05-25T23:01:27Z",
+  "period_start": "2026-04-29",
+  "period_end": "2026-05-26",
   "items": [
     {
       "rank": 1,
       "slug": "2026-05-23-ai-trends",
-      "reason": "Anthropic初の黒字化とGoogle I/O同時進行、生成AIがインフラ産業へ移行した象徴的一日",
+      "reason": "Anthropic初黒字・Karpathy移籍・Gemini 3.5 Flash、業界地図が一気に塗り替わった転換週",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-05-12-ai-trends",
-      "reason": "GPT-5.5+Instant同時投入で「面制圧」戦略が鮮明に、モデル競争の新局面を示す",
+      "reason": "GPT-5.5+Instant同時投入で「面制圧」へ、モデル競争の質が変わった起点",
       "previous_rank": 2
     },
     {
       "rank": 3,
-      "slug": "2026-05-22-claude-anthropic",
-      "reason": "Workflowツール追加でClaude Codeが単発支援から運用開発基盤へ転換する節目",
+      "slug": "2026-05-26-ai-trends",
+      "reason": "Glasswingの実績が具体化し、AIが「守る側」に回る新局面の到来を実感",
       "previous_rank": null
     },
     {
       "rank": 4,
-      "slug": "2026-05-20-academia",
-      "reason": "エージェントの実行基盤・スキル統治・安全監査が三層で同時進展、研究が実装寄りに",
+      "slug": "2026-05-25-github-trending",
+      "reason": "コード理解の外部化と公式プラグイン基盤で、AIコーディングがインフラ競争に移行",
       "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-05-11-github-trending",
-      "reason": "金融特化テンプレートとエージェント記憶基盤が同時急伸、OSSの実用化シグナルとして貴重",
+      "slug": "2026-05-18-academia",
+      "reason": "推論は結局スケールに回収される現実と、記憶基盤の未成熟が同居する示唆的な一日",
       "previous_rank": null
     }
   ]
