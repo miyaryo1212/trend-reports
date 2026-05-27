@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-05-26T23:01:15Z",
-  "period_start": "2026-04-30",
-  "period_end": "2026-05-27",
+  "generated_at": "2026-05-27T23:00:11Z",
+  "period_start": "2026-05-01",
+  "period_end": "2026-05-28",
   "items": [
     {
       "rank": 1,
       "slug": "2026-05-23-ai-trends",
-      "reason": "Anthropic初の黒字化とGemini 3.5 Flash発表——生成AIが資本集約インフラ産業へ転換した象徴的一日",
+      "reason": "Gemini 3.5 FlashとAnthropic初黒字が同日に並び、生成AI産業の構造転換を象徴する必読回",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-05-12-ai-trends",
-      "reason": "GPT-5.5 Instant既定化で日常導入の面制圧へ、OpenAIの競争軸が性能から配布に移った転換点",
+      "reason": "GPT-5.5+Instant同時投入で日常導入の面制圧へ舵を切った転換点",
       "previous_rank": 2
     },
     {
       "rank": 3,
-      "slug": "2026-05-25-github-trending",
-      "reason": "コード理解ツールと公式プラグイン基盤の同時急伸、AIコーディングが運用インフラ競争に突入",
+      "slug": "2026-05-26-ai-trends",
+      "reason": "Glasswingの脆弱性1万件発見はAIが「守る側」に回る新局面の象徴",
       "previous_rank": 4
     },
     {
       "rank": 4,
-      "slug": "2026-05-26-ai-trends",
-      "reason": "Glasswingで1万件超の脆弱性発見、AIの役割が「便利な助手」から「防御の主役」へ拡張",
+      "slug": "2026-05-25-github-trending",
+      "reason": "コード理解ツールと公式プラグイン基盤の同時急伸がAI開発インフラ競争の幕開けを示す",
       "previous_rank": 3
     },
     {
       "rank": 5,
-      "slug": "2026-05-20-academia",
-      "reason": "エージェント研究が性能自慢から運用設計へ軸足移動、ハーネス安全性とスキル統治が新たな主戦場に",
+      "slug": "2026-05-26-academia",
+      "reason": "推論効率化とTTT脆弱性の並びが「常時厚く考える」前提を崩す研究潮流を体現",
       "previous_rank": null
     }
   ]
