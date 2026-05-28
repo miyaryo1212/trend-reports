@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-05-27T23:00:11Z",
-  "period_start": "2026-05-01",
-  "period_end": "2026-05-28",
+  "generated_at": "2026-05-28T23:01:30Z",
+  "period_start": "2026-05-02",
+  "period_end": "2026-05-29",
   "items": [
     {
       "rank": 1,
       "slug": "2026-05-23-ai-trends",
-      "reason": "Gemini 3.5 FlashとAnthropic初黒字が同日に並び、生成AI産業の構造転換を象徴する必読回",
+      "reason": "Anthropic初の黒字化とGoogle I/O同時開催、生成AIが投資期から収益期へ転換した象徴的な週",
       "previous_rank": 1
     },
     {
       "rank": 2,
-      "slug": "2026-05-12-ai-trends",
-      "reason": "GPT-5.5+Instant同時投入で日常導入の面制圧へ舵を切った転換点",
-      "previous_rank": 2
+      "slug": "2026-05-29-claude-anthropic",
+      "reason": "Opus 4.8とDynamic Workflowsの同時投入でCLIエージェントがオーケストレーターへ進化",
+      "previous_rank": null
     },
     {
       "rank": 3,
-      "slug": "2026-05-26-ai-trends",
-      "reason": "Glasswingの脆弱性1万件発見はAIが「守る側」に回る新局面の象徴",
-      "previous_rank": 4
+      "slug": "2026-05-12-ai-trends",
+      "reason": "GPT-5.5 Instant既定化で「最強モデル」より「全員に届く速度」が競争軸に移った転換点",
+      "previous_rank": 2
     },
     {
       "rank": 4,
       "slug": "2026-05-25-github-trending",
-      "reason": "コード理解ツールと公式プラグイン基盤の同時急伸がAI開発インフラ競争の幕開けを示す",
-      "previous_rank": 3
+      "reason": "コード理解ツールと公式プラグイン基盤が揃い、AIコーディングが性能競争から運用インフラ競争へ",
+      "previous_rank": 4
     },
     {
       "rank": 5,
-      "slug": "2026-05-26-academia",
-      "reason": "推論効率化とTTT脆弱性の並びが「常時厚く考える」前提を崩す研究潮流を体現",
-      "previous_rank": null
+      "slug": "2026-05-26-ai-trends",
+      "reason": "Glasswingの1万件脆弱性発見でAIの役割が「便利な助手」から「防御の主役」へ拡張",
+      "previous_rank": 3
     }
   ]
 }
