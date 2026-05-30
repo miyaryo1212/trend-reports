@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-05-29T23:00:11Z",
-  "period_start": "2026-05-03",
-  "period_end": "2026-05-30",
+  "generated_at": "2026-05-30T23:01:23Z",
+  "period_start": "2026-05-04",
+  "period_end": "2026-05-31",
   "items": [
     {
       "rank": 1,
       "slug": "2026-05-23-ai-trends",
-      "reason": "Gemini 3.5 Flash・Anthropic黒字化・Karpathy移籍が一日に集中した業界地殻変動の記録",
+      "reason": "Gemini 3.5 Flash発表とAnthropic初黒字が重なり、生成AI産業の構造転換を象徴する一日",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-05-29-claude-anthropic",
-      "reason": "Opus 4.8とDynamic Workflowsでエージェント開発基盤が次の段階へ跳躍",
+      "reason": "Opus 4.8・Dynamic Workflows・巨額調達の三点セットでClaude基盤が次段階へ",
       "previous_rank": 2
     },
     {
       "rank": 3,
       "slug": "2026-05-12-ai-trends",
-      "reason": "GPT-5.5 Instant既定化で「日常導入の面制圧」戦略が鮮明に",
+      "reason": "GPT-5.5 Instant既定化で「性能誇示」から「面制圧」へ戦略転換が鮮明に",
       "previous_rank": 3
     },
     {
       "rank": 4,
       "slug": "2026-05-26-ai-trends",
-      "reason": "Glasswingの1万件脆弱性発見がAI防御時代の到来を具体的に証明",
-      "previous_rank": 5
+      "reason": "Project Glasswingの具体成果がAIセキュリティ防御の実用性を初めて証明",
+      "previous_rank": 4
     },
     {
       "rank": 5,
       "slug": "2026-05-25-github-trending",
-      "reason": "コード理解ツール急伸と公式プラグイン基盤でAI開発がインフラ競争へ転換",
-      "previous_rank": 4
+      "reason": "コード理解ツールと公式プラグイン基盤の同時急伸がAI開発のインフラ化を示唆",
+      "previous_rank": 5
     }
   ]
 }
