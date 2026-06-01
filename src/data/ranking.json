@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-05-31T23:01:37Z",
-  "period_start": "2026-05-05",
-  "period_end": "2026-06-01",
+  "generated_at": "2026-06-01T23:01:25Z",
+  "period_start": "2026-05-06",
+  "period_end": "2026-06-02",
   "items": [
     {
       "rank": 1,
       "slug": "2026-05-23-ai-trends",
-      "reason": "Gemini 3.5 Flash発表とAnthropic黒字化が同時到来、AI産業の構造転換を象徴する一日",
+      "reason": "Gemini 3.5 Flash発表とAnthropic初黒字が重なり、AI産業の構造転換を象徴する一日",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-05-29-claude-anthropic",
-      "reason": "Opus 4.8とDynamic Workflowsの同時投入でClaude Codeが本格的オーケストレーターへ進化",
+      "reason": "Opus 4.8とDynamic Workflowsの同時投入でClaude Codeが開発基盤へ質的転換",
       "previous_rank": 2
     },
     {
       "rank": 3,
-      "slug": "2026-05-12-ai-trends",
-      "reason": "GPT-5.5 Instant既定化で性能誇示から日常浸透へ、OpenAIの戦略転換が鮮明に",
-      "previous_rank": 3
+      "slug": "2026-06-02-ai-trends",
+      "reason": "Anthropic IPO秘密提出と評価額965B$到達、AI企業の資本市場参入が本格化",
+      "previous_rank": null
     },
     {
       "rank": 4,
       "slug": "2026-05-30-ai-trends",
-      "reason": "Glasswingの脆弱性1万件発見が示す「見つける力は余り直す人手が足りない」新局面",
-      "previous_rank": null
+      "reason": "Glasswingの脆弱性1万件発見はAIセキュリティの実用性を証明する転換点",
+      "previous_rank": 4
     },
     {
       "rank": 5,
-      "slug": "2026-05-25-github-trending",
-      "reason": "コード理解ツールと公式プラグイン基盤の同時急伸、AIコーディングがインフラ競争へ移行",
-      "previous_rank": 5
+      "slug": "2026-05-12-ai-trends",
+      "reason": "GPT-5.5とInstant同時発表、OpenAIが性能誇示から日常導入の面制圧へ舵を切った",
+      "previous_rank": 3
     }
   ]
 }
