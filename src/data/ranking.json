@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-06-01T23:01:25Z",
-  "period_start": "2026-05-06",
-  "period_end": "2026-06-02",
+  "generated_at": "2026-06-02T23:01:25Z",
+  "period_start": "2026-05-07",
+  "period_end": "2026-06-03",
   "items": [
     {
       "rank": 1,
       "slug": "2026-05-23-ai-trends",
-      "reason": "Gemini 3.5 Flash発表とAnthropic初黒字が重なり、AI産業の構造転換を象徴する一日",
+      "reason": "Gemini 3.5 Flash発表とAnthropic黒字化が同時進行、AI産業の構造転換を象徴する一日",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-05-29-claude-anthropic",
-      "reason": "Opus 4.8とDynamic Workflowsの同時投入でClaude Codeが開発基盤へ質的転換",
+      "reason": "Opus 4.8とDynamic Workflowsの同時投入でCLIエージェントが開発基盤へ格上げ",
       "previous_rank": 2
     },
     {
       "rank": 3,
       "slug": "2026-06-02-ai-trends",
-      "reason": "Anthropic IPO秘密提出と評価額965B$到達、AI企業の資本市場参入が本格化",
-      "previous_rank": null
+      "reason": "Anthropic IPO秘密提出と評価額965B$、AI企業が公共インフラ級の資本規模に到達",
+      "previous_rank": 3
     },
     {
       "rank": 4,
       "slug": "2026-05-30-ai-trends",
-      "reason": "Glasswingの脆弱性1万件発見はAIセキュリティの実用性を証明する転換点",
+      "reason": "Glasswingの脆弱性1万件発見が示す「発見力過剰・修正人手不足」の新局面",
       "previous_rank": 4
     },
     {
       "rank": 5,
       "slug": "2026-05-12-ai-trends",
-      "reason": "GPT-5.5とInstant同時発表、OpenAIが性能誇示から日常導入の面制圧へ舵を切った",
-      "previous_rank": 3
+      "reason": "GPT-5.5 Instant既定化で性能誇示から日常導入の面制圧へOpenAIが舵を切った転換点",
+      "previous_rank": 5
     }
   ]
 }
