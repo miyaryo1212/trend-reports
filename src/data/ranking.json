@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-06-03T23:01:52Z",
-  "period_start": "2026-05-08",
-  "period_end": "2026-06-04",
+  "generated_at": "2026-06-04T23:00:11Z",
+  "period_start": "2026-05-09",
+  "period_end": "2026-06-05",
   "items": [
     {
       "rank": 1,
       "slug": "2026-05-23-ai-trends",
-      "reason": "Gemini 3.5 Flash発表とAnthropic黒字化が同時に来た、AI産業の構造転換点",
+      "reason": "Gemini 3.5 Flash発表とAnthropic初黒字が重なり、生成AI産業化の転換点を象徴",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-05-29-claude-anthropic",
-      "reason": "Opus 4.8+Dynamic Workflowsで個人用オーケストレーターへの転換が始まった",
+      "reason": "Opus 4.8・Dynamic Workflows・巨額調達の三点セットでClaude基盤が一段階上へ",
       "previous_rank": 2
     },
     {
       "rank": 3,
       "slug": "2026-06-02-ai-trends",
-      "reason": "Anthropic IPO申請と評価額OpenAI超え、資本市場の勢力図が動いた",
+      "reason": "Anthropic IPO申請と評価額965B$、AI企業が公開市場に問われる新局面",
       "previous_rank": 3
     },
     {
       "rank": 4,
       "slug": "2026-05-12-ai-trends",
-      "reason": "GPT-5.5 Instant既定化で性能誇示から日常面制圧へ戦略転換した節目",
-      "previous_rank": 5
+      "reason": "GPT-5.5とInstant同時投入、OpenAIが性能誇示から日常浸透戦略へ舵を切った",
+      "previous_rank": 4
     },
     {
       "rank": 5,
       "slug": "2026-05-25-github-trending",
-      "reason": "コード理解ツール急伸と公式プラグイン基盤で運用インフラ競争が幕開け",
-      "previous_rank": null
+      "reason": "コード理解ツールと公式プラグイン基盤の急伸が、AIコーディングのインフラ化を予感させる",
+      "previous_rank": 5
     }
   ]
 }
