@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-06-06T23:01:46Z",
-  "period_start": "2026-05-11",
-  "period_end": "2026-06-07",
+  "generated_at": "2026-06-07T23:01:49Z",
+  "period_start": "2026-05-12",
+  "period_end": "2026-06-08",
   "items": [
     {
       "rank": 1,
       "slug": "2026-06-07-ai-trends",
-      "reason": "GPT-5ファミリーとGlasswing同時発表、AI競争の主戦場が性能から安全保障へ移る転換点",
-      "previous_rank": null
+      "reason": "GPT-5ファミリーとGlasswingが同日発表、AI競争の主戦場が性能から安全保障へ移る転換点",
+      "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-05-23-ai-trends",
-      "reason": "Gemini 3.5 FlashとAnthropic初黒字化、生成AIが資本集約インフラ産業へ移行した節目",
+      "reason": "Anthropic初の黒字化とGemini 3.5 Flash発表、生成AIが資本集約インフラ産業へ移行した象徴的な週",
       "previous_rank": 2
     },
     {
       "rank": 3,
       "slug": "2026-05-29-claude-anthropic",
-      "reason": "Opus 4.8とDynamic Workflowsの組み合わせがCLIエージェントの運用次元を一段引き上げた",
-      "previous_rank": 1
-    },
-    {
-      "rank": 4,
-      "slug": "2026-06-02-ai-trends",
-      "reason": "Anthropic IPO申請と評価額965B$、資本市場がAIを公共インフラとして扱い始めた象徴",
+      "reason": "Opus 4.8とDynamic Workflowsの組み合わせがCLIエージェントを個人用オーケストレーターへ押し上げた",
       "previous_rank": 3
     },
     {
-      "rank": 5,
+      "rank": 4,
       "slug": "2026-05-12-ai-trends",
-      "reason": "GPT-5.5 Instantのデフォルト化で日常導入の面制圧へ、競争構造を変える一手",
+      "reason": "GPT-5.5 Instantのデフォルト化と音声API同時展開、OpenAIの戦略が面制圧型に転換",
+      "previous_rank": 5
+    },
+    {
+      "rank": 5,
+      "slug": "2026-06-02-ai-trends",
+      "reason": "Anthropic IPO秘密提出と評価額965B$到達、AI企業が公共インフラとして資本市場に認知された節目",
       "previous_rank": 4
     }
   ]
