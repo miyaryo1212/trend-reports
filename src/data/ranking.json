@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-06-09T23:00:06Z",
-  "period_start": "2026-05-14",
-  "period_end": "2026-06-10",
+  "generated_at": "2026-06-10T23:01:02Z",
+  "period_start": "2026-05-15",
+  "period_end": "2026-06-11",
   "items": [
     {
       "rank": 1,
       "slug": "2026-06-07-ai-trends",
-      "reason": "GPT-5ファミリーとGlasswingが同日発表、AI競争の主戦場が性能から安全保障へ転換した象徴的な日",
+      "reason": "GPT-5ファミリーとGlasswing同時発表、AI競争の主戦場が性能から安全保障へ移る転換点",
       "previous_rank": 1
     },
     {
       "rank": 2,
-      "slug": "2026-05-23-ai-trends",
-      "reason": "Anthropic初の黒字化とSpaceX GPU契約で生成AIが資本集約インフラ産業へ移行した節目",
-      "previous_rank": 2
+      "slug": "2026-05-29-claude-anthropic",
+      "reason": "Opus 4.8+Dynamic Workflowsで個人用オーケストレーター化、巨額調達も業界構造を動かす",
+      "previous_rank": 3
     },
     {
       "rank": 3,
-      "slug": "2026-05-29-claude-anthropic",
-      "reason": "Opus 4.8とDynamic Workflowsの同時投入でCLIエージェントが本格的オーケストレーターに進化",
-      "previous_rank": 3
+      "slug": "2026-05-23-ai-trends",
+      "reason": "Gemini 3.5 Flash発表とAnthropic初黒字化、生成AIが資本集約インフラ産業へ移行した象徴",
+      "previous_rank": 2
     },
     {
       "rank": 4,
       "slug": "2026-06-10-claude-anthropic",
-      "reason": "Mythos級Fable 5の一般公開で高性能モデルの民主化が一段加速、価格破壊も注目",
-      "previous_rank": null
+      "reason": "Fable 5一般公開でMythos級が民主化、性能競争が実運用コスト勝負の新段階へ突入",
+      "previous_rank": 4
     },
     {
       "rank": 5,
       "slug": "2026-05-20-academia",
-      "reason": "コードをエージェント基盤に再定義する潮流が明確化、運用設計研究への重心移動を示す重要回",
-      "previous_rank": null
+      "reason": "コードをエージェント基盤に再定義する潮流、能力誇示から運用設計への研究転換を象徴",
+      "previous_rank": 5
     }
   ]
 }
