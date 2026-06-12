@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-06-11T23:02:04Z",
-  "period_start": "2026-05-16",
-  "period_end": "2026-06-12",
+  "generated_at": "2026-06-12T23:00:37Z",
+  "period_start": "2026-05-17",
+  "period_end": "2026-06-13",
   "items": [
     {
       "rank": 1,
       "slug": "2026-06-07-ai-trends",
-      "reason": "GPT-5ファミリーとGlasswingが同日発表、業界地図が一夜で塗り替わった転換点",
+      "reason": "GPT-5ファミリーとGlasswing同時発表、業界地図が一夜で塗り替わった転換点",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-05-29-claude-anthropic",
-      "reason": "Opus 4.8・Dynamic Workflows・巨額調達の三点セットでAnthropicの現在地を凝縮",
+      "reason": "Opus 4.8＋Dynamic Workflows＋巨額調達の三拍子で開発者体験が次段階へ",
       "previous_rank": 2
     },
     {
       "rank": 3,
       "slug": "2026-05-23-ai-trends",
-      "reason": "Gemini 3.5 FlashとAnthropic黒字化、生成AIが資本集約産業へ移行した象徴的な週",
+      "reason": "Gemini 3.5 Flash発表とAnthropic初黒字化、AI産業の収益構造が見えた週",
       "previous_rank": 3
     },
     {
       "rank": 4,
       "slug": "2026-06-10-claude-anthropic",
-      "reason": "Fable 5一般公開で高性能モデルの民主化が一段進み、価格競争の新局面を開く",
+      "reason": "Mythos級Fable 5の一般開放で高性能モデルのコモディティ化が加速",
       "previous_rank": 4
     },
     {
       "rank": 5,
-      "slug": "2026-05-20-academia",
-      "reason": "コードをエージェント基盤に再定義、研究の重心が性能競争から運用設計へ移る潮目",
-      "previous_rank": 5
+      "slug": "2026-06-13-ai-trends",
+      "reason": "規制・雇用・自己改善の3文書同時公開、性能競争から制度設計へ主戦場が移行",
+      "previous_rank": null
     }
   ]
 }
