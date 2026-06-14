@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-06-13T23:00:59Z",
-  "period_start": "2026-05-18",
-  "period_end": "2026-06-14",
+  "generated_at": "2026-06-14T23:00:12Z",
+  "period_start": "2026-05-19",
+  "period_end": "2026-06-15",
   "items": [
     {
       "rank": 1,
       "slug": "2026-06-14-ai-trends",
-      "reason": "モデル公開即日に輸出規制発動、AI競争の主戦場が性能から地政学へ移った転換点",
-      "previous_rank": null
+      "reason": "モデル公開直後の輸出規制発令は前例なき事件、AI地政学の転換点として必読",
+      "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-06-07-ai-trends",
-      "reason": "GPT-5ファミリーとGlasswing同時発表、主要プレイヤーの戦略が一望できる週",
-      "previous_rank": 1
+      "reason": "GPT-5ファミリーとGlasswingが同週に激突、性能から安全保障へ主戦場が移る象徴",
+      "previous_rank": 2
     },
     {
       "rank": 3,
       "slug": "2026-05-23-ai-trends",
-      "reason": "Anthropic初の黒字化見通しとKarpathy移籍、生成AIが産業として成熟した節目",
+      "reason": "Anthropic初黒字化とGemini 3.5 Flash発表、生成AIが資本集約インフラ産業に成熟",
       "previous_rank": 3
     },
     {
       "rank": 4,
       "slug": "2026-05-29-claude-anthropic",
-      "reason": "Opus 4.8とDynamic Workflowsで個人用AIオーケストレーション時代が開幕",
-      "previous_rank": 2
+      "reason": "Dynamic WorkflowsでCLIが並列オーケストレーターへ進化、開発体験の質的転換",
+      "previous_rank": 4
     },
     {
       "rank": 5,
-      "slug": "2026-06-10-claude-anthropic",
-      "reason": "Fable 5一般公開で最先端モデルの価格破壊が現実に、実運用の地殻変動",
-      "previous_rank": 4
+      "slug": "2026-05-25-github-trending",
+      "reason": "コード理解ツールと公式プラグイン基盤の同時急伸、AIコーディングがインフラ競争へ",
+      "previous_rank": null
     }
   ]
 }
