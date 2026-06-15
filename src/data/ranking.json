@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-06-14T23:00:12Z",
-  "period_start": "2026-05-19",
-  "period_end": "2026-06-15",
+  "generated_at": "2026-06-15T23:01:42Z",
+  "period_start": "2026-05-20",
+  "period_end": "2026-06-16",
   "items": [
     {
       "rank": 1,
       "slug": "2026-06-14-ai-trends",
-      "reason": "モデル公開直後の輸出規制発令は前例なき事件、AI地政学の転換点として必読",
+      "reason": "AIモデル供給が地政学で止まる前例が誕生、性能競争から規制が主戦場へ移行した転換点",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-06-07-ai-trends",
-      "reason": "GPT-5ファミリーとGlasswingが同週に激突、性能から安全保障へ主戦場が移る象徴",
+      "reason": "GPT-5ファミリーとGlasswing同時発表、モデル競争と安全保障が一気に前景化した週",
       "previous_rank": 2
     },
     {
       "rank": 3,
       "slug": "2026-05-23-ai-trends",
-      "reason": "Anthropic初黒字化とGemini 3.5 Flash発表、生成AIが資本集約インフラ産業に成熟",
+      "reason": "Anthropic初の黒字化見通しと巨額GPU契約、生成AIが資本集約インフラ産業に移行した節目",
       "previous_rank": 3
     },
     {
       "rank": 4,
       "slug": "2026-05-29-claude-anthropic",
-      "reason": "Dynamic WorkflowsでCLIが並列オーケストレーターへ進化、開発体験の質的転換",
+      "reason": "Dynamic Workflowsで開発エージェントが個人用オーケストレーターへ進化、実務への影響大",
       "previous_rank": 4
     },
     {
       "rank": 5,
-      "slug": "2026-05-25-github-trending",
-      "reason": "コード理解ツールと公式プラグイン基盤の同時急伸、AIコーディングがインフラ競争へ",
+      "slug": "2026-06-15-github-trending",
+      "reason": "エージェント基盤ツールが一斉にトレンド入り、OSS層でも性能競争から運用インフラ整備へ転換",
       "previous_rank": null
     }
   ]
