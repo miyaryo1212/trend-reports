@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-06-15T23:01:42Z",
-  "period_start": "2026-05-20",
-  "period_end": "2026-06-16",
+  "generated_at": "2026-06-16T23:00:28Z",
+  "period_start": "2026-05-21",
+  "period_end": "2026-06-17",
   "items": [
     {
       "rank": 1,
       "slug": "2026-06-14-ai-trends",
-      "reason": "AIモデル供給が地政学で止まる前例が誕生、性能競争から規制が主戦場へ移行した転換点",
+      "reason": "Fable 5発表と即日輸出規制——AI覇権の主戦場が性能から地政学へ移った転換点",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-06-07-ai-trends",
-      "reason": "GPT-5ファミリーとGlasswing同時発表、モデル競争と安全保障が一気に前景化した週",
+      "reason": "GPT-5ファミリーとGlasswing同時発表、二大巨頭の全面競争が新段階に突入",
       "previous_rank": 2
     },
     {
       "rank": 3,
       "slug": "2026-05-23-ai-trends",
-      "reason": "Anthropic初の黒字化見通しと巨額GPU契約、生成AIが資本集約インフラ産業に移行した節目",
+      "reason": "Anthropic初の黒字化とSpaceX GPU契約——生成AIが資本集約インフラ産業へ転換",
       "previous_rank": 3
     },
     {
       "rank": 4,
       "slug": "2026-05-29-claude-anthropic",
-      "reason": "Dynamic Workflowsで開発エージェントが個人用オーケストレーターへ進化、実務への影響大",
+      "reason": "Opus 4.8とDynamic Workflowsで個人用AIオーケストレーション時代が開幕",
       "previous_rank": 4
     },
     {
       "rank": 5,
-      "slug": "2026-06-15-github-trending",
-      "reason": "エージェント基盤ツールが一斉にトレンド入り、OSS層でも性能競争から運用インフラ整備へ転換",
+      "slug": "2026-06-10-claude-anthropic",
+      "reason": "Fable 5一般公開でMythos級が民主化、AI性能の価格破壊が本格化",
       "previous_rank": null
     }
   ]
