@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-06-17T23:02:01Z",
-  "period_start": "2026-05-22",
-  "period_end": "2026-06-18",
+  "generated_at": "2026-06-18T23:01:25Z",
+  "period_start": "2026-05-23",
+  "period_end": "2026-06-19",
   "items": [
     {
       "rank": 1,
       "slug": "2026-06-14-ai-trends",
-      "reason": "モデル公開3日で輸出規制停止、AI地政学リスクが現実化した転換点",
+      "reason": "モデル性能より輸出規制の前例化が衝撃的、AI地政学の転換点として必読",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-06-07-ai-trends",
-      "reason": "GPT-5ファミリーとGlasswing同時発表、性能から安全保障へ主戦場が移動",
+      "reason": "GPT-5ファミリーとGlasswing同時発表、主戦場が性能から配備・安全保障へ移行",
       "previous_rank": 2
     },
     {
       "rank": 3,
-      "slug": "2026-05-23-ai-trends",
-      "reason": "Anthropic初の四半期黒字とSpaceX GPU契約、AIが資本集約産業へ本格移行",
-      "previous_rank": 3
-    },
-    {
-      "rank": 4,
       "slug": "2026-05-29-claude-anthropic",
-      "reason": "Dynamic WorkflowsでCLIが並列オーケストレーターに進化、実務の転換点",
+      "reason": "Opus 4.8+Dynamic Workflowsで開発者体験が一変、巨額調達も業界構造を規定",
       "previous_rank": 4
     },
     {
+      "rank": 4,
+      "slug": "2026-05-23-ai-trends",
+      "reason": "Anthropic初黒字化とSpaceX GPU契約、生成AIが資本集約インフラ産業へ転換した証左",
+      "previous_rank": 3
+    },
+    {
       "rank": 5,
-      "slug": "2026-06-15-github-trending",
-      "reason": "エージェント基盤ツール群が一斉浮上、開発現場のインフラ層が急速に整備中",
+      "slug": "2026-06-10-claude-anthropic",
+      "reason": "Fable 5一般公開でMythos級が民主化、性能競争が実運用の地殻変動段階に突入",
       "previous_rank": null
     }
   ]
