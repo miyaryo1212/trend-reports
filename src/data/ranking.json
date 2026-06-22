@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-06-22T05:39:21Z",
-  "period_start": "2026-05-26",
-  "period_end": "2026-06-22",
+  "generated_at": "2026-06-22T23:01:42Z",
+  "period_start": "2026-05-27",
+  "period_end": "2026-06-23",
   "items": [
     {
       "rank": 1,
       "slug": "2026-06-14-ai-trends",
-      "reason": "発表即日に輸出規制発令、主戦場が性能から統治へ移る象徴的事件",
+      "reason": "性能競争を超え配布と統治が主戦場化、輸出規制が前例となる衝撃の一件",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-06-07-ai-trends",
-      "reason": "GPT-5ファミリー一斉投入とGlasswing、配備と安全保障へ重心移動",
+      "reason": "GPT-5一挙投入とGlasswing、競争軸が性能比較から配備と安全保障へ",
       "previous_rank": 2
     },
     {
       "rank": 3,
-      "slug": "2026-06-19-ai-trends",
-      "reason": "コードの8割をClaudeが執筆、開発現場のAI前提化を示す本命データ",
+      "slug": "2026-06-22-ai-trends",
+      "reason": "Claudeが自社コード8割執筆、自己改善の検証ループを制度化し始めた転換点",
       "previous_rank": null
     },
     {
       "rank": 4,
       "slug": "2026-06-20-academia",
-      "reason": "DeepSeek-V4が100万トークンを実用化、長文脈競争の到達点を示す",
-      "previous_rank": null
+      "reason": "DeepSeek-V4の100万トークン実用化と軽量化、次の実装波を占う研究束",
+      "previous_rank": 4
     },
     {
       "rank": 5,
       "slug": "2026-06-16-codex-openai",
-      "reason": "Codex CLIが正式版到達、毎日使う業務ツールへ寄せた地味に効く更新",
-      "previous_rank": null
+      "reason": "Codex CLIが正式版到達、毎日使う業務ツールへ寄せた現実的な勝ち筋",
+      "previous_rank": 5
     }
   ]
 }
