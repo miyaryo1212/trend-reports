@@ -1,57 +1,43 @@
 ---
-title: "Codex CLI 0.142.0-alphaの連続リリースが継続、alpha.10まで到達"
-summary: "Codex CLI 0.142.0-alphaが前回のalpha.6からさらに進み、6/20〜6/21にalpha.7〜alpha.10を連続公開。本日の公式の大型発表はなく、コミュニティではhooks運用やデスクトップ版のトラブル報告が中心。"
+title: "公式の新規発表なし、コミュニティはCodex運用と周辺APIの実装ネタ"
+summary: "本日のCodex/OpenAI公式の新規アップデートはなし（最新はalpha.10で前回報告済み）。コミュニティではCodex CLIのFreeBSD認証トラブルや、OpenAI Structured Outputs・Realtime APIの実装知見が中心。"
 importance: 2
 channel: "Codex / OpenAI"
 channelId: "codex-openai"
 date: 2026-06-22
 
-features:
-  - "Codex CLI 0.142.0-alpha.7〜alpha.10: 6/20〜6/21に4つのalphaリリースを追加で連続公開（リリースノートは最小限、個別変更点は未公開）"
-codex_review: "連続alphaは勢いの演出としては面白いが、変更点を伏せたまま本数だけ積む運びは、スタートアップ界隈の“速さアピール”に少し似ていて過剰評価されやすい。むしろhooks運用の知見やWSL不具合の共有のほうが、現場にはじわじわ効く重要情報に見える。"
+features: []
+codex_review: "公式発表ゼロの日でも、現場の摩擦係数がどこにあるかを示す実装ネタが並ぶのは興味深い。地味だが、普及期のAIは新モデル以上にこういう運用知見が効いてくる一方、業界全体を動かす話ではない。"
 codex_importance: 2
 ---
 
 ## 公式アップデート
 
-### Codex CLI 0.142.0-alpha.7〜alpha.10
+本日の公式アップデートはありません。
 
-前回報告した0.142.0-alpha.6に続き、6/20〜6/21にかけてさらに4つのalphaリリースが連続公開された。リリースノートはいずれも「Release 0.142.0-alpha.x」のみで、個別の変更点は未公開のまま。0.142.0系のalphaは前回分と合わせて10本に達しており、開発ペースの速さが続いている。
-
-- **0.142.0-alpha.7** — 2026-06-20T00:43 UTC
-- **0.142.0-alpha.8** — 2026-06-21T03:55 UTC
-- **0.142.0-alpha.9** — 2026-06-21T06:51 UTC
-- **0.142.0-alpha.10** — 2026-06-21T20:59 UTC
-
-[0.142.0-alpha.10リリース](https://github.com/openai/codex/releases/tag/rust-v0.142.0-alpha.10)
-
-その他、本日新規の公式アップデートはありません。
+Codex CLIのリリースフィード上の最新は前回報告済みの `0.142.0-alpha.10`（2026-06-21）のままで、本日付の新規リリース・新事実は確認できませんでした。
 
 ## コミュニティの反応
 
-> 今回のalpha連続リリースに直接言及するX/Twitter上の反応は確認できませんでした（該当なし）。以下はCodex/OpenAI周辺の本日固有のコミュニティ記事です。
+> 本日のCodex/OpenAI周辺で観測された、本日固有のコミュニティ記事を取り上げます。X/Twitter上の該当反応は確認できませんでした（該当なし）。
 
-### Codex hooks・自動化
-
-#### Tips
-
-> Anthropicが提案する「Dreaming」（エージェントが空き時間に過去の記憶・履歴を読み直し、重みは更新せず記憶ストアだけを整理・統合する仕組み）をOpenAI Codexのhooksで再現する実験ログ。コンテキストを増やさずに精度を上げる構成を検証 — kani@新人SIer勤務 [Zenn](https://zenn.dev/kakecake/articles/20260618-codex-hooks-dreaming)
+### Codex CLI 環境トラブル
 
 #### ネガティブ（ハマりどころ）
 
-> Codexのhooksを自動化に使う際の落とし穴6つをまとめた実験ログ。`additionalContext`がモデルに届かない、`approval_policy="never"`でゲート系hookが無効になる、trustの単位が直感と異なり「再trust地獄」に陥る等を報告。版による挙動差が大きい点に注意喚起 — kani@新人SIer勤務 [Zenn](https://zenn.dev/kakecake/articles/20260618-codex-hooks-pitfalls)
+> FreeBSD jail上でCodex CLIを使うと device-auth による認証が失敗する問題の調査メモ。IPv6到達性の有無と症状に相関が見られ、Node.jsのDNS解決順序を変更することで暫定回避できたと報告。根本原因は未確定 — 彦坂 [Zenn](https://zenn.dev/hikosakasohtaro/articles/20260619_codex_freebsd_jail)
 
-### Codex環境トラブル
-
-#### ネガティブ
-
-> Windows版Codexデスクトップ（Microsoft Store / MSIX版）が、WSLモード（runCodexInWindowsSubsystemForLinux）有効時に「Unable to locate the Codex CLI binary」で接続失敗する問題を報告。同梱されるべきLinuxバイナリ（bin/codex）が欠落していることが原因 — wharfe [Zenn](https://zenn.dev/wharfe/articles/codex-desktop-wsl-binary-missing)
-
-### Codex運用設計
+### OpenAI Structured Outputs
 
 #### Tips
 
-> 複数リポジトリでCodexを使う際のドキュメント分割構成を紹介。PC全体の`~/.codex/AGENTS.md`とリポジトリの`AGENTS.md`を分け、後者からSOP（標準作業手順）とDESIGN.md（フロント設計）をシンボリックリンクで参照する3層レイアウト — Ryo Minegishi [Zenn](https://zenn.dev/zapabob/articles/agents-md-sop-design-symlink)
+> OpenAI Structured Outputsで、一見正しいJSON Schemaでも `additionalProperties: false` が無いとAPI側に拒否される原因を解説。`Invalid schema for response_format` エラーの典型パターンと対処をまとめている — @imi-glenn [Qiita](https://qiita.com/imi-glenn/items/1d041c1be842614484d2)
+
+### OpenAI Realtime API
+
+#### Tips
+
+> OpenAIのRealtime APIで、バックエンドサーバー不要（BYOK + WebRTC）のリアルタイム文字起こし・音声翻訳・音声対話アプリを個人開発した記録。ユーザーが自分のAPIキーを入力する構成 — @centmount1 [Qiita](https://qiita.com/centmount1/items/1d0e679363d83021fd91)
 
 ## ソース
 
