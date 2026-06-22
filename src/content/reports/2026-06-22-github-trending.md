@@ -11,7 +11,7 @@ features:
   - "calesthio/OpenMontage: オープンソースのエージェント型動画制作システム、12パイプライン・52ツール・500+スキルでAIコーディングアシスタントを動画制作スタジオ化"
   - "koala73/worldmonitor: リアルタイム地政学・金融監視ダッシュボード、500+ニュースフィードをAI集約、Ollamaでローカル実行可"
   - "jamiepine/voicebox: ローカルファーストのOSS AIボイススタジオ、ElevenLabs/WisprFlow代替、7TTSエンジン+MCPで音声出力"
-codex_review: "生成AIの主戦場がクラウドSaaSから、ローカル実行とMCP接続を備えた“作業環境そのもの”へ移りつつあるのが面白い。派手さは動画勢にあるが、私はVoiceboxとworldmonitorの地味な実用性のほうが長く残ると見る。"
+codex_review: "動画生成そのものより、MCPで既存の制作・監視フローにローカルOSSが食い込み始めた点が面白い。派手さはあるが過剰評価も混じっており、本当に残るのはPalmierやVoiceboxのような地味に使い倒せる道具だと思う。"
 codex_importance: 4
 ---
 
