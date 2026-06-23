@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-06-22T23:01:42Z",
-  "period_start": "2026-05-27",
-  "period_end": "2026-06-23",
+  "generated_at": "2026-06-23T23:01:24Z",
+  "period_start": "2026-05-28",
+  "period_end": "2026-06-24",
   "items": [
     {
       "rank": 1,
       "slug": "2026-06-14-ai-trends",
-      "reason": "性能競争を超え配布と統治が主戦場化、輸出規制が前例となる衝撃の一件",
+      "reason": "発表翌日に輸出規制で停止、性能より統治が主戦場化した象徴的事件",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-06-07-ai-trends",
-      "reason": "GPT-5一挙投入とGlasswing、競争軸が性能比較から配備と安全保障へ",
+      "reason": "GPT-5一挙公開とGlasswing、競争軸が配備と安全保障へ移った週",
       "previous_rank": 2
     },
     {
       "rank": 3,
       "slug": "2026-06-22-ai-trends",
-      "reason": "Claudeが自社コード8割執筆、自己改善の検証ループを制度化し始めた転換点",
-      "previous_rank": null
+      "reason": "Claudeが自社コード8割執筆、AIが開発の前提になった節目",
+      "previous_rank": 3
     },
     {
       "rank": 4,
-      "slug": "2026-06-20-academia",
-      "reason": "DeepSeek-V4の100万トークン実用化と軽量化、次の実装波を占う研究束",
-      "previous_rank": 4
+      "slug": "2026-05-29-claude-anthropic",
+      "reason": "Opus 4.8と並列エージェント機能、巨額調達も重なる転換点",
+      "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-06-16-codex-openai",
-      "reason": "Codex CLIが正式版到達、毎日使う業務ツールへ寄せた現実的な勝ち筋",
-      "previous_rank": 5
+      "slug": "2026-06-20-academia",
+      "reason": "100万トークンが実用域へ、長文脈競争の到達点を示す技術報告",
+      "previous_rank": 4
     }
   ]
 }
