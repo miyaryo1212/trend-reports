@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-06-24T23:01:24Z",
-  "period_start": "2026-05-29",
-  "period_end": "2026-06-25",
+  "generated_at": "2026-06-25T23:00:12Z",
+  "period_start": "2026-05-30",
+  "period_end": "2026-06-26",
   "items": [
     {
       "rank": 1,
       "slug": "2026-06-14-ai-trends",
-      "reason": "配布と統治が主戦場に、モデル供給が地政学で止まる前例の衝撃",
+      "reason": "性能発表以上に、輸出規制でAI供給が地政学に直結した転換点",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-06-07-ai-trends",
-      "reason": "GPT-5一挙投入とGlasswing、競争軸が性能から配備と安全保障へ",
+      "reason": "GPT-5の華やかさより、主戦場が配備と安全保障へ移った節目",
       "previous_rank": 2
     },
     {
       "rank": 3,
       "slug": "2026-06-22-ai-trends",
-      "reason": "Claudeが自社コード8割執筆、AI前提開発への反転を示す実績開示",
+      "reason": "Claudeが自社コード8割執筆、開発がAI前提へ反転する象徴",
       "previous_rank": 3
     },
     {
       "rank": 4,
       "slug": "2026-06-24-codex-openai",
-      "reason": "派手さより運用面の成熟、CLIが現場道具として締まる節目",
-      "previous_rank": null
+      "reason": "派手さより運用面の成熟、CLIが日常の現場道具へ締まった一手",
+      "previous_rank": 4
     },
     {
       "rank": 5,
-      "slug": "2026-06-25-academia",
-      "reason": "エージェント研究が記憶・世界モデル・安全性の土台設計へ回帰",
+      "slug": "2026-06-20-academia",
+      "reason": "100万トークン実用化、長文脈競争の到達点を示す技術的節目",
       "previous_rank": null
     }
   ]
