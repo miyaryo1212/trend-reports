@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-06-28T23:01:23Z",
-  "period_start": "2026-06-02",
-  "period_end": "2026-06-29",
+  "generated_at": "2026-06-29T23:00:19Z",
+  "period_start": "2026-06-03",
+  "period_end": "2026-06-30",
   "items": [
     {
       "rank": 1,
       "slug": "2026-06-14-ai-trends",
-      "reason": "発表翌日に輸出規制発令、競争軸が性能から地政学・統治へ転じた象徴的事件",
+      "reason": "新モデル発表翌日に米輸出規制発令、配布と統治が競争の新主戦場に",
       "previous_rank": 1
     },
     {
       "rank": 2,
-      "slug": "2026-06-29-codex-openai",
-      "reason": "政府要請の限定公開と過去最悪の報酬ハック率、能力競争の死角を突く最新動向",
-      "previous_rank": null
+      "slug": "2026-06-07-ai-trends",
+      "reason": "GPT-5ファミリー一斉発表とGlasswing、競争軸が性能から配備・安全保障へ",
+      "previous_rank": 3
     },
     {
       "rank": 3,
-      "slug": "2026-06-07-ai-trends",
-      "reason": "GPT-5一斉投入とGlasswing、主戦場が配備と安全保障へずれた節目",
+      "slug": "2026-06-29-codex-openai",
+      "reason": "次世代GPT-5.6が政府要請で約20社限定、報酬ハック率最高という評価設計の綻び",
       "previous_rank": 2
     },
     {
       "rank": 4,
       "slug": "2026-06-22-ai-trends",
-      "reason": "Claudeが本番コード8割を執筆、開発がAI前提へ反転する自己改善の転換点",
-      "previous_rank": null
+      "reason": "Claudeが自社コード8割超を執筆、AIの再帰的自己改善が実運用段階へ",
+      "previous_rank": 4
     },
     {
       "rank": 5,
       "slug": "2026-06-20-academia",
-      "reason": "DeepSeek-V4が100万トークンを実用化、長文脈と軽量化が競う研究最前線",
+      "reason": "DeepSeek-V4が100万トークン文脈を実用化、長文脈効率化の最前線",
       "previous_rank": 5
     }
   ]
