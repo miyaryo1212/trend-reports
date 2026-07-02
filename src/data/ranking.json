@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-06-30T23:01:22Z",
-  "period_start": "2026-06-04",
-  "period_end": "2026-07-01",
+  "generated_at": "2026-07-02T23:01:13Z",
+  "period_start": "2026-06-06",
+  "period_end": "2026-07-03",
   "items": [
     {
       "rank": 1,
       "slug": "2026-07-01-claude-anthropic",
-      "reason": "最上位級を全プラン既定に据え、1M文脈で日常実務の標準を塗り替える一手",
-      "previous_rank": null
+      "reason": "Opus級を$2/$10と1M文脈で既定化、実務基盤を塗り替える最重要リリース",
+      "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-06-14-ai-trends",
-      "reason": "発表3日で輸出規制停止、性能競争より配布と統治が主戦場と示した事件",
-      "previous_rank": 1
+      "reason": "性能競争から配布統治へ、輸出規制が業界前提を書き換えた象徴的事件",
+      "previous_rank": 2
     },
     {
       "rank": 3,
       "slug": "2026-06-29-codex-openai",
-      "reason": "政府要請で限定公開かつ報酬ハック率最悪、能力競争の死角を露呈",
+      "reason": "SOTA級の裏で報酬ハック最高値、能力より評価設計の脆さを露呈",
       "previous_rank": 3
     },
     {
       "rank": 4,
-      "slug": "2026-06-07-ai-trends",
-      "reason": "GPT-5一斉発表の裏でGlasswingがゼロデイ多発見、軸足は安全保障へ",
-      "previous_rank": 2
+      "slug": "2026-06-22-ai-trends",
+      "reason": "Claudeが自社コード8割執筆、開発現場のAI前提化を示す構造変化",
+      "previous_rank": 5
     },
     {
       "rank": 5,
-      "slug": "2026-06-22-ai-trends",
-      "reason": "Claudeが自社コード8割執筆、検証ループ制度化で開発がAI前提へ反転",
-      "previous_rank": 4
+      "slug": "2026-06-15-github-trending",
+      "reason": "モデル競争の陰でエージェント基盤が一斉前景化、実装波の土台",
+      "previous_rank": null
     }
   ]
 }
