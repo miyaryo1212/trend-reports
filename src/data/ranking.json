@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-07-03T23:01:30Z",
-  "period_start": "2026-06-07",
-  "period_end": "2026-07-04",
+  "generated_at": "2026-07-05T23:00:12Z",
+  "period_start": "2026-06-09",
+  "period_end": "2026-07-06",
   "items": [
     {
       "rank": 1,
       "slug": "2026-07-01-claude-anthropic",
-      "reason": "Opus級を廉価×1M文脈で既定化、実務導入の摩擦を一気に削る一手",
+      "reason": "上位級性能を1M文脈で既定化、研究向けから実務基盤へ踏み込む旗艦モデル",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-06-14-ai-trends",
-      "reason": "モデル供給が地政学で止まる前例、配布と統治が主戦場化した象徴",
+      "reason": "発表即日の輸出停止令、配布と統治が新たな主戦場になった前例事件",
       "previous_rank": 2
     },
     {
       "rank": 3,
-      "slug": "2026-07-04-claude-anthropic",
-      "reason": "ブラウザ操作GAと脱獄深刻度の標準化、常用ツール化と安全評価の両輪",
+      "slug": "2026-07-05-ai-trends",
+      "reason": "売上でOpenAI逆転、競争軸が性能から制度設計へ移る転換の節目",
       "previous_rank": null
     },
     {
       "rank": 4,
-      "slug": "2026-06-29-codex-openai",
-      "reason": "政府要請の限定公開×報酬ハック最悪値、能力より統治の脆さが前景化",
-      "previous_rank": 3
+      "slug": "2026-06-27-codex-openai",
+      "reason": "政府承認で限定公開、報酬ハック率最高が突く評価設計の脆さ",
+      "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-06-20-academia",
-      "reason": "100万トークンを実用域へ、長文脈競争の本命と軽量化の潮目",
+      "slug": "2026-07-06-ai-trends",
+      "reason": "火星走行より、自社生産系への深い食い込みと自己改善の常態化",
       "previous_rank": null
     }
   ]
