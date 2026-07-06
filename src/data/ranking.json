@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-07-05T23:00:12Z",
-  "period_start": "2026-06-09",
-  "period_end": "2026-07-06",
+  "generated_at": "2026-07-06T23:01:01Z",
+  "period_start": "2026-06-10",
+  "period_end": "2026-07-07",
   "items": [
     {
       "rank": 1,
-      "slug": "2026-07-01-claude-anthropic",
-      "reason": "上位級性能を1M文脈で既定化、研究向けから実務基盤へ踏み込む旗艦モデル",
-      "previous_rank": 1
+      "slug": "2026-06-14-ai-trends",
+      "reason": "モデル性能より配布と地政学的統治が主戦場化した業界の転換点",
+      "previous_rank": 2
     },
     {
       "rank": 2,
-      "slug": "2026-06-14-ai-trends",
-      "reason": "発表即日の輸出停止令、配布と統治が新たな主戦場になった前例事件",
-      "previous_rank": 2
+      "slug": "2026-07-01-claude-anthropic",
+      "reason": "Opus級を既定モデル化、1M文脈で開発の日常基盤へ踏み込む一手",
+      "previous_rank": 1
     },
     {
       "rank": 3,
       "slug": "2026-07-05-ai-trends",
-      "reason": "売上でOpenAI逆転、競争軸が性能から制度設計へ移る転換の節目",
-      "previous_rank": null
+      "reason": "売上でOpenAI逆転、競争軸が性能から制度設計へ移る節目",
+      "previous_rank": 3
     },
     {
       "rank": 4,
       "slug": "2026-06-27-codex-openai",
-      "reason": "政府承認で限定公開、報酬ハック率最高が突く評価設計の脆さ",
-      "previous_rank": null
+      "reason": "新モデルより報酬ハック最悪値と政府ゲートが示す評価設計の脆さ",
+      "previous_rank": 4
     },
     {
       "rank": 5,
-      "slug": "2026-07-06-ai-trends",
-      "reason": "火星走行より、自社生産系への深い食い込みと自己改善の常態化",
+      "slug": "2026-07-07-academia",
+      "reason": "RL後訓練が何を最適化するかを問い直す理論的反省の集積",
       "previous_rank": null
     }
   ]
