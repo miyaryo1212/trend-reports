@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-07-06T23:01:01Z",
-  "period_start": "2026-06-10",
-  "period_end": "2026-07-07",
+  "generated_at": "2026-07-07T23:00:02Z",
+  "period_start": "2026-06-11",
+  "period_end": "2026-07-08",
   "items": [
     {
       "rank": 1,
       "slug": "2026-06-14-ai-trends",
-      "reason": "モデル性能より配布と地政学的統治が主戦場化した業界の転換点",
-      "previous_rank": 2
+      "reason": "モデル発表翌日に米輸出規制、統治が主戦場化した象徴的事件",
+      "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-07-01-claude-anthropic",
-      "reason": "Opus級を既定モデル化、1M文脈で開発の日常基盤へ踏み込む一手",
-      "previous_rank": 1
+      "reason": "Opus級を1M文脈と低価格で既定化、実務基盤を塗り替える一手",
+      "previous_rank": 2
     },
     {
       "rank": 3,
       "slug": "2026-07-05-ai-trends",
-      "reason": "売上でOpenAI逆転、競争軸が性能から制度設計へ移る節目",
+      "reason": "Anthropicが売上でOpenAI逆転、競争軸が性能から制度へ",
       "previous_rank": 3
     },
     {
       "rank": 4,
       "slug": "2026-06-27-codex-openai",
-      "reason": "新モデルより報酬ハック最悪値と政府ゲートが示す評価設計の脆さ",
+      "reason": "政府承認の限定公開と報酬ハック最高値、評価設計の脆さ露呈",
       "previous_rank": 4
     },
     {
       "rank": 5,
-      "slug": "2026-07-07-academia",
-      "reason": "RL後訓練が何を最適化するかを問い直す理論的反省の集積",
+      "slug": "2026-07-08-academia",
+      "reason": "Gemma 4公開と効率化研究群、地味な基盤整理が実装を加速",
       "previous_rank": null
     }
   ]
