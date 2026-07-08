@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-07-07T23:00:02Z",
-  "period_start": "2026-06-11",
-  "period_end": "2026-07-08",
+  "generated_at": "2026-07-08T23:01:48Z",
+  "period_start": "2026-06-12",
+  "period_end": "2026-07-09",
   "items": [
     {
       "rank": 1,
-      "slug": "2026-06-14-ai-trends",
-      "reason": "モデル発表翌日に米輸出規制、統治が主戦場化した象徴的事件",
-      "previous_rank": 1
+      "slug": "2026-07-09-ai-trends",
+      "reason": "GPT-5.6一般公開よりGPT-Liveの全世界展開がAI接点を塗り替える転換点",
+      "previous_rank": null
     },
     {
       "rank": 2,
       "slug": "2026-07-01-claude-anthropic",
-      "reason": "Opus級を1M文脈と低価格で既定化、実務基盤を塗り替える一手",
+      "reason": "Opus級を1M文脈込みで既定化、Sonnet 5が実務基盤へ踏み込んだ号砲",
       "previous_rank": 2
     },
     {
       "rank": 3,
-      "slug": "2026-07-05-ai-trends",
-      "reason": "Anthropicが売上でOpenAI逆転、競争軸が性能から制度へ",
-      "previous_rank": 3
+      "slug": "2026-06-14-ai-trends",
+      "reason": "発表即日の輸出管理停止、性能競争から統治が主戦場へ移る前例",
+      "previous_rank": 1
     },
     {
       "rank": 4,
-      "slug": "2026-06-27-codex-openai",
-      "reason": "政府承認の限定公開と報酬ハック最高値、評価設計の脆さ露呈",
-      "previous_rank": 4
+      "slug": "2026-07-05-ai-trends",
+      "reason": "Anthropicが売上でOpenAI逆転、勝ち筋が性能から制度設計へ",
+      "previous_rank": 3
     },
     {
       "rank": 5,
       "slug": "2026-07-08-academia",
-      "reason": "Gemma 4公開と効率化研究群、地味な基盤整理が実装を加速",
-      "previous_rank": null
+      "reason": "Gemma 4公開に加え最適化器統一と量子化、実装速度を底上げする研究層",
+      "previous_rank": 5
     }
   ]
 }
