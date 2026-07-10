@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-07-09T23:01:50Z",
-  "period_start": "2026-06-13",
-  "period_end": "2026-07-10",
+  "generated_at": "2026-07-10T23:00:11Z",
+  "period_start": "2026-06-14",
+  "period_end": "2026-07-11",
   "items": [
     {
       "rank": 1,
-      "slug": "2026-07-10-ai-trends",
-      "reason": "数時間規模を自律遂行するChatGPT Work、実務エージェント競争の最前線",
+      "slug": "2026-07-11-ai-trends",
+      "reason": "基盤更新より常時音声のGPT-LiveがAIの接点を対話へ移す転換点",
       "previous_rank": null
     },
     {
       "rank": 2,
-      "slug": "2026-07-09-ai-trends",
-      "reason": "GPT-5.6一般公開と全二重音声GPT-Live、AIの接点を塗り替える転換点",
-      "previous_rank": 1
-    },
-    {
-      "rank": 3,
       "slug": "2026-07-01-claude-anthropic",
-      "reason": "Opus級のSonnet 5が全プラン既定に、1M文脈で実務基盤へ踏み込む一手",
-      "previous_rank": 2
-    },
-    {
-      "rank": 4,
-      "slug": "2026-06-14-ai-trends",
-      "reason": "Fable 5公開即日の米輸出規制、配布と統治が主戦場化した象徴的事件",
+      "reason": "Opus級性能をSonnet価格と1M文脈で既定化、日常実務の基盤に踏み込む一手",
       "previous_rank": 3
     },
     {
-      "rank": 5,
-      "slug": "2026-07-05-ai-trends",
-      "reason": "売上でOpenAI逆転、競争軸が性能から制度設計へ移る節目",
+      "rank": 3,
+      "slug": "2026-06-14-ai-trends",
+      "reason": "両評者★5、配布と統治が主戦場化し規制が前例となった業界の分水嶺",
       "previous_rank": 4
+    },
+    {
+      "rank": 4,
+      "slug": "2026-07-10-ai-trends",
+      "reason": "数時間規模を自律遂行するChatGPT Work、実務エージェント競争を一段先へ",
+      "previous_rank": 1
+    },
+    {
+      "rank": 5,
+      "slug": "2026-07-10-academia",
+      "reason": "Gemma 4より無限文脈とVLA記憶、競争軸が巨大化から運用可能な記憶設計へ",
+      "previous_rank": null
     }
   ]
 }
