@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-07-10T23:00:11Z",
-  "period_start": "2026-06-14",
-  "period_end": "2026-07-11",
+  "generated_at": "2026-07-11T23:02:00Z",
+  "period_start": "2026-06-15",
+  "period_end": "2026-07-12",
   "items": [
     {
       "rank": 1,
-      "slug": "2026-07-11-ai-trends",
-      "reason": "基盤更新より常時音声のGPT-LiveがAIの接点を対話へ移す転換点",
-      "previous_rank": null
+      "slug": "2026-07-01-claude-anthropic",
+      "reason": "Opus級を既定に落としたSonnet 5、価格と1M文脈で実務基盤を塗り替える一手",
+      "previous_rank": 2
     },
     {
       "rank": 2,
-      "slug": "2026-07-01-claude-anthropic",
-      "reason": "Opus級性能をSonnet価格と1M文脈で既定化、日常実務の基盤に踏み込む一手",
-      "previous_rank": 3
+      "slug": "2026-07-11-ai-trends",
+      "reason": "GPT-5.6一般提供と全二重音声GPT-Live、AIの接点が音声へ移る転換点",
+      "previous_rank": 1
     },
     {
       "rank": 3,
-      "slug": "2026-06-14-ai-trends",
-      "reason": "両評者★5、配布と統治が主戦場化し規制が前例となった業界の分水嶺",
-      "previous_rank": 4
+      "slug": "2026-07-12-ai-trends",
+      "reason": "Grok 4.5・Meta連発にGemini延期、勝負が性能から配布と導線へ動いた週",
+      "previous_rank": null
     },
     {
       "rank": 4,
-      "slug": "2026-07-10-ai-trends",
-      "reason": "数時間規模を自律遂行するChatGPT Work、実務エージェント競争を一段先へ",
-      "previous_rank": 1
+      "slug": "2026-07-05-ai-trends",
+      "reason": "Anthropicが売上でOpenAI逆転、勝ち筋が性能から制度設計へ傾く節目",
+      "previous_rank": null
     },
     {
       "rank": 5,
       "slug": "2026-07-10-academia",
-      "reason": "Gemma 4より無限文脈とVLA記憶、競争軸が巨大化から運用可能な記憶設計へ",
-      "previous_rank": null
+      "reason": "Gemma 4に無限文脈と身体性メモリ、競争軸が巨大化から記憶設計へ移行",
+      "previous_rank": 5
     }
   ]
 }
