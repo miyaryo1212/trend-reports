@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-07-11T23:02:00Z",
-  "period_start": "2026-06-15",
-  "period_end": "2026-07-12",
+  "generated_at": "2026-07-12T23:01:39Z",
+  "period_start": "2026-06-16",
+  "period_end": "2026-07-13",
   "items": [
     {
       "rank": 1,
       "slug": "2026-07-01-claude-anthropic",
-      "reason": "Opus級を既定に落としたSonnet 5、価格と1M文脈で実務基盤を塗り替える一手",
-      "previous_rank": 2
-    },
-    {
-      "rank": 2,
-      "slug": "2026-07-11-ai-trends",
-      "reason": "GPT-5.6一般提供と全二重音声GPT-Live、AIの接点が音声へ移る転換点",
+      "reason": "Opus級を1M文脈で既定化、Anthropicが実務基盤へ踏み込む転換点",
       "previous_rank": 1
     },
     {
+      "rank": 2,
+      "slug": "2026-07-13-ai-trends",
+      "reason": "OpenAI最上位SolがCopilot推奨に、配布面で業界の重心を動かす",
+      "previous_rank": null
+    },
+    {
       "rank": 3,
-      "slug": "2026-07-12-ai-trends",
-      "reason": "Grok 4.5・Meta連発にGemini延期、勝負が性能から配布と導線へ動いた週",
+      "slug": "2026-07-10-ai-trends",
+      "reason": "数時間規模を自律遂行、実務エージェント競争が一段先へ進む一手",
       "previous_rank": null
     },
     {
       "rank": 4,
-      "slug": "2026-07-05-ai-trends",
-      "reason": "Anthropicが売上でOpenAI逆転、勝ち筋が性能から制度設計へ傾く節目",
-      "previous_rank": null
+      "slug": "2026-07-10-academia",
+      "reason": "競争軸が基盤の巨大化から運用可能な記憶設計へ移る象徴的な一日",
+      "previous_rank": 5
     },
     {
       "rank": 5,
-      "slug": "2026-07-10-academia",
-      "reason": "Gemma 4に無限文脈と身体性メモリ、競争軸が巨大化から記憶設計へ移行",
-      "previous_rank": 5
+      "slug": "2026-07-05-ai-trends",
+      "reason": "売上でOpenAI逆転、勝ち筋が性能から制度設計へ移る不気味な兆し",
+      "previous_rank": 4
     }
   ]
 }
