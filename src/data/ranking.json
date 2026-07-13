@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-07-12T23:01:39Z",
-  "period_start": "2026-06-16",
-  "period_end": "2026-07-13",
+  "generated_at": "2026-07-13T23:00:09Z",
+  "period_start": "2026-06-17",
+  "period_end": "2026-07-14",
   "items": [
     {
       "rank": 1,
       "slug": "2026-07-01-claude-anthropic",
-      "reason": "Opus級を1M文脈で既定化、Anthropicが実務基盤へ踏み込む転換点",
+      "reason": "Opus級をSonnet価格で既定化、実務AIの基盤が動いた唯一の★5",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-07-13-ai-trends",
-      "reason": "OpenAI最上位SolがCopilot推奨に、配布面で業界の重心を動かす",
-      "previous_rank": null
+      "reason": "GPT-5.6がCopilot推奨モデルに、性能より配布網の掌握が効く",
+      "previous_rank": 2
     },
     {
       "rank": 3,
-      "slug": "2026-07-10-ai-trends",
-      "reason": "数時間規模を自律遂行、実務エージェント競争が一段先へ進む一手",
-      "previous_rank": null
-    },
-    {
-      "rank": 4,
-      "slug": "2026-07-10-academia",
-      "reason": "競争軸が基盤の巨大化から運用可能な記憶設計へ移る象徴的な一日",
+      "slug": "2026-07-05-ai-trends",
+      "reason": "Anthropicが売上でOpenAI逆転、勝ち筋が性能から制度設計へ",
       "previous_rank": 5
     },
     {
+      "rank": 4,
+      "slug": "2026-07-10-ai-trends",
+      "reason": "ChatGPT Work登場、実務エージェント競争が一段先へ進む節目",
+      "previous_rank": 3
+    },
+    {
       "rank": 5,
-      "slug": "2026-07-05-ai-trends",
-      "reason": "売上でOpenAI逆転、勝ち筋が性能から制度設計へ移る不気味な兆し",
+      "slug": "2026-07-10-academia",
+      "reason": "Gemma 4公開の裏で競争軸が巨大化から運用可能な記憶設計へ",
       "previous_rank": 4
     }
   ]
