@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-07-13T23:00:09Z",
-  "period_start": "2026-06-17",
-  "period_end": "2026-07-14",
+  "generated_at": "2026-07-14T23:01:59Z",
+  "period_start": "2026-06-18",
+  "period_end": "2026-07-15",
   "items": [
     {
       "rank": 1,
       "slug": "2026-07-01-claude-anthropic",
-      "reason": "Opus級をSonnet価格で既定化、実務AIの基盤が動いた唯一の★5",
+      "reason": "Opus級を既定に落とし1M文脈を標準化、実務基盤の新基準を引いた一手",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-07-13-ai-trends",
-      "reason": "GPT-5.6がCopilot推奨モデルに、性能より配布網の掌握が効く",
+      "reason": "GPT-5.6一般公開でMS365 Copilot採用、競争の重心が性能から実運用配布へ",
       "previous_rank": 2
     },
     {
       "rank": 3,
       "slug": "2026-07-05-ai-trends",
-      "reason": "Anthropicが売上でOpenAI逆転、勝ち筋が性能から制度設計へ",
-      "previous_rank": 5
+      "reason": "売上でOpenAI逆転、勝ち筋が性能から制度・商流設計へ移る転換点",
+      "previous_rank": 3
     },
     {
       "rank": 4,
       "slug": "2026-07-10-ai-trends",
-      "reason": "ChatGPT Work登場、実務エージェント競争が一段先へ進む節目",
-      "previous_rank": 3
+      "reason": "数時間規模を自律遂行するChatGPT Work、実務エージェント競争を一段先へ",
+      "previous_rank": 4
     },
     {
       "rank": 5,
       "slug": "2026-07-10-academia",
-      "reason": "Gemma 4公開の裏で競争軸が巨大化から運用可能な記憶設計へ",
-      "previous_rank": 4
+      "reason": "Gemma 4と無限文脈・身体性メモリ、競争軸が巨大化から記憶設計へ移行",
+      "previous_rank": 5
     }
   ]
 }
