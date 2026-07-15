@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-07-14T23:01:59Z",
-  "period_start": "2026-06-18",
-  "period_end": "2026-07-15",
+  "generated_at": "2026-07-15T23:00:59Z",
+  "period_start": "2026-06-19",
+  "period_end": "2026-07-16",
   "items": [
     {
       "rank": 1,
       "slug": "2026-07-01-claude-anthropic",
-      "reason": "Opus級を既定に落とし1M文脈を標準化、実務基盤の新基準を引いた一手",
+      "reason": "Opus級を1M文脈で既定化、Anthropicが実務基盤へ踏み込んだ転換点",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-07-13-ai-trends",
-      "reason": "GPT-5.6一般公開でMS365 Copilot採用、競争の重心が性能から実運用配布へ",
+      "reason": "SOTA主張よりMicrosoft Copilot採用が効くOpenAIの重心奪還",
       "previous_rank": 2
     },
     {
       "rank": 3,
-      "slug": "2026-07-05-ai-trends",
-      "reason": "売上でOpenAI逆転、勝ち筋が性能から制度・商流設計へ移る転換点",
-      "previous_rank": 3
+      "slug": "2026-07-16-ai-trends",
+      "reason": "AI競争が人材獲得と国家資本の勝負へ移った象徴的な一日",
+      "previous_rank": null
     },
     {
       "rank": 4,
-      "slug": "2026-07-10-ai-trends",
-      "reason": "数時間規模を自律遂行するChatGPT Work、実務エージェント競争を一段先へ",
-      "previous_rank": 4
+      "slug": "2026-07-05-ai-trends",
+      "reason": "売上でOpenAI逆転、勝ち筋が性能から制度と収益へ動く兆し",
+      "previous_rank": 3
     },
     {
       "rank": 5,
       "slug": "2026-07-10-academia",
-      "reason": "Gemma 4と無限文脈・身体性メモリ、競争軸が巨大化から記憶設計へ移行",
+      "reason": "競争軸が巨大化から無限文脈と運用可能な記憶設計へ移る節目",
       "previous_rank": 5
     }
   ]
