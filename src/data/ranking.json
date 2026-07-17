@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-07-16T23:00:02Z",
-  "period_start": "2026-06-20",
-  "period_end": "2026-07-17",
+  "generated_at": "2026-07-17T23:01:14Z",
+  "period_start": "2026-06-21",
+  "period_end": "2026-07-18",
   "items": [
     {
       "rank": 1,
-      "slug": "2026-07-17-ai-trends",
-      "reason": "Gemini正式化以上に、中国勢がモデルから計算基盤・端末まで横並びで攻める転換点",
+      "slug": "2026-07-18-ai-trends",
+      "reason": "巨大オープンウェイトが最前線に食い込んだ象徴、勢力図を揺らす最新の一本",
       "previous_rank": null
     },
     {
       "rank": 2,
       "slug": "2026-07-01-claude-anthropic",
-      "reason": "唯一の★5。上位級性能を既定モデルと1M文脈へ落とし込むAnthropicの実務基盤化",
-      "previous_rank": 1
+      "reason": "Opus級をSonnet価格に落とし実務基盤を塗り替える、唯一の★5評価",
+      "previous_rank": 2
     },
     {
       "rank": 3,
       "slug": "2026-07-13-ai-trends",
-      "reason": "SOTA主張よりMicrosoft 365 Copilot採用が効く、OpenAIが業界の重心を動かす一撃",
-      "previous_rank": 2
-    },
-    {
-      "rank": 4,
-      "slug": "2026-07-16-ai-trends",
-      "reason": "Karpathy移籍と韓国8800億ドル、競争軸が人材と国家資本へ移った象徴的な一日",
+      "reason": "OpenAI旗艦がSOTA主張しCopilot採用、業界の重心を動かす更新",
       "previous_rank": 3
     },
     {
+      "rank": 4,
+      "slug": "2026-07-17-ai-trends",
+      "reason": "Gemini正式化と中国勢の総攻勢が重なり競争が計算基盤へ拡大",
+      "previous_rank": 1
+    },
+    {
       "rank": 5,
-      "slug": "2026-07-17-academia",
-      "reason": "派手な性能競争よりharness保守や分散事前学習、AIの“運用の現実”が前面化",
+      "slug": "2026-07-05-ai-trends",
+      "reason": "売上でOpenAI逆転、勝ち筋が性能から資本と制度へ移る節目",
       "previous_rank": null
     }
   ]
