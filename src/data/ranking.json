@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-07-17T23:01:14Z",
-  "period_start": "2026-06-21",
-  "period_end": "2026-07-18",
+  "generated_at": "2026-07-18T23:02:01Z",
+  "period_start": "2026-06-22",
+  "period_end": "2026-07-19",
   "items": [
     {
       "rank": 1,
       "slug": "2026-07-18-ai-trends",
-      "reason": "巨大オープンウェイトが最前線に食い込んだ象徴、勢力図を揺らす最新の一本",
-      "previous_rank": null
-    },
-    {
-      "rank": 2,
-      "slug": "2026-07-01-claude-anthropic",
-      "reason": "Opus級をSonnet価格に落とし実務基盤を塗り替える、唯一の★5評価",
-      "previous_rank": 2
-    },
-    {
-      "rank": 3,
-      "slug": "2026-07-13-ai-trends",
-      "reason": "OpenAI旗艦がSOTA主張しCopilot採用、業界の重心を動かす更新",
-      "previous_rank": 3
-    },
-    {
-      "rank": 4,
-      "slug": "2026-07-17-ai-trends",
-      "reason": "Gemini正式化と中国勢の総攻勢が重なり競争が計算基盤へ拡大",
+      "reason": "2.8兆パラの巨大オープンウェイトが最前線に食い込んだ象徴的一件",
       "previous_rank": 1
     },
     {
+      "rank": 2,
+      "slug": "2026-07-17-ai-trends",
+      "reason": "Gemini正式化とWAICでの中国勢総攻勢が同日に重なった転換点",
+      "previous_rank": 4
+    },
+    {
+      "rank": 3,
+      "slug": "2026-07-01-claude-anthropic",
+      "reason": "Opus級性能と1M文脈を既定に落とし込んだAnthropicの実務基盤化",
+      "previous_rank": 2
+    },
+    {
+      "rank": 4,
+      "slug": "2026-07-13-ai-trends",
+      "reason": "GPT-5.6 SolのM365 Copilot採用で業界の重心が動いた瞬間",
+      "previous_rank": 3
+    },
+    {
       "rank": 5,
-      "slug": "2026-07-05-ai-trends",
-      "reason": "売上でOpenAI逆転、勝ち筋が性能から資本と制度へ移る節目",
+      "slug": "2026-07-16-ai-trends",
+      "reason": "Karpathy移籍と韓国8800億ドルで人材・国家資本の勝負が鮮明に",
       "previous_rank": null
     }
   ]
