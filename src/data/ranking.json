@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-07-18T23:02:01Z",
-  "period_start": "2026-06-22",
-  "period_end": "2026-07-19",
+  "generated_at": "2026-07-19T23:00:31Z",
+  "period_start": "2026-06-23",
+  "period_end": "2026-07-20",
   "items": [
     {
       "rank": 1,
       "slug": "2026-07-18-ai-trends",
-      "reason": "2.8兆パラの巨大オープンウェイトが最前線に食い込んだ象徴的一件",
+      "reason": "2.8兆パラの巨大オープンウェイトが最前線に食い込んだ象徴的事件",
       "previous_rank": 1
     },
     {
       "rank": 2,
-      "slug": "2026-07-17-ai-trends",
-      "reason": "Gemini正式化とWAICでの中国勢総攻勢が同日に重なった転換点",
-      "previous_rank": 4
+      "slug": "2026-07-20-ai-trends",
+      "reason": "本番コード8割超をAIが記述、自走型開発が現実味を帯びた最新報告",
+      "previous_rank": null
     },
     {
       "rank": 3,
-      "slug": "2026-07-01-claude-anthropic",
-      "reason": "Opus級性能と1M文脈を既定に落とし込んだAnthropicの実務基盤化",
+      "slug": "2026-07-17-ai-trends",
+      "reason": "Gemini 3.5正式化とWAICの中国勢攻勢、計算基盤の地政学が前面に",
       "previous_rank": 2
     },
     {
       "rank": 4,
       "slug": "2026-07-13-ai-trends",
-      "reason": "GPT-5.6 SolのM365 Copilot採用で業界の重心が動いた瞬間",
-      "previous_rank": 3
+      "reason": "GPT-5.6がFable 5超えSOTA主張、M365採用で業界の重心が動く",
+      "previous_rank": 4
     },
     {
       "rank": 5,
-      "slug": "2026-07-16-ai-trends",
-      "reason": "Karpathy移籍と韓国8800億ドルで人材・国家資本の勝負が鮮明に",
+      "slug": "2026-07-20-academia",
+      "reason": "固定GPU予算で200万トークン長文脈RL、評価基盤重視の健全な足場固め",
       "previous_rank": null
     }
   ]
