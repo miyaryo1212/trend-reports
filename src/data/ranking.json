@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-07-19T23:00:31Z",
-  "period_start": "2026-06-23",
-  "period_end": "2026-07-20",
+  "generated_at": "2026-07-20T23:01:42Z",
+  "period_start": "2026-06-24",
+  "period_end": "2026-07-21",
   "items": [
     {
       "rank": 1,
       "slug": "2026-07-18-ai-trends",
-      "reason": "2.8兆パラの巨大オープンウェイトが最前線に食い込んだ象徴的事件",
+      "reason": "2.8兆パラの巨大オープンウェイトが最前線に食い込んだ転換点",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-07-20-ai-trends",
-      "reason": "本番コード8割超をAIが記述、自走型開発が現実味を帯びた最新報告",
-      "previous_rank": null
-    },
-    {
-      "rank": 3,
-      "slug": "2026-07-17-ai-trends",
-      "reason": "Gemini 3.5正式化とWAICの中国勢攻勢、計算基盤の地政学が前面に",
+      "reason": "本番コード8割超をAIが書く再帰的自己改善の現実味",
       "previous_rank": 2
     },
     {
-      "rank": 4,
+      "rank": 3,
       "slug": "2026-07-13-ai-trends",
-      "reason": "GPT-5.6がFable 5超えSOTA主張、M365採用で業界の重心が動く",
+      "reason": "GPT-5.6 SolがFable 5超えSOTA主張、Copilot採用で重心動く",
       "previous_rank": 4
+    },
+    {
+      "rank": 4,
+      "slug": "2026-07-17-ai-trends",
+      "reason": "Gemini正式化の裏で中国勢が計算基盤から端末まで総攻め",
+      "previous_rank": 3
     },
     {
       "rank": 5,
       "slug": "2026-07-20-academia",
-      "reason": "固定GPU予算で200万トークン長文脈RL、評価基盤重視の健全な足場固め",
-      "previous_rank": null
+      "reason": "固定GPU予算で200万トークン級長文脈RLを実現した注目研究",
+      "previous_rank": 5
     }
   ]
 }
