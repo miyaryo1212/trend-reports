@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-07-20T23:01:42Z",
-  "period_start": "2026-06-24",
-  "period_end": "2026-07-21",
+  "generated_at": "2026-07-21T23:00:49Z",
+  "period_start": "2026-06-25",
+  "period_end": "2026-07-22",
   "items": [
     {
       "rank": 1,
       "slug": "2026-07-18-ai-trends",
-      "reason": "2.8兆パラの巨大オープンウェイトが最前線に食い込んだ転換点",
+      "reason": "2.8兆パラメータのオープンウェイトが最前線に食い込んだ象徴的一撃",
       "previous_rank": 1
     },
     {
       "rank": 2,
-      "slug": "2026-07-20-ai-trends",
-      "reason": "本番コード8割超をAIが書く再帰的自己改善の現実味",
-      "previous_rank": 2
+      "slug": "2026-07-01-claude-anthropic",
+      "reason": "Opus級を1M文脈のまま既定モデルへ、実務基盤化の号砲",
+      "previous_rank": null
     },
     {
       "rank": 3,
       "slug": "2026-07-13-ai-trends",
-      "reason": "GPT-5.6 SolがFable 5超えSOTA主張、Copilot採用で重心動く",
-      "previous_rank": 4
-    },
-    {
-      "rank": 4,
-      "slug": "2026-07-17-ai-trends",
-      "reason": "Gemini正式化の裏で中国勢が計算基盤から端末まで総攻め",
+      "reason": "SOTA主張よりCopilot既定採用で業界の重心を動かした点が本丸",
       "previous_rank": 3
     },
     {
+      "rank": 4,
+      "slug": "2026-07-20-ai-trends",
+      "reason": "本番コード8割超をAIが記述、自走型開発が現実味を帯びた節目",
+      "previous_rank": 2
+    },
+    {
       "rank": 5,
-      "slug": "2026-07-20-academia",
-      "reason": "固定GPU予算で200万トークン級長文脈RLを実現した注目研究",
-      "previous_rank": 5
+      "slug": "2026-07-17-ai-trends",
+      "reason": "Gemini正式化と並びWAICで中国勢が基盤から端末まで総攻め",
+      "previous_rank": 4
     }
   ]
 }
