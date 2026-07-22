@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-07-21T23:00:49Z",
-  "period_start": "2026-06-25",
-  "period_end": "2026-07-22",
+  "generated_at": "2026-07-22T23:01:36Z",
+  "period_start": "2026-06-26",
+  "period_end": "2026-07-23",
   "items": [
     {
       "rank": 1,
       "slug": "2026-07-18-ai-trends",
-      "reason": "2.8兆パラメータのオープンウェイトが最前線に食い込んだ象徴的一撃",
+      "reason": "巨大オープンウェイトが最前線に食い込んだ象徴、勢力図の転換点",
       "previous_rank": 1
     },
     {
       "rank": 2,
-      "slug": "2026-07-01-claude-anthropic",
-      "reason": "Opus級を1M文脈のまま既定モデルへ、実務基盤化の号砲",
-      "previous_rank": null
+      "slug": "2026-07-20-ai-trends",
+      "reason": "本番コード8割超をAIが書く自己改善が現実味、開発運用の未来図",
+      "previous_rank": 4
     },
     {
       "rank": 3,
-      "slug": "2026-07-13-ai-trends",
-      "reason": "SOTA主張よりCopilot既定採用で業界の重心を動かした点が本丸",
-      "previous_rank": 3
+      "slug": "2026-07-17-ai-trends",
+      "reason": "中国勢がモデルから計算基盤・端末まで横並び攻勢、供給網再編の兆し",
+      "previous_rank": 5
     },
     {
       "rank": 4,
-      "slug": "2026-07-20-ai-trends",
-      "reason": "本番コード8割超をAIが記述、自走型開発が現実味を帯びた節目",
+      "slug": "2026-07-01-claude-anthropic",
+      "reason": "Opus級を1M文脈・低価格で既定化、実務基盤への転換を示す★5",
       "previous_rank": 2
     },
     {
       "rank": 5,
-      "slug": "2026-07-17-ai-trends",
-      "reason": "Gemini正式化と並びWAICで中国勢が基盤から端末まで総攻め",
-      "previous_rank": 4
+      "slug": "2026-07-22-codex-openai",
+      "reason": "Bedrock対応と移行の滑らかさで常用ツール化を狙う最新安定版",
+      "previous_rank": null
     }
   ]
 }
