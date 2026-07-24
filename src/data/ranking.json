@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-07-23T23:00:08Z",
-  "period_start": "2026-06-27",
-  "period_end": "2026-07-24",
+  "generated_at": "2026-07-24T23:02:01Z",
+  "period_start": "2026-06-28",
+  "period_end": "2026-07-25",
   "items": [
     {
       "rank": 1,
-      "slug": "2026-07-01-claude-anthropic",
-      "reason": "Opus級Sonnet 5が1M文脈で全プラン既定化、実務基盤の転換点",
-      "previous_rank": 4
-    },
-    {
-      "rank": 2,
-      "slug": "2026-07-13-ai-trends",
-      "reason": "GPT-5.6 SolがFable 5超えSOTA主張、M365採用で重心が動く",
+      "slug": "2026-07-25-claude-anthropic",
+      "reason": "価格据え置きで前線性能を伸ばした新フラッグシップ、競争の潮目を変える一手",
       "previous_rank": null
     },
     {
-      "rank": 3,
+      "rank": 2,
       "slug": "2026-07-18-ai-trends",
-      "reason": "2.8兆Kimi K3が巨大オープンで最前線に食い込む象徴",
-      "previous_rank": 1
+      "reason": "巨大オープンウェイトが最前線に食い込む転換点、勢力図を揺らすKimi K3",
+      "previous_rank": 3
+    },
+    {
+      "rank": 3,
+      "slug": "2026-07-24-ai-trends",
+      "reason": "DeepSeekが価格下限を更新、ChatGPT Healthは生成AIの日常インフラ化を象徴",
+      "previous_rank": null
     },
     {
       "rank": 4,
-      "slug": "2026-07-20-ai-trends",
-      "reason": "本番コード8割超をClaudeが記述、自走型開発が現実味",
-      "previous_rank": 2
+      "slug": "2026-07-22-codex-openai",
+      "reason": "音声・Bedrock・マルチエージェントV2着地、CLI競争の本丸は運用の滑らかさ",
+      "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-07-17-ai-trends",
-      "reason": "Gemini 3.5 Pro正式化とWAICで中国勢が基盤・端末まで攻勢",
-      "previous_rank": 3
+      "slug": "2026-07-20-academia",
+      "reason": "固定予算で200万トークン長文脈RL、評価基盤の足場固めが並ぶ研究動向",
+      "previous_rank": null
     }
   ]
 }
