@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-07-24T23:02:01Z",
-  "period_start": "2026-06-28",
-  "period_end": "2026-07-25",
+  "generated_at": "2026-07-25T23:01:08Z",
+  "period_start": "2026-06-29",
+  "period_end": "2026-07-26",
   "items": [
     {
       "rank": 1,
       "slug": "2026-07-25-claude-anthropic",
-      "reason": "価格据え置きで前線性能を伸ばした新フラッグシップ、競争の潮目を変える一手",
-      "previous_rank": null
+      "reason": "価格据え置きで前線性能を刷新、モデル競争の潮目を変えた新フラッグシップ",
+      "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-07-18-ai-trends",
-      "reason": "巨大オープンウェイトが最前線に食い込む転換点、勢力図を揺らすKimi K3",
-      "previous_rank": 3
+      "reason": "2.8兆パラの巨大オープンウェイトが最前線入り、勢力図を揺らす象徴",
+      "previous_rank": 2
     },
     {
       "rank": 3,
       "slug": "2026-07-24-ai-trends",
-      "reason": "DeepSeekが価格下限を更新、ChatGPT Healthは生成AIの日常インフラ化を象徴",
-      "previous_rank": null
+      "reason": "価格下限更新よりChatGPT Healthが示すAI常設インフラ化が重い",
+      "previous_rank": 3
     },
     {
       "rank": 4,
-      "slug": "2026-07-22-codex-openai",
-      "reason": "音声・Bedrock・マルチエージェントV2着地、CLI競争の本丸は運用の滑らかさ",
+      "slug": "2026-07-13-ai-trends",
+      "reason": "SOTA主張よりM365 Copilot採用で業界の重心を動かしたOpenAI旗艦",
       "previous_rank": null
     },
     {
       "rank": 5,
       "slug": "2026-07-20-academia",
-      "reason": "固定予算で200万トークン長文脈RL、評価基盤の足場固めが並ぶ研究動向",
-      "previous_rank": null
+      "reason": "派手なLongStrawの裏で評価基盤と自己改善の足場固めが進む研究群",
+      "previous_rank": 5
     }
   ]
 }
