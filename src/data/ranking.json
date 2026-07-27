@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-07-26T23:00:41Z",
-  "period_start": "2026-06-30",
-  "period_end": "2026-07-27",
+  "generated_at": "2026-07-27T23:01:03Z",
+  "period_start": "2026-07-01",
+  "period_end": "2026-07-28",
   "items": [
     {
       "rank": 1,
       "slug": "2026-07-25-claude-anthropic",
-      "reason": "Opus据え置き価格で前線性能を刷新、新デフォルト級の本命",
+      "reason": "Opus据え置き価格で前線性能を大幅更新、月内最重要の新フラッグシップ",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-07-18-ai-trends",
-      "reason": "巨大オープンウェイトが最前線に食い込むと示した象徴的一手",
+      "reason": "2.8兆パラの巨大オープンウェイトが最前線へ食い込んだ象徴的一手",
       "previous_rank": 2
     },
     {
       "rank": 3,
       "slug": "2026-07-13-ai-trends",
-      "reason": "M365 Copilot採用で業界の重心を動かすOpenAI最新SOTA",
-      "previous_rank": 4
+      "reason": "OpenAI最上位がSOTA主張、Copilot採用で業界の重心を動かす",
+      "previous_rank": 3
     },
     {
       "rank": 4,
       "slug": "2026-07-27-academia",
-      "reason": "AI研究が推論競争から学習ループ設計へ移った転換を象徴",
-      "previous_rank": null
+      "reason": "研究の主戦場が推論から学習ループ設計へ移った転換を映す最新号",
+      "previous_rank": 4
     },
     {
       "rank": 5,
       "slug": "2026-07-16-ai-trends",
-      "reason": "Karpathy移籍と韓国8800億ドル、人材と国家資本の主戦場化",
-      "previous_rank": null
+      "reason": "Karpathy移籍と韓国8800億ドル、競争が人材と国家資本の局面へ",
+      "previous_rank": 5
     }
   ]
 }
