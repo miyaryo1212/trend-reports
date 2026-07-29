@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-07-28T23:01:52Z",
-  "period_start": "2026-07-02",
-  "period_end": "2026-07-29",
+  "generated_at": "2026-07-29T23:00:02Z",
+  "period_start": "2026-07-03",
+  "period_end": "2026-07-30",
   "items": [
     {
       "rank": 1,
       "slug": "2026-07-25-claude-anthropic",
-      "reason": "価格据え置きのまま前線性能を大幅更新した新フラッグシップの本命",
+      "reason": "価格据え置きのまま前線性能を底上げ、モデル競争の基準を塗り替えた新フラッグシップ",
       "previous_rank": 1
     },
     {
       "rank": 2,
-      "slug": "2026-07-18-ai-trends",
-      "reason": "2.8兆パラの巨大オープンウェイトが最前線に食い込んだ転換点",
-      "previous_rank": 2
+      "slug": "2026-07-16-ai-trends",
+      "reason": "巨大オープンウェイトが最前線に食い込み、性能競争の重心をずらした象徴的公開",
+      "previous_rank": 5
     },
     {
       "rank": 3,
-      "slug": "2026-07-13-ai-trends",
-      "reason": "SOTA主張とM365 Copilot採用でOpenAIが重心を押し戻す一手",
-      "previous_rank": 3
+      "slug": "2026-07-30-codex-openai",
+      "reason": "モデルGAと開発CLI正式化が同日、OpenAIが性能競争から利用基盤囲い込みへ前進",
+      "previous_rank": null
     },
     {
       "rank": 4,
       "slug": "2026-07-29-ai-trends",
-      "reason": "Claudeが暗号の欠陥を自律発見、接続標準MCPも大型改訂で最新",
-      "previous_rank": null
+      "reason": "Claudeが暗号の欠陥を自律発見、接続標準を固めるMCP大改訂と重なった象徴的な日",
+      "previous_rank": 4
     },
     {
       "rank": 5,
-      "slug": "2026-07-16-ai-trends",
-      "reason": "競争軸が人材と国家資本へ、Karpathy移籍と韓国巨額投資が示す",
-      "previous_rank": 5
+      "slug": "2026-07-30-ai-trends",
+      "reason": "Googleが動画生成の総合基盤へ踏み込み、マルチモーダル競争が新段階に入った最新動向",
+      "previous_rank": null
     }
   ]
 }
