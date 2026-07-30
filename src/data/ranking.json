@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-07-29T23:00:02Z",
-  "period_start": "2026-07-03",
-  "period_end": "2026-07-30",
+  "generated_at": "2026-07-30T23:01:31Z",
+  "period_start": "2026-07-04",
+  "period_end": "2026-07-31",
   "items": [
     {
       "rank": 1,
       "slug": "2026-07-25-claude-anthropic",
-      "reason": "価格据え置きのまま前線性能を底上げ、モデル競争の基準を塗り替えた新フラッグシップ",
+      "reason": "Opus据え置き価格で性能を大幅に伸ばした新デフォルト旗艦の本命",
       "previous_rank": 1
     },
     {
       "rank": 2,
-      "slug": "2026-07-16-ai-trends",
-      "reason": "巨大オープンウェイトが最前線に食い込み、性能競争の重心をずらした象徴的公開",
-      "previous_rank": 5
+      "slug": "2026-07-31-ai-trends",
+      "reason": "$965B IPO申請と最大80%値下げ、競争軸が資本と制度へ移る節目",
+      "previous_rank": null
     },
     {
       "rank": 3,
       "slug": "2026-07-30-codex-openai",
-      "reason": "モデルGAと開発CLI正式化が同日、OpenAIが性能競争から利用基盤囲い込みへ前進",
-      "previous_rank": null
+      "reason": "GPT-5.6三モデルGAとCodex CLI正式化、利用基盤の囲い込みが進む",
+      "previous_rank": 3
     },
     {
       "rank": 4,
-      "slug": "2026-07-29-ai-trends",
-      "reason": "Claudeが暗号の欠陥を自律発見、接続標準を固めるMCP大改訂と重なった象徴的な日",
-      "previous_rank": 4
+      "slug": "2026-07-29-academia",
+      "reason": "2.8T MoEの世界最大級オープンモデル、性能から運用可能性へ移る潮目",
+      "previous_rank": null
     },
     {
       "rank": 5,
       "slug": "2026-07-30-ai-trends",
-      "reason": "Googleが動画生成の総合基盤へ踏み込み、マルチモーダル競争が新段階に入った最新動向",
-      "previous_rank": null
+      "reason": "任意入力から動画生成するGemini Omni、Googleが総合メディア基盤へ踏み込む",
+      "previous_rank": 5
     }
   ]
 }
