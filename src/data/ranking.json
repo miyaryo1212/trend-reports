@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-07-30T23:01:31Z",
-  "period_start": "2026-07-04",
-  "period_end": "2026-07-31",
+  "generated_at": "2026-07-31T23:00:43Z",
+  "period_start": "2026-07-05",
+  "period_end": "2026-08-01",
   "items": [
     {
       "rank": 1,
       "slug": "2026-07-25-claude-anthropic",
-      "reason": "Opus据え置き価格で性能を大幅に伸ばした新デフォルト旗艦の本命",
+      "reason": "価格据え置きで前線性能を大幅刷新、モデル競争の新基準を引いた本命フラッグシップ",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-07-31-ai-trends",
-      "reason": "$965B IPO申請と最大80%値下げ、競争軸が資本と制度へ移る節目",
-      "previous_rank": null
+      "reason": "80%値下げと$965B IPOが同日着弾、競争軸が性能から資本と運用経済へ移る転換点",
+      "previous_rank": 2
     },
     {
       "rank": 3,
-      "slug": "2026-07-30-codex-openai",
-      "reason": "GPT-5.6三モデルGAとCodex CLI正式化、利用基盤の囲い込みが進む",
-      "previous_rank": 3
+      "slug": "2026-07-18-ai-trends",
+      "reason": "2.8兆パラの巨大オープンウェイトが前線に食い込む、開放モデル時代の象徴的一本",
+      "previous_rank": null
     },
     {
       "rank": 4,
-      "slug": "2026-07-29-academia",
-      "reason": "2.8T MoEの世界最大級オープンモデル、性能から運用可能性へ移る潮目",
+      "slug": "2026-07-29-ai-trends",
+      "reason": "Claudeが耐量子署名の欠陥を自律発見、AIの科学的実力とMCP標準化が重なる節目",
       "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-07-30-ai-trends",
-      "reason": "任意入力から動画生成するGemini Omni、Googleが総合メディア基盤へ踏み込む",
-      "previous_rank": 5
+      "slug": "2026-08-01-ai-trends",
+      "reason": "本番コード8割超を書く自己改善の常態化と、統治の未成熟が同時に露呈した最新報",
+      "previous_rank": null
     }
   ]
 }
