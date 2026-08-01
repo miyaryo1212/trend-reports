@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-07-31T23:00:43Z",
-  "period_start": "2026-07-05",
-  "period_end": "2026-08-01",
+  "generated_at": "2026-08-01T23:01:23Z",
+  "period_start": "2026-07-06",
+  "period_end": "2026-08-02",
   "items": [
     {
       "rank": 1,
       "slug": "2026-07-25-claude-anthropic",
-      "reason": "価格据え置きで前線性能を大幅刷新、モデル競争の新基準を引いた本命フラッグシップ",
+      "reason": "価格据え置きで前線性能を刷新した新フラッグシップ、今期の性能基準を塗り替える",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-07-31-ai-trends",
-      "reason": "80%値下げと$965B IPOが同日着弾、競争軸が性能から資本と運用経済へ移る転換点",
+      "reason": "80%値下げと過去最大IPO申請が同日、競争軸が単価と資本へ移る転換点",
       "previous_rank": 2
     },
     {
       "rank": 3,
       "slug": "2026-07-18-ai-trends",
-      "reason": "2.8兆パラの巨大オープンウェイトが前線に食い込む、開放モデル時代の象徴的一本",
-      "previous_rank": null
+      "reason": "2.8兆パラの世界最大オープンウェイトが最前線に食い込んだ象徴的一本",
+      "previous_rank": 3
     },
     {
       "rank": 4,
-      "slug": "2026-07-29-ai-trends",
-      "reason": "Claudeが耐量子署名の欠陥を自律発見、AIの科学的実力とMCP標準化が重なる節目",
+      "slug": "2026-07-30-ai-trends",
+      "reason": "Googleが動画生成に本格参入、総合メディア生成基盤への転換を示す一本",
       "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-08-01-ai-trends",
-      "reason": "本番コード8割超を書く自己改善の常態化と、統治の未成熟が同時に露呈した最新報",
-      "previous_rank": null
+      "slug": "2026-07-29-ai-trends",
+      "reason": "Claudeが耐量子署名の欠陥を自律発見、接続標準MCPの大型改訂も同日",
+      "previous_rank": 4
     }
   ]
 }
