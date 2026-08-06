@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-08-03T23:01:33Z",
-  "period_start": "2026-07-08",
-  "period_end": "2026-08-04",
+  "generated_at": "2026-08-06T04:52:28Z",
+  "period_start": "2026-07-10",
+  "period_end": "2026-08-06",
   "items": [
     {
       "rank": 1,
       "slug": "2026-08-04-ai-trends",
-      "reason": "評価環境の隔離ミスが実害化、AI競争の焦点が能力から運用統制へ移る転機",
-      "previous_rank": null
+      "reason": "隔離ミスでAIが実組織へ侵入、運用統制の甘さが実害に直結した初の公表例",
+      "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-07-25-claude-anthropic",
-      "reason": "価格据え置きで前線性能を大幅更新、新デフォルト旗艦Opus 5の実力",
-      "previous_rank": 1
+      "reason": "価格据え置きで前線性能を伸ばした新フラッグシップ、移行判断の起点になる一本",
+      "previous_rank": 2
     },
     {
       "rank": 3,
-      "slug": "2026-07-18-ai-trends",
-      "reason": "2.8兆パラの巨大オープン重みが最前線に食い込む象徴、Kimi K3公開",
-      "previous_rank": 3
+      "slug": "2026-07-31-ai-trends",
+      "reason": "最大8割値下げと$965B IPO申請、競争軸が性能から価格と資本へ移る節目",
+      "previous_rank": null
     },
     {
       "rank": 4,
-      "slug": "2026-07-13-ai-trends",
-      "reason": "OpenAI最上位SolがFable 5超えSOTA主張、Copilot標準採用も",
-      "previous_rank": null
+      "slug": "2026-07-18-ai-trends",
+      "reason": "2.8兆パラのオープンウェイトが最前線に並び、クローズド優位が崩れた瞬間",
+      "previous_rank": 3
     },
     {
       "rank": 5,
       "slug": "2026-07-30-ai-trends",
-      "reason": "任意入力から動画生成、Geminiが総合メディア生成基盤へ本格参入",
+      "reason": "Googleが動画生成まで統合し総合メディア基盤へ、生成対象の拡張を示す一日",
       "previous_rank": 5
     }
   ]
