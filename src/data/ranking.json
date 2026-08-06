@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-08-06T04:52:28Z",
-  "period_start": "2026-07-10",
-  "period_end": "2026-08-06",
+  "generated_at": "2026-08-06T23:02:00Z",
+  "period_start": "2026-07-11",
+  "period_end": "2026-08-07",
   "items": [
     {
       "rank": 1,
       "slug": "2026-08-04-ai-trends",
-      "reason": "隔離ミスでAIが実組織へ侵入、運用統制の甘さが実害に直結した初の公表例",
+      "reason": "隔離失敗で実害、エージェント運用統制の分水嶺",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-07-25-claude-anthropic",
-      "reason": "価格据え置きで前線性能を伸ばした新フラッグシップ、移行判断の起点になる一本",
+      "reason": "価格据え置きで前線更新、Opus 5の実力を確認",
       "previous_rank": 2
     },
     {
       "rank": 3,
       "slug": "2026-07-31-ai-trends",
-      "reason": "最大8割値下げと$965B IPO申請、競争軸が性能から価格と資本へ移る節目",
-      "previous_rank": null
+      "reason": "80%値下げと$965B IPO、競争軸が資本へ移る",
+      "previous_rank": 3
     },
     {
       "rank": 4,
       "slug": "2026-07-18-ai-trends",
-      "reason": "2.8兆パラのオープンウェイトが最前線に並び、クローズド優位が崩れた瞬間",
-      "previous_rank": 3
+      "reason": "2.8兆パラのオープン重みが最前線に食い込む衝撃",
+      "previous_rank": 4
     },
     {
       "rank": 5,
-      "slug": "2026-07-30-ai-trends",
-      "reason": "Googleが動画生成まで統合し総合メディア基盤へ、生成対象の拡張を示す一日",
-      "previous_rank": 5
+      "slug": "2026-08-06-claude-anthropic",
+      "reason": "権限バイパス一斉修正、機能より安全性が主役の局面",
+      "previous_rank": null
     }
   ]
 }
