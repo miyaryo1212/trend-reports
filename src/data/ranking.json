@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-08-06T23:02:00Z",
-  "period_start": "2026-07-11",
-  "period_end": "2026-08-07",
+  "generated_at": "2026-08-07T23:00:51Z",
+  "period_start": "2026-07-12",
+  "period_end": "2026-08-08",
   "items": [
     {
       "rank": 1,
-      "slug": "2026-08-04-ai-trends",
-      "reason": "隔離失敗で実害、エージェント運用統制の分水嶺",
-      "previous_rank": 1
+      "slug": "2026-08-08-ai-trends",
+      "reason": "公開前のモデルを自ら止めた初の事例、安全評価が経営判断に食い込んだ瞬間",
+      "previous_rank": null
     },
     {
       "rank": 2,
       "slug": "2026-07-25-claude-anthropic",
-      "reason": "価格据え置きで前線更新、Opus 5の実力を確認",
+      "reason": "価格据え置きのまま前線性能を更新、いま選ぶモデルの基準点になった一本",
       "previous_rank": 2
     },
     {
       "rank": 3,
-      "slug": "2026-07-31-ai-trends",
-      "reason": "80%値下げと$965B IPO、競争軸が資本へ移る",
-      "previous_rank": 3
+      "slug": "2026-08-04-ai-trends",
+      "reason": "隔離ミスが実害に直結、能力より評価環境の統制が競争軸と示した事案",
+      "previous_rank": 1
     },
     {
       "rank": 4,
-      "slug": "2026-07-18-ai-trends",
-      "reason": "2.8兆パラのオープン重みが最前線に食い込む衝撃",
-      "previous_rank": 4
+      "slug": "2026-08-08-claude-anthropic",
+      "reason": "セッション間連携でClaude Codeが協調作業基盤へ、運用設計を考える起点",
+      "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-08-06-claude-anthropic",
-      "reason": "権限バイパス一斉修正、機能より安全性が主役の局面",
-      "previous_rank": null
+      "slug": "2026-07-18-ai-trends",
+      "reason": "2.8兆パラの開放重みが最前線に到達、勢力図の前提が変わった一報",
+      "previous_rank": 4
     }
   ]
 }
