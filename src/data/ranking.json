@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-08-07T23:00:51Z",
-  "period_start": "2026-07-12",
-  "period_end": "2026-08-08",
+  "generated_at": "2026-08-08T23:00:40Z",
+  "period_start": "2026-07-13",
+  "period_end": "2026-08-09",
   "items": [
     {
       "rank": 1,
       "slug": "2026-08-08-ai-trends",
-      "reason": "公開前のモデルを自ら止めた初の事例、安全評価が経営判断に食い込んだ瞬間",
-      "previous_rank": null
+      "reason": "安全評価が公開前の経営判断を止めた初の事例",
+      "previous_rank": 1
     },
     {
       "rank": 2,
-      "slug": "2026-07-25-claude-anthropic",
-      "reason": "価格据え置きのまま前線性能を更新、いま選ぶモデルの基準点になった一本",
-      "previous_rank": 2
+      "slug": "2026-08-09-ai-trends",
+      "reason": "主戦場が組織図と推論チップへ移った転換点",
+      "previous_rank": null
     },
     {
       "rank": 3,
       "slug": "2026-08-04-ai-trends",
-      "reason": "隔離ミスが実害に直結、能力より評価環境の統制が競争軸と示した事案",
-      "previous_rank": 1
+      "reason": "隔離ミスが実害化、統制の甘さが露呈した一件",
+      "previous_rank": 3
     },
     {
       "rank": 4,
-      "slug": "2026-08-08-claude-anthropic",
-      "reason": "セッション間連携でClaude Codeが協調作業基盤へ、運用設計を考える起点",
-      "previous_rank": null
+      "slug": "2026-07-25-claude-anthropic",
+      "reason": "価格据え置きで前線更新、Opus 5の実像",
+      "previous_rank": 2
     },
     {
       "rank": 5,
-      "slug": "2026-07-18-ai-trends",
-      "reason": "2.8兆パラの開放重みが最前線に到達、勢力図の前提が変わった一報",
+      "slug": "2026-08-08-claude-anthropic",
+      "reason": "Claude Codeが協調する作業基盤へ一段前進",
       "previous_rank": 4
     }
   ]
