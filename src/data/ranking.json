@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-08-08T23:00:40Z",
-  "period_start": "2026-07-13",
-  "period_end": "2026-08-09",
+  "generated_at": "2026-08-09T23:00:08Z",
+  "period_start": "2026-07-14",
+  "period_end": "2026-08-10",
   "items": [
     {
       "rank": 1,
-      "slug": "2026-08-08-ai-trends",
-      "reason": "安全評価が公開前の経営判断を止めた初の事例",
-      "previous_rank": 1
-    },
-    {
-      "rank": 2,
       "slug": "2026-08-09-ai-trends",
-      "reason": "主戦場が組織図と推論チップへ移った転換点",
-      "previous_rank": null
-    },
-    {
-      "rank": 3,
-      "slug": "2026-08-04-ai-trends",
-      "reason": "隔離ミスが実害化、統制の甘さが露呈した一件",
-      "previous_rank": 3
-    },
-    {
-      "rank": 4,
-      "slug": "2026-07-25-claude-anthropic",
-      "reason": "価格据え置きで前線更新、Opus 5の実像",
+      "reason": "競争の主戦場がモデルから組織図と自社チップへ移った転換点",
       "previous_rank": 2
     },
     {
-      "rank": 5,
-      "slug": "2026-08-08-claude-anthropic",
-      "reason": "Claude Codeが協調する作業基盤へ一段前進",
+      "rank": 2,
+      "slug": "2026-08-08-ai-trends",
+      "reason": "公開前に自ら止めた初例、安全評価が経営判断に食い込んだ証拠",
+      "previous_rank": 1
+    },
+    {
+      "rank": 3,
+      "slug": "2026-07-25-claude-anthropic",
+      "reason": "据え置き価格で前線性能を伸ばし、実務の基準線を引き直した一本",
       "previous_rank": 4
+    },
+    {
+      "rank": 4,
+      "slug": "2026-07-18-ai-trends",
+      "reason": "2.8兆パラのオープン重みでも最前線に並べると示した象徴的公開",
+      "previous_rank": null
+    },
+    {
+      "rank": 5,
+      "slug": "2026-08-10-academia",
+      "reason": "エージェント研究の律速だった訓練データ供給を自動化する発想転換",
+      "previous_rank": null
     }
   ]
 }
