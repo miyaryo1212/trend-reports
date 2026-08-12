@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-08-11T23:00:11Z",
-  "period_start": "2026-07-16",
-  "period_end": "2026-08-12",
+  "generated_at": "2026-08-12T23:00:59Z",
+  "period_start": "2026-07-17",
+  "period_end": "2026-08-13",
   "items": [
     {
       "rank": 1,
       "slug": "2026-08-08-ai-trends",
-      "reason": "未公開モデルを自ら止めた初例、安全評価が経営判断に届いた瞬間",
-      "previous_rank": 2
+      "reason": "公開前に自社モデルを止めた判断、安全評価が経営に食い込んだ瞬間",
+      "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-08-09-ai-trends",
-      "reason": "DeepMind再編と自社チップ、競争軸が組織図と半導体へ移った日",
-      "previous_rank": 1
+      "reason": "主戦場がモデルから組織図と半導体へ移った再編の全体像",
+      "previous_rank": 2
     },
     {
       "rank": 3,
-      "slug": "2026-08-12-ai-trends",
-      "reason": "Gemini 10億人とChatGPT広告日本上陸、AIが巨大メディアへ変質",
-      "previous_rank": null
+      "slug": "2026-08-04-ai-trends",
+      "reason": "隔離ミスが実害へ直結、能力より運用統制が問われる事案",
+      "previous_rank": 4
     },
     {
       "rank": 4,
-      "slug": "2026-08-04-ai-trends",
-      "reason": "隔離失敗で実組織に到達、能力より運用統制が勝負を決める証拠",
-      "previous_rank": 3
+      "slug": "2026-07-25-claude-anthropic",
+      "reason": "価格据え置きでフラッグシップ刷新、Opus 5の実像を押さえる一本",
+      "previous_rank": 5
     },
     {
       "rank": 5,
-      "slug": "2026-07-25-claude-anthropic",
-      "reason": "価格据え置きで前線更新したOpus 5、性能競争の基準線が動いた",
-      "previous_rank": 4
+      "slug": "2026-08-13-academia",
+      "reason": "些細な設計差が長文脈を47%崩す、足回り検証の過小評価に警鐘",
+      "previous_rank": null
     }
   ]
 }
