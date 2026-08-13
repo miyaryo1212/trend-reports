@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-08-12T23:00:59Z",
-  "period_start": "2026-07-17",
-  "period_end": "2026-08-13",
+  "generated_at": "2026-08-13T23:00:35Z",
+  "period_start": "2026-07-18",
+  "period_end": "2026-08-14",
   "items": [
     {
       "rank": 1,
-      "slug": "2026-08-08-ai-trends",
-      "reason": "公開前に自社モデルを止めた判断、安全評価が経営に食い込んだ瞬間",
-      "previous_rank": 1
-    },
-    {
-      "rank": 2,
       "slug": "2026-08-09-ai-trends",
-      "reason": "主戦場がモデルから組織図と半導体へ移った再編の全体像",
+      "reason": "モデル競争が組織図と半導体設計へ移った転換点を示す一本",
       "previous_rank": 2
     },
     {
-      "rank": 3,
+      "rank": 2,
       "slug": "2026-08-04-ai-trends",
-      "reason": "隔離ミスが実害へ直結、能力より運用統制が問われる事案",
+      "reason": "隔離ミスが実害に直結、エージェント時代の運用統制の甘さを突く",
+      "previous_rank": 3
+    },
+    {
+      "rank": 3,
+      "slug": "2026-07-25-claude-anthropic",
+      "reason": "据え置き価格で前線更新、性能と価格の基準線が引き直された号",
       "previous_rank": 4
     },
     {
       "rank": 4,
-      "slug": "2026-07-25-claude-anthropic",
-      "reason": "価格据え置きでフラッグシップ刷新、Opus 5の実像を押さえる一本",
-      "previous_rank": 5
+      "slug": "2026-08-14-ai-trends",
+      "reason": "賢さ競争から運用経済へ、価格と速度の階層設計が主戦場に",
+      "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-08-13-academia",
-      "reason": "些細な設計差が長文脈を47%崩す、足回り検証の過小評価に警鐘",
+      "slug": "2026-08-12-ai-trends",
+      "reason": "10億ユーザーと広告解禁、AIが巨大メディア産業に変わる瞬間",
       "previous_rank": null
     }
   ]
