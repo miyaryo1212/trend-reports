@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-08-14T23:01:46Z",
-  "period_start": "2026-07-19",
-  "period_end": "2026-08-15",
+  "generated_at": "2026-08-15T23:00:29Z",
+  "period_start": "2026-07-20",
+  "period_end": "2026-08-16",
   "items": [
     {
       "rank": 1,
       "slug": "2026-08-08-ai-trends",
-      "reason": "安全評価が経営判断に食い込んだ実例、公開前に自ら止めた線引きが重い",
-      "previous_rank": null
+      "reason": "安全評価が広報でなく経営判断を動かした最初の実例として読むべき一本",
+      "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-08-09-ai-trends",
-      "reason": "競争の主戦場がモデルから組織図と推論チップへ移った転換点",
-      "previous_rank": 1
+      "reason": "モデル競争の主戦場が組織図と自社チップへ移った転換点を押さえる回",
+      "previous_rank": 2
     },
     {
       "rank": 3,
       "slug": "2026-07-25-claude-anthropic",
-      "reason": "価格据え置きで前線性能を更新、以後の比較基準線が動いた一本",
+      "reason": "価格据え置きで前線を更新した現行フラッグシップの起点を確認できる",
       "previous_rank": 3
     },
     {
       "rank": 4,
-      "slug": "2026-08-12-ai-trends",
-      "reason": "10億ユーザーと広告解禁、AIがメディア産業の competition へ踏み出す",
-      "previous_rank": 5
+      "slug": "2026-08-16-ai-trends",
+      "reason": "オープン公開と大幅値上げが同日に並び、収益化の現実が露呈した回",
+      "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-08-15-ai-trends",
-      "reason": "事後学習だけでコーディングSOTA、オープンウェイト勢の追い上げが現実味",
+      "slug": "2026-08-16-academia",
+      "reason": "エージェントの安全性を環境ごと鍛える研究潮流の現在地が掴める",
       "previous_rank": null
     }
   ]
