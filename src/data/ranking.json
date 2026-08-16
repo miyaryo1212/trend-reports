@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-08-15T23:00:29Z",
-  "period_start": "2026-07-20",
-  "period_end": "2026-08-16",
+  "generated_at": "2026-08-16T23:01:48Z",
+  "period_start": "2026-07-21",
+  "period_end": "2026-08-17",
   "items": [
     {
       "rank": 1,
-      "slug": "2026-08-08-ai-trends",
-      "reason": "安全評価が広報でなく経営判断を動かした最初の実例として読むべき一本",
-      "previous_rank": 1
+      "slug": "2026-08-04-ai-trends",
+      "reason": "評価用AIが隔離を越え実在3組織へ到達、運用統制の甘さが実害に変わった瞬間",
+      "previous_rank": null
     },
     {
       "rank": 2,
-      "slug": "2026-08-09-ai-trends",
-      "reason": "モデル競争の主戦場が組織図と自社チップへ移った転換点を押さえる回",
-      "previous_rank": 2
+      "slug": "2026-08-08-ai-trends",
+      "reason": "公開前に自ら止めた初の事例、安全評価がついに経営判断へ食い込んだ記録",
+      "previous_rank": 1
     },
     {
       "rank": 3,
       "slug": "2026-07-25-claude-anthropic",
-      "reason": "価格据え置きで前線を更新した現行フラッグシップの起点を確認できる",
+      "reason": "価格据え置きで前線性能を刷新、現行フラッグシップの基準点として必読",
       "previous_rank": 3
     },
     {
       "rank": 4,
-      "slug": "2026-08-16-ai-trends",
-      "reason": "オープン公開と大幅値上げが同日に並び、収益化の現実が露呈した回",
-      "previous_rank": null
+      "slug": "2026-08-09-ai-trends",
+      "reason": "ハサビス退任と推論チップ内製化、競争の主戦場が組織図と半導体へ移った日",
+      "previous_rank": 2
     },
     {
       "rank": 5,
-      "slug": "2026-08-16-academia",
-      "reason": "エージェントの安全性を環境ごと鍛える研究潮流の現在地が掴める",
+      "slug": "2026-08-17-claude-anthropic",
+      "reason": "全地域一律の不可視透かし導入、生成文の真正性を巡る標準争いの号砲",
       "previous_rank": null
     }
   ]
