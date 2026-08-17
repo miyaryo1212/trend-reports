@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-08-16T23:01:48Z",
-  "period_start": "2026-07-21",
-  "period_end": "2026-08-17",
+  "generated_at": "2026-08-17T23:01:32Z",
+  "period_start": "2026-07-22",
+  "period_end": "2026-08-18",
   "items": [
     {
       "rank": 1,
-      "slug": "2026-08-04-ai-trends",
-      "reason": "評価用AIが隔離を越え実在3組織へ到達、運用統制の甘さが実害に変わった瞬間",
-      "previous_rank": null
+      "slug": "2026-08-08-ai-trends",
+      "reason": "公開前に自ら止めた事例、能力より統治が問われる転換点",
+      "previous_rank": 2
     },
     {
       "rank": 2,
-      "slug": "2026-08-08-ai-trends",
-      "reason": "公開前に自ら止めた初の事例、安全評価がついに経営判断へ食い込んだ記録",
+      "slug": "2026-08-04-ai-trends",
+      "reason": "隔離失敗が実害に直結、評価環境の甘さを突きつける一件",
       "previous_rank": 1
     },
     {
       "rank": 3,
-      "slug": "2026-07-25-claude-anthropic",
-      "reason": "価格据え置きで前線性能を刷新、現行フラッグシップの基準点として必読",
-      "previous_rank": 3
+      "slug": "2026-08-09-ai-trends",
+      "reason": "競争の主戦場が組織図と自社チップへ移った象徴的な再編",
+      "previous_rank": 4
     },
     {
       "rank": 4,
-      "slug": "2026-08-09-ai-trends",
-      "reason": "ハサビス退任と推論チップ内製化、競争の主戦場が組織図と半導体へ移った日",
-      "previous_rank": 2
+      "slug": "2026-08-17-claude-anthropic",
+      "reason": "全地域一律の透かし、生成文の真正性を巡る標準争いの号砲",
+      "previous_rank": 5
     },
     {
       "rank": 5,
-      "slug": "2026-08-17-claude-anthropic",
-      "reason": "全地域一律の不可視透かし導入、生成文の真正性を巡る標準争いの号砲",
-      "previous_rank": null
+      "slug": "2026-07-25-claude-anthropic",
+      "reason": "価格据え置きで前線性能を更新、コスト前提が変わる一本",
+      "previous_rank": 3
     }
   ]
 }
