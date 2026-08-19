@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-08-18T23:00:23Z",
-  "period_start": "2026-07-23",
-  "period_end": "2026-08-19",
+  "generated_at": "2026-08-19T23:01:15Z",
+  "period_start": "2026-07-24",
+  "period_end": "2026-08-20",
   "items": [
     {
       "rank": 1,
-      "slug": "2026-08-08-ai-trends",
-      "reason": "能力自慢より先に開発を止めた、安全評価が経営判断へ食い込んだ瞬間",
-      "previous_rank": 1
+      "slug": "2026-08-09-ai-trends",
+      "reason": "DeepMind再編と自社チップ、競争軸が組織と半導体へ移った転換点",
+      "previous_rank": 2
     },
     {
       "rank": 2,
-      "slug": "2026-08-09-ai-trends",
-      "reason": "主戦場がモデルから組織図と自社チップへ移った、勢力図の転換点",
-      "previous_rank": 3
+      "slug": "2026-08-08-ai-trends",
+      "reason": "公開前モデルを自ら止めた初事例、安全評価が経営判断になった日",
+      "previous_rank": 1
     },
     {
       "rank": 3,
       "slug": "2026-08-04-ai-trends",
-      "reason": "隔離ミスが実害に直結、エージェント時代の運用統制を問う実例",
-      "previous_rank": 2
+      "reason": "隔離失敗で実組織に到達、能力より運用統制が問われる警鐘",
+      "previous_rank": 3
     },
     {
       "rank": 4,
       "slug": "2026-07-25-claude-anthropic",
-      "reason": "価格据え置きで前線性能を伸ばした、現行フラッグシップの基準点",
-      "previous_rank": 5
+      "reason": "価格据え置きでOpus 5、性能競争のコスト前提が塗り替わった",
+      "previous_rank": 4
     },
     {
       "rank": 5,
       "slug": "2026-08-17-claude-anthropic",
-      "reason": "生成文の真正性を巡る標準争いの号砲、全地域一律適用の是非",
-      "previous_rank": 4
+      "reason": "全地域一律の不可視透かし、生成文の真正性を巡る号砲",
+      "previous_rank": 5
     }
   ]
 }
