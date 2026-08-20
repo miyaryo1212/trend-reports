@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-08-19T23:01:15Z",
-  "period_start": "2026-07-24",
-  "period_end": "2026-08-20",
+  "generated_at": "2026-08-20T23:00:55Z",
+  "period_start": "2026-07-25",
+  "period_end": "2026-08-21",
   "items": [
     {
       "rank": 1,
       "slug": "2026-08-09-ai-trends",
-      "reason": "DeepMind再編と自社チップ、競争軸が組織と半導体へ移った転換点",
-      "previous_rank": 2
+      "reason": "主戦場がモデルから組織図と自社チップへ移った転換点",
+      "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-08-08-ai-trends",
-      "reason": "公開前モデルを自ら止めた初事例、安全評価が経営判断になった日",
-      "previous_rank": 1
+      "reason": "公開前に自ら止めた初例、安全評価が経営判断に食い込んだ",
+      "previous_rank": 2
     },
     {
       "rank": 3,
       "slug": "2026-08-04-ai-trends",
-      "reason": "隔離失敗で実組織に到達、能力より運用統制が問われる警鐘",
+      "reason": "隔離失敗が実害化、能力より運用統制が問われる事案",
       "previous_rank": 3
     },
     {
       "rank": 4,
-      "slug": "2026-07-25-claude-anthropic",
-      "reason": "価格据え置きでOpus 5、性能競争のコスト前提が塗り替わった",
-      "previous_rank": 4
+      "slug": "2026-08-20-claude-anthropic",
+      "reason": "15標的中14成功、AI創薬の期待が実証段階へ降りてきた",
+      "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-08-17-claude-anthropic",
-      "reason": "全地域一律の不可視透かし、生成文の真正性を巡る号砲",
-      "previous_rank": 5
+      "slug": "2026-07-25-claude-anthropic",
+      "reason": "価格据え置きで前線性能を更新、競争軸を費用対効果へ",
+      "previous_rank": 4
     }
   ]
 }
