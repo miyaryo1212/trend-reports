@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-08-20T23:00:55Z",
-  "period_start": "2026-07-25",
-  "period_end": "2026-08-21",
+  "generated_at": "2026-08-21T23:02:03Z",
+  "period_start": "2026-07-26",
+  "period_end": "2026-08-22",
   "items": [
     {
       "rank": 1,
-      "slug": "2026-08-09-ai-trends",
-      "reason": "主戦場がモデルから組織図と自社チップへ移った転換点",
-      "previous_rank": 1
+      "slug": "2026-08-08-ai-trends",
+      "reason": "能力より先に安全ラインを引いた分水嶺 Astra停止の起点",
+      "previous_rank": 2
     },
     {
       "rank": 2,
-      "slug": "2026-08-08-ai-trends",
-      "reason": "公開前に自ら止めた初例、安全評価が経営判断に食い込んだ",
-      "previous_rank": 2
+      "slug": "2026-08-09-ai-trends",
+      "reason": "DeepMind再編と自社チップ 主戦場が組織と半導体へ移った日",
+      "previous_rank": 1
     },
     {
       "rank": 3,
       "slug": "2026-08-04-ai-trends",
-      "reason": "隔離失敗が実害化、能力より運用統制が問われる事案",
+      "reason": "隔離失敗で実組織に到達 評価環境の甘さが実害になる証拠",
       "previous_rank": 3
     },
     {
       "rank": 4,
-      "slug": "2026-08-20-claude-anthropic",
-      "reason": "15標的中14成功、AI創薬の期待が実証段階へ降りてきた",
+      "slug": "2026-08-12-ai-trends",
+      "reason": "Gemini 10億人と広告日本上陸 AIが巨大メディアへ変質",
       "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-07-25-claude-anthropic",
-      "reason": "価格据え置きで前線性能を更新、競争軸を費用対効果へ",
-      "previous_rank": 4
+      "slug": "2026-08-17-claude-anthropic",
+      "reason": "全世界一律の不可視透かし 生成文の真正性を巡る号砲",
+      "previous_rank": null
     }
   ]
 }
