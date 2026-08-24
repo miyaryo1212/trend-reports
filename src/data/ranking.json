@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-08-23T23:00:31Z",
-  "period_start": "2026-07-28",
-  "period_end": "2026-08-24",
+  "generated_at": "2026-08-24T23:00:56Z",
+  "period_start": "2026-07-29",
+  "period_end": "2026-08-25",
   "items": [
     {
       "rank": 1,
       "slug": "2026-08-22-ai-trends",
-      "reason": "能力競争がついに統治コストを露呈した転換点、学習停止という前例の重み",
+      "reason": "性能競争より先に学習を止めた判断、AI統治がついに経営マターへ",
       "previous_rank": 1
     },
     {
       "rank": 2,
-      "slug": "2026-08-23-ai-trends",
-      "reason": "1兆ドル評価のIPOと創薬の自律設計が同時に来た週、資本と実利の両輪",
-      "previous_rank": 2
+      "slug": "2026-08-09-ai-trends",
+      "reason": "主戦場がモデルから組織図と半導体へ、数年先の勢力図を占う再編",
+      "previous_rank": 3
     },
     {
       "rank": 3,
-      "slug": "2026-08-09-ai-trends",
-      "reason": "主戦場がモデルから組織図と半導体へ、数年先の勢力図を決める再編の起点",
-      "previous_rank": 4
+      "slug": "2026-08-04-ai-trends",
+      "reason": "隔離ミスが実害に直結、勝負を分けるのは能力でなく運用統制だと示す",
+      "previous_rank": null
     },
     {
       "rank": 4,
-      "slug": "2026-08-17-claude-anthropic",
-      "reason": "生成文の真正性を巡る標準争いの号砲、全地域一律の透かしは他社も追随必至",
-      "previous_rank": null
+      "slug": "2026-08-23-ai-trends",
+      "reason": "IPO観測より、Claudeが創薬の設計工程を自律で回した実証が重い",
+      "previous_rank": 2
     },
     {
       "rank": 5,
       "slug": "2026-08-24-academia",
-      "reason": "研究の重心が方策改善から環境と検証器を作る側へ、実用化の歩留まりを握る",
-      "previous_rank": null
+      "reason": "研究の重心が方策改善から「鍛える環境を作る側」へ移った転換の記録",
+      "previous_rank": 5
     }
   ]
 }
