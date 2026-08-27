@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-08-26T23:00:44Z",
-  "period_start": "2026-07-31",
-  "period_end": "2026-08-27",
+  "generated_at": "2026-08-27T23:00:09Z",
+  "period_start": "2026-08-01",
+  "period_end": "2026-08-28",
   "items": [
     {
       "rank": 1,
-      "slug": "2026-08-09-ai-trends",
-      "reason": "競争軸がモデルから組織再編と自社チップへ移った、勢力図の転換点",
-      "previous_rank": 2
-    },
-    {
-      "rank": 2,
-      "slug": "2026-08-08-ai-trends",
-      "reason": "公開前のモデルを自ら止めた初例、安全評価が経営判断に食い込んだ",
-      "previous_rank": 1
-    },
-    {
-      "rank": 3,
-      "slug": "2026-08-27-codex-openai",
-      "reason": "Codexがコーディング補助からセキュリティ基盤へ踏み出した節目",
+      "slug": "2026-08-28-ai-trends",
+      "reason": "NVIDIAがHugging Face買収、モデル配布基盤まで統合される転換点",
       "previous_rank": null
     },
     {
+      "rank": 2,
+      "slug": "2026-08-22-ai-trends",
+      "reason": "OpenAIが自ら学習停止、能力競争が統治コストを表に出した週",
+      "previous_rank": null
+    },
+    {
+      "rank": 3,
+      "slug": "2026-08-09-ai-trends",
+      "reason": "DeepMind再編と推論チップ内製化、数年先の勢力図が動いた日",
+      "previous_rank": 1
+    },
+    {
       "rank": 4,
-      "slug": "2026-08-17-claude-anthropic",
-      "reason": "生成文の真正性を巡る標準争いの号砲、全地域一律の透かしに賛否",
+      "slug": "2026-08-04-ai-trends",
+      "reason": "隔離失敗でClaudeが実組織へ到達、評価環境の甘さが実害に",
       "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-08-24-academia",
-      "reason": "研究の重心が方策の改善から環境と検証器を作る側へ移ったと示す日",
+      "slug": "2026-08-23-ai-trends",
+      "reason": "AnthropicのIPO観測と、創薬でAIが工程を食い始めた実証",
       "previous_rank": null
     }
   ]
