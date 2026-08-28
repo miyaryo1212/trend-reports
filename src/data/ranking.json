@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-08-27T23:00:09Z",
-  "period_start": "2026-08-01",
-  "period_end": "2026-08-28",
+  "generated_at": "2026-08-28T23:00:35Z",
+  "period_start": "2026-08-02",
+  "period_end": "2026-08-29",
   "items": [
     {
       "rank": 1,
       "slug": "2026-08-28-ai-trends",
-      "reason": "NVIDIAがHugging Face買収、モデル配布基盤まで統合される転換点",
-      "previous_rank": null
+      "reason": "計算資源に続き配布基盤までNVIDIAが押さえた業界再編の転換点",
+      "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-08-22-ai-trends",
-      "reason": "OpenAIが自ら学習停止、能力競争が統治コストを表に出した週",
-      "previous_rank": null
+      "reason": "フロンティア学習を自ら止めた前例 安全評価が経営判断に届いた瞬間",
+      "previous_rank": 2
     },
     {
       "rank": 3,
       "slug": "2026-08-09-ai-trends",
-      "reason": "DeepMind再編と推論チップ内製化、数年先の勢力図が動いた日",
-      "previous_rank": 1
+      "reason": "主戦場がモデルから組織図と自社チップへ移ったことを示す大再編",
+      "previous_rank": 3
     },
     {
       "rank": 4,
-      "slug": "2026-08-04-ai-trends",
-      "reason": "隔離失敗でClaudeが実組織へ到達、評価環境の甘さが実害に",
+      "slug": "2026-08-24-academia",
+      "reason": "研究の重心が方策改善から訓練環境と検証器の設計へ移った一日",
       "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-08-23-ai-trends",
-      "reason": "AnthropicのIPO観測と、創薬でAIが工程を食い始めた実証",
+      "slug": "2026-08-17-claude-anthropic",
+      "reason": "生成文の真正性を巡る標準争いの号砲 全地域一律適用の是非も",
       "previous_rank": null
     }
   ]
