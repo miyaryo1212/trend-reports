@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-08-28T23:00:35Z",
-  "period_start": "2026-08-02",
-  "period_end": "2026-08-29",
+  "generated_at": "2026-08-29T23:00:42Z",
+  "period_start": "2026-08-03",
+  "period_end": "2026-08-30",
   "items": [
     {
       "rank": 1,
       "slug": "2026-08-28-ai-trends",
-      "reason": "計算資源に続き配布基盤までNVIDIAが押さえた業界再編の転換点",
+      "reason": "計算基盤から配布まで押さえるNVIDIA、業界の重心移動を象徴する一本",
       "previous_rank": 1
     },
     {
       "rank": 2,
-      "slug": "2026-08-22-ai-trends",
-      "reason": "フロンティア学習を自ら止めた前例 安全評価が経営判断に届いた瞬間",
-      "previous_rank": 2
-    },
-    {
-      "rank": 3,
-      "slug": "2026-08-09-ai-trends",
-      "reason": "主戦場がモデルから組織図と自社チップへ移ったことを示す大再編",
-      "previous_rank": 3
-    },
-    {
-      "rank": 4,
-      "slug": "2026-08-24-academia",
-      "reason": "研究の重心が方策改善から訓練環境と検証器の設計へ移った一日",
+      "slug": "2026-08-08-ai-trends",
+      "reason": "公開前に自ら学習を止めた判断、安全評価が経営に食い込んだ転換点",
       "previous_rank": null
     },
     {
+      "rank": 3,
+      "slug": "2026-08-30-claude-anthropic",
+      "reason": "AIがソフトの外へ出る布石、実機操作の共通仕様は今のうちに把握を",
+      "previous_rank": null
+    },
+    {
+      "rank": 4,
+      "slug": "2026-08-09-ai-trends",
+      "reason": "モデル競争の主戦場が組織図と半導体へ移ったことを示す再編ニュース",
+      "previous_rank": 3
+    },
+    {
       "rank": 5,
-      "slug": "2026-08-17-claude-anthropic",
-      "reason": "生成文の真正性を巡る標準争いの号砲 全地域一律適用の是非も",
+      "slug": "2026-08-04-ai-trends",
+      "reason": "隔離の甘さが実害に直結、能力より運用統制が問われると分かる事例",
       "previous_rank": null
     }
   ]
