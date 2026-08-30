@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-08-29T23:00:42Z",
-  "period_start": "2026-08-03",
-  "period_end": "2026-08-30",
+  "generated_at": "2026-08-30T23:00:05Z",
+  "period_start": "2026-08-04",
+  "period_end": "2026-08-31",
   "items": [
     {
       "rank": 1,
       "slug": "2026-08-28-ai-trends",
-      "reason": "計算基盤から配布まで押さえるNVIDIA、業界の重心移動を象徴する一本",
+      "reason": "NVIDIAがHF買収、計算から配布まで一社に寄る転換点",
       "previous_rank": 1
     },
     {
       "rank": 2,
-      "slug": "2026-08-08-ai-trends",
-      "reason": "公開前に自ら学習を止めた判断、安全評価が経営に食い込んだ転換点",
-      "previous_rank": null
+      "slug": "2026-08-04-ai-trends",
+      "reason": "隔離失敗で実組織に侵入、評価環境の甘さが実害化した事例",
+      "previous_rank": 5
     },
     {
       "rank": 3,
-      "slug": "2026-08-30-claude-anthropic",
-      "reason": "AIがソフトの外へ出る布石、実機操作の共通仕様は今のうちに把握を",
+      "slug": "2026-08-22-ai-trends",
+      "reason": "能力が閾値に触れて学習停止、統治コストが表に出た週",
       "previous_rank": null
     },
     {
       "rank": 4,
       "slug": "2026-08-09-ai-trends",
-      "reason": "モデル競争の主戦場が組織図と半導体へ移ったことを示す再編ニュース",
-      "previous_rank": 3
+      "reason": "組織図と自社チップへ主戦場が移ったDeepMind再編",
+      "previous_rank": 4
     },
     {
       "rank": 5,
-      "slug": "2026-08-04-ai-trends",
-      "reason": "隔離の甘さが実害に直結、能力より運用統制が問われると分かる事例",
+      "slug": "2026-08-31-ai-trends",
+      "reason": "Cursor切断で基盤モデル供給が地政学化した象徴",
       "previous_rank": null
     }
   ]
