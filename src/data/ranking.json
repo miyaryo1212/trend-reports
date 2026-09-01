@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-08-31T23:01:29Z",
-  "period_start": "2026-08-05",
-  "period_end": "2026-09-01",
+  "generated_at": "2026-09-01T23:01:18Z",
+  "period_start": "2026-08-06",
+  "period_end": "2026-09-02",
   "items": [
     {
       "rank": 1,
-      "slug": "2026-08-28-ai-trends",
-      "reason": "計算資源に続き配布基盤までNVIDIAが握った、勢力図の分水嶺",
-      "previous_rank": 1
+      "slug": "2026-09-02-ai-trends",
+      "reason": "値下げより、Astraの初Critical認定が示す安全保障化の転換点",
+      "previous_rank": null
     },
     {
       "rank": 2,
-      "slug": "2026-08-08-ai-trends",
-      "reason": "公開前のモデルを自ら止めた、安全評価が経営判断へ食い込んだ日",
-      "previous_rank": null
+      "slug": "2026-08-28-ai-trends",
+      "reason": "計算資源に続き配布基盤まで握る、NVIDIA一極化の号砲",
+      "previous_rank": 1
     },
     {
       "rank": 3,
       "slug": "2026-08-09-ai-trends",
-      "reason": "主戦場がモデル性能から組織再編と自社チップへ移った証左",
-      "previous_rank": 4
+      "reason": "主戦場がモデルから組織図と自社チップへ移った再編の週",
+      "previous_rank": 3
     },
     {
       "rank": 4,
-      "slug": "2026-08-30-claude-anthropic",
-      "reason": "エージェントが実機を操る時代の共通規格、今のうちに押さえたい布石",
+      "slug": "2026-08-24-academia",
+      "reason": "エージェントの律速はモデルでなく環境設計だと示す一日",
       "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-09-01-ai-trends",
-      "reason": "広告ARR10億ドルと窃取被害、収益化と運用信頼が同時に問われた",
+      "slug": "2026-08-23-ai-trends",
+      "reason": "1兆ドル評価のIPO観測とClaude創薬の実利が重なった日",
       "previous_rank": null
     }
   ]
