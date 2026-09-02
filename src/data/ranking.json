@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-09-01T23:01:18Z",
-  "period_start": "2026-08-06",
-  "period_end": "2026-09-02",
+  "generated_at": "2026-09-02T23:00:26Z",
+  "period_start": "2026-08-07",
+  "period_end": "2026-09-03",
   "items": [
     {
       "rank": 1,
       "slug": "2026-09-02-ai-trends",
-      "reason": "値下げより、Astraの初Critical認定が示す安全保障化の転換点",
-      "previous_rank": null
+      "reason": "能力競争がついに安全保障へ接続 破壊的変更込みで実務にも直撃する回",
+      "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-08-28-ai-trends",
-      "reason": "計算資源に続き配布基盤まで握る、NVIDIA一極化の号砲",
-      "previous_rank": 1
+      "reason": "NVIDIAがモデル流通基盤まで掌握 計算資源寡占を測る基準点になる一日",
+      "previous_rank": 2
     },
     {
       "rank": 3,
       "slug": "2026-08-09-ai-trends",
-      "reason": "主戦場がモデルから組織図と自社チップへ移った再編の週",
+      "reason": "主戦場がモデルから組織図と推論チップへ移ったことを示す勢力図の転換点",
       "previous_rank": 3
     },
     {
       "rank": 4,
-      "slug": "2026-08-24-academia",
-      "reason": "エージェントの律速はモデルでなく環境設計だと示す一日",
+      "slug": "2026-08-29-ai-trends",
+      "reason": "AI調達の恣意性に司法が歯止め 制度が競争条件を決める段階に入った証拠",
       "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-08-23-ai-trends",
-      "reason": "1兆ドル評価のIPO観測とClaude創薬の実利が重なった日",
-      "previous_rank": null
+      "slug": "2026-08-24-academia",
+      "reason": "エージェントの律速は方策でなく環境設計 研究の重心移動が一望できる一本",
+      "previous_rank": 4
     }
   ]
 }
