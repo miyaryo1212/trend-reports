@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-09-06T08:17:13Z",
+  "generated_at": "2026-09-06T08:31:47Z",
   "period_start": "2026-08-10",
   "period_end": "2026-09-06",
   "items": [
     {
       "rank": 1,
-      "slug": "2026-09-04-ai-trends",
-      "reason": "GPT-6 Astra登場、初のCritical認定で安全保障とAIが交差",
+      "slug": "2026-09-04-codex-openai",
+      "reason": "GPT-6 Astra公開とサイバー能力Critical初到達、能力競争が安全保障へ接続した節目",
       "previous_rank": null
     },
     {
       "rank": 2,
       "slug": "2026-08-28-ai-trends",
-      "reason": "NVIDIAのHugging Face買収、計算資源から配布まで一社集中",
+      "reason": "NVIDIAのHugging Face買収、計算資源から配布基盤まで垂直統合が進む転換点",
       "previous_rank": 2
     },
     {
       "rank": 3,
       "slug": "2026-09-02-claude-anthropic",
-      "reason": "キャッシュ75%減、エージェント運用の経済性が一段変わる",
-      "previous_rank": null
+      "reason": "Fable 5.1一般提供とキャッシュ読取75%減、エージェント運用の経済性が一段変わる",
+      "previous_rank": 3
     },
     {
       "rank": 4,
       "slug": "2026-08-29-ai-trends",
-      "reason": "司法が政府のAI調達に歯止め、制度が競争軸になった瞬間",
+      "reason": "司法がPentagonのAnthropic排除を違法認定、AI調達が制度闘争の局面へ",
       "previous_rank": 4
     },
     {
       "rank": 5,
-      "slug": "2026-08-30-ai-trends",
-      "reason": "MHSでAIがソフトの外へ、実機操作の共通仕様という布石",
+      "slug": "2026-08-30-claude-anthropic",
+      "reason": "MHS公開でAIがソフトの外へ、実機操作の共通仕様という地味な布石",
       "previous_rank": null
     }
   ]
