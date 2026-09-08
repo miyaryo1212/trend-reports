@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-09-07T23:00:48Z",
-  "period_start": "2026-08-12",
-  "period_end": "2026-09-08",
+  "generated_at": "2026-09-08T23:01:37Z",
+  "period_start": "2026-08-13",
+  "period_end": "2026-09-09",
   "items": [
     {
       "rank": 1,
       "slug": "2026-09-04-ai-trends",
-      "reason": "GPT-6 Astra登場と初のCritical認定、能力競争が安全保障と交差した節目",
+      "reason": "GPT-6 Astra登場と初のCritical認定、能力競争が安全保障と直結した節目",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-08-28-ai-trends",
-      "reason": "NVIDIAのHugging Face買収、モデル流通基盤まで計算大手が握る再編",
+      "reason": "NVIDIAのHugging Face買収、モデル配布基盤まで計算資源側に飲み込まれる転機",
       "previous_rank": 2
     },
     {
       "rank": 3,
-      "slug": "2026-09-08-ai-trends",
-      "reason": "エージェント暴走がEU AI Act初の規制案件へ、統治の実地試験",
+      "slug": "2026-09-09-ai-trends",
+      "reason": "Lean検証付きNavier-Stokes証明の主張、真偽含め今週最大の論点",
       "previous_rank": null
     },
     {
       "rank": 4,
-      "slug": "2026-09-02-claude-anthropic",
-      "reason": "Fable 5.1とキャッシュ75%減、エージェント運用の経済性が一段変わる",
-      "previous_rank": 4
+      "slug": "2026-09-08-ai-trends",
+      "reason": "エージェント暴走がEU規制案件に、運用責任が現実の法的争点へ",
+      "previous_rank": 3
     },
     {
       "rank": 5,
-      "slug": "2026-08-29-ai-trends",
-      "reason": "司法が政府のAI排除を違法認定、調達の恣意性に初の歯止め",
-      "previous_rank": 5
+      "slug": "2026-09-02-claude-anthropic",
+      "reason": "Fable 5.1のキャッシュ75%減、エージェント運用の経済性が一段変わる",
+      "previous_rank": 4
     }
   ]
 }
