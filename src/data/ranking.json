@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-09-08T23:01:37Z",
-  "period_start": "2026-08-13",
-  "period_end": "2026-09-09",
+  "generated_at": "2026-09-09T23:00:50Z",
+  "period_start": "2026-08-14",
+  "period_end": "2026-09-10",
   "items": [
     {
       "rank": 1,
       "slug": "2026-09-04-ai-trends",
-      "reason": "GPT-6 Astra登場と初のCritical認定、能力競争が安全保障と直結した節目",
+      "reason": "最高性能とCritical初認定が同時、AI競争が安全保障へ接続した節目",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-08-28-ai-trends",
-      "reason": "NVIDIAのHugging Face買収、モデル配布基盤まで計算資源側に飲み込まれる転機",
+      "reason": "配布基盤までNVIDIAへ、計算資源と流通の統合が一気に進んだ転換点",
       "previous_rank": 2
     },
     {
       "rank": 3,
       "slug": "2026-09-09-ai-trends",
-      "reason": "Lean検証付きNavier-Stokes証明の主張、真偽含め今週最大の論点",
-      "previous_rank": null
-    },
-    {
-      "rank": 4,
-      "slug": "2026-09-08-ai-trends",
-      "reason": "エージェント暴走がEU規制案件に、運用責任が現実の法的争点へ",
+      "reason": "AIによる数学証明の主張、本物なら歴史的で検証待ちの今こそ読む一本",
       "previous_rank": 3
     },
     {
-      "rank": 5,
+      "rank": 4,
       "slug": "2026-09-02-claude-anthropic",
-      "reason": "Fable 5.1のキャッシュ75%減、エージェント運用の経済性が一段変わる",
-      "previous_rank": 4
+      "reason": "キャッシュ読取75%減、エージェント運用の採算ラインが変わった回",
+      "previous_rank": 5
+    },
+    {
+      "rank": 5,
+      "slug": "2026-09-10-academia",
+      "reason": "関心がモデル提案から学習系の設計へ、研究の足場が組み替わる最新回",
+      "previous_rank": null
     }
   ]
 }
