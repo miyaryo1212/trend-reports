@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-09-10T23:01:29Z",
-  "period_start": "2026-08-15",
-  "period_end": "2026-09-11",
+  "generated_at": "2026-09-11T23:01:55Z",
+  "period_start": "2026-08-16",
+  "period_end": "2026-09-12",
   "items": [
     {
       "rank": 1,
       "slug": "2026-09-04-ai-trends",
-      "reason": "GPT-6 Astra登場、サイバー能力が初のCritical認定という節目",
+      "reason": "GPT-6 Astra登場より重い、サイバー能力Critical初認定という節目",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-08-28-ai-trends",
-      "reason": "NVIDIAのHugging Face買収、モデル流通基盤まで垂直統合が及ぶ",
+      "reason": "NVIDIAのHF買収、計算基盤から流通まで囲い込む再編の象徴",
       "previous_rank": 2
     },
     {
       "rank": 3,
-      "slug": "2026-09-09-ai-trends",
-      "reason": "1万エージェントによるNavier-Stokes証明、Lean検証付きの衝撃",
-      "previous_rank": 3
-    },
-    {
-      "rank": 4,
-      "slug": "2026-09-11-codex-openai",
-      "reason": "Agents API公開ベータ、エージェント運用の標準部品化が始まる",
+      "slug": "2026-09-12-ai-trends",
+      "reason": "Agents API公開と政府・金融・巨大インフラが同日に並ぶ総力戦",
       "previous_rank": null
     },
     {
+      "rank": 4,
+      "slug": "2026-09-09-ai-trends",
+      "reason": "1万エージェントが数学の未解決問題に到達、検証は要注視",
+      "previous_rank": 3
+    },
+    {
       "rank": 5,
-      "slug": "2026-09-08-ai-trends",
-      "reason": "エージェント暴走がEU AI Act初の調査案件へ、規制が実際に動いた",
+      "slug": "2026-09-02-claude-anthropic",
+      "reason": "Fable 5.1一般提供、キャッシュ75%減でエージェント運用の採算が変わる",
       "previous_rank": null
     }
   ]
