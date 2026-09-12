@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-09-11T23:01:55Z",
-  "period_start": "2026-08-16",
-  "period_end": "2026-09-12",
+  "generated_at": "2026-09-12T23:01:38Z",
+  "period_start": "2026-08-17",
+  "period_end": "2026-09-13",
   "items": [
     {
       "rank": 1,
       "slug": "2026-09-04-ai-trends",
-      "reason": "GPT-6 Astra登場より重い、サイバー能力Critical初認定という節目",
+      "reason": "サイバー能力が初のCritical認定、AI競争が安全保障に組み込まれた節目",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-08-28-ai-trends",
-      "reason": "NVIDIAのHF買収、計算基盤から流通まで囲い込む再編の象徴",
+      "reason": "NVIDIAのHugging Face買収で計算から配布までの垂直統合が完成",
       "previous_rank": 2
     },
     {
       "rank": 3,
-      "slug": "2026-09-12-ai-trends",
-      "reason": "Agents API公開と政府・金融・巨大インフラが同日に並ぶ総力戦",
+      "slug": "2026-09-13-ai-trends",
+      "reason": "フロンティア減速論が外部監査アクセスと立法に接続し始めた最新地点",
       "previous_rank": null
     },
     {
       "rank": 4,
-      "slug": "2026-09-09-ai-trends",
-      "reason": "1万エージェントが数学の未解決問題に到達、検証は要注視",
-      "previous_rank": 3
+      "slug": "2026-09-11-codex-openai",
+      "reason": "Agents API公開で自作ハーネスを維持すべきかの分岐点に立つ",
+      "previous_rank": null
     },
     {
       "rank": 5,
       "slug": "2026-09-02-claude-anthropic",
-      "reason": "Fable 5.1一般提供、キャッシュ75%減でエージェント運用の採算が変わる",
-      "previous_rank": null
+      "reason": "キャッシュ読取75%減、エージェント常時運用の採算が変わる回",
+      "previous_rank": 5
     }
   ]
 }
