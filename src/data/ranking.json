@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-09-12T23:01:38Z",
-  "period_start": "2026-08-17",
-  "period_end": "2026-09-13",
+  "generated_at": "2026-09-13T23:01:33Z",
+  "period_start": "2026-08-18",
+  "period_end": "2026-09-14",
   "items": [
     {
       "rank": 1,
       "slug": "2026-09-04-ai-trends",
-      "reason": "サイバー能力が初のCritical認定、AI競争が安全保障に組み込まれた節目",
+      "reason": "GPT-6 Astra登場、サイバー能力が初のCritical認定という節目",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-08-28-ai-trends",
-      "reason": "NVIDIAのHugging Face買収で計算から配布までの垂直統合が完成",
+      "reason": "NVIDIAのHugging Face買収でモデル流通基盤まで一社に寄る",
       "previous_rank": 2
     },
     {
       "rank": 3,
-      "slug": "2026-09-13-ai-trends",
-      "reason": "フロンティア減速論が外部監査アクセスと立法に接続し始めた最新地点",
+      "slug": "2026-09-12-ai-trends",
+      "reason": "Agents API・政府配布・巨大インフラ投資が同日、制度と資本の総力戦へ",
       "previous_rank": null
     },
     {
       "rank": 4,
-      "slug": "2026-09-11-codex-openai",
-      "reason": "Agents API公開で自作ハーネスを維持すべきかの分岐点に立つ",
-      "previous_rank": null
+      "slug": "2026-09-13-ai-trends",
+      "reason": "減速論が外部評価者アクセスと法案に接続し始めた転換点",
+      "previous_rank": 3
     },
     {
       "rank": 5,
-      "slug": "2026-09-02-claude-anthropic",
-      "reason": "キャッシュ読取75%減、エージェント常時運用の採算が変わる回",
-      "previous_rank": 5
+      "slug": "2026-09-09-ai-trends",
+      "reason": "1万エージェントによるNavier-Stokes証明主張、真偽ともに要注目",
+      "previous_rank": null
     }
   ]
 }
