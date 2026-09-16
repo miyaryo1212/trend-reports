@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-09-15T23:01:33Z",
-  "period_start": "2026-08-20",
-  "period_end": "2026-09-16",
+  "generated_at": "2026-09-16T23:00:14Z",
+  "period_start": "2026-08-21",
+  "period_end": "2026-09-17",
   "items": [
     {
       "rank": 1,
       "slug": "2026-09-04-ai-trends",
-      "reason": "フラッグシップ初のCritical認定、能力競争が安全保障と直結した節目",
+      "reason": "性能自慢より初のCritical認定が本題、安全保障化の分水嶺",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-08-28-ai-trends",
-      "reason": "NVIDIAのHugging Face買収で計算基盤と配布網が一体化する転換",
+      "reason": "NVIDIAがHF取り込み、計算から配布まで握る再編の起点",
       "previous_rank": 2
     },
     {
       "rank": 3,
       "slug": "2026-09-12-ai-trends",
-      "reason": "Agents API・政府配布・巨大インフラが同日、制度と資本の総力戦へ",
-      "previous_rank": null
+      "reason": "Agents APIと政府配布・巨額投資が同日、制度と資本の総力戦",
+      "previous_rank": 3
     },
     {
       "rank": 4,
       "slug": "2026-09-09-ai-trends",
-      "reason": "Lean検証付きNavier-Stokes証明の主張、真なら研究の前提が変わる",
-      "previous_rank": 3
+      "reason": "Lean検証付き数学証明の主張、事実なら研究の前提が変わる",
+      "previous_rank": 4
     },
     {
       "rank": 5,
-      "slug": "2026-09-13-ai-trends",
-      "reason": "減速論が外部評価者アクセスと法案に接続、理念が制度化し始めた",
-      "previous_rank": 4
+      "slug": "2026-09-02-claude-anthropic",
+      "reason": "キャッシュ読取75%減、エージェント運用の採算が動く回",
+      "previous_rank": null
     }
   ]
 }
