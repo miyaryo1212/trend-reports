@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-09-18T05:09:39Z",
-  "period_start": "2026-08-22",
-  "period_end": "2026-09-18",
+  "generated_at": "2026-09-18T23:00:10Z",
+  "period_start": "2026-08-23",
+  "period_end": "2026-09-19",
   "items": [
     {
       "rank": 1,
       "slug": "2026-09-04-ai-trends",
-      "reason": "サイバー能力Critical初認定、性能競争と安全保障が交差した節目",
+      "reason": "GPT-6 Astraが初のCritical認定 能力競争が安保領域へ越境した節目",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-08-28-ai-trends",
-      "reason": "配布基盤までNVIDIA圏へ、モデル競争の外側で起きた地殻変動",
+      "reason": "NVIDIAがHugging Face買収 計算資源と配布基盤の統合が現実に",
       "previous_rank": 2
     },
     {
       "rank": 3,
       "slug": "2026-09-09-ai-trends",
-      "reason": "Lean検証付き数学証明の主張、真なら研究の前提が変わる一本",
-      "previous_rank": 4
+      "reason": "約1万エージェントで数学証明 事実なら研究のあり方が変わる主張",
+      "previous_rank": 3
     },
     {
       "rank": 4,
-      "slug": "2026-09-11-codex-openai",
-      "reason": "CodexのハーネスがAPI化、エージェント運用の標準部品化が始動",
+      "slug": "2026-09-13-ai-trends",
+      "reason": "減速論が外部評価者アクセスと法案へ接続 建前で終わらない兆し",
       "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-09-17-academia",
-      "reason": "長期記憶の継続学習が前面化、派手さより継続運用の足場を見る回",
+      "slug": "2026-09-12-ai-trends",
+      "reason": "Agents API・政府配布・巨大投資が同日 制度と資本の総力戦へ",
       "previous_rank": null
     }
   ]
