@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-09-18T23:00:10Z",
-  "period_start": "2026-08-23",
-  "period_end": "2026-09-19",
+  "generated_at": "2026-09-19T23:01:22Z",
+  "period_start": "2026-08-24",
+  "period_end": "2026-09-20",
   "items": [
     {
       "rank": 1,
       "slug": "2026-09-04-ai-trends",
-      "reason": "GPT-6 Astraが初のCritical認定 能力競争が安保領域へ越境した節目",
+      "reason": "GPT-6 Astra登場、サイバー能力が初のCritical認定という節目",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-08-28-ai-trends",
-      "reason": "NVIDIAがHugging Face買収 計算資源と配布基盤の統合が現実に",
+      "reason": "NVIDIAのHugging Face買収、配布基盤まで計算勢に寄る転換点",
       "previous_rank": 2
     },
     {
       "rank": 3,
-      "slug": "2026-09-09-ai-trends",
-      "reason": "約1万エージェントで数学証明 事実なら研究のあり方が変わる主張",
-      "previous_rank": 3
+      "slug": "2026-09-12-ai-trends",
+      "reason": "Agents API公開と政府配布・巨額インフラが同日、制度と資本の総力戦",
+      "previous_rank": 5
     },
     {
       "rank": 4,
-      "slug": "2026-09-13-ai-trends",
-      "reason": "減速論が外部評価者アクセスと法案へ接続 建前で終わらない兆し",
-      "previous_rank": null
+      "slug": "2026-09-09-ai-trends",
+      "reason": "Lean検証付きNavier-Stokes証明の主張、事実なら歴史的な一件",
+      "previous_rank": 3
     },
     {
       "rank": 5,
-      "slug": "2026-09-12-ai-trends",
-      "reason": "Agents API・政府配布・巨大投資が同日 制度と資本の総力戦へ",
-      "previous_rank": null
+      "slug": "2026-09-13-ai-trends",
+      "reason": "Amodeiの減速論が外部評価者アクセスと法案に接続し始めた回",
+      "previous_rank": 4
     }
   ]
 }
