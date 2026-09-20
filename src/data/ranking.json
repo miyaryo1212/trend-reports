@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-09-19T23:01:22Z",
-  "period_start": "2026-08-24",
-  "period_end": "2026-09-20",
+  "generated_at": "2026-09-20T23:00:18Z",
+  "period_start": "2026-08-25",
+  "period_end": "2026-09-21",
   "items": [
     {
       "rank": 1,
       "slug": "2026-09-04-ai-trends",
-      "reason": "GPT-6 Astra登場、サイバー能力が初のCritical認定という節目",
+      "reason": "性能競争が安全保障へ接続した節目、Critical認定と防衛投資はセットで読む",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-08-28-ai-trends",
-      "reason": "NVIDIAのHugging Face買収、配布基盤まで計算勢に寄る転換点",
+      "reason": "計算基盤に続き配布基盤まで統合、NVIDIA一極化の分岐点",
       "previous_rank": 2
     },
     {
       "rank": 3,
-      "slug": "2026-09-12-ai-trends",
-      "reason": "Agents API公開と政府配布・巨額インフラが同日、制度と資本の総力戦",
-      "previous_rank": 5
+      "slug": "2026-09-09-ai-trends",
+      "reason": "AIによる数学証明の主張は事実なら歴史的、検証待ちの今こそ前提の確認を",
+      "previous_rank": 4
     },
     {
       "rank": 4,
-      "slug": "2026-09-09-ai-trends",
-      "reason": "Lean検証付きNavier-Stokes証明の主張、事実なら歴史的な一件",
+      "slug": "2026-09-12-ai-trends",
+      "reason": "エージェントのAPI部品化と政府・資本の同時進行、自社実装の見直し材料",
       "previous_rank": 3
     },
     {
       "rank": 5,
-      "slug": "2026-09-13-ai-trends",
-      "reason": "Amodeiの減速論が外部評価者アクセスと法案に接続し始めた回",
-      "previous_rank": 4
+      "slug": "2026-09-21-claude-anthropic",
+      "reason": "AGENTS.md対応で規約ファイル二重管理が現実の課題に、今日から効く話",
+      "previous_rank": null
     }
   ]
 }
