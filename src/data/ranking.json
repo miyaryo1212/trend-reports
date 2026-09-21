@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-09-20T23:00:18Z",
-  "period_start": "2026-08-25",
-  "period_end": "2026-09-21",
+  "generated_at": "2026-09-21T23:01:52Z",
+  "period_start": "2026-08-26",
+  "period_end": "2026-09-22",
   "items": [
     {
       "rank": 1,
       "slug": "2026-09-04-ai-trends",
-      "reason": "性能競争が安全保障へ接続した節目、Critical認定と防衛投資はセットで読む",
+      "reason": "フロンティア性能がCritical認定と防衛投資に直結した転換点",
       "previous_rank": 1
     },
     {
       "rank": 2,
-      "slug": "2026-08-28-ai-trends",
-      "reason": "計算基盤に続き配布基盤まで統合、NVIDIA一極化の分岐点",
-      "previous_rank": 2
+      "slug": "2026-09-09-ai-trends",
+      "reason": "AIが数学の未解決問題を証明したとの主張、真偽込みで今読むべき一報",
+      "previous_rank": 3
     },
     {
       "rank": 3,
-      "slug": "2026-09-09-ai-trends",
-      "reason": "AIによる数学証明の主張は事実なら歴史的、検証待ちの今こそ前提の確認を",
-      "previous_rank": 4
+      "slug": "2026-08-28-ai-trends",
+      "reason": "配布基盤までNVIDIA色に染まる、計算資源と流通の統合を示す買収",
+      "previous_rank": 2
     },
     {
       "rank": 4,
-      "slug": "2026-09-12-ai-trends",
-      "reason": "エージェントのAPI部品化と政府・資本の同時進行、自社実装の見直し材料",
-      "previous_rank": 3
+      "slug": "2026-09-11-codex-openai",
+      "reason": "エージェント運用の標準部品化、自作ハーネスの寿命を考え直す契機",
+      "previous_rank": null
     },
     {
       "rank": 5,
       "slug": "2026-09-21-claude-anthropic",
-      "reason": "AGENTS.md対応で規約ファイル二重管理が現実の課題に、今日から効く話",
-      "previous_rank": null
+      "reason": "AGENTS.md対応でエージェント設定ファイルの標準争いが動き出した",
+      "previous_rank": 5
     }
   ]
 }
