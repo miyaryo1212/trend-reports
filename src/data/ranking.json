@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-09-21T23:01:52Z",
-  "period_start": "2026-08-26",
-  "period_end": "2026-09-22",
+  "generated_at": "2026-09-22T23:01:17Z",
+  "period_start": "2026-08-27",
+  "period_end": "2026-09-23",
   "items": [
     {
       "rank": 1,
-      "slug": "2026-09-04-ai-trends",
-      "reason": "フロンティア性能がCritical認定と防衛投資に直結した転換点",
-      "previous_rank": 1
+      "slug": "2026-09-23-ai-trends",
+      "reason": "Opus 5.5とGPT-6が同日公開、値下げ競争の号砲",
+      "previous_rank": null
     },
     {
       "rank": 2,
-      "slug": "2026-09-09-ai-trends",
-      "reason": "AIが数学の未解決問題を証明したとの主張、真偽込みで今読むべき一報",
-      "previous_rank": 3
+      "slug": "2026-09-04-ai-trends",
+      "reason": "GPT-6 Astraが初のCritical認定、能力競争が安全保障へ",
+      "previous_rank": 1
     },
     {
       "rank": 3,
       "slug": "2026-08-28-ai-trends",
-      "reason": "配布基盤までNVIDIA色に染まる、計算資源と流通の統合を示す買収",
-      "previous_rank": 2
+      "reason": "NVIDIAのHugging Face買収でモデル流通基盤が再編",
+      "previous_rank": 3
     },
     {
       "rank": 4,
-      "slug": "2026-09-11-codex-openai",
-      "reason": "エージェント運用の標準部品化、自作ハーネスの寿命を考え直す契機",
+      "slug": "2026-09-12-ai-trends",
+      "reason": "Agents APIと巨額インフラ投資、制度と資本の総力戦へ",
       "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-09-21-claude-anthropic",
-      "reason": "AGENTS.md対応でエージェント設定ファイルの標準争いが動き出した",
-      "previous_rank": 5
+      "slug": "2026-09-09-ai-trends",
+      "reason": "1万エージェントが数学証明、Lean検証済みの衝撃",
+      "previous_rank": 2
     }
   ]
 }
