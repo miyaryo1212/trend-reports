@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-09-22T23:01:17Z",
-  "period_start": "2026-08-27",
-  "period_end": "2026-09-23",
+  "generated_at": "2026-09-23T23:00:20Z",
+  "period_start": "2026-08-28",
+  "period_end": "2026-09-24",
   "items": [
     {
       "rank": 1,
       "slug": "2026-09-23-ai-trends",
-      "reason": "Opus 5.5とGPT-6が同日公開、値下げ競争の号砲",
-      "previous_rank": null
+      "reason": "二大ラボが同日リリースで4〜5割値下げ、競争局面の転換点",
+      "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-09-04-ai-trends",
-      "reason": "GPT-6 Astraが初のCritical認定、能力競争が安全保障へ",
-      "previous_rank": 1
+      "reason": "サイバー能力が初のCritical認定、性能競争が安全保障と交差した瞬間",
+      "previous_rank": 2
     },
     {
       "rank": 3,
       "slug": "2026-08-28-ai-trends",
-      "reason": "NVIDIAのHugging Face買収でモデル流通基盤が再編",
+      "reason": "配布基盤まで計算資源側へ統合、業界の重心移動を示す一手",
       "previous_rank": 3
     },
     {
       "rank": 4,
-      "slug": "2026-09-12-ai-trends",
-      "reason": "Agents APIと巨額インフラ投資、制度と資本の総力戦へ",
+      "slug": "2026-09-24-claude-anthropic",
+      "reason": "約950エージェントが21時間で新酵素発見、自律研究が実証段階へ",
       "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-09-09-ai-trends",
-      "reason": "1万エージェントが数学証明、Lean検証済みの衝撃",
-      "previous_rank": 2
+      "slug": "2026-09-12-ai-trends",
+      "reason": "政府配布・金融特化・巨大インフラ、制度と資本の総力戦が可視化",
+      "previous_rank": 4
     }
   ]
 }
