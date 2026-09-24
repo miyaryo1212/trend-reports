@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-09-23T23:00:20Z",
-  "period_start": "2026-08-28",
-  "period_end": "2026-09-24",
+  "generated_at": "2026-09-24T23:01:48Z",
+  "period_start": "2026-08-29",
+  "period_end": "2026-09-25",
   "items": [
     {
       "rank": 1,
-      "slug": "2026-09-23-ai-trends",
-      "reason": "二大ラボが同日リリースで4〜5割値下げ、競争局面の転換点",
-      "previous_rank": 1
-    },
-    {
-      "rank": 2,
       "slug": "2026-09-04-ai-trends",
-      "reason": "サイバー能力が初のCritical認定、性能競争が安全保障と交差した瞬間",
+      "reason": "GPT-6 Astraが初のCritical認定、能力競争が安全保障の話に変わった節目",
       "previous_rank": 2
     },
     {
-      "rank": 3,
-      "slug": "2026-08-28-ai-trends",
-      "reason": "配布基盤まで計算資源側へ統合、業界の重心移動を示す一手",
-      "previous_rank": 3
-    },
-    {
-      "rank": 4,
-      "slug": "2026-09-24-claude-anthropic",
-      "reason": "約950エージェントが21時間で新酵素発見、自律研究が実証段階へ",
+      "rank": 2,
+      "slug": "2026-09-24-ai-trends",
+      "reason": "950体のClaudeが新酵素系を自律発見、AIが科学の実行主体になる予兆",
       "previous_rank": null
     },
     {
-      "rank": 5,
+      "rank": 3,
+      "slug": "2026-09-23-ai-trends",
+      "reason": "Opus 5.5とGPT-6が同日公開で大幅値下げ、フロンティアの価格競争が本格化",
+      "previous_rank": 1
+    },
+    {
+      "rank": 4,
       "slug": "2026-09-12-ai-trends",
-      "reason": "政府配布・金融特化・巨大インフラ、制度と資本の総力戦が可視化",
-      "previous_rank": 4
+      "reason": "Agents API・政府配布・巨大インフラ投資が同日、制度と資本の総力戦へ",
+      "previous_rank": 5
+    },
+    {
+      "rank": 5,
+      "slug": "2026-09-13-ai-trends",
+      "reason": "減速論が外部評価者アクセスと法案に接続、業界の自主規制が実体化",
+      "previous_rank": null
     }
   ]
 }
