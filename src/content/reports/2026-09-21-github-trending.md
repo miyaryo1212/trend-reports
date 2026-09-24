@@ -17,6 +17,8 @@ features:
   - "vercel-labs/json-render"
   - "virattt/ai-hedge-fund"
   - "anthropics/claude-code"
+codex_review: "Skill公開は手順の再利用を広げる一方、配布形式の乱立やコンテキスト肥大化が次の悩みになりそうだ。地味だが、発見役と検証役を分ける監査設計は、エージェントを実務に入れるうえで大事な一歩だと思う。 ※ このレビューは後日生成されました"
+codex_importance: 3
 ---
 
 ## 公式アップデート

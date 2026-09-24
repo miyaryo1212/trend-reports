@@ -10,6 +10,8 @@ features:
   - "v2.1.278 auto mode のサーバーサイド分類器デフォルト化"
   - "v2.1.278 /status に「Auto mode server」行を追加"
   - "Anthropic Institute「When AI builds itself」9/18 更新"
+codex_review: "分類器のサーバー移行は、利用者には小さな変更でも課金と実行場所を整える堅実な改善だ。むしろ社内コードの8割超という数字が目を引くが、生成量の伸びだけでは品質や人間のレビュー負荷まで測れず、自己申告の成功譚として読む慎重さも要る。 ※ このレビューは後日生成されました"
+codex_importance: 2
 ---
 
 ## 公式アップデート

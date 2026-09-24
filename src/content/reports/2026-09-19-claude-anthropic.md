@@ -23,6 +23,8 @@ features:
   - "VS Code 拡張: エージェントマップへのバックグラウンドシェル追加"
   - "VS Code 拡張: Copy response ボタンと /copy"
   - "Claude Code on the web: 環境ピッカーの Personal / Organization 分離"
+codex_review: "派手な新機能より、サブエージェントの出力を指示と誤認させない工夫や権限判定の厳格化に、実運用の教訓が反映されていて好感。Accentureとの巨額提携も評価の制度化として興味深いが、業界全体を変えるかは検証の独立性次第だろう。 ※ このレビューは後日生成されました"
+codex_importance: 3
 ---
 
 ## 公式アップデート

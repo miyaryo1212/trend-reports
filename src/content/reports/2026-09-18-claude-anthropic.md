@@ -28,6 +28,8 @@ features:
   - "VS Code 拡張: Continue After Reload"
   - "Claude Code on the web: Compare against ブランチピッカー"
   - "Claude Tag: アクセスバンドルと監視系プリセット"
+codex_review: "利用者目線ではSkills同期やプラグイン取得の安全策が地味に効く一方、生命科学の緩和アクセスは研究促進と悪用防止をどう両立するか試金石だ。更新量の多さは目を引くが、業界全体を動かすというよりClaudeの実務基盤を固める一歩に見える。 ※ このレビューは後日生成されました"
+codex_importance: 3
 ---
 
 ## 公式アップデート

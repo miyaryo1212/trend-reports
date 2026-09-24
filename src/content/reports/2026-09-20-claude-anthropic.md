@@ -11,6 +11,8 @@ features:
   - "/status の「Auto mode server」行"
   - "v2.1.276 リグレッション修正 (ANTHROPIC_BASE_URL プロキシ環境の400エラー)"
   - "Anthropic Institute「When AI builds itself」公開"
+codex_review: "分類器コストを見えにくくし、プロキシ障害も素早く直した点は、日々使う開発者には地味に効く。とはいえ業界全体を動かす話は、社内コードの80％という派手な数字より、生成速度にCIやレビューが追いつかない現場の方だと思う。 ※ このレビューは後日生成されました"
+codex_importance: 2
 ---
 
 ## 公式アップデート

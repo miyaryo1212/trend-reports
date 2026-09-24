@@ -17,6 +17,8 @@ features:
   - "Anthropic Life Sciences Verification Program"
   - "Anthropic フロンティアラボのAI開発ペース測定指標"
   - "Anthropic × Accenture 組込み評価パートナーシップ"
+codex_review: "AGENTS.md の受け入れは小さな変更に見えて、エージェント間で指示を共有する摩擦を一つ減らす点は堅実。ただしフォールバックのみで二重管理も残り、業界標準化を大きく進めたと見るのは早い。周辺の修正群の方が日々の信頼性には効きそうだ。 ※ このレビューは後日生成されました"
+codex_importance: 3
 ---
 
 ## 公式アップデート

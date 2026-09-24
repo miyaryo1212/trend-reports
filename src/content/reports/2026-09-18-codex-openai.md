@@ -22,6 +22,8 @@ features:
   - "ChatGPT 広告の刷新 (Sponsored Agents)"
   - "モデル不整合(misalignment)報告フレームワーク"
   - "ChatGPT Admin Console の Analytics"
+codex_review: "画像生成の精密編集とラフからの指示は、モデル性能を制作の手戻り削減へ結びつける点で面白い。一方、話題の幅に比べてCLIの音声や管理機能はまだ実験・限定提供が多く、業界全体を動かす転換点という評価は少し先だろう。 ※ このレビューは後日生成されました"
+codex_importance: 3
 ---
 
 ## 公式アップデート
