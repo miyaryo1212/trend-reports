@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-09-24T23:01:48Z",
-  "period_start": "2026-08-29",
-  "period_end": "2026-09-25",
+  "generated_at": "2026-09-25T23:01:08Z",
+  "period_start": "2026-08-30",
+  "period_end": "2026-09-26",
   "items": [
     {
       "rank": 1,
       "slug": "2026-09-04-ai-trends",
-      "reason": "GPT-6 Astraが初のCritical認定、能力競争が安全保障の話に変わった節目",
-      "previous_rank": 2
+      "reason": "GPT-6 Astra が初のCritical認定、能力競争が安全保障の話に変わった節目",
+      "previous_rank": 1
     },
     {
       "rank": 2,
-      "slug": "2026-09-24-ai-trends",
-      "reason": "950体のClaudeが新酵素系を自律発見、AIが科学の実行主体になる予兆",
-      "previous_rank": null
+      "slug": "2026-09-23-ai-trends",
+      "reason": "Opus 5.5とGPT-6が同日公開＋大幅値下げ、前線の価格競争が可視化された日",
+      "previous_rank": 3
     },
     {
       "rank": 3,
-      "slug": "2026-09-23-ai-trends",
-      "reason": "Opus 5.5とGPT-6が同日公開で大幅値下げ、フロンティアの価格競争が本格化",
-      "previous_rank": 1
+      "slug": "2026-09-24-ai-trends",
+      "reason": "950エージェントが21時間で新酵素系を発見、自律科学の現在地を測る一本",
+      "previous_rank": 2
     },
     {
       "rank": 4,
       "slug": "2026-09-12-ai-trends",
-      "reason": "Agents API・政府配布・巨大インフラ投資が同日、制度と資本の総力戦へ",
-      "previous_rank": 5
+      "reason": "Agents API・政府配布・巨大インフラ投資が同日、資本と制度の総力戦へ",
+      "previous_rank": 4
     },
     {
       "rank": 5,
-      "slug": "2026-09-13-ai-trends",
-      "reason": "減速論が外部評価者アクセスと法案に接続、業界の自主規制が実体化",
+      "slug": "2026-09-09-ai-trends",
+      "reason": "Lean検証付きNavier–Stokes証明の主張、真なら歴史的だけに検証を追う価値",
       "previous_rank": null
     }
   ]
