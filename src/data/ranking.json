@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-09-26T23:01:49Z",
-  "period_start": "2026-08-31",
-  "period_end": "2026-09-27",
+  "generated_at": "2026-09-27T23:00:22Z",
+  "period_start": "2026-09-01",
+  "period_end": "2026-09-28",
   "items": [
     {
       "rank": 1,
       "slug": "2026-09-04-ai-trends",
-      "reason": "サイバー能力Critical初認定と防衛投資が同時、安全保障化の節目",
+      "reason": "GPT-6 Astra が初のサイバーCritical認定、能力競争が安全保障に接続した節目",
       "previous_rank": 1
     },
     {
       "rank": 2,
-      "slug": "2026-09-09-ai-trends",
-      "reason": "Lean検証付き数学証明の主張、真偽込みで今月最大の論点",
-      "previous_rank": 5
+      "slug": "2026-09-12-ai-trends",
+      "reason": "Agents API・政府配布・巨大インフラ投資が同日、制度と資本の総力戦へ",
+      "previous_rank": 4
     },
     {
       "rank": 3,
-      "slug": "2026-09-27-codex-openai",
-      "reason": "API半額とキャッシュ刷新、エージェント運用コストの転換点",
+      "slug": "2026-09-27-ai-trends",
+      "reason": "GPT-6 Sol/Luna で API 5割減、価格が実運用の試行回数を決める局面",
       "previous_rank": null
     },
     {
       "rank": 4,
-      "slug": "2026-09-12-ai-trends",
-      "reason": "Agents APIより政府配布と巨大インフラ投資が重い一日",
-      "previous_rank": 4
+      "slug": "2026-09-09-ai-trends",
+      "reason": "1万エージェントで数学証明をLean検証、真偽の行方こそ今年最大の争点",
+      "previous_rank": 2
     },
     {
       "rank": 5,
-      "slug": "2026-09-11-academia",
-      "reason": "スコアより測り方を疑う流れ、評価の信頼性が競争軸へ",
+      "slug": "2026-09-13-ai-trends",
+      "reason": "減速論が外部評価者アクセスと法案に接続、建前が制度になり始めた回",
       "previous_rank": null
     }
   ]
