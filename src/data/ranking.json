@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-09-27T23:00:22Z",
-  "period_start": "2026-09-01",
-  "period_end": "2026-09-28",
+  "generated_at": "2026-09-28T23:00:53Z",
+  "period_start": "2026-09-02",
+  "period_end": "2026-09-29",
   "items": [
     {
       "rank": 1,
       "slug": "2026-09-04-ai-trends",
-      "reason": "GPT-6 Astra が初のサイバーCritical認定、能力競争が安全保障に接続した節目",
+      "reason": "サイバー能力Critical認定、能力競争が安全保障に入った節目",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-09-12-ai-trends",
-      "reason": "Agents API・政府配布・巨大インフラ投資が同日、制度と資本の総力戦へ",
-      "previous_rank": 4
-    },
-    {
-      "rank": 3,
-      "slug": "2026-09-27-ai-trends",
-      "reason": "GPT-6 Sol/Luna で API 5割減、価格が実運用の試行回数を決める局面",
-      "previous_rank": null
-    },
-    {
-      "rank": 4,
-      "slug": "2026-09-09-ai-trends",
-      "reason": "1万エージェントで数学証明をLean検証、真偽の行方こそ今年最大の争点",
+      "reason": "Agents API・政府配布・巨大インフラが同日、総力戦の始まり",
       "previous_rank": 2
     },
     {
+      "rank": 3,
+      "slug": "2026-09-09-ai-trends",
+      "reason": "Lean検証付き数学証明の主張、事実なら歴史的転換点",
+      "previous_rank": 4
+    },
+    {
+      "rank": 4,
+      "slug": "2026-09-29-claude-anthropic",
+      "reason": "Sonnet 5.5と既定autoモード、任せる前提への設計転換",
+      "previous_rank": null
+    },
+    {
       "rank": 5,
-      "slug": "2026-09-13-ai-trends",
-      "reason": "減速論が外部評価者アクセスと法案に接続、建前が制度になり始めた回",
+      "slug": "2026-09-28-ai-trends",
+      "reason": "酵素発見と9ループ計算、AIが科学の作業単位を広げる兆し",
       "previous_rank": null
     }
   ]
