@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-09-28T23:00:53Z",
-  "period_start": "2026-09-02",
-  "period_end": "2026-09-29",
+  "generated_at": "2026-09-29T23:01:52Z",
+  "period_start": "2026-09-03",
+  "period_end": "2026-09-30",
   "items": [
     {
       "rank": 1,
-      "slug": "2026-09-04-ai-trends",
-      "reason": "サイバー能力Critical認定、能力競争が安全保障に入った節目",
-      "previous_rank": 1
+      "slug": "2026-09-30-codex-openai",
+      "reason": "モデル・実行環境・流通をまとめて押さえたDevDayの全体像",
+      "previous_rank": null
     },
     {
       "rank": 2,
-      "slug": "2026-09-12-ai-trends",
-      "reason": "Agents API・政府配布・巨大インフラが同日、総力戦の始まり",
-      "previous_rank": 2
+      "slug": "2026-09-04-ai-trends",
+      "reason": "Critical認定と防衛投資が重なった、AIの安全保障化の節目",
+      "previous_rank": 1
     },
     {
       "rank": 3,
       "slug": "2026-09-09-ai-trends",
-      "reason": "Lean検証付き数学証明の主張、事実なら歴史的転換点",
-      "previous_rank": 4
+      "reason": "Lean検証付き数学証明の主張、真偽ごと押さえたい一件",
+      "previous_rank": 3
     },
     {
       "rank": 4,
-      "slug": "2026-09-29-claude-anthropic",
-      "reason": "Sonnet 5.5と既定autoモード、任せる前提への設計転換",
+      "slug": "2026-09-23-claude-anthropic",
+      "reason": "最上位モデルの値下げと既定化、エージェント常用への分岐点",
       "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-09-28-ai-trends",
-      "reason": "酵素発見と9ループ計算、AIが科学の作業単位を広げる兆し",
+      "slug": "2026-09-14-academia",
+      "reason": "研究の自動化が世界モデルへ乗り換えた、学術側の転換点",
       "previous_rank": null
     }
   ]
