@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-09-29T23:01:52Z",
-  "period_start": "2026-09-03",
-  "period_end": "2026-09-30",
+  "generated_at": "2026-09-30T23:01:34Z",
+  "period_start": "2026-09-04",
+  "period_end": "2026-10-01",
   "items": [
     {
       "rank": 1,
       "slug": "2026-09-30-codex-openai",
-      "reason": "モデル・実行環境・流通をまとめて押さえたDevDayの全体像",
-      "previous_rank": null
-    },
-    {
-      "rank": 2,
-      "slug": "2026-09-04-ai-trends",
-      "reason": "Critical認定と防衛投資が重なった、AIの安全保障化の節目",
+      "reason": "DevDay 2026の全体像を一本で把握できる決定版",
       "previous_rank": 1
     },
     {
+      "rank": 2,
+      "slug": "2026-10-01-ai-trends",
+      "reason": "Gemini 4公開とGPT-6.1 Astra中止が同時に示す分岐点",
+      "previous_rank": null
+    },
+    {
       "rank": 3,
-      "slug": "2026-09-09-ai-trends",
-      "reason": "Lean検証付き数学証明の主張、真偽ごと押さえたい一件",
-      "previous_rank": 3
+      "slug": "2026-09-12-ai-trends",
+      "reason": "モデル競争から制度と資本の総力戦へ移った日",
+      "previous_rank": null
     },
     {
       "rank": 4,
-      "slug": "2026-09-23-claude-anthropic",
-      "reason": "最上位モデルの値下げと既定化、エージェント常用への分岐点",
+      "slug": "2026-09-04-codex-openai",
+      "reason": "GPT-6 AstraのCritical初到達、安全保障とAIが接続",
       "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-09-14-academia",
-      "reason": "研究の自動化が世界モデルへ乗り換えた、学術側の転換点",
+      "slug": "2026-09-29-claude-anthropic",
+      "reason": "Sonnet 5.5よりauto既定化という「任せる」設計転換",
       "previous_rank": null
     }
   ]
