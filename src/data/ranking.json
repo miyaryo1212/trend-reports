@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-09-30T23:01:34Z",
-  "period_start": "2026-09-04",
-  "period_end": "2026-10-01",
+  "generated_at": "2026-10-01T23:00:58Z",
+  "period_start": "2026-09-05",
+  "period_end": "2026-10-02",
   "items": [
     {
       "rank": 1,
       "slug": "2026-09-30-codex-openai",
-      "reason": "DevDay 2026の全体像を一本で把握できる決定版",
+      "reason": "dots・Sol・クラウド実行まで一挙に押さえたDevDay総まとめ",
       "previous_rank": 1
     },
     {
       "rank": 2,
-      "slug": "2026-10-01-ai-trends",
-      "reason": "Gemini 4公開とGPT-6.1 Astra中止が同時に示す分岐点",
+      "slug": "2026-10-02-claude-anthropic",
+      "reason": "Mods解禁と1M既定化、拡張の信頼境界が次の論点",
       "previous_rank": null
     },
     {
       "rank": 3,
       "slug": "2026-09-12-ai-trends",
-      "reason": "モデル競争から制度と資本の総力戦へ移った日",
-      "previous_rank": null
+      "reason": "政府配布と巨大インフラ投資、制度と資本の総力戦へ",
+      "previous_rank": 3
     },
     {
       "rank": 4,
-      "slug": "2026-09-04-codex-openai",
-      "reason": "GPT-6 AstraのCritical初到達、安全保障とAIが接続",
+      "slug": "2026-09-09-ai-trends",
+      "reason": "Lean検証付きNavier-Stokes証明、事実なら歴史的転換",
       "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-09-29-claude-anthropic",
-      "reason": "Sonnet 5.5よりauto既定化という「任せる」設計転換",
+      "slug": "2026-09-30-academia",
+      "reason": "ポストトレーニングの副作用が無関係な判断へ漏れる死角",
       "previous_rank": null
     }
   ]
