@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-10-01T23:00:58Z",
-  "period_start": "2026-09-05",
-  "period_end": "2026-10-02",
+  "generated_at": "2026-10-02T23:00:25Z",
+  "period_start": "2026-09-06",
+  "period_end": "2026-10-03",
   "items": [
     {
       "rank": 1,
       "slug": "2026-09-30-codex-openai",
-      "reason": "dots・Sol・クラウド実行まで一挙に押さえたDevDay総まとめ",
+      "reason": "20超の発表を一挙投下、開発基盤の勢力図が一日で塗り替わった回",
       "previous_rank": 1
     },
     {
       "rank": 2,
-      "slug": "2026-10-02-claude-anthropic",
-      "reason": "Mods解禁と1M既定化、拡張の信頼境界が次の論点",
-      "previous_rank": null
-    },
-    {
-      "rank": 3,
       "slug": "2026-09-12-ai-trends",
-      "reason": "政府配布と巨大インフラ投資、制度と資本の総力戦へ",
+      "reason": "政府配布と巨額インフラが並走、AI競争が資本と制度の総力戦へ",
       "previous_rank": 3
     },
     {
-      "rank": 4,
+      "rank": 3,
       "slug": "2026-09-09-ai-trends",
-      "reason": "Lean検証付きNavier-Stokes証明、事実なら歴史的転換",
+      "reason": "Lean検証付き数学証明の主張、AI科学の真価を問う分水嶺",
+      "previous_rank": 4
+    },
+    {
+      "rank": 4,
+      "slug": "2026-10-03-academia",
+      "reason": "安全指示が内部表現をほぼ動かさない、プロンプト頼みの限界を突く",
       "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-09-30-academia",
-      "reason": "ポストトレーニングの副作用が無関係な判断へ漏れる死角",
+      "slug": "2026-09-13-ai-trends",
+      "reason": "減速論が外部評価者アクセスと法案に接続、統治の実装段階へ",
       "previous_rank": null
     }
   ]
