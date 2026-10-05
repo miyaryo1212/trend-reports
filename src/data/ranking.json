@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-03T23:01:36Z",
-  "period_start": "2026-09-07",
-  "period_end": "2026-10-04",
+  "generated_at": "2026-10-05T23:00:26Z",
+  "period_start": "2026-09-09",
+  "period_end": "2026-10-06",
   "items": [
     {
       "rank": 1,
       "slug": "2026-09-30-codex-openai",
-      "reason": "DevDay 2026の全体像を一本で掴める決定版",
+      "reason": "モデル・実行環境・流通をまとめて押さえたDevDay、Codex既定もSolへ",
       "previous_rank": 1
     },
     {
       "rank": 2,
-      "slug": "2026-10-03-academia",
-      "reason": "安全指示が内部に届かない証拠、設計見直しの起点",
-      "previous_rank": 4
+      "slug": "2026-09-23-ai-trends",
+      "reason": "Opus 5.5とGPT-6が同日公開、フロンティア級でも値下げ競争が本格化",
+      "previous_rank": null
     },
     {
       "rank": 3,
-      "slug": "2026-09-12-ai-trends",
-      "reason": "政府配布と巨大インフラ、資本の総力戦が可視化",
-      "previous_rank": 2
+      "slug": "2026-09-28-ai-trends",
+      "reason": "酵素発見と9ループ計算、エージェントが科学の作業単位を広げる兆し",
+      "previous_rank": null
     },
     {
       "rank": 4,
       "slug": "2026-09-09-ai-trends",
-      "reason": "Lean検証付き数学証明の主張、真なら歴史的転換",
-      "previous_rank": 3
+      "reason": "Lean検証付きNavier-Stokes証明の主張、事実なら歴史的で外部検証待ち",
+      "previous_rank": 4
     },
     {
       "rank": 5,
-      "slug": "2026-10-02-claude-anthropic",
-      "reason": "Claude Mods と1M既定化、拡張性と信頼境界の分岐点",
-      "previous_rank": null
+      "slug": "2026-10-03-academia",
+      "reason": "安全プロンプトは内部表現をほぼ動かさない、指示頼みの安全設計に警鐘",
+      "previous_rank": 2
     }
   ]
 }
