@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-06T23:01:01Z",
-  "period_start": "2026-09-10",
-  "period_end": "2026-10-07",
+  "generated_at": "2026-10-07T23:01:30Z",
+  "period_start": "2026-09-11",
+  "period_end": "2026-10-08",
   "items": [
     {
       "rank": 1,
       "slug": "2026-09-30-codex-openai",
-      "reason": "モデル・実行環境・流通をまとめて押さえたDevDay、勢力図を読む起点",
+      "reason": "モデル・実行環境・流通を一挙に押さえたDevDay、今後半年の開発地図を決める発表群",
       "previous_rank": 1
     },
     {
       "rank": 2,
-      "slug": "2026-09-23-claude-anthropic",
-      "reason": "最上位モデルの値下げと既定化、エージェント普及の裾野が一段広がる",
+      "slug": "2026-10-08-codex-openai",
+      "reason": "GPT-6全面展開とIntelligent UI、チャットが道具へ変わる転換点を見届けたい",
       "previous_rank": null
     },
     {
       "rank": 3,
-      "slug": "2026-10-03-academia",
-      "reason": "安全指示は内部表現まで届かない、プロンプト頼みの安全設計に再考を迫る",
-      "previous_rank": 5
+      "slug": "2026-09-23-claude-anthropic",
+      "reason": "最上位Opusの値下げと既定化、エージェント利用の裾野を一段広げる現実的な一手",
+      "previous_rank": 2
     },
     {
       "rank": 4,
       "slug": "2026-09-28-ai-trends",
-      "reason": "酵素発見と9ループ計算、AIが科学の作業単位を広げ始めた転換点",
-      "previous_rank": 3
+      "reason": "酵素発見と9ループ計算、AIが科学の作業単位を広げる兆しを検証含めて追うべき回",
+      "previous_rank": 4
     },
     {
       "rank": 5,
-      "slug": "2026-09-13-ai-trends",
-      "reason": "減速論が外部評価者アクセスや法案と結びつき、統治の議論が実装段階へ",
-      "previous_rank": null
+      "slug": "2026-10-03-academia",
+      "reason": "安全指示は内部表現まで届かない、プロンプト頼みの安全設計を見直させる刺激的な知見",
+      "previous_rank": 3
     }
   ]
 }
