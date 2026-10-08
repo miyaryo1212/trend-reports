@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-07T23:01:30Z",
-  "period_start": "2026-09-11",
-  "period_end": "2026-10-08",
+  "generated_at": "2026-10-08T23:00:26Z",
+  "period_start": "2026-09-12",
+  "period_end": "2026-10-09",
   "items": [
     {
       "rank": 1,
       "slug": "2026-09-30-codex-openai",
-      "reason": "モデル・実行環境・流通を一挙に押さえたDevDay、今後半年の開発地図を決める発表群",
+      "reason": "モデル・実行基盤・流通を一気に押さえたDevDay、今後の開発の前提が変わる",
       "previous_rank": 1
     },
     {
       "rank": 2,
-      "slug": "2026-10-08-codex-openai",
-      "reason": "GPT-6全面展開とIntelligent UI、チャットが道具へ変わる転換点を見届けたい",
+      "slug": "2026-10-09-claude-anthropic",
+      "reason": "OSSの脆弱性を無料でスキャン、性能競争の外でAIが防御を底上げする試み",
       "previous_rank": null
     },
     {
       "rank": 3,
-      "slug": "2026-09-23-claude-anthropic",
-      "reason": "最上位Opusの値下げと既定化、エージェント利用の裾野を一段広げる現実的な一手",
-      "previous_rank": 2
+      "slug": "2026-09-23-ai-trends",
+      "reason": "Opus 5.5とGPT-6が同じ日に登場、値下げ競争の幕開けとして押さえたい",
+      "previous_rank": null
     },
     {
       "rank": 4,
       "slug": "2026-09-28-ai-trends",
-      "reason": "酵素発見と9ループ計算、AIが科学の作業単位を広げる兆しを検証含めて追うべき回",
+      "reason": "酵素の発見から9ループ計算まで、エージェントが科学の現場へ届いた証拠",
       "previous_rank": 4
     },
     {
       "rank": 5,
       "slug": "2026-10-03-academia",
-      "reason": "安全指示は内部表現まで届かない、プロンプト頼みの安全設計を見直させる刺激的な知見",
-      "previous_rank": 3
+      "reason": "システムプロンプト頼みの安全策に疑問を突きつける、設計を見直すための一本",
+      "previous_rank": 5
     }
   ]
 }
