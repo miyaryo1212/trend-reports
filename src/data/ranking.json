@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-10-10T23:01:08Z",
-  "period_start": "2026-09-14",
-  "period_end": "2026-10-11",
+  "generated_at": "2026-10-11T23:00:24Z",
+  "period_start": "2026-09-15",
+  "period_end": "2026-10-12",
   "items": [
     {
       "rank": 1,
       "slug": "2026-09-30-codex-openai",
-      "reason": "モデル・実行環境・流通をまとめて押さえたDevDay、OpenAIの次の一手が見える",
+      "reason": "モデル・実行環境・流通を一挙に押さえたDevDay、OpenAIの次の一手が見える",
       "previous_rank": 1
     },
     {
       "rank": 2,
-      "slug": "2026-10-10-ai-trends",
-      "reason": "Haiku 5.5の値下げと警察への誤通報、エージェントに外部と連絡させる設計が問われる",
-      "previous_rank": 2
+      "slug": "2026-09-23-ai-trends",
+      "reason": "Opus 5.5とGPT-6が同日公開、フロンティア級の値下げ競争が始まった起点",
+      "previous_rank": 3
     },
     {
       "rank": 3,
-      "slug": "2026-09-23-ai-trends",
-      "reason": "Opus 5.5とGPT-6が同じ日に公開、フロンティアモデルの値下げ競争の始まり",
-      "previous_rank": null
+      "slug": "2026-10-10-ai-trends",
+      "reason": "Haiku 5.5の値下げと警察への誤通報、エージェントの外部連絡制御が問われる",
+      "previous_rank": 2
     },
     {
       "rank": 4,
       "slug": "2026-09-28-ai-trends",
-      "reason": "酵素の発見と9ループ計算、AIが科学研究の作業を担い始めた試金石",
+      "reason": "酵素発見と9ループ計算、AIが科学の作業単位を広げる兆しを検証込みで読む",
       "previous_rank": 4
     },
     {
       "rank": 5,
       "slug": "2026-10-03-academia",
-      "reason": "安全系のシステムプロンプトは内部表現をほとんど変えない、指示に頼る安全設計への警鐘",
+      "reason": "安全指示は内部表現を動かさない、プロンプト頼みの安全設計を見直す一本",
       "previous_rank": 5
     }
   ]
