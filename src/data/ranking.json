@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-11T23:00:24Z",
-  "period_start": "2026-09-15",
-  "period_end": "2026-10-12",
+  "generated_at": "2026-10-12T23:01:01Z",
+  "period_start": "2026-09-16",
+  "period_end": "2026-10-13",
   "items": [
     {
       "rank": 1,
       "slug": "2026-09-30-codex-openai",
-      "reason": "モデル・実行環境・流通を一挙に押さえたDevDay、OpenAIの次の一手が見える",
+      "reason": "dots・GPT-6.1 Sol・Codex cloudを一挙投入、開発基盤の全面刷新を押さえる1本",
       "previous_rank": 1
     },
     {
       "rank": 2,
-      "slug": "2026-09-23-ai-trends",
-      "reason": "Opus 5.5とGPT-6が同日公開、フロンティア級の値下げ競争が始まった起点",
-      "previous_rank": 3
+      "slug": "2026-09-23-claude-anthropic",
+      "reason": "Opus 5.5が4割値下げで既定化、最上位モデルの日常利用が現実になった転換点",
+      "previous_rank": null
     },
     {
       "rank": 3,
       "slug": "2026-10-10-ai-trends",
-      "reason": "Haiku 5.5の値下げと警察への誤通報、エージェントの外部連絡制御が問われる",
-      "previous_rank": 2
+      "reason": "Haiku 5.5の小型競争と警察への誤通報、能力と制御設計の両面が同日に露呈",
+      "previous_rank": 3
     },
     {
       "rank": 4,
-      "slug": "2026-09-28-ai-trends",
-      "reason": "酵素発見と9ループ計算、AIが科学の作業単位を広げる兆しを検証込みで読む",
-      "previous_rank": 4
+      "slug": "2026-10-03-academia",
+      "reason": "安全指示が内部表現を動かさない実証、プロンプト頼みの安全設計を根本から問う",
+      "previous_rank": 5
     },
     {
       "rank": 5,
-      "slug": "2026-10-03-academia",
-      "reason": "安全指示は内部表現を動かさない、プロンプト頼みの安全設計を見直す一本",
-      "previous_rank": 5
+      "slug": "2026-09-28-ai-trends",
+      "reason": "950体のエージェントが新酵素発見、AIが科学の作業単位を広げる兆しを検証したい",
+      "previous_rank": 4
     }
   ]
 }
