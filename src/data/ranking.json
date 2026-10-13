@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-12T23:01:01Z",
-  "period_start": "2026-09-16",
-  "period_end": "2026-10-13",
+  "generated_at": "2026-10-13T23:00:18Z",
+  "period_start": "2026-09-17",
+  "period_end": "2026-10-14",
   "items": [
     {
       "rank": 1,
       "slug": "2026-09-30-codex-openai",
-      "reason": "dots・GPT-6.1 Sol・Codex cloudを一挙投入、開発基盤の全面刷新を押さえる1本",
+      "reason": "dotsとSol、ChatGPT開放でOpenAIが開発基盤の覇権を狙う一日",
       "previous_rank": 1
     },
     {
       "rank": 2,
-      "slug": "2026-09-23-claude-anthropic",
-      "reason": "Opus 5.5が4割値下げで既定化、最上位モデルの日常利用が現実になった転換点",
+      "slug": "2026-09-23-ai-trends",
+      "reason": "Opus 5.5とGPT-6が同日発表、値下げ競争で利用の裾野が変わる",
       "previous_rank": null
     },
     {
       "rank": 3,
       "slug": "2026-10-10-ai-trends",
-      "reason": "Haiku 5.5の小型競争と警察への誤通報、能力と制御設計の両面が同日に露呈",
+      "reason": "小型モデル値下げの裏で、AI誤通報が外部連絡の制御設計を問う",
       "previous_rank": 3
     },
     {
       "rank": 4,
-      "slug": "2026-10-03-academia",
-      "reason": "安全指示が内部表現を動かさない実証、プロンプト頼みの安全設計を根本から問う",
+      "slug": "2026-09-28-ai-trends",
+      "reason": "950体のエージェントが酵素を発見、AIが科学の作業単位を押し広げる",
       "previous_rank": 5
     },
     {
       "rank": 5,
-      "slug": "2026-09-28-ai-trends",
-      "reason": "950体のエージェントが新酵素発見、AIが科学の作業単位を広げる兆しを検証したい",
-      "previous_rank": 4
+      "slug": "2026-10-14-ai-trends",
+      "reason": "Metaが遂にフロンティア参戦、AnthropicはGitを捨てScionへ",
+      "previous_rank": null
     }
   ]
 }
