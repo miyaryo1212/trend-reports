@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-10-14T23:00:49Z",
-  "period_start": "2026-09-18",
-  "period_end": "2026-10-15",
+  "generated_at": "2026-10-15T23:00:54Z",
+  "period_start": "2026-09-19",
+  "period_end": "2026-10-16",
   "items": [
     {
       "rank": 1,
       "slug": "2026-09-30-codex-openai",
-      "reason": "モデル・実行環境・流通経路を一挙に押さえたDevDay全体像。低価格化の転換点を知る一本",
+      "reason": "dots・GPT-6.1 Sol・クラウド実行まで20超を一挙発表、今期最大の総括",
       "previous_rank": 1
     },
     {
       "rank": 2,
-      "slug": "2026-10-09-claude-anthropic",
-      "reason": "OSS向け無料脆弱性スキャンなど、AI企業の防御責任が具体化し始めた節目",
-      "previous_rank": null
+      "slug": "2026-09-23-ai-trends",
+      "reason": "Opus 5.5とGPT-6が同日登場し値下げ競争が本格化、転換点を押さえる一本",
+      "previous_rank": 3
     },
     {
       "rank": 3,
-      "slug": "2026-09-23-ai-trends",
-      "reason": "Opus 5.5とGPT-6の同日公開と40〜50%値下げ。価格競争の号砲を押さえる",
-      "previous_rank": 2
+      "slug": "2026-10-14-ai-trends",
+      "reason": "AnthropicのGit離れScionとMeta初のフロンティアモデル、開発基盤の変化が見える",
+      "previous_rank": 4
     },
     {
       "rank": 4,
-      "slug": "2026-10-14-ai-trends",
-      "reason": "Metaの参入とAnthropicのGit離れ。AI時代の開発基盤の摩擦が見える",
-      "previous_rank": 5
+      "slug": "2026-10-08-claude-anthropic",
+      "reason": "1M文脈で$0.10/$0.50のHaiku 5.5、大量エージェント運用の採算を変える",
+      "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-10-03-academia",
-      "reason": "安全指示が内部表現をほぼ動かさないという衝撃。安全設計の前提を問い直す",
+      "slug": "2026-09-28-ai-trends",
+      "reason": "酵素発見と9ループ振幅計算、AI科学の到達点と検証の課題を同時に読める",
       "previous_rank": null
     }
   ]
