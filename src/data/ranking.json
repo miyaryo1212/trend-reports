@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-16T23:00:24Z",
-  "period_start": "2026-09-20",
-  "period_end": "2026-10-17",
+  "generated_at": "2026-10-17T23:01:41Z",
+  "period_start": "2026-09-21",
+  "period_end": "2026-10-18",
   "items": [
     {
       "rank": 1,
       "slug": "2026-09-30-codex-openai",
-      "reason": "DevDay 20超の発表とGPT-6.1 Sol低価格化、開発基盤を一気に押さえる全体像",
+      "reason": "常時稼働エージェントと低価格モデルで開発基盤を一気に押さえた転換点",
       "previous_rank": 1
     },
     {
       "rank": 2,
-      "slug": "2026-09-23-claude-anthropic",
-      "reason": "Opus 5.5が値下げと既定化で登場、同日GPT-6との価格競争の号砲を読む",
+      "slug": "2026-09-23-ai-trends",
+      "reason": "最上位モデルの同日公開と5割値下げ、価格競争が普及の前提を変えた日",
       "previous_rank": null
     },
     {
       "rank": 3,
-      "slug": "2026-09-28-ai-trends",
-      "reason": "酵素発見と9ループ計算、AIが科学を自律で進める兆しと検証の論点",
-      "previous_rank": 5
+      "slug": "2026-10-14-ai-trends",
+      "reason": "Git離脱のScionはAI量産コード時代の開発基盤の摩擦を映す先行事例",
+      "previous_rank": 4
     },
     {
       "rank": 4,
-      "slug": "2026-10-14-ai-trends",
-      "reason": "Anthropicの独自VCS Scionは、AI時代のコード管理の摩擦を映す",
-      "previous_rank": 3
+      "slug": "2026-10-10-ai-trends",
+      "reason": "小型モデル値下げの採算改善と警察誤通報、運用責任の両面が一日で露出",
+      "previous_rank": null
     },
     {
       "rank": 5,
       "slug": "2026-10-03-academia",
-      "reason": "安全指示が内部表現を動かさない結果、静的プロンプト頼みの安全設計を問い直す",
-      "previous_rank": null
+      "reason": "安全指示が内部表現に届かない実証、静的プロンプト頼みの設計への警鐘",
+      "previous_rank": 5
     }
   ]
 }
