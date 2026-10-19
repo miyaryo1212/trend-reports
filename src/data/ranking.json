@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-18T23:00:44Z",
-  "period_start": "2026-09-22",
-  "period_end": "2026-10-19",
+  "generated_at": "2026-10-19T23:01:01Z",
+  "period_start": "2026-09-23",
+  "period_end": "2026-10-20",
   "items": [
     {
       "rank": 1,
       "slug": "2026-09-30-codex-openai",
-      "reason": "常時稼働エージェントdotsと1/5価格のSol、開発基盤の地図が一新",
+      "reason": "常時稼働dotsと1/5価格Sol、OpenAIの基盤総取り戦略を俯瞰する一本",
       "previous_rank": 1
     },
     {
       "rank": 2,
-      "slug": "2026-09-23-ai-trends",
-      "reason": "Opus 5.5とGPT-6が同日登場、最上位モデルの値下げ競争が本格化",
-      "previous_rank": 2
+      "slug": "2026-09-23-claude-anthropic",
+      "reason": "最上位Opus 5.5の値下げ既定化、GPT-6同日公開と重なる価格競争の起点",
+      "previous_rank": null
     },
     {
       "rank": 3,
       "slug": "2026-09-28-ai-trends",
-      "reason": "950体のエージェントが新酵素発見、AIが科学の作業単位を広げる兆し",
-      "previous_rank": null
+      "reason": "950エージェントの酵素発見と9ループ計算、AI科学の作業単位が変わる兆し",
+      "previous_rank": 3
     },
     {
       "rank": 4,
-      "slug": "2026-10-03-academia",
-      "reason": "安全プロンプトは内部表現を動かさず、指示文頼みの安全設計に警鐘",
+      "slug": "2026-10-10-ai-trends",
+      "reason": "Haiku 5.5の低価格とAI誤通報、採算と外部連絡制御の両面が問われた日",
       "previous_rank": 5
     },
     {
       "rank": 5,
-      "slug": "2026-10-10-ai-trends",
-      "reason": "Haiku 5.5の低価格化と警察への誤通報、普及と制御の両面が同日に",
-      "previous_rank": 4
+      "slug": "2026-10-20-ai-trends",
+      "reason": "552B MoEのMIT公開と蒸留攻撃によるキー流出、開放と防御の新局面",
+      "previous_rank": null
     }
   ]
 }
