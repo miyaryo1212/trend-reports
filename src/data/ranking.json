@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-20T23:01:17Z",
-  "period_start": "2026-09-24",
-  "period_end": "2026-10-21",
+  "generated_at": "2026-10-21T23:01:51Z",
+  "period_start": "2026-09-25",
+  "period_end": "2026-10-22",
   "items": [
     {
       "rank": 1,
       "slug": "2026-09-30-codex-openai",
-      "reason": "常時稼働dotsと1/5価格のSol、モデル・実行環境・流通を一気に押さえた転換点",
+      "reason": "常時稼働dotsと1/5価格のSol、OpenAIが流通網ごと押さえに来た転換点",
       "previous_rank": 1
     },
     {
       "rank": 2,
-      "slug": "2026-10-20-ai-trends",
-      "reason": "552B MoEのMIT公開と蒸留攻撃によるキー流出、開放と防御の両面が同日に露出",
-      "previous_rank": 5
+      "slug": "2026-10-22-claude-anthropic",
+      "reason": "能動型Duetと破壊的API新版、Anthropicがエージェント本番運用へ舵",
+      "previous_rank": null
     },
     {
       "rank": 3,
-      "slug": "2026-10-10-ai-trends",
-      "reason": "小型Haiku 5.5の採算転換と警察への誤通報、エージェント外部連絡の統制が問われる",
-      "previous_rank": 4
+      "slug": "2026-10-20-ai-trends",
+      "reason": "552B・1MのDeepSeekがMITで公開、蒸留攻撃によるキー流出も重い警告",
+      "previous_rank": 2
     },
     {
       "rank": 4,
-      "slug": "2026-10-03-academia",
-      "reason": "安全指示が内部表現を動かさない実証、プロンプト頼みの安全設計を見直す契機",
+      "slug": "2026-10-08-codex-openai",
+      "reason": "GPT-6とIntelligent UIが全員へ、チャットが「使う道具」に変わる節目",
       "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-10-21-ai-trends",
-      "reason": "1.4兆ドル調達と同日のTorchTPU/Neuron公開、CUDA依存崩しの足場が固まる兆し",
-      "previous_rank": null
+      "slug": "2026-10-03-academia",
+      "reason": "安全プロンプトは内部表現を動かさない、指示文頼みの安全設計を問う一撃",
+      "previous_rank": 4
     }
   ]
 }
