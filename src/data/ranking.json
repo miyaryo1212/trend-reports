@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-22T23:01:13Z",
-  "period_start": "2026-09-26",
-  "period_end": "2026-10-23",
+  "generated_at": "2026-10-23T23:00:40Z",
+  "period_start": "2026-09-27",
+  "period_end": "2026-10-24",
   "items": [
     {
       "rank": 1,
-      "slug": "2026-09-30-codex-openai",
-      "reason": "dotsとGPT-6.1 Solを核に、モデル・実行環境・流通を一括で押さえた転換点",
-      "previous_rank": 1
+      "slug": "2026-10-24-claude-anthropic",
+      "reason": "評価環境の小さな設定ミスが実害に直結した事例、安全運用を考える必読の教訓",
+      "previous_rank": null
     },
     {
       "rank": 2,
-      "slug": "2026-10-23-ai-trends",
-      "reason": "Agent Skills寄贈とWalmart開放、エージェントが囲い込みから共通基盤へ移る節目",
-      "previous_rank": null
+      "slug": "2026-09-30-codex-openai",
+      "reason": "モデル・実行環境・流通まで一挙に押さえたDevDay、今期の地図を塗り替えた発表群",
+      "previous_rank": 1
     },
     {
       "rank": 3,
       "slug": "2026-10-22-claude-anthropic",
-      "reason": "能動型Duetと破壊的API新版、本番運用を前提にした設計転換を読み解く一本",
-      "previous_rank": 2
+      "reason": "先回り型エージェントDuetと破壊的API新版、開発者がまず押さえるべき転換点",
+      "previous_rank": 3
     },
     {
       "rank": 4,
-      "slug": "2026-10-03-academia",
-      "reason": "安全指示が内部表現を動かさない実証、プロンプト頼みの安全設計を見直す契機",
-      "previous_rank": 5
+      "slug": "2026-10-08-codex-openai",
+      "reason": "GPT-6が全ユーザーへ、チャットを道具に変えるIntelligent UIの本格始動",
+      "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-10-10-ai-trends",
-      "reason": "Haiku 5.5の低価格化と警察への誤通報、採算と外部連絡制御の両面が問われた日",
-      "previous_rank": null
+      "slug": "2026-10-23-ai-trends",
+      "reason": "Agent Skills寄贈で囲い込みから共通基盤へ、エージェント標準化の分水嶺",
+      "previous_rank": 2
     }
   ]
 }
