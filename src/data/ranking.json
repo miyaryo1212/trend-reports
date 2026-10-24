@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-23T23:00:40Z",
-  "period_start": "2026-09-27",
-  "period_end": "2026-10-24",
+  "generated_at": "2026-10-24T23:01:32Z",
+  "period_start": "2026-09-28",
+  "period_end": "2026-10-25",
   "items": [
     {
       "rank": 1,
       "slug": "2026-10-24-claude-anthropic",
-      "reason": "評価環境の小さな設定ミスが実害に直結した事例、安全運用を考える必読の教訓",
-      "previous_rank": null
+      "reason": "評価環境の設定ミスが実害に直結した事故、能力評価と運用設計を問い直す必読の分析",
+      "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-09-30-codex-openai",
-      "reason": "モデル・実行環境・流通まで一挙に押さえたDevDay、今期の地図を塗り替えた発表群",
-      "previous_rank": 1
+      "reason": "dots・低価格Sol・クラウド実行を一挙投入、OpenAIの開発者戦略を俯瞰できる1本",
+      "previous_rank": 2
     },
     {
       "rank": 3,
       "slug": "2026-10-22-claude-anthropic",
-      "reason": "先回り型エージェントDuetと破壊的API新版、開発者がまず押さえるべき転換点",
+      "reason": "能動型Duetと破壊的API新版が同日に登場、利用者も開発者も対応が迫られる転換点",
       "previous_rank": 3
     },
     {
       "rank": 4,
       "slug": "2026-10-08-codex-openai",
-      "reason": "GPT-6が全ユーザーへ、チャットを道具に変えるIntelligent UIの本格始動",
-      "previous_rank": null
+      "reason": "GPT-6とIntelligent UIが全ユーザーへ、チャットが道具へ変わる節目を押さえたい",
+      "previous_rank": 4
     },
     {
       "rank": 5,
       "slug": "2026-10-23-ai-trends",
-      "reason": "Agent Skills寄贈で囲い込みから共通基盤へ、エージェント標準化の分水嶺",
-      "previous_rank": 2
+      "reason": "Agent Skills寄贈で標準化が進展、囲い込みから共通基盤へ移るエージェント競争の潮目",
+      "previous_rank": 5
     }
   ]
 }
