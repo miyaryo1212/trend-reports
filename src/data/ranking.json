@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-26T23:00:12Z",
-  "period_start": "2026-09-30",
-  "period_end": "2026-10-27",
+  "generated_at": "2026-10-27T23:00:21Z",
+  "period_start": "2026-10-01",
+  "period_end": "2026-10-28",
   "items": [
     {
       "rank": 1,
-      "slug": "2026-10-27-claude-anthropic",
-      "reason": "AnthropicのS-1提出で、AI企業の開示と市場評価の基準が変わる節目",
+      "slug": "2026-10-28-claude-anthropic",
+      "reason": "AIが重要ソフトの脆弱性発見で実戦級に達し、攻防の速度が一変する転換点",
       "previous_rank": null
     },
     {
       "rank": 2,
-      "slug": "2026-09-30-codex-openai",
-      "reason": "モデル・実行環境・流通をまとめて押さえたDevDay、OpenAIの戦略の全体像がわかる",
-      "previous_rank": 2
-    },
-    {
-      "rank": 3,
-      "slug": "2026-10-24-claude-anthropic",
-      "reason": "評価環境の設定ミスが実際の攻撃につながったMythos事故、安全運用の教訓",
+      "slug": "2026-10-27-claude-anthropic",
+      "reason": "フロンティアAI企業が市場の開示責任を負う節目、業界の評価軸を変えうる一手",
       "previous_rank": 1
     },
     {
+      "rank": 3,
+      "slug": "2026-10-08-codex-openai",
+      "reason": "GPT-6とIntelligent UIの全開放で、チャットが答える場から使う道具へ",
+      "previous_rank": null
+    },
+    {
       "rank": 4,
-      "slug": "2026-10-22-claude-anthropic",
-      "reason": "能動型のDuetとAPIの破壊的変更が同時に来た、開発者は必ず確認したい転換点",
+      "slug": "2026-10-24-claude-anthropic",
+      "reason": "評価環境の小さな設定ミスが実害に直結した事例、エージェント運用の必読教訓",
       "previous_rank": 3
     },
     {
       "rank": 5,
       "slug": "2026-10-23-ai-trends",
-      "reason": "Agent Skillsの寄贈で、エージェントは囲い込みから共通基盤の時代へ",
-      "previous_rank": 4
+      "reason": "Agent Skills寄贈でエージェントは囲い込みから共通基盤の時代へ",
+      "previous_rank": 5
     }
   ]
 }
