@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-10-27T23:00:21Z",
-  "period_start": "2026-10-01",
-  "period_end": "2026-10-28",
+  "generated_at": "2026-10-28T23:01:38Z",
+  "period_start": "2026-10-02",
+  "period_end": "2026-10-29",
   "items": [
     {
       "rank": 1,
       "slug": "2026-10-28-claude-anthropic",
-      "reason": "AIが重要ソフトの脆弱性発見で実戦級に達し、攻防の速度が一変する転換点",
-      "previous_rank": null
+      "reason": "未公開モデルがChrome等で62件のCVE、AIが攻防の主役に躍り出た転換点",
+      "previous_rank": 1
     },
     {
       "rank": 2,
-      "slug": "2026-10-27-claude-anthropic",
-      "reason": "フロンティアAI企業が市場の開示責任を負う節目、業界の評価軸を変えうる一手",
-      "previous_rank": 1
+      "slug": "2026-10-29-claude-anthropic",
+      "reason": "S-1提出と政府40%割引、収益化と説明責任を同時に背負うAnthropicの節目",
+      "previous_rank": null
     },
     {
       "rank": 3,
       "slug": "2026-10-08-codex-openai",
-      "reason": "GPT-6とIntelligent UIの全開放で、チャットが答える場から使う道具へ",
-      "previous_rank": null
+      "reason": "GPT-6とIntelligent UIの全開放、チャットが道具へ変わる起点",
+      "previous_rank": 3
     },
     {
       "rank": 4,
-      "slug": "2026-10-24-claude-anthropic",
-      "reason": "評価環境の小さな設定ミスが実害に直結した事例、エージェント運用の必読教訓",
-      "previous_rank": 3
+      "slug": "2026-10-29-ai-trends",
+      "reason": "Gemini 4 CarbonがOpus 5.5・GPT-6 Astra超え、首位争いは再び三つ巴へ",
+      "previous_rank": null
     },
     {
       "rank": 5,
       "slug": "2026-10-23-ai-trends",
-      "reason": "Agent Skills寄贈でエージェントは囲い込みから共通基盤の時代へ",
+      "reason": "Agent Skills寄贈で標準化が前進、エージェントが共通基盤へ移る分岐点",
       "previous_rank": 5
     }
   ]
