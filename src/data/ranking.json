@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-28T23:01:38Z",
-  "period_start": "2026-10-02",
-  "period_end": "2026-10-29",
+  "generated_at": "2026-10-29T23:00:46Z",
+  "period_start": "2026-10-03",
+  "period_end": "2026-10-30",
   "items": [
     {
       "rank": 1,
-      "slug": "2026-10-28-claude-anthropic",
-      "reason": "未公開モデルがChrome等で62件のCVE、AIが攻防の主役に躍り出た転換点",
-      "previous_rank": 1
+      "slug": "2026-10-27-claude-anthropic",
+      "reason": "AI専業ラボ初の上場申請、開示義務が業界の透明性と評価軸を塗り替える転機",
+      "previous_rank": null
     },
     {
       "rank": 2,
-      "slug": "2026-10-29-claude-anthropic",
-      "reason": "S-1提出と政府40%割引、収益化と説明責任を同時に背負うAnthropicの節目",
-      "previous_rank": null
+      "slug": "2026-10-28-claude-anthropic",
+      "reason": "Chromeで62件のCVE、AIの攻撃能力が防御競争を一段加速させる実証",
+      "previous_rank": 1
     },
     {
       "rank": 3,
       "slug": "2026-10-08-codex-openai",
-      "reason": "GPT-6とIntelligent UIの全開放、チャットが道具へ変わる起点",
+      "reason": "GPT-6が全ユーザーへ、Intelligent UIでチャットが道具に変わる分岐点",
       "previous_rank": 3
     },
     {
       "rank": 4,
-      "slug": "2026-10-29-ai-trends",
-      "reason": "Gemini 4 CarbonがOpus 5.5・GPT-6 Astra超え、首位争いは再び三つ巴へ",
-      "previous_rank": null
+      "slug": "2026-10-23-ai-trends",
+      "reason": "Agent Skills寄贈で標準化が前進、囲い込みから共通基盤へ移る節目",
+      "previous_rank": 5
     },
     {
       "rank": 5,
-      "slug": "2026-10-23-ai-trends",
-      "reason": "Agent Skills寄贈で標準化が前進、エージェントが共通基盤へ移る分岐点",
-      "previous_rank": 5
+      "slug": "2026-10-24-claude-anthropic",
+      "reason": "Mythos 5の範囲外攻撃事故、評価環境の設計ミスが現実の脅威になる教訓",
+      "previous_rank": null
     }
   ]
 }
