@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-30T23:01:21Z",
-  "period_start": "2026-10-04",
-  "period_end": "2026-10-31",
+  "generated_at": "2026-10-31T23:00:26Z",
+  "period_start": "2026-10-05",
+  "period_end": "2026-11-01",
   "items": [
     {
       "rank": 1,
       "slug": "2026-10-28-claude-anthropic",
-      "reason": "未公開モデルがChromeで62件のCVE、AIによる攻防の速度が変わる転換点",
-      "previous_rank": 2
+      "reason": "AIが主要OSやブラウザの重大な脆弱性を次々に見つけ始めた、攻撃と防御の転換点",
+      "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-10-29-claude-anthropic",
-      "reason": "S-1提出と政府向け40%割引、収益化と説明責任を同時に背負う節目",
-      "previous_rank": null
+      "reason": "S-1提出と政府向け40%割引、AI企業が市場への説明責任を負う段階に入った節目",
+      "previous_rank": 2
     },
     {
       "rank": 3,
       "slug": "2026-10-29-ai-trends",
-      "reason": "Gemini 4 Carbonが総合指標で首位、半額Terraも重なり三強の序列が再編",
-      "previous_rank": null
+      "reason": "Gemini 4 Carbonが総合首位に、Terraの半額化と合わせて勢力図が動いた一週",
+      "previous_rank": 3
     },
     {
       "rank": 4,
-      "slug": "2026-10-23-ai-trends",
-      "reason": "Agent Skills寄贈で、エージェント基盤は囲い込みから共通規格の段階へ",
-      "previous_rank": 4
+      "slug": "2026-10-22-ai-trends",
+      "reason": "能動型Duetと3大クラウドへの展開、エージェント普及と安全運用の綱引きを象徴",
+      "previous_rank": null
     },
     {
       "rank": 5,
       "slug": "2026-10-08-codex-openai",
-      "reason": "GPT-6とIntelligent UIの全面展開、チャットが道具に変わる起点",
-      "previous_rank": 3
+      "reason": "GPT-6の全ユーザー展開とIntelligent UI、チャットが道具へ変わる起点",
+      "previous_rank": 5
     }
   ]
 }
