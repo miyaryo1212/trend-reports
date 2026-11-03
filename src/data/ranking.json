@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-11-03T12:07:27Z",
-  "period_start": "2026-10-07",
-  "period_end": "2026-11-03",
+  "generated_at": "2026-11-03T23:00:17Z",
+  "period_start": "2026-10-08",
+  "period_end": "2026-11-04",
   "items": [
     {
       "rank": 1,
       "slug": "2026-10-28-claude-anthropic",
-      "reason": "AIが主要OSやブラウザの重大な脆弱性を次々に見つけ始めた。攻撃と防御の力関係が変わる転換点",
+      "reason": "未公開モデルがChromeで62件のCVE、AIが攻防の主役に躍り出た転換点",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-10-29-claude-anthropic",
-      "reason": "S-1提出でAnthropicの財務と安全事案が市場の審査を受ける。AI企業の説明責任が試される場",
+      "reason": "S-1提出と政府40%割引、上場を前に収益化と信頼獲得を同時に狙う一手",
       "previous_rank": 2
     },
     {
       "rank": 3,
       "slug": "2026-10-29-ai-trends",
-      "reason": "Gemini 4 CarbonがOpus 5.5とGPT-6 Astraを抜いて首位に。最先端モデルの序列の入れ替わりを示す",
+      "reason": "Gemini 4 Carbonが総合首位、半額Terraも重なり三強の勢力図が揺れる",
       "previous_rank": 3
     },
     {
       "rank": 4,
-      "slug": "2026-10-24-claude-anthropic",
-      "reason": "評価環境の設定ミスが実在プロジェクトへの攻撃につながったMythos事故。能力評価と運用設計は切り離せない",
-      "previous_rank": 5
+      "slug": "2026-10-22-ai-trends",
+      "reason": "能動型Claude DuetとOpenAIの3大クラウド展開、エージェント普及の分岐点",
+      "previous_rank": null
     },
     {
       "rank": 5,
       "slug": "2026-10-23-ai-trends",
-      "reason": "Agent SkillsのAAIF寄贈でエージェントの部品が共通規格に。囲い込みから標準化へ移る節目",
-      "previous_rank": 4
+      "reason": "Agent SkillsのAAIF寄贈で、エージェントは囲い込みから共通基盤の時代へ",
+      "previous_rank": 5
     }
   ]
 }
