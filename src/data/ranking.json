@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-11-04T23:00:59Z",
-  "period_start": "2026-10-09",
-  "period_end": "2026-11-05",
+  "generated_at": "2026-11-05T23:01:59Z",
+  "period_start": "2026-10-10",
+  "period_end": "2026-11-06",
   "items": [
     {
       "rank": 1,
-      "slug": "2026-10-28-claude-anthropic",
-      "reason": "AIが主要OS・ブラウザの脆弱性を実証まで担う段階へ、攻防の速度が変わる転換点",
-      "previous_rank": 1
+      "slug": "2026-11-06-ai-trends",
+      "reason": "初の「Critical」判定で、AIの攻撃能力が安全審査の限界を試す段階に入った",
+      "previous_rank": null
     },
     {
       "rank": 2,
-      "slug": "2026-10-27-claude-anthropic",
-      "reason": "Anthropic上場申請、市場の監視と開示がAI業界の評価軸を塗り替える起点",
+      "slug": "2026-10-29-claude-anthropic",
+      "reason": "S-1提出と政府向け40%割引が並び、上場と公共市場の開拓を同時に進める",
       "previous_rank": null
     },
     {
       "rank": 3,
-      "slug": "2026-10-29-ai-trends",
-      "reason": "Gemini 4 Carbonが首位奪取、半額Terraと合わせ性能と価格の競争が再燃",
-      "previous_rank": 3
+      "slug": "2026-10-28-claude-anthropic",
+      "reason": "Chromeで62件のCVEが採番され、AIの脆弱性発見が主要OSにも及んだ",
+      "previous_rank": 1
     },
     {
       "rank": 4,
       "slug": "2026-10-23-ai-trends",
-      "reason": "Agent Skills寄贈で、エージェントが囲い込みから共通基盤へ移る節目",
-      "previous_rank": 5
+      "reason": "Agent Skillsの寄贈と企業での全社導入で、エージェントが共通基盤として広がり始めた",
+      "previous_rank": 4
     },
     {
       "rank": 5,
-      "slug": "2026-10-22-codex-openai",
-      "reason": "OpenAIモデルが3大クラウドに揃い、販路の壁が消えてモデル選びの前提が変わる",
-      "previous_rank": null
+      "slug": "2026-10-29-ai-trends",
+      "reason": "Gemini 4 Carbonが総合指標で首位に立ち、Opus 5.5とGPT-6 Astraの2強だった構図が崩れた",
+      "previous_rank": 3
     }
   ]
 }
