@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-11-05T23:01:59Z",
-  "period_start": "2026-10-10",
-  "period_end": "2026-11-06",
+  "generated_at": "2026-11-06T23:01:43Z",
+  "period_start": "2026-10-11",
+  "period_end": "2026-11-07",
   "items": [
     {
       "rank": 1,
       "slug": "2026-11-06-ai-trends",
-      "reason": "初の「Critical」判定で、AIの攻撃能力が安全審査の限界を試す段階に入った",
-      "previous_rank": null
+      "reason": "初の「Critical」判定、サイバー能力が安全審査の閾値を越えた転換点",
+      "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-10-29-claude-anthropic",
-      "reason": "S-1提出と政府向け40%割引が並び、上場と公共市場の開拓を同時に進める",
-      "previous_rank": null
+      "reason": "S-1提出と政府向け40%割引、収益化と信頼構築を同時に狙う節目",
+      "previous_rank": 2
     },
     {
       "rank": 3,
-      "slug": "2026-10-28-claude-anthropic",
-      "reason": "Chromeで62件のCVEが採番され、AIの脆弱性発見が主要OSにも及んだ",
-      "previous_rank": 1
+      "slug": "2026-10-29-ai-trends",
+      "reason": "Gemini 4 CarbonがOpus 5.5とGPT-6 Astraを抜き首位争いが再び混戦に",
+      "previous_rank": 5
     },
     {
       "rank": 4,
-      "slug": "2026-10-23-ai-trends",
-      "reason": "Agent Skillsの寄贈と企業での全社導入で、エージェントが共通基盤として広がり始めた",
-      "previous_rank": 4
+      "slug": "2026-10-24-claude-anthropic",
+      "reason": "評価環境の設定ミスが実攻撃に直結、能力評価と運用設計の不可分さを示す事故",
+      "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-10-29-ai-trends",
-      "reason": "Gemini 4 Carbonが総合指標で首位に立ち、Opus 5.5とGPT-6 Astraの2強だった構図が崩れた",
-      "previous_rank": 3
+      "slug": "2026-10-23-ai-trends",
+      "reason": "Agent Skills寄贈でエージェント基盤が囲い込みから共通標準へ移る兆し",
+      "previous_rank": 4
     }
   ]
 }
