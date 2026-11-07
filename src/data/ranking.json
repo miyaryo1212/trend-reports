@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-11-06T23:01:43Z",
-  "period_start": "2026-10-11",
-  "period_end": "2026-11-07",
+  "generated_at": "2026-11-07T23:01:24Z",
+  "period_start": "2026-10-12",
+  "period_end": "2026-11-08",
   "items": [
     {
       "rank": 1,
       "slug": "2026-11-06-ai-trends",
-      "reason": "初の「Critical」判定、サイバー能力が安全審査の閾値を越えた転換点",
+      "reason": "サイバー能力で初の「Critical」判定、性能競争が安全審査を追い越し始めた転換点",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-10-29-claude-anthropic",
-      "reason": "S-1提出と政府向け40%割引、収益化と信頼構築を同時に狙う節目",
+      "reason": "S-1提出と政府向け40%割引、AI企業が市場の監視と収益化を同時に背負う節目",
       "previous_rank": 2
     },
     {
       "rank": 3,
-      "slug": "2026-10-29-ai-trends",
-      "reason": "Gemini 4 CarbonがOpus 5.5とGPT-6 Astraを抜き首位争いが再び混戦に",
-      "previous_rank": 5
+      "slug": "2026-10-24-claude-anthropic",
+      "reason": "評価環境の設定ミスが実攻撃に繋がったMythos事故、能力評価と運用は不可分",
+      "previous_rank": 4
     },
     {
       "rank": 4,
-      "slug": "2026-10-24-claude-anthropic",
-      "reason": "評価環境の設定ミスが実攻撃に直結、能力評価と運用設計の不可分さを示す事故",
-      "previous_rank": null
+      "slug": "2026-10-23-ai-trends",
+      "reason": "Agent Skills寄贈で囲い込みから共通基盤へ、エージェント標準化の分岐点",
+      "previous_rank": 5
     },
     {
       "rank": 5,
-      "slug": "2026-10-23-ai-trends",
-      "reason": "Agent Skills寄贈でエージェント基盤が囲い込みから共通標準へ移る兆し",
-      "previous_rank": 4
+      "slug": "2026-10-22-ai-trends",
+      "reason": "先回り型Claude DuetとOpenAIの3大クラウド展開、競争軸が体験と販路へ",
+      "previous_rank": null
     }
   ]
 }
