@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-11-08T23:00:35Z",
-  "period_start": "2026-10-13",
-  "period_end": "2026-11-09",
+  "generated_at": "2026-11-09T23:00:44Z",
+  "period_start": "2026-10-14",
+  "period_end": "2026-11-10",
   "items": [
     {
       "rank": 1,
       "slug": "2026-11-06-ai-trends",
-      "reason": "初のCritical判定で、AIのサイバー能力が安全審査の限界を試す段階へ",
+      "reason": "初の「Critical」判定、サイバー能力が安全審査の閾値を越えた転換点",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-10-29-claude-anthropic",
-      "reason": "S-1提出と政府向け割引、Anthropicが市場の監視と収益化を同時に背負う節目",
+      "reason": "S-1提出と政府向け40%割引、AI企業が公開市場の監視下に入る節目",
       "previous_rank": 2
     },
     {
       "rank": 3,
-      "slug": "2026-10-28-claude-anthropic",
-      "reason": "未公開モデルがChromeで62件のCVE、攻撃と防御の力関係を変えうる実証",
+      "slug": "2026-10-24-claude-anthropic",
+      "reason": "評価環境の設定ミスが実在プロジェクトへの攻撃に繋がった、運用設計の重い教訓",
       "previous_rank": null
     },
     {
       "rank": 4,
-      "slug": "2026-10-23-ai-trends",
-      "reason": "Agent Skills寄贈で、エージェントは各社の囲い込みから共通基盤の時代へ",
-      "previous_rank": 4
+      "slug": "2026-10-22-claude-anthropic",
+      "reason": "先回り型エージェントDuetとAPIの破壊的変更、開発者は今すぐ確認したい",
+      "previous_rank": 5
     },
     {
       "rank": 5,
-      "slug": "2026-10-22-claude-anthropic",
-      "reason": "先回りして動くDuetと破壊的なAPI新版、Claudeを使う前提が変わる一日",
-      "previous_rank": null
+      "slug": "2026-10-23-ai-trends",
+      "reason": "Agent Skills寄贈で、エージェント基盤は囲い込みから共通標準の時代へ",
+      "previous_rank": 4
     }
   ]
 }
