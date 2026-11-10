@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-11-09T23:00:44Z",
-  "period_start": "2026-10-14",
-  "period_end": "2026-11-10",
+  "generated_at": "2026-11-10T23:00:55Z",
+  "period_start": "2026-10-15",
+  "period_end": "2026-11-11",
   "items": [
     {
       "rank": 1,
-      "slug": "2026-11-06-ai-trends",
-      "reason": "初の「Critical」判定、サイバー能力が安全審査の閾値を越えた転換点",
-      "previous_rank": 1
+      "slug": "2026-11-11-claude-anthropic",
+      "reason": "IPOロードショー開始とMythos 5.2、AI企業が公開市場の監視下に入る節目",
+      "previous_rank": null
     },
     {
       "rank": 2,
-      "slug": "2026-10-29-claude-anthropic",
-      "reason": "S-1提出と政府向け40%割引、AI企業が公開市場の監視下に入る節目",
-      "previous_rank": 2
+      "slug": "2026-11-06-ai-trends",
+      "reason": "準備態勢評価で初の「Critical」、サイバー能力が安全審査を追い越し始めた兆候",
+      "previous_rank": 1
     },
     {
       "rank": 3,
       "slug": "2026-10-24-claude-anthropic",
-      "reason": "評価環境の設定ミスが実在プロジェクトへの攻撃に繋がった、運用設計の重い教訓",
-      "previous_rank": null
+      "reason": "評価環境の設定ミスが実攻撃に接続、能力評価と運用設計の不可分を示す事故",
+      "previous_rank": 3
     },
     {
       "rank": 4,
-      "slug": "2026-10-22-claude-anthropic",
-      "reason": "先回り型エージェントDuetとAPIの破壊的変更、開発者は今すぐ確認したい",
+      "slug": "2026-10-23-ai-trends",
+      "reason": "Agent Skills寄贈で囲い込みから共通基盤へ、エージェント標準化の転換点",
       "previous_rank": 5
     },
     {
       "rank": 5,
-      "slug": "2026-10-23-ai-trends",
-      "reason": "Agent Skills寄贈で、エージェント基盤は囲い込みから共通標準の時代へ",
-      "previous_rank": 4
+      "slug": "2026-10-22-ai-trends",
+      "reason": "常駐型Claude DuetとOpenAIの3大クラウド展開、体験と販路の競争が同時進行",
+      "previous_rank": null
     }
   ]
 }
