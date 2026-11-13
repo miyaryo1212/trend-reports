@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-11-12T23:00:22Z",
-  "period_start": "2026-10-17",
-  "period_end": "2026-11-13",
+  "generated_at": "2026-11-13T23:00:48Z",
+  "period_start": "2026-10-18",
+  "period_end": "2026-11-14",
   "items": [
     {
       "rank": 1,
       "slug": "2026-11-11-claude-anthropic",
-      "reason": "IPOロードショーとMythos 5.2が同時に進み、Anthropicの事業と技術の両面がわかる一本",
+      "reason": "IPOロードショー開始とMythos 5.2、資本市場と安全配慮が交差する節目",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-11-06-ai-trends",
-      "reason": "初の「Critical」判定で、サイバー能力が安全審査に迫ってきた現状を示す転換点",
+      "reason": "準備態勢評価で初の「Critical」、サイバー能力が安全審査の閾値を越えた転換点",
       "previous_rank": 2
     },
     {
       "rank": 3,
-      "slug": "2026-10-23-ai-trends",
-      "reason": "Agent Skills寄贈により、エージェントが囲い込みから共通基盤へ移り始めた",
-      "previous_rank": 4
+      "slug": "2026-11-14-ai-trends",
+      "reason": "主要5社への差し止め提訴、開発競争に司法が介入しうる初の兆し",
+      "previous_rank": null
     },
     {
       "rank": 4,
       "slug": "2026-10-24-claude-anthropic",
-      "reason": "Mythos 5の範囲外攻撃事故から、能力評価と運用設計の両方が問われていると読める",
-      "previous_rank": null
+      "reason": "評価環境の設定ミスが実害に接続、能力評価と運用設計の不可分さを示す事例",
+      "previous_rank": 4
     },
     {
       "rank": 5,
-      "slug": "2026-10-22-ai-trends",
-      "reason": "能動型のDuetとOpenAIの3大クラウド展開が重なり、競争の軸が変わってきた",
-      "previous_rank": 5
+      "slug": "2026-10-23-ai-trends",
+      "reason": "Agent Skills寄贈で、エージェント基盤が囲い込みから共有財へ",
+      "previous_rank": 3
     }
   ]
 }
