@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-11-14T23:00:39Z",
-  "period_start": "2026-10-19",
-  "period_end": "2026-11-15",
+  "generated_at": "2026-11-15T23:00:25Z",
+  "period_start": "2026-10-20",
+  "period_end": "2026-11-16",
   "items": [
     {
       "rank": 1,
       "slug": "2026-11-06-ai-trends",
-      "reason": "初の「Critical」判定、サイバー能力が安全審査の閾値を越えた転換点",
-      "previous_rank": 2
-    },
-    {
-      "rank": 2,
-      "slug": "2026-11-15-ai-trends",
-      "reason": "エージェントが財布を持つ時代へ、IPO熱と並ぶ実需化の試金石",
-      "previous_rank": null
-    },
-    {
-      "rank": 3,
-      "slug": "2026-11-11-claude-anthropic",
-      "reason": "上場ロードショーとMythos 5.2、市場と能力の両面で勝負に出たAnthropic",
+      "reason": "初のCritical判定、AIのサイバー能力が安全審査の閾値を越えた転換点",
       "previous_rank": 1
     },
     {
+      "rank": 2,
+      "slug": "2026-11-11-claude-anthropic",
+      "reason": "上場目前のAnthropic、Mythos限定提供が示す高能力モデル管理の新しい形",
+      "previous_rank": 3
+    },
+    {
+      "rank": 3,
+      "slug": "2026-11-15-ai-trends",
+      "reason": "エージェントが財布を持つ時代へ、代理購入は実務化を測る試金石",
+      "previous_rank": 2
+    },
+    {
       "rank": 4,
-      "slug": "2026-10-23-ai-trends",
-      "reason": "Agent Skills寄贈でエージェントは囲い込みから共通基盤の段階へ",
+      "slug": "2026-10-24-claude-anthropic",
+      "reason": "評価環境の小さな設定ミスが実攻撃に接続、能力評価と運用設計の課題を直視",
       "previous_rank": 5
     },
     {
       "rank": 5,
-      "slug": "2026-10-24-claude-anthropic",
-      "reason": "評価環境の設定ミスが実攻撃に繋がった事故、エージェント運用の必読教訓",
+      "slug": "2026-10-23-ai-trends",
+      "reason": "Agent Skillsが中立団体へ、エージェント標準化競争の起点となる一手",
       "previous_rank": 4
     }
   ]
