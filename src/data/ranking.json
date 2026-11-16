@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-11-15T23:00:25Z",
-  "period_start": "2026-10-20",
-  "period_end": "2026-11-16",
+  "generated_at": "2026-11-16T23:01:34Z",
+  "period_start": "2026-10-21",
+  "period_end": "2026-11-17",
   "items": [
     {
       "rank": 1,
       "slug": "2026-11-06-ai-trends",
-      "reason": "初のCritical判定、AIのサイバー能力が安全審査の閾値を越えた転換点",
+      "reason": "サイバー能力で初の「Critical」判定、性能競争が安全審査に迫る転換点",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-11-11-claude-anthropic",
-      "reason": "上場目前のAnthropic、Mythos限定提供が示す高能力モデル管理の新しい形",
-      "previous_rank": 3
+      "reason": "Anthropic上場が具体化、Mythos 5.2の限定提供と併せ事業と安全の両立を問う",
+      "previous_rank": 2
     },
     {
       "rank": 3,
       "slug": "2026-11-15-ai-trends",
-      "reason": "エージェントが財布を持つ時代へ、代理購入は実務化を測る試金石",
-      "previous_rank": 2
+      "reason": "エージェントが代理で買い物をする時代へ、ChatGPT Walletは実務化の試金石",
+      "previous_rank": 3
     },
     {
       "rank": 4,
       "slug": "2026-10-24-claude-anthropic",
-      "reason": "評価環境の小さな設定ミスが実攻撃に接続、能力評価と運用設計の課題を直視",
-      "previous_rank": 5
+      "reason": "評価環境の設定ミスが攻撃につながった事故、能力評価と運用設計は切り離せない",
+      "previous_rank": 4
     },
     {
       "rank": 5,
       "slug": "2026-10-23-ai-trends",
-      "reason": "Agent Skillsが中立団体へ、エージェント標準化競争の起点となる一手",
-      "previous_rank": 4
+      "reason": "Agent Skillsの寄贈で、エージェント基盤が囲い込みから共有財へ移る兆し",
+      "previous_rank": 5
     }
   ]
 }
