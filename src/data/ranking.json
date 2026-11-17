@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-11-16T23:01:34Z",
-  "period_start": "2026-10-21",
-  "period_end": "2026-11-17",
+  "generated_at": "2026-11-17T23:00:24Z",
+  "period_start": "2026-10-22",
+  "period_end": "2026-11-18",
   "items": [
     {
       "rank": 1,
       "slug": "2026-11-06-ai-trends",
-      "reason": "サイバー能力で初の「Critical」判定、性能競争が安全審査に迫る転換点",
+      "reason": "初の「Critical」判定、AIのサイバー能力が安全審査の基準を越えた転換点",
       "previous_rank": 1
     },
     {
       "rank": 2,
-      "slug": "2026-11-11-claude-anthropic",
-      "reason": "Anthropic上場が具体化、Mythos 5.2の限定提供と併せ事業と安全の両立を問う",
-      "previous_rank": 2
-    },
-    {
-      "rank": 3,
       "slug": "2026-11-15-ai-trends",
-      "reason": "エージェントが代理で買い物をする時代へ、ChatGPT Walletは実務化の試金石",
+      "reason": "AIの代理購入とIPOの約6倍申込、エージェントの実用化と市場の期待が重なった一日",
       "previous_rank": 3
     },
     {
+      "rank": 3,
+      "slug": "2026-10-23-ai-trends",
+      "reason": "Agent Skillsの寄贈で、エージェントは各社の囲い込みから共通基盤へ移り始めた",
+      "previous_rank": 5
+    },
+    {
       "rank": 4,
-      "slug": "2026-10-24-claude-anthropic",
-      "reason": "評価環境の設定ミスが攻撃につながった事故、能力評価と運用設計は切り離せない",
-      "previous_rank": 4
+      "slug": "2026-11-18-ai-trends",
+      "reason": "法務特化と値下げで、汎用モデルが業界別の実務へ踏み込む最新の一手",
+      "previous_rank": null
     },
     {
       "rank": 5,
-      "slug": "2026-10-23-ai-trends",
-      "reason": "Agent Skillsの寄贈で、エージェント基盤が囲い込みから共有財へ移る兆し",
-      "previous_rank": 5
+      "slug": "2026-10-24-claude-anthropic",
+      "reason": "評価環境の小さな設定ミスが実害につながり得ると示した、運用設計の必読事例",
+      "previous_rank": 4
     }
   ]
 }
