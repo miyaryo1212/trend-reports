@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-11-18T23:01:21Z",
-  "period_start": "2026-10-23",
-  "period_end": "2026-11-19",
+  "generated_at": "2026-11-19T23:00:40Z",
+  "period_start": "2026-10-24",
+  "period_end": "2026-11-20",
   "items": [
     {
       "rank": 1,
-      "slug": "2026-11-19-ai-trends",
-      "reason": "S-1から4週間で上場へ、フロンティアラボが市場の監視下に入る転換点",
+      "slug": "2026-11-20-ai-trends",
+      "reason": "IPOの強気な値付けとAIによるチップ設計、資本と実装の両面で節目の一日",
       "previous_rank": null
     },
     {
       "rank": 2,
       "slug": "2026-11-06-ai-trends",
-      "reason": "初の「Critical」判定、サイバー能力が安全審査の閾値を越えた節目",
-      "previous_rank": 1
+      "reason": "初の「Critical」判定、サイバー能力が安全審査の限界を試し始めた転換点",
+      "previous_rank": 2
     },
     {
       "rank": 3,
       "slug": "2026-11-19-academia",
-      "reason": "勾配なしの自己書き換えとCoT監視の揺らぎ、能力と安全の綱引きが具体化",
-      "previous_rank": null
+      "reason": "勾配なしの自己改善とCoT監視の揺らぎ、能力と安全の綱引きが鮮明に",
+      "previous_rank": 3
     },
     {
       "rank": 4,
       "slug": "2026-11-15-ai-trends",
-      "reason": "エージェントが財布を持つ時代へ、代理購入が実験から実務に踏み出す一歩",
-      "previous_rank": 2
+      "reason": "エージェントが財布を持つ時代へ、代理購入は実務化を測る試金石",
+      "previous_rank": 4
     },
     {
       "rank": 5,
       "slug": "2026-10-24-claude-anthropic",
-      "reason": "評価環境の設定ミスが実攻撃に繋がったMythos事故、運用設計への重い教訓",
+      "reason": "評価環境の設定ミスが実攻撃に直結、Mythos事故は運用設計への重い教訓",
       "previous_rank": 5
     }
   ]
