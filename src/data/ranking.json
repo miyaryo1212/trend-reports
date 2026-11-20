@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-11-19T23:00:40Z",
-  "period_start": "2026-10-24",
-  "period_end": "2026-11-20",
+  "generated_at": "2026-11-20T23:00:31Z",
+  "period_start": "2026-10-25",
+  "period_end": "2026-11-21",
   "items": [
     {
       "rank": 1,
-      "slug": "2026-11-20-ai-trends",
-      "reason": "IPOの強気な値付けとAIによるチップ設計、資本と実装の両面で節目の一日",
+      "slug": "2026-11-21-ai-trends",
+      "reason": "調達総額約1,195億ドルで上場完了、AI業界の資金力の構図が変わる節目",
       "previous_rank": null
     },
     {
       "rank": 2,
       "slug": "2026-11-06-ai-trends",
-      "reason": "初の「Critical」判定、サイバー能力が安全審査の限界を試し始めた転換点",
+      "reason": "初の「Critical」判定、攻撃能力の伸びに安全審査が追いつくかが問われる",
       "previous_rank": 2
     },
     {
       "rank": 3,
-      "slug": "2026-11-19-academia",
-      "reason": "勾配なしの自己改善とCoT監視の揺らぎ、能力と安全の綱引きが鮮明に",
-      "previous_rank": 3
+      "slug": "2026-10-28-claude-anthropic",
+      "reason": "Chrome・OSの重大脆弱性を発見、AIが攻撃にも防御にも使える段階に入った",
+      "previous_rank": null
     },
     {
       "rank": 4,
       "slug": "2026-11-15-ai-trends",
-      "reason": "エージェントが財布を持つ時代へ、代理購入は実務化を測る試金石",
+      "reason": "エージェントが代理で買い物をする時代へ、決済まで踏み込んだOpenAIの一手",
       "previous_rank": 4
     },
     {
       "rank": 5,
-      "slug": "2026-10-24-claude-anthropic",
-      "reason": "評価環境の設定ミスが実攻撃に直結、Mythos事故は運用設計への重い教訓",
-      "previous_rank": 5
+      "slug": "2026-11-21-academia",
+      "reason": "標準ベンチでは見えない弱点を64回の事前学習で示し、評価の前提を問い直す",
+      "previous_rank": null
     }
   ]
 }
