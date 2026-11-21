@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-11-20T23:00:31Z",
-  "period_start": "2026-10-25",
-  "period_end": "2026-11-21",
+  "generated_at": "2026-11-21T23:00:55Z",
+  "period_start": "2026-10-26",
+  "period_end": "2026-11-22",
   "items": [
     {
       "rank": 1,
       "slug": "2026-11-21-ai-trends",
-      "reason": "調達総額約1,195億ドルで上場完了、AI業界の資金力の構図が変わる節目",
-      "previous_rank": null
+      "reason": "S-1から上場完了まで追ったIPO騒動の到達点、AI資本競争の新基準",
+      "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-11-06-ai-trends",
-      "reason": "初の「Critical」判定、攻撃能力の伸びに安全審査が追いつくかが問われる",
+      "reason": "初のCritical判定、サイバー能力が安全審査を追い越し始めた転換点",
       "previous_rank": 2
     },
     {
       "rank": 3,
-      "slug": "2026-10-28-claude-anthropic",
-      "reason": "Chrome・OSの重大脆弱性を発見、AIが攻撃にも防御にも使える段階に入った",
+      "slug": "2026-11-19-academia",
+      "reason": "自己書き換えとCoT監視の揺らぎ、能力と安全の綱引きを示す一本",
       "previous_rank": null
     },
     {
       "rank": 4,
       "slug": "2026-11-15-ai-trends",
-      "reason": "エージェントが代理で買い物をする時代へ、決済まで踏み込んだOpenAIの一手",
+      "reason": "代理購入のChatGPT Wallet、エージェントが財布を持つ時代の入口",
       "previous_rank": 4
     },
     {
       "rank": 5,
-      "slug": "2026-11-21-academia",
-      "reason": "標準ベンチでは見えない弱点を64回の事前学習で示し、評価の前提を問い直す",
+      "slug": "2026-11-11-claude-anthropic",
+      "reason": "Fable 5.2と限定版Mythos、上場直前に示したモデル戦略の二層化",
       "previous_rank": null
     }
   ]
