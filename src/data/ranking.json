@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-11-21T23:00:55Z",
-  "period_start": "2026-10-26",
-  "period_end": "2026-11-22",
+  "generated_at": "2026-11-22T23:00:05Z",
+  "period_start": "2026-10-27",
+  "period_end": "2026-11-23",
   "items": [
     {
       "rank": 1,
       "slug": "2026-11-21-ai-trends",
-      "reason": "S-1から上場完了まで追ったIPO騒動の到達点、AI資本競争の新基準",
+      "reason": "約1,195億ドル調達で完了した史上級IPO、AI資本競争の新局面",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-11-06-ai-trends",
-      "reason": "初のCritical判定、サイバー能力が安全審査を追い越し始めた転換点",
+      "reason": "初のCritical判定、攻撃能力の伸びが安全審査を試す局面を象徴",
       "previous_rank": 2
     },
     {
       "rank": 3,
       "slug": "2026-11-19-academia",
-      "reason": "自己書き換えとCoT監視の揺らぎ、能力と安全の綱引きを示す一本",
-      "previous_rank": null
+      "reason": "自己書き換えとCoT監視の揺らぎ、自己改善と安全性の緊張が具体化",
+      "previous_rank": 3
     },
     {
       "rank": 4,
       "slug": "2026-11-15-ai-trends",
-      "reason": "代理購入のChatGPT Wallet、エージェントが財布を持つ時代の入口",
+      "reason": "エージェントが代理購入へ、実験から商取引に踏み込む節目の発表",
       "previous_rank": 4
     },
     {
       "rank": 5,
-      "slug": "2026-11-11-claude-anthropic",
-      "reason": "Fable 5.2と限定版Mythos、上場直前に示したモデル戦略の二層化",
+      "slug": "2026-11-21-academia",
+      "reason": "ベンチ高得点が弱点を隠すと実証、評価の読み方を見直す必読論文",
       "previous_rank": null
     }
   ]
