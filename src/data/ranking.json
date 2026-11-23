@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-11-22T23:00:05Z",
-  "period_start": "2026-10-27",
-  "period_end": "2026-11-23",
+  "generated_at": "2026-11-23T23:01:39Z",
+  "period_start": "2026-10-28",
+  "period_end": "2026-11-24",
   "items": [
     {
       "rank": 1,
       "slug": "2026-11-21-ai-trends",
-      "reason": "約1,195億ドル調達で完了した史上級IPO、AI資本競争の新局面",
+      "reason": "上場完了で約1,195億ドル調達、AI資本競争の規模感を塗り替えた節目",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-11-06-ai-trends",
-      "reason": "初のCritical判定、攻撃能力の伸びが安全審査を試す局面を象徴",
+      "reason": "初のCritical判定、サイバー能力が安全審査の閾値を越えた転換点",
       "previous_rank": 2
     },
     {
       "rank": 3,
-      "slug": "2026-11-19-academia",
-      "reason": "自己書き換えとCoT監視の揺らぎ、自己改善と安全性の緊張が具体化",
-      "previous_rank": 3
+      "slug": "2026-10-28-claude-anthropic",
+      "reason": "主要OSとブラウザの重大脆弱性を発見、攻防の速度を変える実証",
+      "previous_rank": null
     },
     {
       "rank": 4,
-      "slug": "2026-11-15-ai-trends",
-      "reason": "エージェントが代理購入へ、実験から商取引に踏み込む節目の発表",
-      "previous_rank": 4
+      "slug": "2026-11-19-academia",
+      "reason": "自己重み編集とCoT監視の揺らぎ、自己改善と安全性の緊張を具体化",
+      "previous_rank": 3
     },
     {
       "rank": 5,
-      "slug": "2026-11-21-academia",
-      "reason": "ベンチ高得点が弱点を隠すと実証、評価の読み方を見直す必読論文",
-      "previous_rank": null
+      "slug": "2026-11-15-ai-trends",
+      "reason": "ChatGPT Walletでエージェントが決済まで担う段階へ踏み出した一手",
+      "previous_rank": 4
     }
   ]
 }
