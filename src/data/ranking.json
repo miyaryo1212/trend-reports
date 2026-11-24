@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-11-23T23:01:39Z",
-  "period_start": "2026-10-28",
-  "period_end": "2026-11-24",
+  "generated_at": "2026-11-24T23:01:17Z",
+  "period_start": "2026-10-29",
+  "period_end": "2026-11-25",
   "items": [
     {
       "rank": 1,
       "slug": "2026-11-21-ai-trends",
-      "reason": "上場完了で約1,195億ドル調達、AI資本競争の規模感を塗り替えた節目",
+      "reason": "史上級の調達額で上場を終えたAnthropic、AI資本競争の新たな基準点",
       "previous_rank": 1
     },
     {
       "rank": 2,
       "slug": "2026-11-06-ai-trends",
-      "reason": "初のCritical判定、サイバー能力が安全審査の閾値を越えた転換点",
+      "reason": "初のCritical判定、攻撃能力が安全審査に迫る転換点として必読",
       "previous_rank": 2
     },
     {
       "rank": 3,
-      "slug": "2026-10-28-claude-anthropic",
-      "reason": "主要OSとブラウザの重大脆弱性を発見、攻防の速度を変える実証",
-      "previous_rank": null
+      "slug": "2026-11-19-academia",
+      "reason": "重みの自己書き換えとCoT監視の限界、自己改善と安全性の交差点",
+      "previous_rank": 4
     },
     {
       "rank": 4,
-      "slug": "2026-11-19-academia",
-      "reason": "自己重み編集とCoT監視の揺らぎ、自己改善と安全性の緊張を具体化",
-      "previous_rank": 3
+      "slug": "2026-11-21-academia",
+      "reason": "標準ベンチの死角を突く大規模検証、評価の読み方を問い直す一本",
+      "previous_rank": null
     },
     {
       "rank": 5,
       "slug": "2026-11-15-ai-trends",
-      "reason": "ChatGPT Walletでエージェントが決済まで担う段階へ踏み出した一手",
-      "previous_rank": 4
+      "reason": "代理購入するChatGPT Wallet、エージェントが財布を握る時代の入口",
+      "previous_rank": 5
     }
   ]
 }
