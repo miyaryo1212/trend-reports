@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-11-24T23:01:17Z",
-  "period_start": "2026-10-29",
-  "period_end": "2026-11-25",
+  "generated_at": "2026-11-25T23:01:42Z",
+  "period_start": "2026-10-30",
+  "period_end": "2026-11-26",
   "items": [
     {
       "rank": 1,
-      "slug": "2026-11-21-ai-trends",
-      "reason": "史上級の調達額で上場を終えたAnthropic、AI資本競争の新たな基準点",
-      "previous_rank": 1
+      "slug": "2026-11-21-claude-anthropic",
+      "reason": "史上級IPOの完了とClaude Codeの地道な改善、資金力と実務の両面を押さえる一本",
+      "previous_rank": null
     },
     {
       "rank": 2,
       "slug": "2026-11-06-ai-trends",
-      "reason": "初のCritical判定、攻撃能力が安全審査に迫る転換点として必読",
+      "reason": "初の「Critical」判定、サイバー能力の伸びが安全審査を追い越し始めた転換点",
       "previous_rank": 2
     },
     {
       "rank": 3,
       "slug": "2026-11-19-academia",
-      "reason": "重みの自己書き換えとCoT監視の限界、自己改善と安全性の交差点",
-      "previous_rank": 4
+      "reason": "重みの自己書き換えとCoT監視の揺らぎ、自己改善と安全性の緊張関係を突く研究",
+      "previous_rank": 3
     },
     {
       "rank": 4,
-      "slug": "2026-11-21-academia",
-      "reason": "標準ベンチの死角を突く大規模検証、評価の読み方を問い直す一本",
-      "previous_rank": null
+      "slug": "2026-11-15-ai-trends",
+      "reason": "ChatGPT Walletで代理購入が現実に、エージェントが実務へ踏み出す象徴的な動き",
+      "previous_rank": 5
     },
     {
       "rank": 5,
-      "slug": "2026-11-15-ai-trends",
-      "reason": "代理購入するChatGPT Wallet、エージェントが財布を握る時代の入口",
-      "previous_rank": 5
+      "slug": "2026-11-21-academia",
+      "reason": "標準ベンチが長文脈の弱点を隠すという指摘、スコア偏重の評価設計を問い直す",
+      "previous_rank": 4
     }
   ]
 }
