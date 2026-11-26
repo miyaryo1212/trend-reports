@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-11-25T23:01:42Z",
-  "period_start": "2026-10-30",
-  "period_end": "2026-11-26",
+  "generated_at": "2026-11-26T23:01:15Z",
+  "period_start": "2026-10-31",
+  "period_end": "2026-11-27",
   "items": [
     {
       "rank": 1,
-      "slug": "2026-11-21-claude-anthropic",
-      "reason": "史上級IPOの完了とClaude Codeの地道な改善、資金力と実務の両面を押さえる一本",
+      "slug": "2026-11-21-ai-trends",
+      "reason": "史上級の調達額で決着したAnthropic上場、AI業界の資金地図が塗り替わる節目",
       "previous_rank": null
     },
     {
       "rank": 2,
       "slug": "2026-11-06-ai-trends",
-      "reason": "初の「Critical」判定、サイバー能力の伸びが安全審査を追い越し始めた転換点",
+      "reason": "初のCritical判定は、サイバー能力が安全審査に追いついてきた警鐘",
       "previous_rank": 2
     },
     {
       "rank": 3,
       "slug": "2026-11-19-academia",
-      "reason": "重みの自己書き換えとCoT監視の揺らぎ、自己改善と安全性の緊張関係を突く研究",
+      "reason": "自分の重みを書き換えるLLMとCoT監視の揺らぎ、自己改善と安全性の両方に効く論点",
       "previous_rank": 3
     },
     {
       "rank": 4,
-      "slug": "2026-11-15-ai-trends",
-      "reason": "ChatGPT Walletで代理購入が現実に、エージェントが実務へ踏み出す象徴的な動き",
-      "previous_rank": 5
+      "slug": "2026-11-11-claude-anthropic",
+      "reason": "Fable 5.2とMythos 5.2が同時に登場、限定提供モデルという新しい出し方に注目",
+      "previous_rank": null
     },
     {
       "rank": 5,
       "slug": "2026-11-21-academia",
-      "reason": "標準ベンチが長文脈の弱点を隠すという指摘、スコア偏重の評価設計を問い直す",
-      "previous_rank": 4
+      "reason": "標準ベンチでは見えない弱点を突く研究、評価の点数を読み直すきっかけに",
+      "previous_rank": 5
     }
   ]
 }
